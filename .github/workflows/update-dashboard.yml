@@ -2,7 +2,7 @@
 
 on:
   schedule:
-    # Test run at 5:33 PM Berlin time (15:36 UTC)
+    # Test run at 5:33 PM Berlin time (15:45 UTC)
     - cron: '45 15 * * *'
     # Daily run at 8:00 AM Berlin time (6:00 AM UTC) - keep for production
     # - cron: '0 6 * * *'
