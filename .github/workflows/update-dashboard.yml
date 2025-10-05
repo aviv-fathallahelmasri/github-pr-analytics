@@ -2,8 +2,10 @@
 
 on:
   schedule:
-    # Run daily at 8:00 AM Berlin time (6:00 AM UTC)
-    - cron: '0 6 * * *'
+    # Test run at 5:33 PM Berlin time (15:33 UTC)
+    - cron: '33 15 * * *'
+    # Daily run at 8:00 AM Berlin time (6:00 AM UTC) - keep for production
+    # - cron: '0 6 * * *'
   workflow_dispatch: # Allow manual triggering
 
 jobs:
