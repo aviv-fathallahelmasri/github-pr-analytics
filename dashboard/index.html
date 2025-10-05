@@ -10,71 +10,200 @@
 <body>
     <div class="container">
         <header>
-            <h1> GitHub PR Analytics Dashboard</h1>
-            <div class="header-info">
-                <span class="repo-name">axel-springer-kugawana/aviv_data_collection_contracts</span>
-                <span class="last-update" id="lastUpdate">Loading...</span>
+            <h1>GitHub PR Analytics Dashboard</h1>
+            <p class="subtitle">Advanced Pull Request Analytics & Team Impact Insights</p>
+
+            <!-- Last Update Section -->
+            <div class="last-update-container">
+                <div class="update-badge">
+                    <span class="update-icon">🔄</span>
+                    <span class="update-label">Last Updated:</span>
+                    <span class="update-time" id="lastUpdateTime">Loading...</span>
+                    <span class="update-status" id="updateStatus">● Live</span>
+                </div>
             </div>
+
+            <p class="error-message" id="errorMessage">Error loading data - please check console</p>
         </header>
 
-        <section class="metrics-grid">
-            <div class="metric-card">
-                <div class="metric-value" id="totalPRs">-</div>
-                <div class="metric-label">Total PRs</div>
+        <section class="filters-section">
+            <div class="filter-group">
+                <label>Date Range</label>
+                <select id="dateRangeFilter">
+                    <option value="all">All Time</option>
+                    <option value="7">Last 7 Days</option>
+                    <option value="30">Last 30 Days</option>
+                    <option value="90">Last 90 Days</option>
+                </select>
             </div>
-            <div class="metric-card">
-                <div class="metric-value" id="mergeRate">-</div>
-                <div class="metric-label">Merge Rate</div>
+            <div class="filter-group">
+                <label>PR Status</label>
+                <select id="statusFilter">
+                    <option value="all">All PRs</option>
+                    <option value="open">Open</option>
+                    <option value="closed">Closed</option>
+                    <option value="merged">Merged</option>
+                </select>
             </div>
-            <div class="metric-card">
-                <div class="metric-value" id="avgMergeTime">-</div>
-                <div class="metric-label">Avg Merge Time</div>
+            <div class="filter-group">
+                <label>PR Type</label>
+                <select id="typeFilter">
+                    <option value="all">All PRs</option>
+                    <option value="data-contract">Data Contract PRs</option>
+                    <option value="non-data-contract">Non-Data Contract PRs</option>
+                </select>
             </div>
-            <div class="metric-card">
-                <div class="metric-value" id="activeAuthors">-</div>
-                <div class="metric-label">Active Authors</div>
+            <div class="filter-group">
+                <label>Author</label>
+                <select id="authorFilter">
+                    <option value="all">All Authors</option>
+                </select>
             </div>
+            <button class="apply-filters-btn" onclick="applyFilters()">Apply Filters</button>
+        </section>
+
+        <section class="metrics-row">
             <div class="metric-card">
-                <div class="metric-value" id="reviewCoverage">-</div>
-                <div class="metric-label">Review Coverage</div>
+                <div class="metric-icon" title="What is measured:">ℹ️</div>
+                <div class="metric-content">
+                    <div class="metric-value" id="totalPRs">0</div>
+                    <div class="metric-label">TOTAL PRS</div>
+                </div>
+                <div class="tooltip">
+                    <div class="tooltip-header">What is measured:</div>
+                    <div class="tooltip-text">Complete count of all pull requests submitted to our data contracts repository. Data pulled directly from the GitHub API.</div>
+                    <div class="tooltip-subtext">Total PRs = Open + Merged + Closed PRs</div>
+                    <div class="tooltip-footer">Why it's important:</div>
+                    <div class="tooltip-importance">Gives a bird's-eye view of repository activity and helps track growth patterns over time.</div>
+                </div>
             </div>
+
             <div class="metric-card">
-                <div class="metric-value" id="fastMergeRate">-</div>
-                <div class="metric-label">Fast Merges (<24h)</div>
+                <div class="metric-icon" title="What is measured:">ℹ️</div>
+                <div class="metric-content">
+                    <div class="metric-value" id="mergeRate">0%</div>
+                    <div class="metric-label">MERGE RATE</div>
+                </div>
+                <div class="tooltip">
+                    <div class="tooltip-header">What is measured:</div>
+                    <div class="tooltip-text">Percentage of PRs that successfully make it through review and get merged into main branch.</div>
+                    <div class="tooltip-subtext">Merge Rate = (Merged PRs / Total PRs) × 100</div>
+                    <div class="tooltip-footer">Why it's important:</div>
+                    <div class="tooltip-importance">High merge rate indicates effective review process and quality contributions.</div>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-icon" title="What is measured:">ℹ️</div>
+                <div class="metric-content">
+                    <div class="metric-value" id="avgMergeTime">0h</div>
+                    <div class="metric-label">AVG MERGE TIME</div>
+                </div>
+                <div class="tooltip">
+                    <div class="tooltip-header">What is measured:</div>
+                    <div class="tooltip-text">Average time from PR creation to merge, including all review cycles and revisions.</div>
+                    <div class="tooltip-subtext">Average = Sum of all merge times / Number of merged PRs</div>
+                    <div class="tooltip-footer">Why it's important:</div>
+                    <div class="tooltip-importance">Faster merge times mean efficient processes and unblocked development workflows.</div>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-icon" title="What is measured:">ℹ️</div>
+                <div class="metric-content">
+                    <div class="metric-value" id="activeAuthors">0</div>
+                    <div class="metric-label">ACTIVE AUTHORS</div>
+                </div>
+                <div class="tooltip">
+                    <div class="tooltip-header">What is measured:</div>
+                    <div class="tooltip-text">Number of unique developers who have submitted PRs to our data contracts repository.</div>
+                    <div class="tooltip-subtext">Count of unique authors from PR author field</div>
+                    <div class="tooltip-footer">Why it's important:</div>
+                    <div class="tooltip-importance">More contributors indicates broader adoption and platform success across teams.</div>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-icon" title="What is measured:">ℹ️</div>
+                <div class="metric-content">
+                    <div class="metric-value" id="reviewCoverage">0%</div>
+                    <div class="metric-label">REVIEW COVERAGE</div>
+                </div>
+                <div class="tooltip">
+                    <div class="tooltip-header">What is measured:</div>
+                    <div class="tooltip-text">Percentage of PRs that received at least one code review before being merged or closed.</div>
+                    <div class="tooltip-subtext">Coverage = (PRs with reviews / Total PRs) × 100</div>
+                    <div class="tooltip-footer">Why it's important:</div>
+                    <div class="tooltip-importance">High review coverage ensures quality and knowledge sharing across the team.</div>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-icon" title="What is measured:">ℹ️</div>
+                <div class="metric-content">
+                    <div class="metric-value" id="fastMergeRate">0%</div>
+                    <div class="metric-label">FAST MERGES (<24H)</div>
+                </div>
+                <div class="tooltip">
+                    <div class="tooltip-header">What is measured:</div>
+                    <div class="tooltip-text">Percentage of PRs merged within 24 hours of creation.</div>
+                    <div class="tooltip-subtext">Fast Rate = (PRs merged in <24h / Total merged PRs) × 100</div>
+                    <div class="tooltip-footer">Why it's important:</div>
+                    <div class="tooltip-importance">Fast merges indicate team responsiveness and efficient processes.</div>
+                </div>
             </div>
         </section>
 
-        <section class="charts-section">
-            <div class="chart-container">
-                <h2>PR Status Distribution</h2>
+        <section class="charts-grid">
+            <div class="chart-box">
+                <h3>PR Activity Timeline</h3>
+                <canvas id="timelineChart"></canvas>
+            </div>
+            <div class="chart-box">
+                <h3>PR Status Distribution</h3>
                 <canvas id="statusChart"></canvas>
             </div>
-            <div class="chart-container">
-                <h2>Top Contributors</h2>
+            <div class="chart-box">
+                <h3>Top Authors</h3>
                 <canvas id="authorsChart"></canvas>
             </div>
-            <div class="chart-container">
-                <h2>Monthly PR Trends</h2>
-                <canvas id="trendsChart"></canvas>
-            </div>
-            <div class="chart-container">
-                <h2>Merge Time Distribution</h2>
-                <canvas id="mergeTimeChart"></canvas>
+            <div class="chart-box">
+                <h3>Merge Speed Distribution</h3>
+                <canvas id="mergeSpeedChart"></canvas>
             </div>
         </section>
 
-        <section class="data-table-section">
-            <h2>Recent Pull Requests</h2>
-            <div class="table-container">
-                <table id="prTable">
+        <section class="chart-full-width">
+            <div class="chart-box">
+                <h3>Review Activity Trends</h3>
+                <div class="chart-legend">
+                    <span class="legend-item">
+                        <span class="legend-color" style="background: #9333ea;"></span>
+                        Review Coverage %
+                    </span>
+                    <span class="legend-item">
+                        <span class="legend-color" style="background: #06b6d4;"></span>
+                        PR Volume
+                    </span>
+                </div>
+                <canvas id="reviewTrendsChart"></canvas>
+            </div>
+        </section>
+
+        <section class="table-section">
+            <h3>Recent Pull Requests</h3>
+            <div class="table-wrapper">
+                <table>
                     <thead>
                         <tr>
                             <th>PR #</th>
                             <th>Title</th>
                             <th>Author</th>
                             <th>Status</th>
+                            <th>Labels</th>
                             <th>Created</th>
                             <th>Merge Time</th>
+                            <th>Reviews</th>
                         </tr>
                     </thead>
                     <tbody id="prTableBody">
