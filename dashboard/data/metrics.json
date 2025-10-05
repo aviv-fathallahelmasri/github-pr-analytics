@@ -1,0 +1,11 @@
+{
+  "total_prs": 100,
+  "merged_prs": 82,
+  "merge_rate": 82.0,
+  "avg_merge_time_hours": 60.8,
+  "fast_merge_rate": 68.3,
+  "active_authors": 24,
+  "review_coverage": 20.0,
+  "data_contract_prs": 0,
+  "last_updated": "2025-10-05T10:26:00.825602+00:00"
+}

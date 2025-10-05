@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub PR Analytics Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> GitHub PR Analytics Dashboard</h1>
+            <div class="header-info">
+                <span class="repo-name">axel-springer-kugawana/aviv_data_collection_contracts</span>
+                <span class="last-update" id="lastUpdate">Loading...</span>
+            </div>
+        </header>
+
+        <section class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-value" id="totalPRs">-</div>
+                <div class="metric-label">Total PRs</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value" id="mergeRate">-</div>
+                <div class="metric-label">Merge Rate</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value" id="avgMergeTime">-</div>
+                <div class="metric-label">Avg Merge Time</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value" id="activeAuthors">-</div>
+                <div class="metric-label">Active Authors</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value" id="reviewCoverage">-</div>
+                <div class="metric-label">Review Coverage</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value" id="fastMergeRate">-</div>
+                <div class="metric-label">Fast Merges (<24h)</div>
+            </div>
+        </section>
+
+        <section class="charts-section">
+            <div class="chart-container">
+                <h2>PR Status Distribution</h2>
+                <canvas id="statusChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h2>Top Contributors</h2>
+                <canvas id="authorsChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h2>Monthly PR Trends</h2>
+                <canvas id="trendsChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h2>Merge Time Distribution</h2>
+                <canvas id="mergeTimeChart"></canvas>
+            </div>
+        </section>
+
+        <section class="data-table-section">
+            <h2>Recent Pull Requests</h2>
+            <div class="table-container">
+                <table id="prTable">
+                    <thead>
+                        <tr>
+                            <th>PR #</th>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Status</th>
+                            <th>Created</th>
+                            <th>Merge Time</th>
+                        </tr>
+                    </thead>
+                    <tbody id="prTableBody">
+                        <!-- Populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
