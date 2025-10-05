@@ -1,0 +1,44 @@
+﻿name: Update PR Analytics Dashboard
+
+on:
+  schedule:
+    # Run daily at 8:00 AM Berlin time (6:00 AM UTC)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+        
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+        
+    - name: Fetch PR data
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      run: |
+        python src/fetch_pr_data.py
+        
+    - name: Copy data to dashboard
+      run: |
+        cp data/*.csv dashboard/data/
+        cp data/*.json dashboard/data/
+        echo "$(date -Iseconds)" > dashboard/data/last_update.txt
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add dashboard/data/
+        git commit -m "chore: Update dashboard data - $(date +'%Y-%m-%d')" || exit 0
+        git push
