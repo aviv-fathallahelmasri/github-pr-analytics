@@ -1,7 +1,7 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-364,Contract/ssal/hyp 2470,open,2025-10-03 15:36:44+00:00,2025-10-06 11:45:04+00:00,,,sl-gregoirejunqua,['data-contract'],False,15,,True
-363,feat: uv migration,open,2025-10-03 12:20:45+00:00,2025-10-06 15:34:02+00:00,,,aviv-julienjehannet,"['documentation', 'enhancement', 'dependencies', 'python', 'migration']",False,0,,False
-362,fix: Fixing parking column names,open,2025-10-03 09:19:54+00:00,2025-10-06 14:20:19+00:00,,,florianhyseni-aviv,['data-contract'],False,7,,True
+364,Contract/ssal/hyp 2470,open,2025-10-03 15:36:44+00:00,2025-10-06 18:06:57+00:00,,,sl-gregoirejunqua,['data-contract'],False,20,,True
+363,feat: uv migration,open,2025-10-03 12:20:45+00:00,2025-10-06 19:50:17+00:00,,,aviv-julienjehannet,"['documentation', 'enhancement', 'dependencies', 'python', 'migration']",False,0,,False
+362,fix: Fixing parking column names,open,2025-10-03 09:19:54+00:00,2025-10-06 18:07:17+00:00,,,florianhyseni-aviv,['data-contract'],False,7,,True
 361,Contract/bbcr/sub invoice line,closed,2025-10-02 13:58:58+00:00,2025-10-03 08:56:52+00:00,2025-10-03 08:56:51+00:00,2025-10-03 08:56:50+00:00,sl-nicolasmoteley,['data-contract'],True,0,18.964444444444446,True
 360,ci: prefer asdf to install python for now (will be replaced by uv soon),closed,2025-10-02 10:35:55+00:00,2025-10-02 11:30:51+00:00,2025-10-02 11:30:49+00:00,2025-10-02 11:30:49+00:00,aviv-julienjehannet,[],True,0,0.915,False
 359,feat: Add contract to preview,closed,2025-10-01 16:09:40+00:00,2025-10-01 16:25:01+00:00,2025-10-01 16:24:59+00:00,2025-10-01 16:24:59+00:00,aviv-davidmartinez,[],True,0,0.25527777777777777,False
