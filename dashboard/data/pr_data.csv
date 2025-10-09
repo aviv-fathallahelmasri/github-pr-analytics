@@ -1,12 +1,21 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-371,chore: update pyproject.toml,open,2025-10-08 15:49:17+00:00,2025-10-08 15:49:30+00:00,,,aviv-julienjehannet,[],False,0,,False
+380,feat(rules): implement D101,closed,2025-10-09 15:07:38+00:00,2025-10-09 15:49:25+00:00,2025-10-09 15:49:25+00:00,,aviv-julienjehannet,"['enhancement', 'governance']",False,0,,False
+379,feat(rules): implement D101,open,2025-10-09 13:06:15+00:00,2025-10-09 15:29:50+00:00,,,aviv-julienjehannet,"['enhancement', 'governance']",False,0,,False
+378,fix: handle missing package versions in publish script gracefully,closed,2025-10-09 13:03:19+00:00,2025-10-09 15:21:10+00:00,2025-10-09 15:11:11+00:00,2025-10-09 15:11:11+00:00,sl-fredericdalessandro,[],True,0,2.131111111111111,False
+377,ci: fix live deployment for python sdk and avoid version jump for avi…,closed,2025-10-09 10:26:48+00:00,2025-10-09 10:27:32+00:00,2025-10-09 10:27:31+00:00,2025-10-09 10:27:31+00:00,aviv-julienjehannet,[],True,0,0.011944444444444445,False
+376,fix: cleaning platform related-code,closed,2025-10-09 09:56:36+00:00,2025-10-09 10:03:27+00:00,2025-10-09 10:03:25+00:00,2025-10-09 10:03:24+00:00,aviv-julienjehannet,[],True,0,0.11333333333333333,False
+375,feat: add brand and classified customer type to moderation log,open,2025-10-09 09:14:33+00:00,2025-10-09 15:52:51+00:00,,,orrfray,['data-contract'],False,1,,True
+374,feat: fast registration for dev branches,closed,2025-10-09 08:41:59+00:00,2025-10-09 09:09:42+00:00,2025-10-09 09:09:40+00:00,2025-10-09 09:09:40+00:00,aviv-julienjehannet,[],True,0,0.4613888888888889,False
+373,ci: detect possible wrong poetry invocation,closed,2025-10-09 06:38:21+00:00,2025-10-09 07:09:34+00:00,2025-10-09 07:09:33+00:00,2025-10-09 07:09:33+00:00,aviv-julienjehannet,"['bug', 'SDK']",True,0,0.52,False
+372,feat(geor): propose a PlaceId model definition,open,2025-10-08 16:30:45+00:00,2025-10-09 15:39:08+00:00,,,aviv-julienjehannet,['data-model'],False,0,,False
+371,chore: update pyproject.toml,closed,2025-10-08 15:49:17+00:00,2025-10-08 16:03:45+00:00,2025-10-08 16:03:43+00:00,2025-10-08 16:03:43+00:00,aviv-julienjehannet,"['enhancement', 'dependencies']",True,0,0.24055555555555555,False
 370,ci: bump version manually (and reduce log output),closed,2025-10-08 14:40:44+00:00,2025-10-08 14:41:35+00:00,2025-10-08 14:41:34+00:00,2025-10-08 14:41:33+00:00,aviv-julienjehannet,[],True,0,0.01361111111111111,False
-369,feat: GO NCP Prod + add new field for Credit Note,open,2025-10-08 14:24:31+00:00,2025-10-08 15:45:10+00:00,,,sl-nicolasmoteley,['data-contract'],False,0,,True
-368,"fix: add PK to sort order items, add partition to record_ts",open,2025-10-08 13:31:30+00:00,2025-10-08 15:19:31+00:00,,,AShymanski,['data-contract'],False,0,,True
+369,feat: GO NCP Prod + add new field for Credit Note,closed,2025-10-08 14:24:31+00:00,2025-10-08 16:08:51+00:00,2025-10-08 16:08:47+00:00,2025-10-08 16:08:47+00:00,sl-nicolasmoteley,['data-contract'],True,0,1.7377777777777779,True
+368,"fix: add PK to sort order items, add partition to record_ts",closed,2025-10-08 13:31:30+00:00,2025-10-08 18:14:50+00:00,2025-10-08 18:14:48+00:00,2025-10-08 18:14:48+00:00,AShymanski,['data-contract'],True,0,4.721666666666667,True
 367,fix: clarify PII001 exception report,closed,2025-10-08 13:04:09+00:00,2025-10-08 13:57:14+00:00,2025-10-08 13:57:12+00:00,2025-10-08 13:57:12+00:00,aviv-julienjehannet,[],True,0,0.8841666666666667,False
 366,fix(governance): use right capability code and put in DEVELOPMENT contracts with missing PII levels,closed,2025-10-08 07:58:32+00:00,2025-10-08 14:03:13+00:00,2025-10-08 14:03:11+00:00,2025-10-08 14:03:11+00:00,aviv-julienjehannet,"['bug', 'data-contract', 'governance']",True,0,6.0775,True
 365,feat: update ingestion policies and set phase to DEVELOPMENT for mult…,closed,2025-10-07 09:43:56+00:00,2025-10-07 13:08:42+00:00,2025-10-07 13:08:40+00:00,2025-10-07 13:08:40+00:00,aviv-hamzaeljaoui,[],True,0,3.4122222222222223,False
-364,Contract/ssal/hyp 2470,open,2025-10-03 15:36:44+00:00,2025-10-07 16:20:11+00:00,,,sl-gregoirejunqua,['data-contract'],False,21,,True
+364,Contract/ssal/hyp 2470,open,2025-10-03 15:36:44+00:00,2025-10-08 16:34:50+00:00,,,sl-gregoirejunqua,['data-contract'],False,22,,True
 363,feat: uv migration,closed,2025-10-03 12:20:45+00:00,2025-10-07 16:19:11+00:00,2025-10-07 16:19:09+00:00,2025-10-07 16:19:09+00:00,aviv-julienjehannet,"['documentation', 'enhancement', 'dependencies', 'python', 'migration']",True,0,99.97333333333333,False
 362,fix: Fixing parking column names,closed,2025-10-03 09:19:54+00:00,2025-10-08 12:39:21+00:00,2025-10-08 12:39:19+00:00,2025-10-08 12:39:19+00:00,florianhyseni-aviv,['data-contract'],True,8,123.3236111111111,True
 361,Contract/bbcr/sub invoice line,closed,2025-10-02 13:58:58+00:00,2025-10-03 08:56:52+00:00,2025-10-03 08:56:51+00:00,2025-10-03 08:56:50+00:00,sl-nicolasmoteley,['data-contract'],True,0,18.964444444444446,True
@@ -27,7 +36,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 346,fix: update ingestion policies to use APPEND and INCREMENTAL modes,closed,2025-09-26 09:21:21+00:00,2025-09-26 09:45:50+00:00,2025-09-26 09:45:48+00:00,2025-09-26 09:45:48+00:00,aviv-hamzaeljaoui,[],True,0,0.4075,False
 345,Fix/refactor tests,closed,2025-09-25 14:27:50+00:00,2025-09-29 10:41:38+00:00,2025-09-29 10:41:36+00:00,2025-09-29 10:41:36+00:00,aviv-julienjehannet,"['enhancement', 'governance']",True,0,92.22944444444444,False
 344,feat: change code for automatic rules for snake case conventions,closed,2025-09-25 09:43:30+00:00,2025-09-25 09:52:52+00:00,2025-09-25 09:52:49+00:00,2025-09-25 09:52:49+00:00,aviv-julienjehannet,[],True,0,0.15527777777777776,False
-343,feat: Add legacy user ID field for Not WL SSAL ingestion,open,2025-09-24 15:51:27+00:00,2025-10-02 07:59:51+00:00,,,aviv-marcjonot,['data-contract'],False,8,,True
+343,feat: Add legacy user ID field for Not WL SSAL ingestion,open,2025-09-24 15:51:27+00:00,2025-10-09 15:51:17+00:00,,,aviv-marcjonot,"['data-contract', 'outdated']",False,8,,True
 342,"fix(registry): in all cases, we have to ensure that schema does exists in the registry",closed,2025-09-24 09:43:01+00:00,2025-09-24 09:44:52+00:00,2025-09-24 09:44:50+00:00,2025-09-24 09:44:50+00:00,aviv-julienjehannet,[],True,0,0.03027777777777778,False
 341,Fix/ci,closed,2025-09-24 08:00:57+00:00,2025-09-24 08:12:00+00:00,2025-09-24 08:11:58+00:00,2025-09-24 08:11:58+00:00,aviv-julienjehannet,[],True,0,0.1836111111111111,False
 340,Fix/ci,closed,2025-09-24 07:38:57+00:00,2025-09-24 08:00:48+00:00,2025-09-24 07:40:09+00:00,2025-09-24 07:40:09+00:00,aviv-julienjehannet,[],True,0,0.02,False
