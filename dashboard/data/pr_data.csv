@@ -1,10 +1,10 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
 380,feat(rules): implement D101,closed,2025-10-09 15:07:38+00:00,2025-10-09 15:49:25+00:00,2025-10-09 15:49:25+00:00,,aviv-julienjehannet,"['enhancement', 'governance']",False,0,,False
-379,feat(rules): implement D101,open,2025-10-09 13:06:15+00:00,2025-10-09 15:29:50+00:00,,,aviv-julienjehannet,"['enhancement', 'governance']",False,0,,False
+379,feat(rules): implement D101,closed,2025-10-09 13:06:15+00:00,2025-10-09 17:07:07+00:00,2025-10-09 17:07:05+00:00,2025-10-09 17:07:05+00:00,aviv-julienjehannet,"['enhancement', 'governance']",True,0,4.013888888888889,False
 378,fix: handle missing package versions in publish script gracefully,closed,2025-10-09 13:03:19+00:00,2025-10-09 15:21:10+00:00,2025-10-09 15:11:11+00:00,2025-10-09 15:11:11+00:00,sl-fredericdalessandro,[],True,0,2.131111111111111,False
 377,ci: fix live deployment for python sdk and avoid version jump for avi…,closed,2025-10-09 10:26:48+00:00,2025-10-09 10:27:32+00:00,2025-10-09 10:27:31+00:00,2025-10-09 10:27:31+00:00,aviv-julienjehannet,[],True,0,0.011944444444444445,False
 376,fix: cleaning platform related-code,closed,2025-10-09 09:56:36+00:00,2025-10-09 10:03:27+00:00,2025-10-09 10:03:25+00:00,2025-10-09 10:03:24+00:00,aviv-julienjehannet,[],True,0,0.11333333333333333,False
-375,feat: add brand and classified customer type to moderation log,open,2025-10-09 09:14:33+00:00,2025-10-09 15:52:51+00:00,,,orrfray,['data-contract'],False,1,,True
+375,feat: add brand and classified customer type to moderation log,open,2025-10-09 09:14:33+00:00,2025-10-09 17:07:42+00:00,,,orrfray,['data-contract'],False,1,,True
 374,feat: fast registration for dev branches,closed,2025-10-09 08:41:59+00:00,2025-10-09 09:09:42+00:00,2025-10-09 09:09:40+00:00,2025-10-09 09:09:40+00:00,aviv-julienjehannet,[],True,0,0.4613888888888889,False
 373,ci: detect possible wrong poetry invocation,closed,2025-10-09 06:38:21+00:00,2025-10-09 07:09:34+00:00,2025-10-09 07:09:33+00:00,2025-10-09 07:09:33+00:00,aviv-julienjehannet,"['bug', 'SDK']",True,0,0.52,False
 372,feat(geor): propose a PlaceId model definition,open,2025-10-08 16:30:45+00:00,2025-10-09 15:39:08+00:00,,,aviv-julienjehannet,['data-model'],False,0,,False
