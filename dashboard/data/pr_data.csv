@@ -1,7 +1,10 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+385,feat: add a new subtype for automatically saved favourites,open,2025-10-14 14:30:53+00:00,2025-10-14 15:21:48+00:00,,,aviv-ejonakodra,[],False,0,,False
+384,fix: fast registering (closes: DATAPLT-190),closed,2025-10-14 09:52:37+00:00,2025-10-14 11:57:43+00:00,2025-10-14 11:51:13+00:00,,aviv-julienjehannet,[],False,0,,False
+383,chore: update place_id comment,closed,2025-10-14 07:51:19+00:00,2025-10-14 11:57:20+00:00,2025-10-14 07:53:03+00:00,,aviv-julienjehannet,[],False,0,,False
 382,fix(DATAPLT-248): Remove IngestionPeriod and keep flexible Scheduling,closed,2025-10-13 13:38:18+00:00,2025-10-13 15:41:25+00:00,2025-10-13 15:41:24+00:00,2025-10-13 15:41:23+00:00,aviv-fathallahelmasri,"['enhancement', 'governance']",True,0,2.051388888888889,False
-381,feat: refactor sdk version management,open,2025-10-10 15:47:35+00:00,2025-10-13 15:01:34+00:00,,,aviv-julienjehannet,"['enhancement', 'dependencies', 'python', 'SDK']",False,0,,False
-380,feat(rules): implement D101,closed,2025-10-09 15:07:38+00:00,2025-10-09 15:49:25+00:00,2025-10-09 15:49:25+00:00,,aviv-julienjehannet,"['enhancement', 'governance']",False,0,,False
+381,feat: refactor sdk version management,closed,2025-10-10 15:47:35+00:00,2025-10-14 11:59:37+00:00,2025-10-14 11:59:35+00:00,2025-10-14 11:59:35+00:00,aviv-julienjehannet,"['enhancement', 'dependencies', 'python', 'SDK']",True,0,92.2,False
+380,feat(rules): implement D101,closed,2025-10-09 15:07:38+00:00,2025-10-14 11:57:39+00:00,2025-10-09 15:49:25+00:00,,aviv-julienjehannet,"['enhancement', 'governance']",False,0,,False
 379,feat(rules): implement D101,closed,2025-10-09 13:06:15+00:00,2025-10-09 17:07:07+00:00,2025-10-09 17:07:05+00:00,2025-10-09 17:07:05+00:00,aviv-julienjehannet,"['enhancement', 'governance']",True,0,4.013888888888889,False
 378,fix: handle missing package versions in publish script gracefully,closed,2025-10-09 13:03:19+00:00,2025-10-09 15:21:10+00:00,2025-10-09 15:11:11+00:00,2025-10-09 15:11:11+00:00,sl-fredericdalessandro,[],True,0,2.131111111111111,False
 377,ci: fix live deployment for python sdk and avoid version jump for avi…,closed,2025-10-09 10:26:48+00:00,2025-10-09 10:27:32+00:00,2025-10-09 10:27:31+00:00,2025-10-09 10:27:31+00:00,aviv-julienjehannet,[],True,0,0.011944444444444445,False
@@ -17,7 +20,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 367,fix: clarify PII001 exception report,closed,2025-10-08 13:04:09+00:00,2025-10-08 13:57:14+00:00,2025-10-08 13:57:12+00:00,2025-10-08 13:57:12+00:00,aviv-julienjehannet,[],True,0,0.8841666666666667,False
 366,fix(governance): use right capability code and put in DEVELOPMENT contracts with missing PII levels,closed,2025-10-08 07:58:32+00:00,2025-10-08 14:03:13+00:00,2025-10-08 14:03:11+00:00,2025-10-08 14:03:11+00:00,aviv-julienjehannet,"['bug', 'data-contract', 'governance']",True,0,6.0775,True
 365,feat: update ingestion policies and set phase to DEVELOPMENT for mult…,closed,2025-10-07 09:43:56+00:00,2025-10-07 13:08:42+00:00,2025-10-07 13:08:40+00:00,2025-10-07 13:08:40+00:00,aviv-hamzaeljaoui,[],True,0,3.4122222222222223,False
-364,Contract/ssal/hyp 2470,open,2025-10-03 15:36:44+00:00,2025-10-08 16:34:50+00:00,,,sl-gregoirejunqua,['data-contract'],False,22,,True
+364,Contract/ssal/hyp 2470,open,2025-10-03 15:36:44+00:00,2025-10-14 10:02:33+00:00,,,sl-gregoirejunqua,['data-contract'],False,24,,True
 363,feat: uv migration,closed,2025-10-03 12:20:45+00:00,2025-10-07 16:19:11+00:00,2025-10-07 16:19:09+00:00,2025-10-07 16:19:09+00:00,aviv-julienjehannet,"['documentation', 'enhancement', 'dependencies', 'python', 'migration']",True,0,99.97333333333333,False
 362,fix: Fixing parking column names,closed,2025-10-03 09:19:54+00:00,2025-10-08 12:39:21+00:00,2025-10-08 12:39:19+00:00,2025-10-08 12:39:19+00:00,florianhyseni-aviv,['data-contract'],True,8,123.3236111111111,True
 361,Contract/bbcr/sub invoice line,closed,2025-10-02 13:58:58+00:00,2025-10-03 08:56:52+00:00,2025-10-03 08:56:51+00:00,2025-10-03 08:56:50+00:00,sl-nicolasmoteley,['data-contract'],True,0,18.964444444444446,True
@@ -31,7 +34,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 353,bump: manual update due to ci bug,closed,2025-10-01 12:00:48+00:00,2025-10-01 12:01:20+00:00,2025-10-01 12:01:18+00:00,2025-10-01 12:01:18+00:00,aviv-julienjehannet,[],True,0,0.008333333333333333,False
 352,fix: missing git credentials,closed,2025-10-01 11:43:44+00:00,2025-10-01 11:44:10+00:00,2025-10-01 11:44:08+00:00,2025-10-01 11:44:08+00:00,aviv-julienjehannet,[],True,0,0.006666666666666667,False
 351,feat: remove DEVELOPMENT phase annotation from CSMG,closed,2025-09-30 14:51:49+00:00,2025-10-03 09:00:56+00:00,2025-10-03 09:00:56+00:00,2025-10-03 09:00:56+00:00,aviv-hamzaeljaoui,['data-contract'],True,1,66.15194444444444,True
-350,fix: ingestion spec is incomplete. saleforce contracts require this c…,closed,2025-09-29 16:31:17+00:00,2025-10-02 07:15:38+00:00,2025-10-02 07:15:38+00:00,,aviv-julienjehannet,"['bug', 'migration', 'ingestion']",False,0,,False
+350,fix: ingestion spec is incomplete. saleforce contracts require this c…,closed,2025-09-29 16:31:17+00:00,2025-10-14 11:57:54+00:00,2025-10-02 07:15:38+00:00,,aviv-julienjehannet,"['bug', 'migration', 'ingestion']",False,0,,False
 349,chore: Updating and adding new contract for SSOT,closed,2025-09-29 14:36:23+00:00,2025-10-01 14:10:51+00:00,2025-10-01 14:10:49+00:00,2025-10-01 14:10:49+00:00,florianhyseni-aviv,['integration over compliance'],True,12,47.57388888888889,False
 348,Chore: Updating and adding new Contract for SSOT,closed,2025-09-29 10:13:47+00:00,2025-10-03 09:13:55+00:00,2025-09-29 14:36:53+00:00,,florianhyseni-aviv,[],False,4,,False
 347,Feat/refactor ci cache,closed,2025-09-27 11:43:30+00:00,2025-10-01 11:18:58+00:00,2025-10-01 11:18:57+00:00,2025-10-01 11:18:57+00:00,aviv-julienjehannet,"['enhancement', 'dependencies']",True,0,95.59083333333334,False
@@ -158,18 +161,18 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 226,fix: disable commitizen-branch because data contract are often edited…,closed,2025-07-22 12:26:11+00:00,2025-07-22 12:29:44+00:00,2025-07-22 12:29:41+00:00,2025-07-22 12:29:41+00:00,aviv-julienjehannet,[],True,0,0.058333333333333334,False
 225,ci: use pipeline parameter to build sdks,closed,2025-07-22 12:14:07+00:00,2025-07-22 12:26:35+00:00,2025-07-22 12:26:34+00:00,2025-07-22 12:26:34+00:00,aviv-julienjehannet,[],True,0,0.2075,False
 224,fix: force utf8 encoding for windows,closed,2025-07-22 11:48:14+00:00,2025-07-22 11:51:00+00:00,2025-07-22 11:50:58+00:00,2025-07-22 11:50:58+00:00,aviv-julienjehannet,[],True,0,0.04555555555555556,False
-223,New data contract(s): EXT/signifi/DATAPLT-000,closed,2025-07-22 08:05:01+00:00,2025-07-22 16:14:08+00:00,2025-07-22 16:14:08+00:00,,aviv-julienjehannet,['invalid'],False,0,,False
+223,New data contract(s): EXT/signifi/DATAPLT-000,closed,2025-07-22 08:05:01+00:00,2025-10-14 11:58:20+00:00,2025-07-22 16:14:08+00:00,,aviv-julienjehannet,['invalid'],False,0,,False
 222,fix(contract): restore contract after accidental copy-paste change,closed,2025-07-22 07:54:08+00:00,2025-07-23 06:30:17+00:00,2025-07-23 06:30:17+00:00,,florianhyseni-aviv,['data-contract'],False,2,,True
 221,fix: trim typo,closed,2025-07-21 17:06:30+00:00,2025-07-21 17:07:13+00:00,2025-07-21 17:07:11+00:00,2025-07-21 17:07:11+00:00,aviv-julienjehannet,[],True,0,0.01138888888888889,False
 220,fix: ternary condition,closed,2025-07-21 17:02:37+00:00,2025-07-21 17:03:17+00:00,2025-07-21 17:03:15+00:00,2025-07-21 17:03:15+00:00,aviv-julienjehannet,[],True,0,0.010555555555555556,False
-219,'New data contract(s): ACTS/DATAPLT-000',closed,2025-07-21 15:58:50+00:00,2025-07-21 16:15:22+00:00,2025-07-21 16:15:22+00:00,,aviv-julienjehannet,['data-contract'],False,0,,True
+219,'New data contract(s): ACTS/DATAPLT-000',closed,2025-07-21 15:58:50+00:00,2025-10-14 11:58:25+00:00,2025-07-21 16:15:22+00:00,,aviv-julienjehannet,['data-contract'],False,0,,True
 218,feat: add primary/partition keys contraints and make explicit the ingestion mode,closed,2025-07-18 07:07:13+00:00,2025-07-22 15:53:57+00:00,2025-07-22 15:53:56+00:00,2025-07-22 15:53:56+00:00,aviv-julienjehannet,['governance'],True,1,104.7786111111111,False
 217,fix: follow DF001 rule by using base data type only,closed,2025-07-17 12:35:04+00:00,2025-07-17 13:40:34+00:00,2025-07-17 13:40:32+00:00,2025-07-17 13:40:32+00:00,aviv-julienjehannet,['governance'],True,0,1.0911111111111111,False
 216,Update conversation and users schema,closed,2025-07-16 15:26:21+00:00,2025-08-26 15:25:50+00:00,2025-08-26 15:25:49+00:00,2025-08-26 15:25:48+00:00,sl-davidbernuau,['data-contract'],True,21,983.9908333333333,True
 215,Feat/dsgpac 333/update schema classified #214,closed,2025-07-16 13:54:09+00:00,2025-07-21 13:16:14+00:00,2025-07-21 13:16:13+00:00,2025-07-21 13:16:13+00:00,florianhyseni-aviv,['data-contract'],True,1,119.36777777777777,True
 214,Feat/dsgpac 333/update schema classified,closed,2025-07-16 10:10:30+00:00,2025-07-16 14:23:30+00:00,2025-07-16 14:23:30+00:00,,florianhyseni-aviv,[],False,0,,False
 213,chore(deps-dev): bump black from 22.12.0 to 24.3.0 in /contribs/aviv_data_platform_python_sdk,closed,2025-07-16 07:48:23+00:00,2025-07-23 11:38:49+00:00,2025-07-23 11:38:47+00:00,,dependabot[bot],"['dependencies', 'python']",False,0,,False
-212,feat: use new capability folders based on capability codes,closed,2025-07-15 16:55:10+00:00,2025-08-05 13:47:18+00:00,2025-08-05 13:47:18+00:00,,aviv-julienjehannet,['enhancement'],False,0,,False
+212,feat: use new capability folders based on capability codes,closed,2025-07-15 16:55:10+00:00,2025-10-14 11:58:28+00:00,2025-08-05 13:47:18+00:00,,aviv-julienjehannet,['enhancement'],False,0,,False
 211,docs: add Business rules implemented in Classified Management API,closed,2025-07-15 15:33:53+00:00,2025-07-15 15:38:59+00:00,2025-07-15 15:38:56+00:00,2025-07-15 15:38:56+00:00,aviv-julienjehannet,[],True,0,0.08416666666666667,False
 210,feat(syntax): Deprecate/remove title annotation. Not adding value at the moment (closes: #DATAPLT-187),closed,2025-07-15 08:29:56+00:00,2025-07-15 10:55:58+00:00,2025-07-15 10:55:56+00:00,2025-07-15 10:55:56+00:00,aviv-julienjehannet,[],True,0,2.433333333333333,False
 209,Feat: fraud-1992 - add moderation log contract  ,closed,2025-07-11 09:26:39+00:00,2025-07-11 12:18:28+00:00,2025-07-11 12:18:27+00:00,2025-07-11 12:18:26+00:00,gsl-mohamedsoueid,['data-contract'],True,0,2.8630555555555555,True
@@ -183,7 +186,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 201,Feat/contract set,closed,2025-07-07 16:23:12+00:00,2025-07-21 16:19:20+00:00,2025-07-21 16:19:18+00:00,2025-07-21 16:19:18+00:00,aviv-julienjehannet,['enhancement'],True,0,335.935,False
 200,ci(github): use stale github action,closed,2025-07-07 13:13:33+00:00,2025-07-16 13:16:32+00:00,2025-07-08 13:15:17+00:00,2025-07-08 13:15:17+00:00,aviv-julienjehannet,[],True,0,24.02888888888889,False
 199,feat(pre-commit): propose manual check for DF001,closed,2025-07-07 10:02:11+00:00,2025-07-16 13:20:35+00:00,2025-07-07 10:57:06+00:00,2025-07-07 10:57:06+00:00,aviv-julienjehannet,[],True,0,0.9152777777777777,False
-198,Fix/df001,closed,2025-07-07 09:48:41+00:00,2025-07-07 09:52:24+00:00,2025-07-07 09:52:24+00:00,,aviv-julienjehannet,[],False,0,,False
+198,Fix/df001,closed,2025-07-07 09:48:41+00:00,2025-10-14 11:58:29+00:00,2025-07-07 09:52:24+00:00,,aviv-julienjehannet,[],False,0,,False
 197,fix: Buggy desynchronization with S3... To inspect,closed,2025-07-04 15:34:36+00:00,2025-07-04 15:35:17+00:00,2025-07-04 15:35:16+00:00,2025-07-04 15:35:15+00:00,aviv-julienjehannet,[],True,0,0.010833333333333334,False
 196,feat: enable CODEOWNERS automatic generation,closed,2025-07-04 14:31:37+00:00,2025-07-16 14:42:51+00:00,2025-07-04 15:21:35+00:00,2025-07-04 15:21:35+00:00,aviv-julienjehannet,[],True,0,0.8327777777777777,False
 195,fix: delete .idea directory,closed,2025-07-03 09:18:23+00:00,2025-07-03 09:22:53+00:00,2025-07-03 09:22:52+00:00,2025-07-03 09:22:52+00:00,sl-fredericdalessandro,[],True,0,0.07472222222222222,False
@@ -244,10 +247,10 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 140,Feat/properbird unique,closed,2025-06-09 13:15:58+00:00,2025-06-10 12:31:08+00:00,2025-06-10 12:31:06+00:00,2025-06-10 12:31:06+00:00,aviv-nsamardzic,[],True,0,23.252222222222223,False
 139,style: mention rules book in data contract exception message,closed,2025-06-06 15:21:01+00:00,2025-06-11 16:03:26+00:00,2025-06-11 08:45:22+00:00,2025-06-11 08:45:22+00:00,aviv-julienjehannet,[],True,0,113.40583333333333,False
 138,feat: add signifi table schema contract,closed,2025-06-05 12:43:06+00:00,2025-08-05 09:43:35+00:00,2025-07-31 14:27:18+00:00,2025-07-31 14:27:18+00:00,gsl-raniaelbouhssini,['data-contract'],True,169,1345.7366666666667,True
-137,fix: add cases housing contracts,closed,2025-06-05 09:44:20+00:00,2025-08-05 12:33:15+00:00,2025-08-05 12:33:15+00:00,,Laitbelhoussein,"['data-contract', 'outdated', 'stale']",False,0,,True
+137,fix: add cases housing contracts,closed,2025-06-05 09:44:20+00:00,2025-10-14 11:58:34+00:00,2025-08-05 12:33:15+00:00,,Laitbelhoussein,"['data-contract', 'outdated', 'stale']",False,0,,True
 136,Feat/properbird contracts,closed,2025-06-05 08:19:57+00:00,2025-06-25 11:14:43+00:00,2025-06-25 11:14:42+00:00,2025-06-25 11:14:41+00:00,aviv-imijatovic,['data-contract'],True,0,482.9122222222222,True
 135,feat: add technical fields to parsed,closed,2025-06-03 13:24:20+00:00,2025-06-04 08:37:19+00:00,2025-06-04 08:37:17+00:00,2025-06-04 08:37:16+00:00,Laitbelhoussein,[],True,0,19.215555555555557,False
-134,feat: support RootModel in avro conversion,closed,2025-06-02 14:04:36+00:00,2025-08-19 13:29:58+00:00,2025-08-19 13:29:58+00:00,,aviv-julienjehannet,"['bug', 'do_not_merge']",False,0,,False
+134,feat: support RootModel in avro conversion,closed,2025-06-02 14:04:36+00:00,2025-10-14 11:58:30+00:00,2025-08-19 13:29:58+00:00,,aviv-julienjehannet,"['bug', 'do_not_merge']",False,0,,False
 133,opt lct,closed,2025-06-02 07:28:46+00:00,2025-06-03 09:32:44+00:00,2025-06-03 09:32:43+00:00,2025-06-03 09:32:43+00:00,aviv-tbalen,[],True,0,26.065833333333334,False
 132,style: use common standard to lint data contracts,closed,2025-05-30 23:52:46+00:00,2025-06-11 16:03:56+00:00,2025-06-02 09:21:29+00:00,2025-06-02 09:21:29+00:00,aviv-julienjehannet,"['enhancement', 'good first issue']",True,0,57.478611111111114,False
 131,fix(classifieds_analytics): minor compatible update for v1,closed,2025-05-30 20:06:53+00:00,2025-05-30 20:16:36+00:00,2025-05-30 20:16:35+00:00,2025-05-30 20:16:35+00:00,aviv-julienjehannet,[],True,0,0.16166666666666665,False
@@ -262,7 +265,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 122,chore(ruff): update,closed,2025-05-21 10:27:28+00:00,2025-05-21 10:36:47+00:00,2025-05-21 10:36:45+00:00,2025-05-21 10:36:45+00:00,aviv-julienjehannet,[],True,0,0.15472222222222223,False
 121,Soft Deletion,closed,2025-05-21 09:19:16+00:00,2025-08-05 12:31:58+00:00,2025-08-05 12:31:58+00:00,,aviv-fathallahelmasri,"['enhancement', 'do_not_merge']",False,0,,False
 120,Fix/inheritance,closed,2025-05-20 09:04:04+00:00,2025-05-20 09:26:47+00:00,2025-05-20 09:26:45+00:00,2025-05-20 09:26:45+00:00,aviv-julienjehannet,[],True,0,0.37805555555555553,False
-119,Classifieds analytics v2,closed,2025-05-19 14:20:36+00:00,2025-05-19 14:29:01+00:00,2025-05-19 14:29:01+00:00,,aviv-julienjehannet,[],False,0,,False
+119,Classifieds analytics v2,closed,2025-05-19 14:20:36+00:00,2025-10-14 11:58:45+00:00,2025-05-19 14:29:01+00:00,,aviv-julienjehannet,[],False,0,,False
 118,"Revert ""feat(properbird): added contracts for unique""",closed,2025-05-19 13:31:30+00:00,2025-05-19 13:33:14+00:00,2025-05-19 13:33:12+00:00,2025-05-19 13:33:12+00:00,aviv-julienjehannet,[],True,0,0.028333333333333332,False
 117,feat(properbird): added contracts for unique,closed,2025-05-19 11:52:16+00:00,2025-05-19 11:54:00+00:00,2025-05-19 11:53:58+00:00,2025-05-19 11:53:58+00:00,aviv-tbalen,[],True,0,0.028333333333333332,False
 116,feat: added support for the SNAPSHOT_HISTORY ingestion mode to enhanc…,closed,2025-05-16 16:48:46+00:00,2025-06-11 16:04:09+00:00,2025-05-19 15:45:24+00:00,2025-05-19 15:45:24+00:00,aviv-julienjehannet,['enhancement'],True,0,70.94388888888889,False
@@ -273,7 +276,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 111,fix: Add support for handling pull request-specific schemas,closed,2025-05-13 07:44:40+00:00,2025-05-19 15:50:53+00:00,2025-05-19 15:50:52+00:00,2025-05-19 15:50:52+00:00,sl-fredericdalessandro,[],True,0,152.10333333333332,False
 110,Tslm 169 define data contract for proper bird bi,closed,2025-05-13 07:42:17+00:00,2025-05-13 08:07:04+00:00,2025-05-13 08:07:01+00:00,2025-05-13 08:07:01+00:00,aviv-imijatovic,[],True,0,0.4122222222222222,False
 109,test,closed,2025-05-09 09:13:35+00:00,2025-05-09 09:21:14+00:00,2025-05-09 09:21:13+00:00,2025-05-09 09:21:13+00:00,aviv-tbalen,[],True,0,0.1272222222222222,False
-108,feat: add new Intermediary Analytics contract,closed,2025-05-07 15:16:15+00:00,2025-07-04 07:25:27+00:00,2025-07-04 07:25:27+00:00,,sl-lydiachibane,"['data-contract', 'outdated']",False,3,,True
+108,feat: add new Intermediary Analytics contract,closed,2025-05-07 15:16:15+00:00,2025-10-14 11:58:43+00:00,2025-07-04 07:25:27+00:00,,sl-lydiachibane,"['data-contract', 'outdated']",False,3,,True
 107,feat(poe): add registry command to delete schema,closed,2025-04-30 11:26:56+00:00,2025-04-30 11:36:01+00:00,2025-04-30 11:36:00+00:00,2025-04-30 11:36:00+00:00,aviv-julienjehannet,[],True,0,0.1511111111111111,False
 106,Tslm 169 define data contract for proper bird bi,closed,2025-04-30 08:00:22+00:00,2025-04-30 08:01:23+00:00,2025-04-30 08:01:22+00:00,2025-04-30 08:01:22+00:00,aviv-imijatovic,[],True,0,0.016666666666666666,False
 105,feat(contract): add policies annotation with ingestion mode as first …,closed,2025-04-29 13:44:42+00:00,2025-06-11 16:04:32+00:00,2025-05-02 15:04:12+00:00,2025-05-02 15:04:12+00:00,aviv-julienjehannet,['enhancement'],True,2,73.325,False
@@ -327,7 +330,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 57,feat(poetry): add dependency to aviv-data-modeling,closed,2025-03-25 17:00:09+00:00,2025-03-26 14:08:55+00:00,2025-03-26 14:08:53+00:00,2025-03-26 14:08:53+00:00,aviv-julienjehannet,[],True,0,21.145555555555557,False
 56,fix(typo): standardize column names,closed,2025-03-25 11:46:50+00:00,2025-03-25 11:48:24+00:00,2025-03-25 11:48:22+00:00,2025-03-25 11:48:22+00:00,aviv-imijatovic,[],True,0,0.025555555555555557,False
 55,feat: run contract format validation (basic rules for now),closed,2025-03-24 18:38:20+00:00,2025-03-25 08:34:21+00:00,2025-03-25 08:34:20+00:00,2025-03-25 08:34:20+00:00,aviv-julienjehannet,[],True,0,13.933333333333334,False
-54,feat(add): initial contract for favorites part,closed,2025-03-24 13:31:43+00:00,2025-08-05 12:30:46+00:00,2025-08-05 12:30:46+00:00,,li-oliviergerffroy,"['data-contract', 'outdated', 'stale']",False,48,,True
+54,feat(add): initial contract for favorites part,closed,2025-03-24 13:31:43+00:00,2025-10-14 11:58:32+00:00,2025-08-05 12:30:46+00:00,,li-oliviergerffroy,"['data-contract', 'outdated', 'stale']",False,48,,True
 53,feat: forget datalake storage zone except in the registry name,closed,2025-03-21 15:33:09+00:00,2025-03-24 07:37:47+00:00,2025-03-24 07:37:47+00:00,2025-03-24 07:37:47+00:00,aviv-julienjehannet,[],True,0,64.07722222222222,False
 52,Feat/subtype,closed,2025-03-21 11:35:32+00:00,2025-03-21 14:28:13+00:00,2025-03-21 14:28:12+00:00,2025-03-21 14:28:12+00:00,aviv-julienjehannet,[],True,0,2.8777777777777778,False
 51,fix: set contract default to None to fix validation error,closed,2025-03-21 09:49:09+00:00,2025-03-21 11:06:19+00:00,2025-03-21 11:06:19+00:00,2025-03-21 11:06:19+00:00,aviv-zhaolongliu,[],True,0,1.2861111111111112,False
