@@ -1,5 +1,9 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-385,feat: add a new subtype for automatically saved favourites,open,2025-10-14 14:30:53+00:00,2025-10-14 15:21:48+00:00,,,aviv-ejonakodra,[],False,0,,False
+389,"feat: add new field for NCP Subscription, Quote_Line and Task tables",closed,2025-10-15 13:27:05+00:00,2025-10-15 15:17:57+00:00,2025-10-15 15:17:56+00:00,2025-10-15 15:17:56+00:00,sl-nicolasmoteley,['data-contract'],True,0,1.8475,True
+388,ci: refactor code artifact package purge process,closed,2025-10-15 09:24:43+00:00,2025-10-15 14:49:13+00:00,2025-10-15 14:49:11+00:00,2025-10-15 14:49:11+00:00,aviv-julienjehannet,[],True,0,5.407777777777778,False
+387,feat: exclude data contract examples from schemata registration,closed,2025-10-15 09:19:35+00:00,2025-10-15 10:10:37+00:00,2025-10-15 10:10:35+00:00,2025-10-15 10:10:35+00:00,aviv-julienjehannet,[],True,0,0.85,False
+386,fix: abandon automated PR for S3 connector upon PR open & merge on contract repo (closes: #DATAPLT-199),closed,2025-10-15 07:47:37+00:00,2025-10-15 07:52:13+00:00,2025-10-15 07:52:11+00:00,2025-10-15 07:52:11+00:00,aviv-julienjehannet,"['dependencies', 'ingestion']",True,0,0.07611111111111112,False
+385,feat: add a new subtype for automatically saved favourites,open,2025-10-14 14:30:53+00:00,2025-10-15 15:28:52+00:00,,,aviv-ejonakodra,[],False,2,,False
 384,fix: fast registering (closes: DATAPLT-190),closed,2025-10-14 09:52:37+00:00,2025-10-14 11:57:43+00:00,2025-10-14 11:51:13+00:00,,aviv-julienjehannet,[],False,0,,False
 383,chore: update place_id comment,closed,2025-10-14 07:51:19+00:00,2025-10-14 11:57:20+00:00,2025-10-14 07:53:03+00:00,,aviv-julienjehannet,[],False,0,,False
 382,fix(DATAPLT-248): Remove IngestionPeriod and keep flexible Scheduling,closed,2025-10-13 13:38:18+00:00,2025-10-13 15:41:25+00:00,2025-10-13 15:41:24+00:00,2025-10-13 15:41:23+00:00,aviv-fathallahelmasri,"['enhancement', 'governance']",True,0,2.051388888888889,False
