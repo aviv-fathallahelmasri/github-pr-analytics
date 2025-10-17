@@ -1,6 +1,9 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+397,fix(governance): forget previous dataset version in favor of v2,open,2025-10-17 13:58:17+00:00,2025-10-17 14:40:43+00:00,,,aviv-julienjehannet,"['data-contract', 'governance']",False,0,,True
+396,bump: use python development version to 3.13,open,2025-10-17 12:05:37+00:00,2025-10-17 15:41:33+00:00,,,aviv-julienjehannet,"['do_not_merge', 'dependencies', 'python']",False,0,,False
+395,chore: migrate legacy modes to production phase across multiple contr…,closed,2025-10-17 08:43:17+00:00,2025-10-17 09:16:46+00:00,2025-10-17 09:16:45+00:00,2025-10-17 09:16:45+00:00,aviv-hamzaeljaoui,[],True,0,0.5577777777777778,False
 394,feat: add codelist poe command,closed,2025-10-16 13:45:22+00:00,2025-10-16 14:46:43+00:00,2025-10-16 14:46:42+00:00,2025-10-16 14:46:42+00:00,aviv-julienjehannet,"['documentation', 'enhancement']",True,0,1.0222222222222221,False
-393,feat: added new place DETAIL_PAGE_LEAD_CONFIRMATION_MULTI_INQUIRY,open,2025-10-16 12:26:16+00:00,2025-10-16 13:13:43+00:00,,,gsl-mohamedsoueid,['data-model'],False,0,,False
+393,feat(CLSA): MO-2361 - add new value for place enum,open,2025-10-16 12:26:16+00:00,2025-10-17 15:03:43+00:00,,,gsl-mohamedsoueid,['data-model'],False,0,,False
 392,feat: add new field for NCP Subscription,closed,2025-10-16 12:20:40+00:00,2025-10-16 13:32:11+00:00,2025-10-16 13:32:10+00:00,2025-10-16 13:32:10+00:00,sl-nicolasmoteley,['data-contract'],True,0,1.1916666666666667,True
 391,feat: cleaning DateTime symbol in favor of Timestamp,closed,2025-10-16 12:01:43+00:00,2025-10-16 12:31:25+00:00,2025-10-16 12:31:23+00:00,2025-10-16 12:31:23+00:00,aviv-julienjehannet,['migration'],True,0,0.49444444444444446,False
 390,test: deploy contract with metadata,closed,2025-10-16 10:00:16+00:00,2025-10-16 10:14:23+00:00,2025-10-16 10:14:21+00:00,2025-10-16 10:14:21+00:00,aviv-julienjehannet,[],True,0,0.23472222222222222,False
@@ -50,7 +53,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 346,fix: update ingestion policies to use APPEND and INCREMENTAL modes,closed,2025-09-26 09:21:21+00:00,2025-09-26 09:45:50+00:00,2025-09-26 09:45:48+00:00,2025-09-26 09:45:48+00:00,aviv-hamzaeljaoui,[],True,0,0.4075,False
 345,Fix/refactor tests,closed,2025-09-25 14:27:50+00:00,2025-09-29 10:41:38+00:00,2025-09-29 10:41:36+00:00,2025-09-29 10:41:36+00:00,aviv-julienjehannet,"['enhancement', 'governance']",True,0,92.22944444444444,False
 344,feat: change code for automatic rules for snake case conventions,closed,2025-09-25 09:43:30+00:00,2025-09-25 09:52:52+00:00,2025-09-25 09:52:49+00:00,2025-09-25 09:52:49+00:00,aviv-julienjehannet,[],True,0,0.15527777777777776,False
-343,feat: Add legacy user ID field for Not WL SSAL ingestion,open,2025-09-24 15:51:27+00:00,2025-10-09 15:51:17+00:00,,,aviv-marcjonot,"['data-contract', 'outdated']",False,8,,True
+343,feat: Add legacy user ID field for Not WL SSAL ingestion,closed,2025-09-24 15:51:27+00:00,2025-10-17 15:47:19+00:00,2025-10-17 15:47:19+00:00,,aviv-marcjonot,"['data-contract', 'outdated']",False,8,,True
 342,"fix(registry): in all cases, we have to ensure that schema does exists in the registry",closed,2025-09-24 09:43:01+00:00,2025-09-24 09:44:52+00:00,2025-09-24 09:44:50+00:00,2025-09-24 09:44:50+00:00,aviv-julienjehannet,[],True,0,0.03027777777777778,False
 341,Fix/ci,closed,2025-09-24 08:00:57+00:00,2025-09-24 08:12:00+00:00,2025-09-24 08:11:58+00:00,2025-09-24 08:11:58+00:00,aviv-julienjehannet,[],True,0,0.1836111111111111,False
 340,Fix/ci,closed,2025-09-24 07:38:57+00:00,2025-09-24 08:00:48+00:00,2025-09-24 07:40:09+00:00,2025-09-24 07:40:09+00:00,aviv-julienjehannet,[],True,0,0.02,False
@@ -114,7 +117,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 282,Contract/analytics/tslm 337,closed,2025-08-21 12:05:28+00:00,2025-08-26 08:17:00+00:00,2025-08-26 08:16:58+00:00,2025-08-26 08:16:58+00:00,aviv-nsamardzic,['data-contract'],True,0,116.19166666666666,True
 281,chore: bump SDK versions to 0.0.73 and update publish pipeline,closed,2025-08-20 15:45:22+00:00,2025-08-20 15:47:37+00:00,2025-08-20 15:47:36+00:00,2025-08-20 15:47:36+00:00,sl-fredericdalessandro,[],True,0,0.03722222222222222,False
 280,docs: update aviv well-known identifiers,closed,2025-08-20 14:32:14+00:00,2025-08-20 15:58:20+00:00,2025-08-20 15:58:18+00:00,2025-08-20 15:58:18+00:00,aviv-julienjehannet,['documentation'],True,0,1.4344444444444444,False
-279,feat: csharp sdk,open,2025-08-20 14:00:24+00:00,2025-10-02 13:56:42+00:00,,,sl-fredericdalessandro,"['enhancement', 'dependencies', 'SDK']",False,8,,False
+279,feat: csharp sdk,open,2025-08-20 14:00:24+00:00,2025-10-17 14:46:09+00:00,,,sl-fredericdalessandro,"['enhancement', 'dependencies', 'SDK']",False,8,,False
 278,feat: add HOME_PAGE_PROJECT and SAVED_SEARCH_PROJECT to geor place codelist,closed,2025-08-20 11:46:53+00:00,2025-08-20 12:12:12+00:00,2025-08-20 12:12:10+00:00,2025-08-20 12:12:10+00:00,lisa-hausheer,[],True,0,0.42138888888888887,False
 277,feat: ts sdk - add streaming support,closed,2025-08-20 07:55:37+00:00,2025-10-02 13:34:52+00:00,2025-10-02 13:34:51+00:00,2025-10-02 13:34:51+00:00,sl-fredericdalessandro,"['enhancement', 'dependencies', 'SDK']",True,0,1037.6538888888888,False
 276,Feat/dataplt 188 scheduling assumptions,closed,2025-08-20 07:04:23+00:00,2025-10-06 12:28:55+00:00,2025-10-06 12:28:53+00:00,2025-10-06 12:28:53+00:00,aviv-fathallahelmasri,['enhancement'],True,13,1133.4083333333333,False
