@@ -1,12 +1,12 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
 403,feat: clean previous legacy ingestion mode,open,2025-10-24 14:00:43+00:00,2025-10-24 15:49:14+00:00,,,aviv-julienjehannet,"['enhancement', 'data-contract', 'dependencies', 'governance', 'migration', 'ingestion']",False,0,,True
-402,feat: add indice contract,open,2025-10-24 09:29:55+00:00,2025-10-24 15:40:35+00:00,,,aviv-hamzaeljaoui,[],False,0,,False
-401,Update README.md,open,2025-10-23 10:15:36+00:00,2025-10-24 15:49:35+00:00,,,aviv-julienjehannet,['documentation'],False,0,,False
+402,feat: add indice contract,open,2025-10-24 09:29:55+00:00,2025-10-24 16:08:00+00:00,,,aviv-hamzaeljaoui,"['data-contract', 'integration over compliance']",False,0,,True
+401,Update README.md,closed,2025-10-23 10:15:36+00:00,2025-10-24 15:59:42+00:00,2025-10-24 15:59:40+00:00,2025-10-24 15:59:40+00:00,aviv-julienjehannet,['documentation'],True,0,29.734444444444446,False
 400,"feat: add new fields for NCP InvoiceLine, Subscription, Task and User objects",closed,2025-10-22 16:07:49+00:00,2025-10-24 15:42:16+00:00,2025-10-24 15:42:15+00:00,2025-10-24 15:42:15+00:00,sl-nicolasmoteley,[],True,0,47.57388888888889,False
 399,Update pull_request_template.md,closed,2025-10-22 12:19:14+00:00,2025-10-23 07:34:04+00:00,2025-10-23 07:34:02+00:00,2025-10-23 07:34:02+00:00,PascaleBrun,['documentation'],True,0,19.246666666666666,False
 398,Add legacy classified purchase target type,closed,2025-10-22 10:19:25+00:00,2025-10-22 13:06:05+00:00,2025-10-22 13:06:02+00:00,2025-10-22 13:06:02+00:00,aviv-mladenstoiljkovic,"['data-contract', 'data-model']",True,0,2.7769444444444447,True
 397,fix(governance): forget previous dataset version in favor of v3,closed,2025-10-17 13:58:17+00:00,2025-10-21 07:50:34+00:00,2025-10-21 07:50:33+00:00,2025-10-21 07:50:33+00:00,aviv-julienjehannet,"['data-contract', 'governance']",True,0,89.8711111111111,True
-396,feat: development branch,open,2025-10-17 12:05:37+00:00,2025-10-24 15:48:39+00:00,,,aviv-julienjehannet,"['do_not_merge', 'dependencies', 'python']",False,0,,False
+396,feat: development branch,open,2025-10-17 12:05:37+00:00,2025-10-24 16:07:39+00:00,,,aviv-julienjehannet,"['do_not_merge', 'dependencies', 'python']",False,0,,False
 395,chore: migrate legacy modes to production phase across multiple contr…,closed,2025-10-17 08:43:17+00:00,2025-10-17 09:16:46+00:00,2025-10-17 09:16:45+00:00,2025-10-17 09:16:45+00:00,aviv-hamzaeljaoui,[],True,0,0.5577777777777778,False
 394,feat: add codelist poe command,closed,2025-10-16 13:45:22+00:00,2025-10-16 14:46:43+00:00,2025-10-16 14:46:42+00:00,2025-10-16 14:46:42+00:00,aviv-julienjehannet,"['documentation', 'enhancement']",True,0,1.0222222222222221,False
 393,feat(CLSA): MO-2361 - add new value for place enum,closed,2025-10-16 12:26:16+00:00,2025-10-20 08:10:16+00:00,2025-10-20 08:10:14+00:00,2025-10-20 08:10:14+00:00,gsl-mohamedsoueid,['data-model'],True,0,91.73277777777778,False
