@@ -1,6 +1,9 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-403,feat: clean previous legacy ingestion mode,open,2025-10-24 14:00:43+00:00,2025-10-24 15:49:14+00:00,,,aviv-julienjehannet,"['enhancement', 'data-contract', 'dependencies', 'governance', 'migration', 'ingestion']",False,0,,True
-402,feat: add indice contract,open,2025-10-24 09:29:55+00:00,2025-10-24 16:08:00+00:00,,,aviv-hamzaeljaoui,"['data-contract', 'integration over compliance']",False,0,,True
+406,feat: report PII metadata at table level (closes: DATAPLT-207),closed,2025-10-27 13:42:05+00:00,2025-10-27 13:59:03+00:00,2025-10-27 13:59:01+00:00,2025-10-27 13:59:01+00:00,aviv-julienjehannet,"['documentation', 'governance']",True,0,0.2822222222222222,False
+405,Contract/bbcr/account group rel product,closed,2025-10-27 13:21:22+00:00,2025-10-27 15:13:43+00:00,2025-10-27 15:13:42+00:00,2025-10-27 15:13:42+00:00,sl-nicolasmoteley,['data-contract'],True,0,1.8722222222222222,True
+404,feat: create data quality for salesforce tables data contract schema,open,2025-10-27 11:28:28+00:00,2025-10-27 15:05:13+00:00,,,gsl-raniaelbouhssini,['data-contract'],False,5,,True
+403,feat: clean previous legacy ingestion mode,open,2025-10-24 14:00:43+00:00,2025-10-27 14:24:42+00:00,,,aviv-julienjehannet,"['enhancement', 'data-contract', 'dependencies', 'governance', 'migration', 'ingestion']",False,3,,True
+402,feat: add indice contract,open,2025-10-24 09:29:55+00:00,2025-10-27 10:23:40+00:00,,,aviv-hamzaeljaoui,"['data-contract', 'integration over compliance']",False,0,,True
 401,Update README.md,closed,2025-10-23 10:15:36+00:00,2025-10-24 15:59:42+00:00,2025-10-24 15:59:40+00:00,2025-10-24 15:59:40+00:00,aviv-julienjehannet,['documentation'],True,0,29.734444444444446,False
 400,"feat: add new fields for NCP InvoiceLine, Subscription, Task and User objects",closed,2025-10-22 16:07:49+00:00,2025-10-24 15:42:16+00:00,2025-10-24 15:42:15+00:00,2025-10-24 15:42:15+00:00,sl-nicolasmoteley,[],True,0,47.57388888888889,False
 399,Update pull_request_template.md,closed,2025-10-22 12:19:14+00:00,2025-10-23 07:34:04+00:00,2025-10-23 07:34:02+00:00,2025-10-23 07:34:02+00:00,PascaleBrun,['documentation'],True,0,19.246666666666666,False
@@ -38,7 +41,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 367,fix: clarify PII001 exception report,closed,2025-10-08 13:04:09+00:00,2025-10-08 13:57:14+00:00,2025-10-08 13:57:12+00:00,2025-10-08 13:57:12+00:00,aviv-julienjehannet,[],True,0,0.8841666666666667,False
 366,fix(governance): use right capability code and put in DEVELOPMENT contracts with missing PII levels,closed,2025-10-08 07:58:32+00:00,2025-10-08 14:03:13+00:00,2025-10-08 14:03:11+00:00,2025-10-08 14:03:11+00:00,aviv-julienjehannet,"['bug', 'data-contract', 'governance']",True,0,6.0775,True
 365,feat: update ingestion policies and set phase to DEVELOPMENT for mult…,closed,2025-10-07 09:43:56+00:00,2025-10-07 13:08:42+00:00,2025-10-07 13:08:40+00:00,2025-10-07 13:08:40+00:00,aviv-hamzaeljaoui,[],True,0,3.4122222222222223,False
-364,Contract/ssal/hyp 2470,open,2025-10-03 15:36:44+00:00,2025-10-24 15:41:01+00:00,,,sl-gregoirejunqua,['data-contract'],False,24,,True
+364,Contract/ssal/hyp 2470,open,2025-10-03 15:36:44+00:00,2025-10-27 15:34:53+00:00,,,sl-gregoirejunqua,['data-contract'],False,24,,True
 363,feat: uv migration,closed,2025-10-03 12:20:45+00:00,2025-10-07 16:19:11+00:00,2025-10-07 16:19:09+00:00,2025-10-07 16:19:09+00:00,aviv-julienjehannet,"['documentation', 'enhancement', 'dependencies', 'python', 'migration']",True,0,99.97333333333333,False
 362,fix: Fixing parking column names,closed,2025-10-03 09:19:54+00:00,2025-10-08 12:39:21+00:00,2025-10-08 12:39:19+00:00,2025-10-08 12:39:19+00:00,florianhyseni-aviv,['data-contract'],True,8,123.3236111111111,True
 361,Contract/bbcr/sub invoice line,closed,2025-10-02 13:58:58+00:00,2025-10-03 08:56:52+00:00,2025-10-03 08:56:51+00:00,2025-10-03 08:56:50+00:00,sl-nicolasmoteley,['data-contract'],True,0,18.964444444444446,True
