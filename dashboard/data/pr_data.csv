@@ -1,5 +1,6 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-417,feat: move common settings into aviv.data.platform module,open,2025-10-31 15:48:58+00:00,2025-10-31 15:49:21+00:00,,,aviv-julienjehannet,[],False,0,,False
+418,fix: no need for pull,closed,2025-10-31 16:18:29+00:00,2025-10-31 16:18:41+00:00,2025-10-31 16:18:40+00:00,2025-10-31 16:18:40+00:00,aviv-julienjehannet,[],True,0,0.0030555555555555557,False
+417,feat: move common settings into aviv.data.platform module,closed,2025-10-31 15:48:58+00:00,2025-10-31 15:50:22+00:00,2025-10-31 15:50:20+00:00,2025-10-31 15:50:20+00:00,aviv-julienjehannet,[],True,0,0.02277777777777778,False
 416,Feat/arns,closed,2025-10-31 13:30:00+00:00,2025-10-31 13:39:01+00:00,2025-10-31 13:39:00+00:00,2025-10-31 13:39:00+00:00,aviv-julienjehannet,[],True,0,0.15,False
 415,feat(MKNN): update indice model,closed,2025-10-31 13:03:46+00:00,2025-10-31 14:52:31+00:00,2025-10-31 14:52:29+00:00,2025-10-31 14:52:29+00:00,aviv-hamzaeljaoui,[],True,0,1.8119444444444444,False
 414,feat: add snowflake info in roster file,closed,2025-10-31 11:54:00+00:00,2025-10-31 14:58:07+00:00,2025-10-31 14:58:05+00:00,2025-10-31 14:58:05+00:00,aviv-julienjehannet,[],True,2,3.0680555555555555,False
@@ -7,7 +8,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 412,Feat/batch integration dev,open,2025-10-31 08:10:40+00:00,2025-10-31 08:42:14+00:00,,,aviv-bertrandmoundounga,['infrastructure'],False,7,,False
 411,ci: push roster file with producer arns to infra repo after merge ,closed,2025-10-30 14:19:04+00:00,2025-10-31 15:22:16+00:00,2025-10-31 15:22:14+00:00,2025-10-31 15:22:14+00:00,aviv-julienjehannet,['infrastructure'],True,0,25.052777777777777,False
 410,feat: implement push method for uploading validated records to S3 staging bucket,open,2025-10-30 09:18:46+00:00,2025-10-31 08:32:59+00:00,,,aviv-bertrandmoundounga,['infrastructure'],False,0,,False
-409,feat: DATAPLT-327 - Terraform project setup,open,2025-10-29 17:50:32+00:00,2025-10-31 15:37:31+00:00,,,sl-fredericdalessandro,['infrastructure'],False,0,,False
+409,feat: DATAPLT-327 - Terraform project setup,closed,2025-10-29 17:50:32+00:00,2025-10-31 17:15:50+00:00,2025-10-31 17:15:48+00:00,2025-10-31 17:15:48+00:00,sl-fredericdalessandro,['infrastructure'],True,0,47.42111111111111,False
 408,feat: use expected keys in tfvars like file,closed,2025-10-29 13:54:47+00:00,2025-10-30 13:39:50+00:00,2025-10-30 13:39:48+00:00,2025-10-30 13:39:48+00:00,aviv-julienjehannet,"['enhancement', 'dependencies', 'snowflake']",True,0,23.75027777777778,False
 407,feat: update ingestion mode,closed,2025-10-28 16:06:53+00:00,2025-10-29 10:42:09+00:00,2025-10-29 10:42:08+00:00,2025-10-29 10:42:08+00:00,aviv-marcjonot,"['data-contract', 'integration over compliance']",True,0,18.5875,True
 406,feat: report PII metadata at table level (closes: DATAPLT-207),closed,2025-10-27 13:42:05+00:00,2025-10-27 13:59:03+00:00,2025-10-27 13:59:01+00:00,2025-10-27 13:59:01+00:00,aviv-julienjehannet,"['documentation', 'governance']",True,0,0.2822222222222222,False
