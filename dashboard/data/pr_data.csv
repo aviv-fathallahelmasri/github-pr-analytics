@@ -1,4 +1,5 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+419,feat: deploy Properbird contracts to Live,closed,2025-11-03 10:00:53+00:00,2025-11-03 10:15:37+00:00,2025-11-03 10:15:35+00:00,2025-11-03 10:15:35+00:00,sl-nicolasmoteley,['data-contract'],True,0,0.245,True
 418,fix: no need for pull,closed,2025-10-31 16:18:29+00:00,2025-10-31 16:18:41+00:00,2025-10-31 16:18:40+00:00,2025-10-31 16:18:40+00:00,aviv-julienjehannet,[],True,0,0.0030555555555555557,False
 417,feat: move common settings into aviv.data.platform module,closed,2025-10-31 15:48:58+00:00,2025-10-31 15:50:22+00:00,2025-10-31 15:50:20+00:00,2025-10-31 15:50:20+00:00,aviv-julienjehannet,[],True,0,0.02277777777777778,False
 416,Feat/arns,closed,2025-10-31 13:30:00+00:00,2025-10-31 13:39:01+00:00,2025-10-31 13:39:00+00:00,2025-10-31 13:39:00+00:00,aviv-julienjehannet,[],True,0,0.15,False
@@ -80,7 +81,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 340,Fix/ci,closed,2025-09-24 07:38:57+00:00,2025-09-24 08:00:48+00:00,2025-09-24 07:40:09+00:00,2025-09-24 07:40:09+00:00,aviv-julienjehannet,[],True,0,0.02,False
 339,fix(registry): we sync variant file only on disk,closed,2025-09-24 06:48:44+00:00,2025-09-24 07:01:54+00:00,2025-09-24 07:01:52+00:00,2025-09-24 07:01:51+00:00,aviv-julienjehannet,['bug'],True,0,0.21861111111111112,False
 338,feat: new contract contract/CLTR/TITAN-1597,closed,2025-09-23 13:31:11+00:00,2025-09-25 15:21:00+00:00,2025-09-25 15:20:58+00:00,2025-09-25 15:20:58+00:00,aviv-michalkawczak,"['data-contract', 'governance']",True,9,49.82972222222222,True
-337,docs(ts-sdk): add important warning for historical data export process in README,open,2025-09-23 13:09:52+00:00,2025-09-30 08:33:56+00:00,,,aviv-hamzaeljaoui,"['documentation', 'SDK']",False,1,,False
+337,docs(ts-sdk): add important warning for historical data export process in README,closed,2025-09-23 13:09:52+00:00,2025-11-03 08:42:15+00:00,2025-11-03 08:42:15+00:00,,aviv-hamzaeljaoui,"['documentation', 'SDK']",False,1,,False
 336,feat: migrate all SDK schemas to new ingestion modes,closed,2025-09-23 11:18:52+00:00,2025-09-23 11:32:23+00:00,2025-09-23 11:32:23+00:00,,aviv-hamzaeljaoui,[],False,0,,False
 335,ci: allow several resource classes as arm64 for python build (workaround),closed,2025-09-23 09:51:53+00:00,2025-09-25 13:57:57+00:00,2025-09-23 11:17:11+00:00,,aviv-julienjehannet,[],False,0,,False
 334,fix(cli): new contract calculation in paused command,closed,2025-09-22 10:28:06+00:00,2025-09-23 07:40:09+00:00,2025-09-23 07:40:07+00:00,2025-09-23 07:40:07+00:00,aviv-julienjehannet,['bug'],True,0,21.200277777777778,False
