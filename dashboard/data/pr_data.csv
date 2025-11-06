@@ -1,6 +1,10 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-424,feat: DATAPLT-340 - Create csharp SDK,open,2025-11-04 23:26:04+00:00,2025-11-05 15:26:12+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
-423,feat: DATAPLT-339 - Create SDK spec version in java,open,2025-11-04 17:52:27+00:00,2025-11-05 14:41:40+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
+428,feat: complete rewrite of the Python SDK based on Java SDK architecture with unified async client and type-safe API,open,2025-11-06 13:25:50+00:00,2025-11-06 14:54:16+00:00,,,aviv-bertrandmoundounga,[],False,0,,False
+427,"fix: use uppercase by default, when possible",closed,2025-11-06 13:15:28+00:00,2025-11-06 13:24:07+00:00,2025-11-06 13:24:05+00:00,2025-11-06 13:24:05+00:00,aviv-julienjehannet,[],True,0,0.1436111111111111,False
+426,test: support package_version,closed,2025-11-06 08:51:34+00:00,2025-11-06 09:03:21+00:00,2025-11-06 09:03:19+00:00,2025-11-06 09:03:18+00:00,aviv-julienjehannet,[],True,0,0.19555555555555557,False
+425,feat(PAYM): unpause data contracts,closed,2025-11-05 16:34:59+00:00,2025-11-05 16:41:34+00:00,2025-11-05 16:41:32+00:00,2025-11-05 16:41:32+00:00,aviv-julienjehannet,['data-contract'],True,0,0.10916666666666666,True
+424,feat: DATAPLT-340 - Create csharp SDK,open,2025-11-04 23:26:04+00:00,2025-11-06 15:38:26+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
+423,feat: DATAPLT-339 - Create SDK spec version in java,closed,2025-11-04 17:52:27+00:00,2025-11-06 10:30:20+00:00,2025-11-06 10:30:18+00:00,2025-11-06 10:30:18+00:00,sl-fredericdalessandro,['SDK'],True,0,40.630833333333335,False
 422,feat: add new fields housing classified,open,2025-11-03 19:49:50+00:00,2025-11-05 13:43:23+00:00,,,Laitbelhoussein,['data-contract'],False,1,,True
 421,"feat(snowflake): find a better file hierarchy by supporting environement (dev, live)",closed,2025-11-03 16:43:08+00:00,2025-11-04 14:10:03+00:00,2025-11-04 14:10:01+00:00,2025-11-04 14:10:01+00:00,aviv-julienjehannet,[],True,0,21.448055555555555,False
 420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),open,2025-11-03 16:10:51+00:00,2025-11-05 08:33:46+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
@@ -11,9 +15,9 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 415,feat(MKNN): update indice model,closed,2025-10-31 13:03:46+00:00,2025-10-31 14:52:31+00:00,2025-10-31 14:52:29+00:00,2025-10-31 14:52:29+00:00,aviv-hamzaeljaoui,[],True,0,1.8119444444444444,False
 414,feat: add snowflake info in roster file,closed,2025-10-31 11:54:00+00:00,2025-10-31 14:58:07+00:00,2025-10-31 14:58:05+00:00,2025-10-31 14:58:05+00:00,aviv-julienjehannet,[],True,2,3.0680555555555555,False
 413,feat: add real estate price data models for Germany and France,closed,2025-10-31 08:33:57+00:00,2025-10-31 15:05:00+00:00,2025-10-31 15:04:58+00:00,2025-10-31 15:04:58+00:00,aviv-hamzaeljaoui,['data-contract'],True,17,6.516944444444444,True
-412,Feat/batch integration dev,open,2025-10-31 08:10:40+00:00,2025-10-31 08:42:14+00:00,,,aviv-bertrandmoundounga,['infrastructure'],False,7,,False
+412,Feat/batch integration dev,closed,2025-10-31 08:10:40+00:00,2025-11-06 13:26:08+00:00,2025-11-06 13:26:08+00:00,,aviv-bertrandmoundounga,['infrastructure'],False,7,,False
 411,ci: push roster file with producer arns to infra repo after merge ,closed,2025-10-30 14:19:04+00:00,2025-10-31 15:22:16+00:00,2025-10-31 15:22:14+00:00,2025-10-31 15:22:14+00:00,aviv-julienjehannet,['infrastructure'],True,0,25.052777777777777,False
-410,feat: implement push method for uploading validated records to S3 staging bucket,open,2025-10-30 09:18:46+00:00,2025-10-31 08:32:59+00:00,,,aviv-bertrandmoundounga,['infrastructure'],False,0,,False
+410,feat: implement push method for uploading validated records to S3 staging bucket,closed,2025-10-30 09:18:46+00:00,2025-11-06 13:26:44+00:00,2025-11-06 13:26:44+00:00,,aviv-bertrandmoundounga,['infrastructure'],False,0,,False
 409,feat: DATAPLT-327 - Terraform project setup,closed,2025-10-29 17:50:32+00:00,2025-10-31 17:15:50+00:00,2025-10-31 17:15:48+00:00,2025-10-31 17:15:48+00:00,sl-fredericdalessandro,['infrastructure'],True,0,47.42111111111111,False
 408,feat: use expected keys in tfvars like file,closed,2025-10-29 13:54:47+00:00,2025-10-30 13:39:50+00:00,2025-10-30 13:39:48+00:00,2025-10-30 13:39:48+00:00,aviv-julienjehannet,"['enhancement', 'dependencies', 'snowflake']",True,0,23.75027777777778,False
 407,feat: update ingestion mode,closed,2025-10-28 16:06:53+00:00,2025-10-29 10:42:09+00:00,2025-10-29 10:42:08+00:00,2025-10-29 10:42:08+00:00,aviv-marcjonot,"['data-contract', 'integration over compliance']",True,0,18.5875,True
