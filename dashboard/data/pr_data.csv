@@ -7,7 +7,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 425,feat(PAYM): unpause data contracts,closed,2025-11-05 16:34:59+00:00,2025-11-05 16:41:34+00:00,2025-11-05 16:41:32+00:00,2025-11-05 16:41:32+00:00,aviv-julienjehannet,['data-contract'],True,0,0.10916666666666666,True
 424,feat: DATAPLT-340 - Create csharp SDK,open,2025-11-04 23:26:04+00:00,2025-11-07 15:35:57+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
 423,feat: DATAPLT-339 - Create SDK spec version in java,closed,2025-11-04 17:52:27+00:00,2025-11-06 10:30:20+00:00,2025-11-06 10:30:18+00:00,2025-11-06 10:30:18+00:00,sl-fredericdalessandro,['SDK'],True,0,40.630833333333335,False
-422,feat: add new fields housing classified,open,2025-11-03 19:49:50+00:00,2025-11-05 13:43:23+00:00,,,Laitbelhoussein,['data-contract'],False,1,,True
+422,feat: add new fields housing classified,open,2025-11-03 19:49:50+00:00,2025-11-11 07:26:56+00:00,,,Laitbelhoussein,['data-contract'],False,1,,True
 421,"feat(snowflake): find a better file hierarchy by supporting environement (dev, live)",closed,2025-11-03 16:43:08+00:00,2025-11-04 14:10:03+00:00,2025-11-04 14:10:01+00:00,2025-11-04 14:10:01+00:00,aviv-julienjehannet,[],True,0,21.448055555555555,False
 420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),open,2025-11-03 16:10:51+00:00,2025-11-07 15:03:59+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
 419,feat: deploy Properbird contracts to Live,closed,2025-11-03 10:00:53+00:00,2025-11-03 10:15:37+00:00,2025-11-03 10:15:35+00:00,2025-11-03 10:15:35+00:00,sl-nicolasmoteley,['data-contract'],True,0,0.245,True
