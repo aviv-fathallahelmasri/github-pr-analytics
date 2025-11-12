@@ -1,8 +1,8 @@
 {
-  "total_prs": 430,
-  "merged_prs": 365,
-  "merge_rate": 84.9,
-  "avg_merge_time_hours": 80.5,
+  "total_prs": 438,
+  "merged_prs": 369,
+  "merge_rate": 84.2,
+  "avg_merge_time_hours": 79.6,
   "active_authors": 41,
-  "last_updated": "2025-11-11T15:55:55.259954"
+  "last_updated": "2025-11-12T15:58:34.756173"
 }
