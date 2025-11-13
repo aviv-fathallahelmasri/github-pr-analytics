@@ -1,12 +1,12 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-438,Fix/dataplt 285 2,open,2025-11-12 15:18:43+00:00,2025-11-12 15:51:44+00:00,,,aviv-julienjehannet,[],False,0,,False
+438,Fix/dataplt 285 2,open,2025-11-12 15:18:43+00:00,2025-11-13 12:22:00+00:00,,,aviv-julienjehannet,[],False,0,,False
 437,feat(snowflake): use Fred's format for scheduling entry,closed,2025-11-12 14:54:21+00:00,2025-11-12 15:15:28+00:00,2025-11-12 15:15:26+00:00,2025-11-12 15:15:25+00:00,aviv-julienjehannet,[],True,0,0.3511111111111111,False
 436,Contract/ext/properbird/immoscout offer type,closed,2025-11-12 14:05:43+00:00,2025-11-12 14:13:14+00:00,2025-11-12 14:13:13+00:00,2025-11-12 14:13:13+00:00,sl-nicolasmoteley,[],True,0,0.125,False
-435,[MOD] Visibility : Add jobs iam arn in policies.,open,2025-11-12 13:59:47+00:00,2025-11-12 14:33:08+00:00,,,gsl-laetitiapouletdegrimouard,[],False,0,,False
+435,[MOD] Visibility : Add jobs iam arn in policies.,closed,2025-11-12 13:59:47+00:00,2025-11-12 16:57:58+00:00,2025-11-12 16:57:56+00:00,2025-11-12 16:57:56+00:00,gsl-laetitiapouletdegrimouard,[],True,0,2.9691666666666667,False
 434,feat(SSAL): add Scheduling policy,closed,2025-11-12 13:02:51+00:00,2025-11-12 13:17:45+00:00,2025-11-12 13:17:43+00:00,2025-11-12 13:17:43+00:00,aviv-julienjehannet,"['governance', 'ingestion']",True,0,0.2477777777777778,False
-433,feat: update Python SDK based on new architecture with unified async client,open,2025-11-12 11:02:04+00:00,2025-11-12 11:02:15+00:00,,,aviv-bertrandmoundounga,[],False,0,,False
+433,feat: update Python SDK based on new architecture with unified async client,open,2025-11-12 11:02:04+00:00,2025-11-13 11:05:59+00:00,,,aviv-bertrandmoundounga,['SDK'],False,4,,False
 432,fix: remove load_date field from Properbird aggregated tables,closed,2025-11-12 09:41:07+00:00,2025-11-12 10:04:31+00:00,2025-11-12 10:04:30+00:00,2025-11-12 10:04:29+00:00,sl-nicolasmoteley,[],True,0,0.3894444444444444,False
-431,chore(CLSA): MO-2393 add new portal value YSQ-DEU for Yoursquare partnership leads,open,2025-11-12 08:34:20+00:00,2025-11-12 14:35:33+00:00,,,aviv-ejonakodra,[],False,0,,False
+431,chore(CLSA): MO-2393 add new portal value YSQ-DEU for Yoursquare partnership leads,open,2025-11-12 08:34:20+00:00,2025-11-13 14:27:56+00:00,,,aviv-ejonakodra,"['data-contract', 'data-model']",False,1,,True
 430,feat: new SnowflakeContract class for better separation,closed,2025-11-07 14:17:56+00:00,2025-11-07 16:37:45+00:00,2025-11-07 16:37:43+00:00,2025-11-07 16:37:43+00:00,aviv-julienjehannet,[],True,0,2.3297222222222222,False
 429,feat: Pydantic to snowflake tables creation (DATAPLT-285),closed,2025-11-06 16:18:58+00:00,2025-11-07 11:16:55+00:00,2025-11-07 11:16:52+00:00,2025-11-07 11:16:52+00:00,aviv-julienjehannet,[],True,0,18.965,False
 428,feat: complete rewrite of the Python SDK based on Java SDK architecture with unified async client and type-safe API,closed,2025-11-06 13:25:50+00:00,2025-11-10 08:41:52+00:00,2025-11-10 08:41:52+00:00,,aviv-bertrandmoundounga,[],False,5,,False
@@ -15,7 +15,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 425,feat(PAYM): unpause data contracts,closed,2025-11-05 16:34:59+00:00,2025-11-05 16:41:34+00:00,2025-11-05 16:41:32+00:00,2025-11-05 16:41:32+00:00,aviv-julienjehannet,['data-contract'],True,0,0.10916666666666666,True
 424,feat: DATAPLT-340 - Create csharp SDK,open,2025-11-04 23:26:04+00:00,2025-11-12 13:06:47+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
 423,feat: DATAPLT-339 - Create SDK spec version in java,closed,2025-11-04 17:52:27+00:00,2025-11-06 10:30:20+00:00,2025-11-06 10:30:18+00:00,2025-11-06 10:30:18+00:00,sl-fredericdalessandro,['SDK'],True,0,40.630833333333335,False
-422,feat: add new fields housing classified,open,2025-11-03 19:49:50+00:00,2025-11-11 07:26:56+00:00,,,Laitbelhoussein,['data-contract'],False,1,,True
+422,feat: add new fields housing classified,open,2025-11-03 19:49:50+00:00,2025-11-13 08:46:01+00:00,,,Laitbelhoussein,['data-contract'],False,1,,True
 421,"feat(snowflake): find a better file hierarchy by supporting environement (dev, live)",closed,2025-11-03 16:43:08+00:00,2025-11-04 14:10:03+00:00,2025-11-04 14:10:01+00:00,2025-11-04 14:10:01+00:00,aviv-julienjehannet,[],True,0,21.448055555555555,False
 420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),open,2025-11-03 16:10:51+00:00,2025-11-07 15:03:59+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
 419,feat: deploy Properbird contracts to Live,closed,2025-11-03 10:00:53+00:00,2025-11-03 10:15:37+00:00,2025-11-03 10:15:35+00:00,2025-11-03 10:15:35+00:00,sl-nicolasmoteley,['data-contract'],True,0,0.245,True
