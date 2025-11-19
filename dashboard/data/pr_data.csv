@@ -1,5 +1,16 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-450,chore(deps): bump the npm_and_yarn group across 1 directory with 1 update,open,2025-11-18 15:34:14+00:00,2025-11-18 15:34:14+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
+461,fix: Update publish.sh,closed,2025-11-19 15:09:00+00:00,2025-11-19 15:09:28+00:00,2025-11-19 15:09:26+00:00,2025-11-19 15:09:26+00:00,sl-fredericdalessandro,[],True,0,0.007222222222222222,False
+460,"ci: update .semver file structure, remove unused package source",closed,2025-11-19 14:56:51+00:00,2025-11-19 14:58:35+00:00,2025-11-19 14:58:33+00:00,2025-11-19 14:58:33+00:00,sl-fredericdalessandro,[],True,0,0.028333333333333332,False
+459,feat/add-snowflake-contracts-for-ca,open,2025-11-19 14:55:12+00:00,2025-11-19 15:10:12+00:00,,,aviv-jonyroy,[],False,0,,False
+458,feat: add repo-scoped NuGet configuration ,closed,2025-11-19 14:11:32+00:00,2025-11-19 14:12:28+00:00,2025-11-19 14:12:26+00:00,2025-11-19 14:12:26+00:00,sl-fredericdalessandro,[],True,0,0.015,False
+457,feat/create-contract-v1_1-from-v1,closed,2025-11-19 12:24:25+00:00,2025-11-19 13:12:14+00:00,2025-11-19 13:09:40+00:00,,aviv-jonyroy,[],False,0,,False
+456,Update publish.sh,closed,2025-11-19 11:55:10+00:00,2025-11-19 12:31:22+00:00,2025-11-19 12:31:20+00:00,2025-11-19 12:31:20+00:00,sl-fredericdalessandro,[],True,0,0.6027777777777777,False
+455,refactor: update schema contracts to use SnowflakeContract ,closed,2025-11-19 11:13:20+00:00,2025-11-19 11:37:22+00:00,2025-11-19 11:37:20+00:00,2025-11-19 11:37:20+00:00,sl-fredericdalessandro,[],True,0,0.4,False
+454,Contract/clso/acvnlp 2557,open,2025-11-19 10:56:11+00:00,2025-11-19 13:20:35+00:00,,,aviv-kimkocet,[],False,0,,False
+453,feat: remove SNOWFLAKE_METADATA column from Snowflake schema,closed,2025-11-19 10:41:07+00:00,2025-11-19 10:41:22+00:00,2025-11-19 10:41:19+00:00,2025-11-19 10:41:19+00:00,sl-fredericdalessandro,[],True,0,0.0033333333333333335,False
+452,feat: support variant type for complex/nested entities,closed,2025-11-18 16:48:27+00:00,2025-11-19 10:03:18+00:00,2025-11-19 10:03:16+00:00,2025-11-19 10:03:16+00:00,aviv-julienjehannet,['snowflake'],True,0,17.246944444444445,False
+451,feat: update Typescript SDK based on new architecture,open,2025-11-18 15:53:54+00:00,2025-11-18 20:14:07+00:00,,,aviv-bertrandmoundounga,['SDK'],False,0,,False
+450,chore(deps): bump the npm_and_yarn group across 1 directory with 1 update,open,2025-11-18 15:34:14+00:00,2025-11-19 14:42:03+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
 449,chore: remove unused Aviv CodeArtifact package source from NuGet.config,closed,2025-11-18 14:28:22+00:00,2025-11-18 14:56:45+00:00,2025-11-18 14:56:43+00:00,2025-11-18 14:56:43+00:00,sl-fredericdalessandro,[],True,0,0.4725,False
 448,chore: revert ts build,closed,2025-11-18 14:07:21+00:00,2025-11-18 14:11:07+00:00,2025-11-18 14:11:06+00:00,2025-11-18 14:11:06+00:00,sl-fredericdalessandro,[],True,0,0.0625,False
 447,feat: re-introduce SNOWFLAKE_INGESTION_TS,closed,2025-11-18 12:59:45+00:00,2025-11-18 15:09:21+00:00,2025-11-18 15:09:19+00:00,2025-11-18 15:09:19+00:00,aviv-julienjehannet,['snowflake'],True,1,2.1594444444444445,False
@@ -9,14 +20,14 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 443,ci: enable terraform live steps,closed,2025-11-17 18:55:38+00:00,2025-11-17 22:28:43+00:00,2025-11-17 22:28:42+00:00,2025-11-17 22:28:42+00:00,aviv-julienjehannet,['infrastructure'],True,0,3.551111111111111,False
 442,chore: disable ts sdk,closed,2025-11-17 14:14:21+00:00,2025-11-17 14:15:52+00:00,2025-11-17 14:15:51+00:00,2025-11-17 14:15:51+00:00,sl-fredericdalessandro,[],True,0,0.025,False
 441,chore: remove unused Aviv CodeArtifact package source from NuGet.config,closed,2025-11-17 13:54:26+00:00,2025-11-17 13:59:20+00:00,2025-11-17 13:59:18+00:00,2025-11-17 13:59:18+00:00,sl-fredericdalessandro,[],True,0,0.0811111111111111,False
-440,feat(CLSA): MO-2419 - add new values for place enum,open,2025-11-17 10:34:47+00:00,2025-11-17 16:25:53+00:00,,,gsl-mohamedsoueid,"['data-contract', 'data-model']",False,0,,True
+440,feat(CLSA): MO-2419 - add new values for place enum,closed,2025-11-17 10:34:47+00:00,2025-11-19 09:32:30+00:00,2025-11-19 09:32:27+00:00,2025-11-19 09:32:27+00:00,gsl-mohamedsoueid,"['data-contract', 'data-model']",True,0,46.96111111111111,True
 439,feat: add qsl lead assignment new fields,closed,2025-11-14 10:39:21+00:00,2025-11-14 10:48:31+00:00,2025-11-14 10:48:28+00:00,2025-11-14 10:48:28+00:00,sl-nicolasmoteley,[],True,0,0.15194444444444444,False
 438,Pydantic to snowflake tables creation (closes: DATAPLT-285),closed,2025-11-12 15:18:43+00:00,2025-11-14 13:31:23+00:00,2025-11-14 13:31:21+00:00,2025-11-14 13:31:21+00:00,aviv-julienjehannet,[],True,0,46.21055555555556,False
 437,feat(snowflake): use Fred's format for scheduling entry,closed,2025-11-12 14:54:21+00:00,2025-11-12 15:15:28+00:00,2025-11-12 15:15:26+00:00,2025-11-12 15:15:25+00:00,aviv-julienjehannet,[],True,0,0.3511111111111111,False
 436,Contract/ext/properbird/immoscout offer type,closed,2025-11-12 14:05:43+00:00,2025-11-12 14:13:14+00:00,2025-11-12 14:13:13+00:00,2025-11-12 14:13:13+00:00,sl-nicolasmoteley,[],True,0,0.125,False
 435,[MOD] Visibility : Add jobs iam arn in policies.,closed,2025-11-12 13:59:47+00:00,2025-11-12 16:57:58+00:00,2025-11-12 16:57:56+00:00,2025-11-12 16:57:56+00:00,gsl-laetitiapouletdegrimouard,[],True,0,2.9691666666666667,False
 434,feat(SSAL): add Scheduling policy,closed,2025-11-12 13:02:51+00:00,2025-11-12 13:17:45+00:00,2025-11-12 13:17:43+00:00,2025-11-12 13:17:43+00:00,aviv-julienjehannet,"['governance', 'ingestion']",True,0,0.2477777777777778,False
-433,DATAPLT-353 - update Python SDK based on new architecture with unified async client,open,2025-11-12 11:02:04+00:00,2025-11-18 08:25:56+00:00,,,aviv-bertrandmoundounga,['SDK'],False,6,,False
+433,DATAPLT-353 - update Python SDK based on new architecture with unified async client,open,2025-11-12 11:02:04+00:00,2025-11-19 15:10:21+00:00,,,aviv-bertrandmoundounga,['SDK'],False,6,,False
 432,fix: remove load_date field from Properbird aggregated tables,closed,2025-11-12 09:41:07+00:00,2025-11-12 10:04:31+00:00,2025-11-12 10:04:30+00:00,2025-11-12 10:04:29+00:00,sl-nicolasmoteley,[],True,0,0.3894444444444444,False
 431,chore(CLSA): MO-2393 add new portal value YSQ-DEU for Yoursquare partnership leads,closed,2025-11-12 08:34:20+00:00,2025-11-14 10:22:06+00:00,2025-11-14 10:22:04+00:00,2025-11-14 10:22:04+00:00,aviv-ejonakodra,"['data-contract', 'data-model']",True,1,49.79555555555555,True
 430,feat: new SnowflakeContract class for better separation,closed,2025-11-07 14:17:56+00:00,2025-11-07 16:37:45+00:00,2025-11-07 16:37:43+00:00,2025-11-07 16:37:43+00:00,aviv-julienjehannet,[],True,0,2.3297222222222222,False
@@ -29,7 +40,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 423,feat: DATAPLT-339 - Create SDK spec version in java,closed,2025-11-04 17:52:27+00:00,2025-11-06 10:30:20+00:00,2025-11-06 10:30:18+00:00,2025-11-06 10:30:18+00:00,sl-fredericdalessandro,['SDK'],True,0,40.630833333333335,False
 422,feat: add new fields housing classified,open,2025-11-03 19:49:50+00:00,2025-11-17 08:02:47+00:00,,,Laitbelhoussein,['data-contract'],False,1,,True
 421,"feat(snowflake): find a better file hierarchy by supporting environement (dev, live)",closed,2025-11-03 16:43:08+00:00,2025-11-04 14:10:03+00:00,2025-11-04 14:10:01+00:00,2025-11-04 14:10:01+00:00,aviv-julienjehannet,[],True,0,21.448055555555555,False
-420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),open,2025-11-03 16:10:51+00:00,2025-11-18 10:40:32+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
+420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),open,2025-11-03 16:10:51+00:00,2025-11-18 16:45:23+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
 419,feat: deploy Properbird contracts to Live,closed,2025-11-03 10:00:53+00:00,2025-11-03 10:15:37+00:00,2025-11-03 10:15:35+00:00,2025-11-03 10:15:35+00:00,sl-nicolasmoteley,['data-contract'],True,0,0.245,True
 418,fix: no need for pull,closed,2025-10-31 16:18:29+00:00,2025-10-31 16:18:41+00:00,2025-10-31 16:18:40+00:00,2025-10-31 16:18:40+00:00,aviv-julienjehannet,[],True,0,0.0030555555555555557,False
 417,feat: move common settings into aviv.data.platform module,closed,2025-10-31 15:48:58+00:00,2025-10-31 15:50:22+00:00,2025-10-31 15:50:20+00:00,2025-10-31 15:50:20+00:00,aviv-julienjehannet,[],True,0,0.02277777777777778,False
@@ -88,7 +99,6 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 364,Contract/ssal/hyp 2470,closed,2025-10-03 15:36:44+00:00,2025-10-30 15:20:29+00:00,2025-10-30 15:20:26+00:00,2025-10-30 15:20:26+00:00,sl-gregoirejunqua,['data-contract'],True,31,647.7283333333334,True
 363,feat: uv migration,closed,2025-10-03 12:20:45+00:00,2025-10-07 16:19:11+00:00,2025-10-07 16:19:09+00:00,2025-10-07 16:19:09+00:00,aviv-julienjehannet,"['documentation', 'enhancement', 'dependencies', 'python', 'migration']",True,0,99.97333333333333,False
 362,fix: Fixing parking column names,closed,2025-10-03 09:19:54+00:00,2025-10-08 12:39:21+00:00,2025-10-08 12:39:19+00:00,2025-10-08 12:39:19+00:00,florianhyseni-aviv,['data-contract'],True,8,123.3236111111111,True
-361,Contract/bbcr/sub invoice line,closed,2025-10-02 13:58:58+00:00,2025-10-03 08:56:52+00:00,2025-10-03 08:56:51+00:00,2025-10-03 08:56:50+00:00,sl-nicolasmoteley,['data-contract'],True,0,18.964444444444446,True
 361,Contract/bbcr/sub invoice line,closed,2025-10-02 13:58:58+00:00,2025-10-03 08:56:52+00:00,2025-10-03 08:56:51+00:00,2025-10-03 08:56:50+00:00,sl-nicolasmoteley,['data-contract'],True,0,18.964444444444446,True
 360,ci: prefer asdf to install python for now (will be replaced by uv soon),closed,2025-10-02 10:35:55+00:00,2025-10-02 11:30:51+00:00,2025-10-02 11:30:49+00:00,2025-10-02 11:30:49+00:00,aviv-julienjehannet,[],True,0,0.915,False
 359,feat: Add contract to preview,closed,2025-10-01 16:09:40+00:00,2025-10-01 16:25:01+00:00,2025-10-01 16:24:59+00:00,2025-10-01 16:24:59+00:00,aviv-davidmartinez,[],True,0,0.25527777777777777,False
