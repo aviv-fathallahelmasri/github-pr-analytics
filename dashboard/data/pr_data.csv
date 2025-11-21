@@ -1,6 +1,8 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-466,DATAPLT-357 - add Python 3.11 support and optional contracts dependency,open,2025-11-20 15:21:41+00:00,2025-11-20 15:21:41+00:00,,,aviv-bertrandmoundounga,[],False,0,,False
-465,contract: remove unused invoice_number field,open,2025-11-20 15:20:57+00:00,2025-11-20 15:39:50+00:00,,,aviv-ilijavidovic,[],False,0,,False
+468,fix: downgrade Python requirement to support 3.11,open,2025-11-21 12:22:08+00:00,2025-11-21 12:22:28+00:00,,,aviv-bertrandmoundounga,[],False,0,,False
+467,feat: add batch input format as parquet,closed,2025-11-21 07:49:37+00:00,2025-11-21 08:33:36+00:00,2025-11-21 08:33:34+00:00,2025-11-21 08:33:34+00:00,aviv-jonyroy,[],True,0,0.7325,False
+466,DATAPLT-357 - add Python 3.11 support and optional contracts dependency,closed,2025-11-20 15:21:41+00:00,2025-11-21 09:59:09+00:00,2025-11-21 09:59:09+00:00,,aviv-bertrandmoundounga,[],False,0,,False
+465,contract: remove unused invoice_number field,closed,2025-11-20 15:20:57+00:00,2025-11-20 17:11:21+00:00,2025-11-20 17:11:18+00:00,2025-11-20 17:11:17+00:00,aviv-ilijavidovic,['data-contract'],True,0,1.8388888888888888,True
 464,"feat: add enum converter generation, remove unused package source, an…",closed,2025-11-20 15:05:05+00:00,2025-11-20 15:13:39+00:00,2025-11-20 15:13:37+00:00,2025-11-20 15:13:37+00:00,sl-fredericdalessandro,[],True,0,0.14222222222222222,False
 463,fix: Update Program.cs,closed,2025-11-20 14:49:19+00:00,2025-11-20 15:17:33+00:00,2025-11-20 15:17:29+00:00,,sl-fredericdalessandro,[],False,0,,False
 462,feat: enable lead v3,closed,2025-11-19 16:57:17+00:00,2025-11-19 17:14:49+00:00,2025-11-19 17:14:47+00:00,2025-11-19 17:14:47+00:00,aviv-jonyroy,[],True,0,0.2916666666666667,False
@@ -11,11 +13,11 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 457,feat/create-contract-v1_1-from-v1,closed,2025-11-19 12:24:25+00:00,2025-11-19 13:12:14+00:00,2025-11-19 13:09:40+00:00,,aviv-jonyroy,[],False,0,,False
 456,Update publish.sh,closed,2025-11-19 11:55:10+00:00,2025-11-19 12:31:22+00:00,2025-11-19 12:31:20+00:00,2025-11-19 12:31:20+00:00,sl-fredericdalessandro,[],True,0,0.6027777777777777,False
 455,refactor: update schema contracts to use SnowflakeContract ,closed,2025-11-19 11:13:20+00:00,2025-11-19 11:37:22+00:00,2025-11-19 11:37:20+00:00,2025-11-19 11:37:20+00:00,sl-fredericdalessandro,[],True,0,0.4,False
-454,Contract/clso/acvnlp 2557,open,2025-11-19 10:56:11+00:00,2025-11-20 14:42:18+00:00,,,aviv-kimkocet,[],False,0,,False
+454,Contract/clso/acvnlp 2557,open,2025-11-19 10:56:11+00:00,2025-11-21 08:57:10+00:00,,,aviv-kimkocet,['data-contract'],False,0,,True
 453,feat: remove SNOWFLAKE_METADATA column from Snowflake schema,closed,2025-11-19 10:41:07+00:00,2025-11-19 10:41:22+00:00,2025-11-19 10:41:19+00:00,2025-11-19 10:41:19+00:00,sl-fredericdalessandro,[],True,0,0.0033333333333333335,False
 452,feat: support variant type for complex/nested entities,closed,2025-11-18 16:48:27+00:00,2025-11-19 10:03:18+00:00,2025-11-19 10:03:16+00:00,2025-11-19 10:03:16+00:00,aviv-julienjehannet,['snowflake'],True,0,17.246944444444445,False
 451,feat: update Typescript SDK based on new architecture,closed,2025-11-18 15:53:54+00:00,2025-11-20 08:55:45+00:00,2025-11-20 08:55:45+00:00,,aviv-bertrandmoundounga,['SDK'],False,0,,False
-450,chore(deps): bump the npm_and_yarn group across 1 directory with 1 update,open,2025-11-18 15:34:14+00:00,2025-11-20 14:00:41+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
+450,chore(deps): bump the npm_and_yarn group across 1 directory with 1 update,open,2025-11-18 15:34:14+00:00,2025-11-21 09:54:18+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
 449,chore: remove unused Aviv CodeArtifact package source from NuGet.config,closed,2025-11-18 14:28:22+00:00,2025-11-18 14:56:45+00:00,2025-11-18 14:56:43+00:00,2025-11-18 14:56:43+00:00,sl-fredericdalessandro,[],True,0,0.4725,False
 448,chore: revert ts build,closed,2025-11-18 14:07:21+00:00,2025-11-18 14:11:07+00:00,2025-11-18 14:11:06+00:00,2025-11-18 14:11:06+00:00,sl-fredericdalessandro,[],True,0,0.0625,False
 447,feat: re-introduce SNOWFLAKE_INGESTION_TS,closed,2025-11-18 12:59:45+00:00,2025-11-18 15:09:21+00:00,2025-11-18 15:09:19+00:00,2025-11-18 15:09:19+00:00,aviv-julienjehannet,['snowflake'],True,1,2.1594444444444445,False
@@ -45,7 +47,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 423,feat: DATAPLT-339 - Create SDK spec version in java,closed,2025-11-04 17:52:27+00:00,2025-11-06 10:30:20+00:00,2025-11-06 10:30:18+00:00,2025-11-06 10:30:18+00:00,sl-fredericdalessandro,['SDK'],True,0,40.630833333333335,False
 422,feat: add new fields housing classified,open,2025-11-03 19:49:50+00:00,2025-11-17 08:02:47+00:00,,,Laitbelhoussein,['data-contract'],False,1,,True
 421,"feat(snowflake): find a better file hierarchy by supporting environement (dev, live)",closed,2025-11-03 16:43:08+00:00,2025-11-04 14:10:03+00:00,2025-11-04 14:10:01+00:00,2025-11-04 14:10:01+00:00,aviv-julienjehannet,[],True,0,21.448055555555555,False
-420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),open,2025-11-03 16:10:51+00:00,2025-11-20 15:26:49+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
+420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),open,2025-11-03 16:10:51+00:00,2025-11-21 15:06:17+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
 419,feat: deploy Properbird contracts to Live,closed,2025-11-03 10:00:53+00:00,2025-11-03 10:15:37+00:00,2025-11-03 10:15:35+00:00,2025-11-03 10:15:35+00:00,sl-nicolasmoteley,['data-contract'],True,0,0.245,True
 418,fix: no need for pull,closed,2025-10-31 16:18:29+00:00,2025-10-31 16:18:41+00:00,2025-10-31 16:18:40+00:00,2025-10-31 16:18:40+00:00,aviv-julienjehannet,[],True,0,0.0030555555555555557,False
 417,feat: move common settings into aviv.data.platform module,closed,2025-10-31 15:48:58+00:00,2025-10-31 15:50:22+00:00,2025-10-31 15:50:20+00:00,2025-10-31 15:50:20+00:00,aviv-julienjehannet,[],True,0,0.02277777777777778,False
