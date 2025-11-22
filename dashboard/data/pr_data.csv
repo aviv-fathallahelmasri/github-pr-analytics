@@ -1,4 +1,5 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+469,Feat/downgrade py in py sdk,open,2025-11-21 15:55:30+00:00,2025-11-21 15:55:40+00:00,,,aviv-bertrandmoundounga,[],False,0,,False
 468,fix: downgrade Python requirement to support 3.11,open,2025-11-21 12:22:08+00:00,2025-11-21 12:22:28+00:00,,,aviv-bertrandmoundounga,[],False,0,,False
 467,feat: add batch input format as parquet,closed,2025-11-21 07:49:37+00:00,2025-11-21 08:33:36+00:00,2025-11-21 08:33:34+00:00,2025-11-21 08:33:34+00:00,aviv-jonyroy,[],True,0,0.7325,False
 466,DATAPLT-357 - add Python 3.11 support and optional contracts dependency,closed,2025-11-20 15:21:41+00:00,2025-11-21 09:59:09+00:00,2025-11-21 09:59:09+00:00,,aviv-bertrandmoundounga,[],False,0,,False
@@ -47,7 +48,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 423,feat: DATAPLT-339 - Create SDK spec version in java,closed,2025-11-04 17:52:27+00:00,2025-11-06 10:30:20+00:00,2025-11-06 10:30:18+00:00,2025-11-06 10:30:18+00:00,sl-fredericdalessandro,['SDK'],True,0,40.630833333333335,False
 422,feat: add new fields housing classified,open,2025-11-03 19:49:50+00:00,2025-11-17 08:02:47+00:00,,,Laitbelhoussein,['data-contract'],False,1,,True
 421,"feat(snowflake): find a better file hierarchy by supporting environement (dev, live)",closed,2025-11-03 16:43:08+00:00,2025-11-04 14:10:03+00:00,2025-11-04 14:10:01+00:00,2025-11-04 14:10:01+00:00,aviv-julienjehannet,[],True,0,21.448055555555555,False
-420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),open,2025-11-03 16:10:51+00:00,2025-11-21 15:06:17+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
+420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),open,2025-11-03 16:10:51+00:00,2025-11-21 18:12:41+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
 419,feat: deploy Properbird contracts to Live,closed,2025-11-03 10:00:53+00:00,2025-11-03 10:15:37+00:00,2025-11-03 10:15:35+00:00,2025-11-03 10:15:35+00:00,sl-nicolasmoteley,['data-contract'],True,0,0.245,True
 418,fix: no need for pull,closed,2025-10-31 16:18:29+00:00,2025-10-31 16:18:41+00:00,2025-10-31 16:18:40+00:00,2025-10-31 16:18:40+00:00,aviv-julienjehannet,[],True,0,0.0030555555555555557,False
 417,feat: move common settings into aviv.data.platform module,closed,2025-10-31 15:48:58+00:00,2025-10-31 15:50:22+00:00,2025-10-31 15:50:20+00:00,2025-10-31 15:50:20+00:00,aviv-julienjehannet,[],True,0,0.02277777777777778,False
