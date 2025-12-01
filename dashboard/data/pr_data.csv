@@ -1,9 +1,12 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-492,feat(clsa): add CLASSIFIED_EXPIRED_VIEW and place DETAIL_PAGE_EXPIRED,open,2025-11-28 16:26:58+00:00,2025-11-28 16:58:45+00:00,,,aviv-ejonakodra,['data-model'],False,0,,False
+495,ci: Purge old development packages in CodeArtifact (daily),open,2025-12-01 12:24:22+00:00,2025-12-01 15:49:39+00:00,,,aviv-julienjehannet,"['enhancement', 'python', 'SDK', 'infrastructure']",False,0,,False
+494,Add automatic SDK ingestion timestamp to records,closed,2025-12-01 11:35:39+00:00,2025-12-01 15:08:18+00:00,2025-12-01 15:08:16+00:00,2025-12-01 15:08:16+00:00,aviv-bertrandmoundounga,['SDK'],True,0,3.5436111111111113,False
+493,fix: refine version comparison in publish scripts to handle pre-release,open,2025-12-01 10:00:41+00:00,2025-12-01 10:01:43+00:00,,,sl-fredericdalessandro,[],False,0,,False
+492,feat(clsa): add CLASSIFIED_EXPIRED_VIEW and place DETAIL_PAGE_EXPIRED,open,2025-11-28 16:26:58+00:00,2025-12-01 14:48:26+00:00,,,aviv-ejonakodra,['data-model'],False,0,,False
 491,feat: rename snowflake table,closed,2025-11-28 15:40:49+00:00,2025-11-28 15:52:17+00:00,2025-11-28 15:52:14+00:00,2025-11-28 15:52:14+00:00,aviv-kimkocet,[],True,0,0.19027777777777777,False
 490,MCM-2248: renaming data contract of moderation log,open,2025-11-28 15:22:16+00:00,2025-11-28 15:37:23+00:00,,,aviv-elodienguyen,['data-contract'],False,0,,True
 489,feat(clsa): MO-2452 Add new values for ClassifiedActionSubType,closed,2025-11-28 11:38:59+00:00,2025-11-28 17:01:42+00:00,2025-11-28 17:01:40+00:00,2025-11-28 17:01:40+00:00,sl-victorceron,"['data-contract', 'data-model']",True,0,5.378055555555555,True
-488,feat(snowflake): Pydantic to snowflake tables delete (closes: DATAPLT-287),open,2025-11-28 10:30:00+00:00,2025-11-28 17:11:05+00:00,,,aviv-julienjehannet,"['governance', 'snowflake']",False,0,,False
+488,feat(snowflake): Pydantic to snowflake tables delete (closes: DATAPLT-287),open,2025-11-28 10:30:00+00:00,2025-12-01 10:55:18+00:00,,,aviv-julienjehannet,"['governance', 'snowflake']",False,0,,False
 487,feat: move top position statistics schemas to production phase,closed,2025-11-27 17:35:53+00:00,2025-11-27 17:38:20+00:00,2025-11-27 17:38:19+00:00,2025-11-27 17:38:19+00:00,sl-fredericdalessandro,[],True,0,0.04055555555555555,False
 486,fix: adapt the exact phase to snowflake contracts,closed,2025-11-27 17:20:13+00:00,2025-11-27 17:31:32+00:00,2025-11-27 17:31:30+00:00,2025-11-27 17:31:30+00:00,aviv-julienjehannet,[],True,0,0.18805555555555556,False
 485,feat: DATAPLT-354 - add utility classes and types for batch processing and validation,open,2025-11-27 15:02:20+00:00,2025-11-27 17:41:31+00:00,,,aviv-bertrandmoundounga,"['SDK', 'typescript']",False,0,,False
@@ -41,7 +44,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 453,feat: remove SNOWFLAKE_METADATA column from Snowflake schema,closed,2025-11-19 10:41:07+00:00,2025-11-19 10:41:22+00:00,2025-11-19 10:41:19+00:00,2025-11-19 10:41:19+00:00,sl-fredericdalessandro,[],True,0,0.0033333333333333335,False
 452,feat: support variant type for complex/nested entities,closed,2025-11-18 16:48:27+00:00,2025-11-19 10:03:18+00:00,2025-11-19 10:03:16+00:00,2025-11-19 10:03:16+00:00,aviv-julienjehannet,['snowflake'],True,0,17.246944444444445,False
 451,feat: update Typescript SDK based on new architecture,closed,2025-11-18 15:53:54+00:00,2025-11-20 08:55:45+00:00,2025-11-20 08:55:45+00:00,,aviv-bertrandmoundounga,['SDK'],False,0,,False
-450,chore(deps): bump the npm_and_yarn group across 1 directory with 1 update,open,2025-11-18 15:34:14+00:00,2025-11-28 22:11:36+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
+450,chore(deps): bump the npm_and_yarn group across 1 directory with 1 update,open,2025-11-18 15:34:14+00:00,2025-12-01 15:34:15+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
 449,chore: remove unused Aviv CodeArtifact package source from NuGet.config,closed,2025-11-18 14:28:22+00:00,2025-11-18 14:56:45+00:00,2025-11-18 14:56:43+00:00,2025-11-18 14:56:43+00:00,sl-fredericdalessandro,[],True,0,0.4725,False
 448,chore: revert ts build,closed,2025-11-18 14:07:21+00:00,2025-11-18 14:11:07+00:00,2025-11-18 14:11:06+00:00,2025-11-18 14:11:06+00:00,sl-fredericdalessandro,[],True,0,0.0625,False
 447,feat: re-introduce SNOWFLAKE_INGESTION_TS,closed,2025-11-18 12:59:45+00:00,2025-11-18 15:09:21+00:00,2025-11-18 15:09:19+00:00,2025-11-18 15:09:19+00:00,aviv-julienjehannet,['snowflake'],True,1,2.1594444444444445,False
@@ -71,7 +74,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 423,feat: DATAPLT-339 - Create SDK spec version in java,closed,2025-11-04 17:52:27+00:00,2025-11-06 10:30:20+00:00,2025-11-06 10:30:18+00:00,2025-11-06 10:30:18+00:00,sl-fredericdalessandro,['SDK'],True,0,40.630833333333335,False
 422,feat: add new fields housing classified,closed,2025-11-03 19:49:50+00:00,2025-11-26 09:21:28+00:00,2025-11-26 09:21:26+00:00,2025-11-26 09:21:26+00:00,Laitbelhoussein,"['data-contract', 'outdated']",True,1,541.5266666666666,True
 421,"feat(snowflake): find a better file hierarchy by supporting environement (dev, live)",closed,2025-11-03 16:43:08+00:00,2025-11-04 14:10:03+00:00,2025-11-04 14:10:01+00:00,2025-11-04 14:10:01+00:00,aviv-julienjehannet,[],True,0,21.448055555555555,False
-420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),open,2025-11-03 16:10:51+00:00,2025-11-28 18:37:56+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
+420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),open,2025-11-03 16:10:51+00:00,2025-12-01 15:47:42+00:00,,,sl-fredericdalessandro,['SDK'],False,0,,False
 419,feat: deploy Properbird contracts to Live,closed,2025-11-03 10:00:53+00:00,2025-11-03 10:15:37+00:00,2025-11-03 10:15:35+00:00,2025-11-03 10:15:35+00:00,sl-nicolasmoteley,['data-contract'],True,0,0.245,True
 418,fix: no need for pull,closed,2025-10-31 16:18:29+00:00,2025-10-31 16:18:41+00:00,2025-10-31 16:18:40+00:00,2025-10-31 16:18:40+00:00,aviv-julienjehannet,[],True,0,0.0030555555555555557,False
 417,feat: move common settings into aviv.data.platform module,closed,2025-10-31 15:48:58+00:00,2025-10-31 15:50:22+00:00,2025-10-31 15:50:20+00:00,2025-10-31 15:50:20+00:00,aviv-julienjehannet,[],True,0,0.02277777777777778,False
