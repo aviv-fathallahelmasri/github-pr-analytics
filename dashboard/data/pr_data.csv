@@ -1,5 +1,5 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-530,feat: integrate snowflake contracts in aws glue registry,open,2025-12-12 14:46:43+00:00,2025-12-12 15:34:29+00:00,,,aviv-julienjehannet,"['do_not_merge', 'governance', 'infrastructure']",False,0,,False
+530,feat: integrate snowflake contracts in aws glue registry,open,2025-12-12 14:46:43+00:00,2025-12-12 16:27:53+00:00,,,aviv-julienjehannet,"['do_not_merge', 'governance', 'infrastructure']",False,0,,False
 529,feat: MO-2496 - Add 2 new sortType values,open,2025-12-12 11:03:58+00:00,2025-12-12 15:34:54+00:00,,,gsl-mohamedsoueid,[],False,1,,False
 528,feat: MO-2496 - Add 2 new sortType,closed,2025-12-12 10:37:36+00:00,2025-12-12 11:01:58+00:00,2025-12-12 10:41:38+00:00,,gsl-mohamedsoueid,[],False,0,,False
 527,feat: add  project_is_active field,closed,2025-12-11 15:11:17+00:00,2025-12-11 16:10:26+00:00,2025-12-11 16:10:23+00:00,2025-12-11 16:10:23+00:00,sl-nicolasmoteley,[],True,0,0.985,False
@@ -109,7 +109,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 423,feat: DATAPLT-339 - Create SDK spec version in java,closed,2025-11-04 17:52:27+00:00,2025-11-06 10:30:20+00:00,2025-11-06 10:30:18+00:00,2025-11-06 10:30:18+00:00,sl-fredericdalessandro,['SDK'],True,0,40.630833333333335,False
 422,feat: add new fields housing classified,closed,2025-11-03 19:49:50+00:00,2025-11-26 09:21:28+00:00,2025-11-26 09:21:26+00:00,2025-11-26 09:21:26+00:00,Laitbelhoussein,"['data-contract', 'outdated']",True,1,541.5266666666666,True
 421,"feat(snowflake): find a better file hierarchy by supporting environement (dev, live)",closed,2025-11-03 16:43:08+00:00,2025-11-04 14:10:03+00:00,2025-11-04 14:10:01+00:00,2025-11-04 14:10:01+00:00,aviv-julienjehannet,[],True,0,21.448055555555555,False
-420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),open,2025-11-03 16:10:51+00:00,2025-12-12 15:29:18+00:00,,,sl-fredericdalessandro,['SDK'],False,7,,False
+420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),open,2025-11-03 16:10:51+00:00,2025-12-12 18:51:11+00:00,,,sl-fredericdalessandro,['SDK'],False,7,,False
 419,feat: deploy Properbird contracts to Live,closed,2025-11-03 10:00:53+00:00,2025-11-03 10:15:37+00:00,2025-11-03 10:15:35+00:00,2025-11-03 10:15:35+00:00,sl-nicolasmoteley,['data-contract'],True,0,0.245,True
 418,fix: no need for pull,closed,2025-10-31 16:18:29+00:00,2025-10-31 16:18:41+00:00,2025-10-31 16:18:40+00:00,2025-10-31 16:18:40+00:00,aviv-julienjehannet,[],True,0,0.0030555555555555557,False
 417,feat: move common settings into aviv.data.platform module,closed,2025-10-31 15:48:58+00:00,2025-10-31 15:50:22+00:00,2025-10-31 15:50:20+00:00,2025-10-31 15:50:20+00:00,aviv-julienjehannet,[],True,0,0.02277777777777778,False
