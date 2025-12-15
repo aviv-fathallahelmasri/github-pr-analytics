@@ -1,11 +1,14 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-530,feat: integrate snowflake contracts in aws glue registry,open,2025-12-12 14:46:43+00:00,2025-12-12 16:27:53+00:00,,,aviv-julienjehannet,"['do_not_merge', 'governance', 'infrastructure']",False,0,,False
-529,feat: MO-2496 - Add 2 new sortType values,open,2025-12-12 11:03:58+00:00,2025-12-12 15:34:54+00:00,,,gsl-mohamedsoueid,[],False,1,,False
+533,chore(deps): bump setuptools from 69.5.1 to 78.1.1 in /contribs/aviv_data_platform_python_sdk in the pip group across 1 directory,closed,2025-12-15 12:55:53+00:00,2025-12-15 14:34:33+00:00,2025-12-15 14:34:31+00:00,,dependabot[bot],"['dependencies', 'python', 'SDK']",False,0,,False
+532,feat(contract): support Bytes data types,closed,2025-12-15 11:26:49+00:00,2025-12-15 11:29:31+00:00,2025-12-15 11:29:29+00:00,2025-12-15 11:29:28+00:00,aviv-julienjehannet,[],True,0,0.04416666666666667,False
+531,feat: add dummy batch and stream classes for integration tests,open,2025-12-15 09:42:54+00:00,2025-12-15 15:42:10+00:00,,,aviv-bertrandmoundounga,"['python', 'SDK']",False,2,,False
+530,feat: integrate snowflake contracts in aws glue registry,open,2025-12-12 14:46:43+00:00,2025-12-15 14:18:59+00:00,,,aviv-julienjehannet,"['governance', 'infrastructure']",False,0,,False
+529,feat: MO-2496 - Add 2 new sortType values,closed,2025-12-12 11:03:58+00:00,2025-12-15 10:42:38+00:00,2025-12-15 10:42:36+00:00,2025-12-15 10:42:36+00:00,gsl-mohamedsoueid,[],True,1,71.6438888888889,False
 528,feat: MO-2496 - Add 2 new sortType,closed,2025-12-12 10:37:36+00:00,2025-12-12 11:01:58+00:00,2025-12-12 10:41:38+00:00,,gsl-mohamedsoueid,[],False,0,,False
 527,feat: add  project_is_active field,closed,2025-12-11 15:11:17+00:00,2025-12-11 16:10:26+00:00,2025-12-11 16:10:23+00:00,2025-12-11 16:10:23+00:00,sl-nicolasmoteley,[],True,0,0.985,False
 526,feat(tpContracts): make geoId optional,open,2025-12-11 14:25:43+00:00,2025-12-12 10:00:38+00:00,,,mpavic32,['data-contract'],False,0,,True
 525,fix(HODC): Update ingestion configuration and class phase for RawLast…,closed,2025-12-11 14:17:01+00:00,2025-12-11 14:53:01+00:00,2025-12-11 14:53:00+00:00,2025-12-11 14:53:00+00:00,aviv-hamzaeljaoui,[],True,2,0.5997222222222223,False
-524,feat: update QualityScore details,open,2025-12-11 11:28:12+00:00,2025-12-12 12:16:43+00:00,,,aviv-kimkocet,['data-contract'],False,5,,True
+524,feat: update QualityScore details,open,2025-12-11 11:28:12+00:00,2025-12-15 08:39:03+00:00,,,aviv-kimkocet,['data-contract'],False,5,,True
 523,feat: manage glue registries,closed,2025-12-11 09:39:25+00:00,2025-12-12 09:19:23+00:00,2025-12-12 09:19:22+00:00,2025-12-12 09:19:22+00:00,aviv-julienjehannet,['infrastructure'],True,0,23.66583333333333,False
 522,feat: MO-2496 - Add 2 new sortType for NewBuilds,closed,2025-12-10 15:57:33+00:00,2025-12-11 12:07:52+00:00,2025-12-11 12:07:50+00:00,2025-12-11 12:07:50+00:00,gsl-mohamedsoueid,[],True,0,20.171388888888888,False
 521,"feat: add contact ""salutation""",closed,2025-12-10 15:22:00+00:00,2025-12-10 15:39:15+00:00,2025-12-10 15:39:12+00:00,2025-12-10 15:39:12+00:00,sl-nicolasmoteley,[],True,0,0.2866666666666667,False
@@ -79,7 +82,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 453,feat: remove SNOWFLAKE_METADATA column from Snowflake schema,closed,2025-11-19 10:41:07+00:00,2025-11-19 10:41:22+00:00,2025-11-19 10:41:19+00:00,2025-11-19 10:41:19+00:00,sl-fredericdalessandro,[],True,0,0.0033333333333333335,False
 452,feat: support variant type for complex/nested entities,closed,2025-11-18 16:48:27+00:00,2025-11-19 10:03:18+00:00,2025-11-19 10:03:16+00:00,2025-11-19 10:03:16+00:00,aviv-julienjehannet,['snowflake'],True,0,17.246944444444445,False
 451,feat: update Typescript SDK based on new architecture,closed,2025-11-18 15:53:54+00:00,2025-11-20 08:55:45+00:00,2025-11-20 08:55:45+00:00,,aviv-bertrandmoundounga,['SDK'],False,0,,False
-450,chore(deps): bump the npm_and_yarn group across 1 directory with 1 update,open,2025-11-18 15:34:14+00:00,2025-12-11 16:43:16+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
+450,chore(deps): bump the npm_and_yarn group across 1 directory with 1 update,open,2025-11-18 15:34:14+00:00,2025-12-15 14:35:35+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
 449,chore: remove unused Aviv CodeArtifact package source from NuGet.config,closed,2025-11-18 14:28:22+00:00,2025-11-18 14:56:45+00:00,2025-11-18 14:56:43+00:00,2025-11-18 14:56:43+00:00,sl-fredericdalessandro,[],True,0,0.4725,False
 448,chore: revert ts build,closed,2025-11-18 14:07:21+00:00,2025-11-18 14:11:07+00:00,2025-11-18 14:11:06+00:00,2025-11-18 14:11:06+00:00,sl-fredericdalessandro,[],True,0,0.0625,False
 447,feat: re-introduce SNOWFLAKE_INGESTION_TS,closed,2025-11-18 12:59:45+00:00,2025-11-18 15:09:21+00:00,2025-11-18 15:09:19+00:00,2025-11-18 15:09:19+00:00,aviv-julienjehannet,['snowflake'],True,1,2.1594444444444445,False
@@ -109,7 +112,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 423,feat: DATAPLT-339 - Create SDK spec version in java,closed,2025-11-04 17:52:27+00:00,2025-11-06 10:30:20+00:00,2025-11-06 10:30:18+00:00,2025-11-06 10:30:18+00:00,sl-fredericdalessandro,['SDK'],True,0,40.630833333333335,False
 422,feat: add new fields housing classified,closed,2025-11-03 19:49:50+00:00,2025-11-26 09:21:28+00:00,2025-11-26 09:21:26+00:00,2025-11-26 09:21:26+00:00,Laitbelhoussein,"['data-contract', 'outdated']",True,1,541.5266666666666,True
 421,"feat(snowflake): find a better file hierarchy by supporting environement (dev, live)",closed,2025-11-03 16:43:08+00:00,2025-11-04 14:10:03+00:00,2025-11-04 14:10:01+00:00,2025-11-04 14:10:01+00:00,aviv-julienjehannet,[],True,0,21.448055555555555,False
-420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),open,2025-11-03 16:10:51+00:00,2025-12-12 18:51:11+00:00,,,sl-fredericdalessandro,['SDK'],False,7,,False
+420,feat: DATAPLT-333 add glue save method in python sdk (with avro contract validation),closed,2025-11-03 16:10:51+00:00,2025-12-15 12:53:10+00:00,2025-12-15 12:53:07+00:00,2025-12-15 12:53:07+00:00,sl-fredericdalessandro,['SDK'],True,7,1004.7044444444444,False
 419,feat: deploy Properbird contracts to Live,closed,2025-11-03 10:00:53+00:00,2025-11-03 10:15:37+00:00,2025-11-03 10:15:35+00:00,2025-11-03 10:15:35+00:00,sl-nicolasmoteley,['data-contract'],True,0,0.245,True
 418,fix: no need for pull,closed,2025-10-31 16:18:29+00:00,2025-10-31 16:18:41+00:00,2025-10-31 16:18:40+00:00,2025-10-31 16:18:40+00:00,aviv-julienjehannet,[],True,0,0.0030555555555555557,False
 417,feat: move common settings into aviv.data.platform module,closed,2025-10-31 15:48:58+00:00,2025-10-31 15:50:22+00:00,2025-10-31 15:50:20+00:00,2025-10-31 15:50:20+00:00,aviv-julienjehannet,[],True,0,0.02277777777777778,False
