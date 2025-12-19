@@ -1,4 +1,5 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+547,feat: add arn for quality score,open,2025-12-19 09:48:49+00:00,2025-12-19 09:56:29+00:00,,,aviv-marcjonot,[],False,0,,False
 546,feat: MO-2527 add new external portals for signifi,closed,2025-12-18 14:20:21+00:00,2025-12-18 14:37:25+00:00,2025-12-18 14:37:24+00:00,2025-12-18 14:37:24+00:00,aviv-jonyroy,[],True,0,0.2841666666666667,False
 545,feat: Add dummy batch and stream contracts for testing purposes,closed,2025-12-17 16:37:40+00:00,2025-12-18 10:22:58+00:00,2025-12-18 10:22:56+00:00,2025-12-18 10:22:56+00:00,aviv-bertrandmoundounga,[],True,0,17.754444444444445,False
 544,feat: prepare snowflake_schema.tfvars.json,open,2025-12-17 16:15:02+00:00,2025-12-18 13:48:10+00:00,,,aviv-julienjehannet,[],False,0,,False
@@ -14,7 +15,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 534,feat: synchronize site content to s3 (DATAPLT-367),closed,2025-12-16 10:04:46+00:00,2025-12-16 11:00:15+00:00,2025-12-16 11:00:13+00:00,2025-12-16 11:00:13+00:00,aviv-julienjehannet,"['documentation', 'infrastructure']",True,0,0.9241666666666667,False
 533,chore(deps): bump setuptools from 69.5.1 to 78.1.1 in /contribs/aviv_data_platform_python_sdk in the pip group across 1 directory,closed,2025-12-15 12:55:53+00:00,2025-12-15 14:34:33+00:00,2025-12-15 14:34:31+00:00,,dependabot[bot],"['dependencies', 'python', 'SDK']",False,0,,False
 532,feat(contract): support Bytes data types,closed,2025-12-15 11:26:49+00:00,2025-12-15 11:29:31+00:00,2025-12-15 11:29:29+00:00,2025-12-15 11:29:28+00:00,aviv-julienjehannet,[],True,0,0.04416666666666667,False
-531,DATAPLT-359 - ADD test contracts for python SDK to make complete integration tests,open,2025-12-15 09:42:54+00:00,2025-12-18 15:40:47+00:00,,,aviv-bertrandmoundounga,"['python', 'SDK']",False,2,,False
+531,DATAPLT-359 - ADD test contracts for python SDK to make complete integration tests,open,2025-12-15 09:42:54+00:00,2025-12-19 09:42:36+00:00,,,aviv-bertrandmoundounga,"['python', 'SDK']",False,2,,False
 530,feat: integrate snowflake contracts in aws glue registry,closed,2025-12-12 14:46:43+00:00,2025-12-16 09:27:47+00:00,2025-12-16 09:27:45+00:00,2025-12-16 09:27:45+00:00,aviv-julienjehannet,"['governance', 'infrastructure']",True,0,90.68388888888889,False
 529,feat: MO-2496 - Add 2 new sortType values,closed,2025-12-12 11:03:58+00:00,2025-12-15 10:42:38+00:00,2025-12-15 10:42:36+00:00,2025-12-15 10:42:36+00:00,gsl-mohamedsoueid,[],True,1,71.6438888888889,False
 528,feat: MO-2496 - Add 2 new sortType,closed,2025-12-12 10:37:36+00:00,2025-12-12 11:01:58+00:00,2025-12-12 10:41:38+00:00,,gsl-mohamedsoueid,[],False,0,,False
