@@ -1,4 +1,5 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+555,fix: update template path in poe create command,open,2025-12-31 13:29:23+00:00,2025-12-31 13:48:12+00:00,,,aviv-fathallahelmasri,[],False,0,,False
 554,fix: Updating IAM role to push the data to snowflake,closed,2025-12-29 09:05:01+00:00,2025-12-29 09:20:54+00:00,2025-12-29 09:20:52+00:00,2025-12-29 09:20:52+00:00,florianhyseni-aviv,[],True,0,0.26416666666666666,False
 553,contract: support amazon_pay payment method,closed,2025-12-24 09:26:14+00:00,2025-12-30 10:54:29+00:00,2025-12-30 10:54:28+00:00,2025-12-30 10:54:28+00:00,aviv-ilijavidovic,[],True,0,145.47055555555556,False
 552,feat: support amazon_pay payment method,closed,2025-12-24 09:23:36+00:00,2025-12-24 09:26:19+00:00,2025-12-24 09:26:19+00:00,,aviv-ilijavidovic,[],False,0,,False
@@ -27,9 +28,9 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 529,feat: MO-2496 - Add 2 new sortType values,closed,2025-12-12 11:03:58+00:00,2025-12-15 10:42:38+00:00,2025-12-15 10:42:36+00:00,2025-12-15 10:42:36+00:00,gsl-mohamedsoueid,[],True,1,71.6438888888889,False
 528,feat: MO-2496 - Add 2 new sortType,closed,2025-12-12 10:37:36+00:00,2025-12-12 11:01:58+00:00,2025-12-12 10:41:38+00:00,,gsl-mohamedsoueid,[],False,0,,False
 527,feat: add  project_is_active field,closed,2025-12-11 15:11:17+00:00,2025-12-11 16:10:26+00:00,2025-12-11 16:10:23+00:00,2025-12-11 16:10:23+00:00,sl-nicolasmoteley,[],True,0,0.985,False
-526,feat(tpContracts): make geoId optional,open,2025-12-11 14:25:43+00:00,2025-12-24 06:56:19+00:00,,,mpavic32,"['data-contract', 'outdated']",False,0,,True
+526,feat(tpContracts): make geoId optional,closed,2025-12-11 14:25:43+00:00,2025-12-31 06:56:31+00:00,2025-12-31 06:56:31+00:00,,mpavic32,"['data-contract', 'outdated']",False,0,,True
 525,fix(HODC): Update ingestion configuration and class phase for RawLast…,closed,2025-12-11 14:17:01+00:00,2025-12-11 14:53:01+00:00,2025-12-11 14:53:00+00:00,2025-12-11 14:53:00+00:00,aviv-hamzaeljaoui,[],True,2,0.5997222222222223,False
-524,feat: update QualityScore details,open,2025-12-11 11:28:12+00:00,2025-12-24 06:56:21+00:00,,,aviv-kimkocet,"['data-contract', 'outdated']",False,5,,True
+524,feat: update QualityScore details,closed,2025-12-11 11:28:12+00:00,2025-12-31 06:56:33+00:00,2025-12-31 06:56:33+00:00,,aviv-kimkocet,"['data-contract', 'outdated']",False,5,,True
 523,feat: manage glue registries,closed,2025-12-11 09:39:25+00:00,2025-12-12 09:19:23+00:00,2025-12-12 09:19:22+00:00,2025-12-12 09:19:22+00:00,aviv-julienjehannet,['infrastructure'],True,0,23.66583333333333,False
 522,feat: MO-2496 - Add 2 new sortType for NewBuilds,closed,2025-12-10 15:57:33+00:00,2025-12-11 12:07:52+00:00,2025-12-11 12:07:50+00:00,2025-12-11 12:07:50+00:00,gsl-mohamedsoueid,[],True,0,20.171388888888888,False
 521,"feat: add contact ""salutation""",closed,2025-12-10 15:22:00+00:00,2025-12-10 15:39:15+00:00,2025-12-10 15:39:12+00:00,2025-12-10 15:39:12+00:00,sl-nicolasmoteley,[],True,0,0.2866666666666667,False
