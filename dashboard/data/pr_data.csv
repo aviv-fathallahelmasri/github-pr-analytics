@@ -7,7 +7,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 550,Redeploy MKKN contracts,closed,2025-12-23 10:05:38+00:00,2025-12-23 10:19:02+00:00,2025-12-23 10:19:00+00:00,2025-12-23 10:19:00+00:00,sl-davidbernuau,[],True,0,0.22277777777777777,False
 549,Feat/integration tests ts sdk,open,2025-12-22 15:21:41+00:00,2025-12-22 15:21:41+00:00,,,aviv-bertrandmoundounga,[],False,0,,False
 548,chore(deps): bump setuptools from 69.5.1 to 78.1.1 in /contribs/aviv_data_platform_python_sdk in the pip group across 1 directory,closed,2025-12-22 10:40:09+00:00,2025-12-22 14:59:12+00:00,2025-12-22 14:59:10+00:00,,dependabot[bot],"['dependencies', 'python']",False,0,,False
-547,feat: add arn for quality score,open,2025-12-19 09:48:49+00:00,2025-12-19 09:56:29+00:00,,,aviv-marcjonot,[],False,0,,False
+547,feat: add arn for quality score,open,2025-12-19 09:48:49+00:00,2026-01-02 13:31:16+00:00,,,aviv-marcjonot,[],False,0,,False
 546,feat: MO-2527 add new external portals for signifi,closed,2025-12-18 14:20:21+00:00,2025-12-18 14:37:25+00:00,2025-12-18 14:37:24+00:00,2025-12-18 14:37:24+00:00,aviv-jonyroy,[],True,0,0.2841666666666667,False
 545,feat: Add dummy batch and stream contracts for testing purposes,closed,2025-12-17 16:37:40+00:00,2025-12-18 10:22:58+00:00,2025-12-18 10:22:56+00:00,2025-12-18 10:22:56+00:00,aviv-bertrandmoundounga,[],True,0,17.754444444444445,False
 544,feat: prepare snowflake_schema.tfvars.json,open,2025-12-17 16:15:02+00:00,2025-12-18 13:48:10+00:00,,,aviv-julienjehannet,[],False,0,,False
