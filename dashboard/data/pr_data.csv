@@ -1,14 +1,17 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-556,feat: MO-2540 - add a new place for App modal NB,closed,2026-01-05 11:44:26+00:00,2026-01-05 15:12:31+00:00,2026-01-05 15:12:29+00:00,2026-01-05 15:12:29+00:00,gsl-mohamedsoueid,['data-contract'],True,0,3.4675,True
+559,fix(snowflake): handle specific case when optional literal annotation…,closed,2026-01-06 11:03:51+00:00,2026-01-06 11:18:18+00:00,2026-01-06 11:18:17+00:00,2026-01-06 11:18:17+00:00,aviv-julienjehannet,['bug'],True,0,0.24055555555555555,False
+558,Contract/upgrade avis data contract,open,2026-01-06 08:20:41+00:00,2026-01-06 13:48:31+00:00,,,nherbin-ma,[],False,0,,False
+557,chore(deps): bump the pip group across 1 directory with 2 updates,closed,2026-01-05 16:10:49+00:00,2026-01-05 16:31:24+00:00,2026-01-05 16:31:22+00:00,,dependabot[bot],"['dependencies', 'python']",False,0,,False
+556,feat: MO-2540 - add a new place for App modal NB,closed,2026-01-05 11:44:26+00:00,2026-01-05 22:24:00+00:00,2026-01-05 15:12:29+00:00,2026-01-05 15:12:29+00:00,gsl-mohamedsoueid,['data-contract'],True,0,3.4675,True
 555,fix: update template path in poe create command,open,2025-12-31 13:29:23+00:00,2026-01-05 10:09:24+00:00,,,aviv-fathallahelmasri,"['bug', 'enhancement']",False,0,,False
 554,fix: Updating IAM role to push the data to snowflake,closed,2025-12-29 09:05:01+00:00,2025-12-29 09:20:54+00:00,2025-12-29 09:20:52+00:00,2025-12-29 09:20:52+00:00,florianhyseni-aviv,[],True,0,0.26416666666666666,False
 553,contract: support amazon_pay payment method,closed,2025-12-24 09:26:14+00:00,2025-12-30 10:54:29+00:00,2025-12-30 10:54:28+00:00,2025-12-30 10:54:28+00:00,aviv-ilijavidovic,[],True,0,145.47055555555556,False
 552,feat: support amazon_pay payment method,closed,2025-12-24 09:23:36+00:00,2025-12-24 09:26:19+00:00,2025-12-24 09:26:19+00:00,,aviv-ilijavidovic,[],False,0,,False
-551,feat: Enhance integration tests with Snowflake validation and new fixtures,open,2025-12-23 11:12:36+00:00,2026-01-05 15:36:59+00:00,,,aviv-bertrandmoundounga,['SDK'],False,0,,False
+551,feat: Enhance integration tests with Snowflake validation and new fixtures,closed,2025-12-23 11:12:36+00:00,2026-01-05 16:07:35+00:00,2026-01-05 16:07:34+00:00,2026-01-05 16:07:33+00:00,aviv-bertrandmoundounga,['SDK'],True,0,316.91583333333335,False
 550,Redeploy MKKN contracts,closed,2025-12-23 10:05:38+00:00,2025-12-23 10:19:02+00:00,2025-12-23 10:19:00+00:00,2025-12-23 10:19:00+00:00,sl-davidbernuau,[],True,0,0.22277777777777777,False
-549,Feat/integration tests ts sdk,open,2025-12-22 15:21:41+00:00,2026-01-05 10:08:49+00:00,,,aviv-bertrandmoundounga,['SDK'],False,0,,False
+549,Feat/integration tests ts sdk,open,2025-12-22 15:21:41+00:00,2026-01-06 08:44:55+00:00,,,aviv-bertrandmoundounga,"['SDK', 'typescript']",False,0,,False
 548,chore(deps): bump setuptools from 69.5.1 to 78.1.1 in /contribs/aviv_data_platform_python_sdk in the pip group across 1 directory,closed,2025-12-22 10:40:09+00:00,2025-12-22 14:59:12+00:00,2025-12-22 14:59:10+00:00,,dependabot[bot],"['dependencies', 'python']",False,0,,False
-547,feat: add arn for quality score,open,2025-12-19 09:48:49+00:00,2026-01-05 10:15:10+00:00,,,aviv-marcjonot,['data-contract'],False,0,,True
+547,feat: add arn for quality score,open,2025-12-19 09:48:49+00:00,2026-01-06 10:08:59+00:00,,,aviv-marcjonot,['data-contract'],False,0,,True
 546,feat: MO-2527 add new external portals for signifi,closed,2025-12-18 14:20:21+00:00,2025-12-18 14:37:25+00:00,2025-12-18 14:37:24+00:00,2025-12-18 14:37:24+00:00,aviv-jonyroy,[],True,0,0.2841666666666667,False
 545,feat: Add dummy batch and stream contracts for testing purposes,closed,2025-12-17 16:37:40+00:00,2025-12-18 10:22:58+00:00,2025-12-18 10:22:56+00:00,2025-12-18 10:22:56+00:00,aviv-bertrandmoundounga,[],True,0,17.754444444444445,False
 544,feat: prepare snowflake_schema.tfvars.json,open,2025-12-17 16:15:02+00:00,2026-01-05 10:14:50+00:00,,,aviv-julienjehannet,"['bug', 'do_not_merge', 'infrastructure']",False,0,,False
