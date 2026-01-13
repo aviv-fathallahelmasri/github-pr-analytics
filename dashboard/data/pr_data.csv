@@ -1,15 +1,18 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-568,feat: set snowflake default template for poe create command,open,2026-01-12 15:13:15+00:00,2026-01-12 15:41:02+00:00,,,aviv-julienjehannet,"['documentation', 'python']",False,0,,False
+571,FEAT: add integration tests for batch and streaming processes in C# SDK,open,2026-01-13 14:14:01+00:00,2026-01-13 14:15:21+00:00,,,aviv-bertrandmoundounga,"['SDK', 'csharp']",False,0,,False
+570,feat: [TITAN-1971] change phase to production,closed,2026-01-13 10:56:58+00:00,2026-01-13 11:23:59+00:00,2026-01-13 11:23:54+00:00,2026-01-13 11:23:54+00:00,aviv-michalkawczak,['data-contract'],True,0,0.4488888888888889,True
+569,feat(rulesbook): create SFK000 for deprecation warnings,open,2026-01-13 10:48:44+00:00,2026-01-13 10:50:33+00:00,,,aviv-julienjehannet,"['documentation', 'governance']",False,0,,False
+568,feat: set snowflake default template for poe create command,open,2026-01-12 15:13:15+00:00,2026-01-13 14:47:23+00:00,,,aviv-julienjehannet,"['documentation', 'python']",False,0,,False
 567,fix: avoid empty PR in remote repository,closed,2026-01-12 14:14:22+00:00,2026-01-12 15:02:21+00:00,2026-01-12 15:02:20+00:00,2026-01-12 15:02:20+00:00,aviv-julienjehannet,['infrastructure'],True,0,0.7994444444444444,False
-566,feat: Make phase mandatory to simplify workflow,open,2026-01-12 11:10:43+00:00,2026-01-12 15:05:56+00:00,,,aviv-julienjehannet,['governance'],False,0,,False
-565,feat: [TITAN-1971] Call Tracking call intention contract,open,2026-01-12 10:54:11+00:00,2026-01-12 14:52:48+00:00,,,aviv-michalkawczak,['data-contract'],False,0,,True
+566,feat: Make phase mandatory to simplify workflow,closed,2026-01-12 11:10:43+00:00,2026-01-13 11:05:51+00:00,2026-01-13 11:05:49+00:00,2026-01-13 11:05:49+00:00,aviv-julienjehannet,['governance'],True,0,23.918333333333333,False
+565,feat: [TITAN-1971] Call Tracking call intention contract,closed,2026-01-12 10:54:11+00:00,2026-01-13 10:38:15+00:00,2026-01-13 10:38:14+00:00,2026-01-13 10:38:14+00:00,aviv-michalkawczak,['data-contract'],True,0,23.734166666666667,True
 564,chore(deps): bump the pip group across 1 directory with 2 updates,closed,2026-01-12 09:18:15+00:00,2026-01-12 10:21:20+00:00,2026-01-12 10:21:18+00:00,,dependabot[bot],"['dependencies', 'python']",False,0,,False
-563,docs(clsa): update codelist metadata,open,2026-01-09 13:32:21+00:00,2026-01-12 14:51:42+00:00,,,aviv-julienjehannet,['data-model'],False,0,,False
+563,docs(clsa): update codelist metadata,open,2026-01-09 13:32:21+00:00,2026-01-13 10:13:55+00:00,,,aviv-julienjehannet,"['documentation', 'do_not_merge', 'data-model']",False,0,,False
 562,feat(codelist): allow Field in CodeList definition,closed,2026-01-09 09:49:22+00:00,2026-01-09 09:50:06+00:00,2026-01-09 09:50:04+00:00,2026-01-09 09:50:04+00:00,aviv-julienjehannet,[],True,0,0.011666666666666667,False
 561,New data contract(s): contract/BUSA/DATAPLT-1233,closed,2026-01-08 10:55:19+00:00,2026-01-08 11:00:22+00:00,2026-01-08 11:00:21+00:00,,aviv-julienjehannet,['data-contract'],False,0,,True
 560,fix: adding more values to Literal for transcation_type and item_type,closed,2026-01-06 17:23:36+00:00,2026-01-08 14:50:54+00:00,2026-01-08 14:50:52+00:00,2026-01-08 14:50:52+00:00,florianhyseni-aviv,"['data-contract', 'integration over compliance']",True,3,45.45444444444445,True
 559,fix(snowflake): handle specific case when optional literal annotation…,closed,2026-01-06 11:03:51+00:00,2026-01-06 11:18:18+00:00,2026-01-06 11:18:17+00:00,2026-01-06 11:18:17+00:00,aviv-julienjehannet,['bug'],True,0,0.24055555555555555,False
-558,Contract/upgrade avis data contract,open,2026-01-06 08:20:41+00:00,2026-01-12 15:04:12+00:00,,,nherbin-ma,['data-contract'],False,12,,True
+558,Contract/upgrade avis data contract,open,2026-01-06 08:20:41+00:00,2026-01-13 15:05:07+00:00,,,nherbin-ma,['data-contract'],False,12,,True
 557,chore(deps): bump the pip group across 1 directory with 2 updates,closed,2026-01-05 16:10:49+00:00,2026-01-05 16:31:24+00:00,2026-01-05 16:31:22+00:00,,dependabot[bot],"['dependencies', 'python']",False,0,,False
 556,feat: MO-2540 - add a new place for App modal NB,closed,2026-01-05 11:44:26+00:00,2026-01-05 22:24:00+00:00,2026-01-05 15:12:29+00:00,2026-01-05 15:12:29+00:00,gsl-mohamedsoueid,['data-contract'],True,0,3.4675,True
 555,fix: update template path in poe create command,closed,2025-12-31 13:29:23+00:00,2026-01-08 10:48:20+00:00,2026-01-08 10:48:18+00:00,2026-01-08 10:48:17+00:00,aviv-fathallahelmasri,"['bug', 'enhancement']",True,0,189.315,False
@@ -117,7 +120,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 453,feat: remove SNOWFLAKE_METADATA column from Snowflake schema,closed,2025-11-19 10:41:07+00:00,2025-11-19 10:41:22+00:00,2025-11-19 10:41:19+00:00,2025-11-19 10:41:19+00:00,sl-fredericdalessandro,[],True,0,0.0033333333333333335,False
 452,feat: support variant type for complex/nested entities,closed,2025-11-18 16:48:27+00:00,2025-11-19 10:03:18+00:00,2025-11-19 10:03:16+00:00,2025-11-19 10:03:16+00:00,aviv-julienjehannet,['snowflake'],True,0,17.246944444444445,False
 451,feat: update Typescript SDK based on new architecture,closed,2025-11-18 15:53:54+00:00,2025-11-20 08:55:45+00:00,2025-11-20 08:55:45+00:00,,aviv-bertrandmoundounga,['SDK'],False,0,,False
-450,chore(deps): bump the npm_and_yarn group across 1 directory with 1 update,open,2025-11-18 15:34:14+00:00,2025-12-18 15:46:15+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
+450,chore(deps): bump the npm_and_yarn group across 1 directory with 1 update,closed,2025-11-18 15:34:14+00:00,2026-01-13 14:45:53+00:00,2026-01-13 14:45:43+00:00,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
 449,chore: remove unused Aviv CodeArtifact package source from NuGet.config,closed,2025-11-18 14:28:22+00:00,2025-11-18 14:56:45+00:00,2025-11-18 14:56:43+00:00,2025-11-18 14:56:43+00:00,sl-fredericdalessandro,[],True,0,0.4725,False
 448,chore: revert ts build,closed,2025-11-18 14:07:21+00:00,2025-11-18 14:11:07+00:00,2025-11-18 14:11:06+00:00,2025-11-18 14:11:06+00:00,sl-fredericdalessandro,[],True,0,0.0625,False
 447,feat: re-introduce SNOWFLAKE_INGESTION_TS,closed,2025-11-18 12:59:45+00:00,2025-11-18 15:09:21+00:00,2025-11-18 15:09:19+00:00,2025-11-18 15:09:19+00:00,aviv-julienjehannet,['snowflake'],True,1,2.1594444444444445,False
