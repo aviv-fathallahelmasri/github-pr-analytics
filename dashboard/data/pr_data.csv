@@ -1,5 +1,5 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-595,fix(rules): use the star-import statement to import python stdlib symbols [HINT002],open,2026-01-23 17:02:04+00:00,2026-01-23 17:47:20+00:00,,,aviv-julienjehannet,"['enhancement', 'do_not_merge', 'governance']",False,0,,False
+595,fix(rules): use the star-import statement to import python stdlib symbols [HINT002],open,2026-01-23 17:02:04+00:00,2026-01-24 19:52:44+00:00,,,aviv-julienjehannet,"['enhancement', 'do_not_merge', 'governance']",False,0,,False
 594,fix: hide potential user error for missing/empty description,closed,2026-01-23 16:08:21+00:00,2026-01-23 16:08:45+00:00,2026-01-23 16:08:43+00:00,2026-01-23 16:08:43+00:00,aviv-julienjehannet,"['bug', 'python', 'governance']",True,0,0.006111111111111111,False
 593,fix(rules): add missing case example file check in DCL003,open,2026-01-23 14:46:46+00:00,2026-01-23 14:59:18+00:00,,,aviv-julienjehannet,"['enhancement', 'do_not_merge', 'governance']",False,0,,False
 592,feat: improve integration test suite,open,2026-01-23 14:26:16+00:00,2026-01-23 14:59:36+00:00,,,aviv-julienjehannet,"['enhancement', 'do_not_merge', 'python', 'governance', 'infrastructure']",False,0,,False
@@ -99,7 +99,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 498,feat: MO-2482 add new value to channel enum,closed,2025-12-02 14:40:31+00:00,2025-12-03 10:14:03+00:00,2025-12-03 10:14:01+00:00,2025-12-03 10:14:01+00:00,sl-lydiachibane,['data-model'],True,0,19.558333333333334,False
 497,feat: add georef data contract,closed,2025-12-02 11:22:00+00:00,2025-12-04 10:32:53+00:00,2025-12-04 10:32:51+00:00,2025-12-04 10:32:51+00:00,DavidLacroix,"['data-contract', 'data-model']",True,0,47.18083333333333,True
 496,feat: add new fields,closed,2025-12-02 09:18:38+00:00,2025-12-02 09:47:31+00:00,2025-12-02 09:47:29+00:00,2025-12-02 09:47:29+00:00,sl-nicolasmoteley,[],True,0,0.48083333333333333,False
-495,ci: Purge old development sdk packages in CodeArtifact,open,2025-12-01 12:24:22+00:00,2025-12-12 15:42:24+00:00,,,aviv-julienjehannet,"['enhancement', 'python', 'SDK', 'infrastructure']",False,0,,False
+495,ci: Purge old development sdk packages in CodeArtifact,open,2025-12-01 12:24:22+00:00,2026-01-24 19:53:46+00:00,,,aviv-julienjehannet,"['enhancement', 'python', 'SDK', 'infrastructure']",False,0,,False
 494,Add automatic SDK ingestion timestamp to records,closed,2025-12-01 11:35:39+00:00,2025-12-01 15:08:18+00:00,2025-12-01 15:08:16+00:00,2025-12-01 15:08:16+00:00,aviv-bertrandmoundounga,['SDK'],True,0,3.5436111111111113,False
 493,fix: refine version comparison in publish scripts to handle pre-release,closed,2025-12-01 10:00:41+00:00,2025-12-03 09:31:28+00:00,2025-12-03 09:31:27+00:00,2025-12-03 09:31:27+00:00,sl-fredericdalessandro,[],True,0,47.51277777777778,False
 492,feat(clsa): add CLASSIFIED_EXPIRED_VIEW and place DETAIL_PAGE_EXPIRED,closed,2025-11-28 16:26:58+00:00,2025-12-02 07:27:06+00:00,2025-12-02 07:27:04+00:00,2025-12-02 07:27:04+00:00,aviv-ejonakodra,['data-model'],True,0,87.00166666666667,False
