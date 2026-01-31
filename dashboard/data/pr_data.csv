@@ -1,5 +1,5 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-616,Reuse POL001 as the generic rule for all policy checks (closes: DATAPLT-378),open,2026-01-30 12:48:50+00:00,2026-01-30 15:36:11+00:00,,,aviv-julienjehannet,[],False,0,,False
+616,feat: create POL001 + DCL001 checks (closes: DATAPLT-378),open,2026-01-30 12:48:50+00:00,2026-01-30 18:42:16+00:00,,,aviv-julienjehannet,[],False,0,,False
 615,fix: get rid of uv call,closed,2026-01-29 21:45:40+00:00,2026-01-29 21:47:46+00:00,2026-01-29 21:47:45+00:00,2026-01-29 21:47:45+00:00,aviv-julienjehannet,[],True,0,0.034722222222222224,False
 614,Fix/ci,closed,2026-01-29 21:10:59+00:00,2026-01-29 21:11:49+00:00,2026-01-29 21:11:47+00:00,2026-01-29 21:11:47+00:00,aviv-julienjehannet,[],True,0,0.013333333333333334,False
 613,fix: use relative path to load env file,closed,2026-01-29 21:09:51+00:00,2026-01-29 21:10:03+00:00,2026-01-29 21:10:01+00:00,2026-01-29 21:10:01+00:00,aviv-julienjehannet,[],True,0,0.002777777777777778,False
