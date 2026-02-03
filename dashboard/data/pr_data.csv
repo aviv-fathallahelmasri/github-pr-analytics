@@ -1,5 +1,7 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-616,feat: create POL001 + DCL001 checks (closes: DATAPLT-378),open,2026-01-30 12:48:50+00:00,2026-01-30 18:42:16+00:00,,,aviv-julienjehannet,[],False,0,,False
+618,ci: cleaning config file,closed,2026-02-03 11:30:36+00:00,2026-02-03 11:50:32+00:00,2026-02-03 11:50:30+00:00,2026-02-03 11:50:30+00:00,aviv-julienjehannet,[],True,0,0.33166666666666667,False
+617,ci: simplify workflow + add new purge-code-artifact command,closed,2026-02-03 09:58:07+00:00,2026-02-03 10:42:58+00:00,2026-02-03 10:42:55+00:00,2026-02-03 10:42:55+00:00,aviv-julienjehannet,"['enhancement', 'ingestion', 'infrastructure']",True,0,0.7466666666666667,False
+616,feat: create POL001 + DCL001 checks (closes: DATAPLT-378),open,2026-01-30 12:48:50+00:00,2026-02-03 15:18:03+00:00,,,aviv-julienjehannet,"['enhancement', 'governance']",False,0,,False
 615,fix: get rid of uv call,closed,2026-01-29 21:45:40+00:00,2026-01-29 21:47:46+00:00,2026-01-29 21:47:45+00:00,2026-01-29 21:47:45+00:00,aviv-julienjehannet,[],True,0,0.034722222222222224,False
 614,Fix/ci,closed,2026-01-29 21:10:59+00:00,2026-01-29 21:11:49+00:00,2026-01-29 21:11:47+00:00,2026-01-29 21:11:47+00:00,aviv-julienjehannet,[],True,0,0.013333333333333334,False
 613,fix: use relative path to load env file,closed,2026-01-29 21:09:51+00:00,2026-01-29 21:10:03+00:00,2026-01-29 21:10:01+00:00,2026-01-29 21:10:01+00:00,aviv-julienjehannet,[],True,0,0.002777777777777778,False
@@ -42,7 +44,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 576,feat: go live for quality score v1 to snowflake,closed,2026-01-16 14:55:43+00:00,2026-01-16 14:59:18+00:00,2026-01-16 14:59:16+00:00,2026-01-16 14:59:16+00:00,aviv-marcjonot,[],True,0,0.059166666666666666,False
 575,feat: explore possibility to use direct snowflake data types,closed,2026-01-15 14:02:37+00:00,2026-01-19 15:15:40+00:00,2026-01-19 15:15:40+00:00,,aviv-julienjehannet,"['enhancement', 'governance', 'ingestion', 'snowflake']",False,0,,False
 574,docs: add note to assist editor for missing teams in the referential,closed,2026-01-15 10:28:50+00:00,2026-01-15 10:31:09+00:00,2026-01-15 10:31:06+00:00,2026-01-15 10:31:06+00:00,aviv-julienjehannet,[],True,0,0.03777777777777778,False
-573,build(deps): bump the npm_and_yarn group across 1 directory with 2 updates,open,2026-01-14 22:27:59+00:00,2026-01-30 13:05:46+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
+573,build(deps): bump the npm_and_yarn group across 1 directory with 2 updates,open,2026-01-14 22:27:59+00:00,2026-02-03 12:16:33+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
 572,feat: update dummy_batch_v1.py example,closed,2026-01-14 15:09:07+00:00,2026-01-14 15:11:08+00:00,2026-01-14 15:11:06+00:00,2026-01-14 15:11:06+00:00,aviv-julienjehannet,[],True,0,0.03305555555555555,False
 571,FEAT: add integration tests for batch and streaming processes in C# SDK,open,2026-01-13 14:14:01+00:00,2026-01-28 09:21:08+00:00,,,aviv-bertrandmoundounga,"['SDK', 'csharp']",False,3,,False
 570,feat: [TITAN-1971] change phase to production,closed,2026-01-13 10:56:58+00:00,2026-01-13 11:23:59+00:00,2026-01-13 11:23:54+00:00,2026-01-13 11:23:54+00:00,aviv-michalkawczak,['data-contract'],True,0,0.4488888888888889,True
