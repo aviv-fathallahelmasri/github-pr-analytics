@@ -1,7 +1,10 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-626,chore: comment unused code,open,2026-02-05 16:25:21+00:00,2026-02-05 16:25:36+00:00,,,aviv-julienjehannet,"['documentation', 'governance']",False,0,,False
+629,feat: simplify contract lifecycle,closed,2026-02-06 12:25:02+00:00,2026-02-06 15:19:07+00:00,2026-02-06 15:19:05+00:00,2026-02-06 15:19:05+00:00,aviv-julienjehannet,[],True,0,2.9008333333333334,False
+628,fix: produces role lambda,open,2026-02-06 10:23:14+00:00,2026-02-06 15:05:52+00:00,,,jlgouwyapizr,[],False,0,,False
+627,feat: use paused decorator waiting for valid arns,closed,2026-02-06 08:42:59+00:00,2026-02-06 12:24:28+00:00,2026-02-06 10:28:35+00:00,2026-02-06 10:28:35+00:00,aviv-julienjehannet,['data-contract'],True,0,1.76,True
+626,chore: comment unused code,closed,2026-02-05 16:25:21+00:00,2026-02-05 17:39:18+00:00,2026-02-05 17:39:16+00:00,2026-02-05 17:39:16+00:00,aviv-julienjehannet,"['documentation', 'governance']",True,0,1.2319444444444445,False
 625,test: PY SDK - Update integration test role handling and AWS session management,closed,2026-02-05 12:39:24+00:00,2026-02-05 14:54:56+00:00,2026-02-05 14:54:53+00:00,2026-02-05 14:54:53+00:00,aviv-bertrandmoundounga,['SDK'],True,0,2.2580555555555555,False
-624,feat: transform previous legacy contract (DPv2) for Snowflake platform,open,2026-02-05 09:26:49+00:00,2026-02-05 16:09:35+00:00,,,aviv-julienjehannet,['data-contract'],False,0,,True
+624,feat: transform previous legacy contract (DPv2) for Snowflake platform,closed,2026-02-05 09:26:49+00:00,2026-02-05 16:49:04+00:00,2026-02-05 16:49:02+00:00,2026-02-05 16:49:02+00:00,aviv-julienjehannet,['data-contract'],True,0,7.370277777777778,True
 623,test: run ask-for-deletion in dry-mode in DEV,closed,2026-02-05 08:46:11+00:00,2026-02-05 10:58:31+00:00,2026-02-05 10:58:28+00:00,2026-02-05 10:58:28+00:00,aviv-julienjehannet,"['enhancement', 'governance']",True,0,2.2047222222222222,False
 622,ci: test deletion without blocking if error occurs,closed,2026-02-05 08:22:13+00:00,2026-02-05 08:22:47+00:00,2026-02-05 08:22:45+00:00,2026-02-05 08:22:45+00:00,aviv-julienjehannet,[],True,0,0.008888888888888889,False
 621,fix: wrong env variable value,closed,2026-02-04 17:20:06+00:00,2026-02-04 17:20:38+00:00,2026-02-04 17:20:36+00:00,2026-02-04 17:20:36+00:00,aviv-julienjehannet,[],True,0,0.008333333333333333,False
@@ -52,7 +55,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 576,feat: go live for quality score v1 to snowflake,closed,2026-01-16 14:55:43+00:00,2026-01-16 14:59:18+00:00,2026-01-16 14:59:16+00:00,2026-01-16 14:59:16+00:00,aviv-marcjonot,[],True,0,0.059166666666666666,False
 575,feat: explore possibility to use direct snowflake data types,closed,2026-01-15 14:02:37+00:00,2026-01-19 15:15:40+00:00,2026-01-19 15:15:40+00:00,,aviv-julienjehannet,"['enhancement', 'governance', 'ingestion', 'snowflake']",False,0,,False
 574,docs: add note to assist editor for missing teams in the referential,closed,2026-01-15 10:28:50+00:00,2026-01-15 10:31:09+00:00,2026-01-15 10:31:06+00:00,2026-01-15 10:31:06+00:00,aviv-julienjehannet,[],True,0,0.03777777777777778,False
-573,build(deps): bump the npm_and_yarn group across 1 directory with 2 updates,open,2026-01-14 22:27:59+00:00,2026-02-05 15:27:01+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
+573,build(deps): bump the npm_and_yarn group across 1 directory with 2 updates,open,2026-01-14 22:27:59+00:00,2026-02-06 15:56:37+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
 572,feat: update dummy_batch_v1.py example,closed,2026-01-14 15:09:07+00:00,2026-01-14 15:11:08+00:00,2026-01-14 15:11:06+00:00,2026-01-14 15:11:06+00:00,aviv-julienjehannet,[],True,0,0.03305555555555555,False
 571,FEAT: add integration tests for batch and streaming processes in C# SDK,open,2026-01-13 14:14:01+00:00,2026-01-28 09:21:08+00:00,,,aviv-bertrandmoundounga,"['SDK', 'csharp']",False,3,,False
 570,feat: [TITAN-1971] change phase to production,closed,2026-01-13 10:56:58+00:00,2026-01-13 11:23:59+00:00,2026-01-13 11:23:54+00:00,2026-01-13 11:23:54+00:00,aviv-michalkawczak,['data-contract'],True,0,0.4488888888888889,True
