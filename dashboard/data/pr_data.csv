@@ -1,9 +1,13 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-632,Change agency visibility v1 dev role,open,2026-02-06 17:52:23+00:00,2026-02-06 18:08:09+00:00,,,sl-davidbernuau,[],False,0,,False
+636,Update poetry lock file,closed,2026-02-10 15:58:47+00:00,2026-02-10 16:38:51+00:00,2026-02-10 16:38:40+00:00,,sl-davidbernuau,[],False,0,,False
+635,fix: Update AWS credentials handling in integration tests,closed,2026-02-10 15:11:39+00:00,2026-02-10 16:04:54+00:00,2026-02-10 16:04:52+00:00,2026-02-10 16:04:52+00:00,aviv-bertrandmoundounga,[],True,0,0.8869444444444444,False
+634,feat: unpause the clmg immoweb data contract,closed,2026-02-10 13:33:13+00:00,2026-02-10 13:33:44+00:00,2026-02-10 13:33:43+00:00,2026-02-10 13:33:43+00:00,aviv-julienjehannet,[],True,0,0.008333333333333333,False
+633,fix: Update AWS credentials handling in integration tests,closed,2026-02-10 12:55:24+00:00,2026-02-10 14:16:36+00:00,2026-02-10 14:16:34+00:00,2026-02-10 14:16:34+00:00,aviv-bertrandmoundounga,['SDK'],True,0,1.3527777777777779,False
+632,Change agency visibility v1 dev role,closed,2026-02-06 17:52:23+00:00,2026-02-09 09:57:29+00:00,2026-02-09 09:57:27+00:00,2026-02-09 09:57:27+00:00,sl-davidbernuau,[],True,0,64.08444444444444,False
 631,docs: exclude example contracts,closed,2026-02-06 17:19:55+00:00,2026-02-06 17:20:23+00:00,2026-02-06 17:20:21+00:00,2026-02-06 17:20:21+00:00,aviv-julienjehannet,[],True,0,0.007222222222222222,False
 630,Feat/docs,closed,2026-02-06 17:07:55+00:00,2026-02-06 17:16:53+00:00,2026-02-06 17:16:51+00:00,2026-02-06 17:16:51+00:00,aviv-julienjehannet,['documentation'],True,0,0.14888888888888888,False
 629,feat: simplify contract lifecycle,closed,2026-02-06 12:25:02+00:00,2026-02-06 15:19:07+00:00,2026-02-06 15:19:05+00:00,2026-02-06 15:19:05+00:00,aviv-julienjehannet,[],True,0,2.9008333333333334,False
-628,fix: produces role lambda,open,2026-02-06 10:23:14+00:00,2026-02-06 17:21:54+00:00,,,jlgouwyapizr,['data-contract'],False,0,,True
+628,fix: produces role lambda,closed,2026-02-06 10:23:14+00:00,2026-02-09 10:34:17+00:00,2026-02-09 10:34:14+00:00,2026-02-09 10:34:14+00:00,jlgouwyapizr,['data-contract'],True,0,72.18333333333334,True
 627,feat: use paused decorator waiting for valid arns,closed,2026-02-06 08:42:59+00:00,2026-02-06 12:24:28+00:00,2026-02-06 10:28:35+00:00,2026-02-06 10:28:35+00:00,aviv-julienjehannet,['data-contract'],True,0,1.76,True
 626,chore: comment unused code,closed,2026-02-05 16:25:21+00:00,2026-02-05 17:39:18+00:00,2026-02-05 17:39:16+00:00,2026-02-05 17:39:16+00:00,aviv-julienjehannet,"['documentation', 'governance']",True,0,1.2319444444444445,False
 625,test: PY SDK - Update integration test role handling and AWS session management,closed,2026-02-05 12:39:24+00:00,2026-02-05 14:54:56+00:00,2026-02-05 14:54:53+00:00,2026-02-05 14:54:53+00:00,aviv-bertrandmoundounga,['SDK'],True,0,2.2580555555555555,False
@@ -58,7 +62,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 576,feat: go live for quality score v1 to snowflake,closed,2026-01-16 14:55:43+00:00,2026-01-16 14:59:18+00:00,2026-01-16 14:59:16+00:00,2026-01-16 14:59:16+00:00,aviv-marcjonot,[],True,0,0.059166666666666666,False
 575,feat: explore possibility to use direct snowflake data types,closed,2026-01-15 14:02:37+00:00,2026-01-19 15:15:40+00:00,2026-01-19 15:15:40+00:00,,aviv-julienjehannet,"['enhancement', 'governance', 'ingestion', 'snowflake']",False,0,,False
 574,docs: add note to assist editor for missing teams in the referential,closed,2026-01-15 10:28:50+00:00,2026-01-15 10:31:09+00:00,2026-01-15 10:31:06+00:00,2026-01-15 10:31:06+00:00,aviv-julienjehannet,[],True,0,0.03777777777777778,False
-573,build(deps): bump the npm_and_yarn group across 1 directory with 2 updates,open,2026-01-14 22:27:59+00:00,2026-02-06 15:56:37+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
+573,build(deps): bump the npm_and_yarn group across 1 directory with 2 updates,open,2026-01-14 22:27:59+00:00,2026-02-10 13:59:36+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
 572,feat: update dummy_batch_v1.py example,closed,2026-01-14 15:09:07+00:00,2026-01-14 15:11:08+00:00,2026-01-14 15:11:06+00:00,2026-01-14 15:11:06+00:00,aviv-julienjehannet,[],True,0,0.03305555555555555,False
 571,FEAT: add integration tests for batch and streaming processes in C# SDK,open,2026-01-13 14:14:01+00:00,2026-01-28 09:21:08+00:00,,,aviv-bertrandmoundounga,"['SDK', 'csharp']",False,3,,False
 570,feat: [TITAN-1971] change phase to production,closed,2026-01-13 10:56:58+00:00,2026-01-13 11:23:59+00:00,2026-01-13 11:23:54+00:00,2026-01-13 11:23:54+00:00,aviv-michalkawczak,['data-contract'],True,0,0.4488888888888889,True
