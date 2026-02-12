@@ -1,4 +1,9 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+641,Pause classifieds_management_v1 contract,closed,2026-02-12 15:44:43+00:00,2026-02-12 16:19:14+00:00,2026-02-12 16:19:11+00:00,2026-02-12 16:19:11+00:00,sl-davidbernuau,[],True,0,0.5744444444444444,False
+640,fix: drop irrelevant parameter for Streaming data contracts,closed,2026-02-12 15:18:43+00:00,2026-02-12 15:46:17+00:00,2026-02-12 15:46:16+00:00,,aviv-julienjehannet,['bug'],False,0,,False
+639,fix: keep field ordering in snowflake terraform files,open,2026-02-12 14:36:32+00:00,2026-02-12 16:01:56+00:00,,,aviv-julienjehannet,"['bug', 'do_not_merge', 'governance', 'ingestion', 'snowflake']",False,0,,False
+638,feat: new RecencyField field annotation,closed,2026-02-12 14:33:50+00:00,2026-02-12 16:01:21+00:00,2026-02-12 16:01:19+00:00,2026-02-12 16:01:18+00:00,aviv-julienjehannet,[],True,0,1.4577777777777778,False
+637,chore(deps): bump pillow from 12.0.0 to 12.1.1 in the uv group across 1 directory,open,2026-02-11 17:55:46+00:00,2026-02-11 17:55:47+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 636,Update poetry lock file,closed,2026-02-10 15:58:47+00:00,2026-02-10 16:38:51+00:00,2026-02-10 16:38:40+00:00,,sl-davidbernuau,[],False,0,,False
 635,fix: Update AWS credentials handling in integration tests,closed,2026-02-10 15:11:39+00:00,2026-02-10 16:04:54+00:00,2026-02-10 16:04:52+00:00,2026-02-10 16:04:52+00:00,aviv-bertrandmoundounga,[],True,0,0.8869444444444444,False
 634,feat: unpause the clmg immoweb data contract,closed,2026-02-10 13:33:13+00:00,2026-02-10 13:33:44+00:00,2026-02-10 13:33:43+00:00,2026-02-10 13:33:43+00:00,aviv-julienjehannet,[],True,0,0.008333333333333333,False
