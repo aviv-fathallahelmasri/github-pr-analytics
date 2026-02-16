@@ -33,7 +33,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 611,ci: forget REPO_VERSION,closed,2026-01-29 17:18:59+00:00,2026-01-29 17:20:05+00:00,2026-01-29 17:20:03+00:00,2026-01-29 17:20:03+00:00,aviv-julienjehannet,['bug'],True,0,0.017777777777777778,False
 610,fix: shell unset value for main branch,closed,2026-01-29 15:53:58+00:00,2026-01-29 15:54:10+00:00,2026-01-29 15:54:08+00:00,2026-01-29 15:54:08+00:00,aviv-julienjehannet,[],True,0,0.002777777777777778,False
 609,fix: shell undeclared variable,closed,2026-01-29 15:20:41+00:00,2026-01-29 15:22:11+00:00,2026-01-29 15:22:09+00:00,2026-01-29 15:22:09+00:00,aviv-julienjehannet,['bug'],True,0,0.024444444444444446,False
-608,feat: Add Datadog metrics collection,open,2026-01-29 13:03:55+00:00,2026-02-11 15:09:32+00:00,,,aviv-bertrandmoundounga,"['SDK', 'infrastructure']",False,0,,False
+608,feat: Add Datadog metrics collection,open,2026-01-29 13:03:55+00:00,2026-02-16 09:50:11+00:00,,,aviv-bertrandmoundounga,"['SDK', 'infrastructure']",False,0,,False
 607,ci: simplify build workflow,closed,2026-01-28 17:27:33+00:00,2026-01-29 14:46:16+00:00,2026-01-29 14:46:14+00:00,2026-01-29 14:46:14+00:00,aviv-julienjehannet,"['SDK', 'infrastructure']",True,0,21.31138888888889,False
 606,feat: simplify duplicated commands in favor of assistant tooling,closed,2026-01-28 15:55:46+00:00,2026-01-28 16:13:05+00:00,2026-01-28 16:13:04+00:00,2026-01-28 16:13:04+00:00,aviv-julienjehannet,[],True,0,0.28833333333333333,False
 605,Contract/bbcr/new optionnal,closed,2026-01-28 14:35:59+00:00,2026-01-28 14:53:55+00:00,2026-01-28 14:53:52+00:00,2026-01-28 14:53:51+00:00,sl-nicolasmoteley,[],True,0,0.29777777777777775,False
