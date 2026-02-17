@@ -1,4 +1,6 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+644,feat(MKKN/HODC): update SLA timing to run daily at 09:00 for multiple…,open,2026-02-17 10:51:35+00:00,2026-02-17 16:23:12+00:00,,,aviv-hamzaeljaoui,[],False,0,,False
+643,feat: add new place enum values for CLSA datasets,open,2026-02-17 10:48:09+00:00,2026-02-17 15:39:17+00:00,,,sl-lydiachibane,[],False,2,,False
 642,feat: enable recencyField visibility in the avro files,closed,2026-02-13 10:16:21+00:00,2026-02-13 10:41:30+00:00,2026-02-13 10:41:28+00:00,2026-02-13 10:41:28+00:00,aviv-julienjehannet,[],True,0,0.4186111111111111,False
 641,Pause classifieds_management_v1 contract,closed,2026-02-12 15:44:43+00:00,2026-02-12 16:19:14+00:00,2026-02-12 16:19:11+00:00,2026-02-12 16:19:11+00:00,sl-davidbernuau,[],True,0,0.5744444444444444,False
 640,fix: drop irrelevant parameter for Streaming data contracts,closed,2026-02-12 15:18:43+00:00,2026-02-12 17:19:25+00:00,2026-02-12 15:46:16+00:00,,aviv-julienjehannet,['bug'],False,0,,False
