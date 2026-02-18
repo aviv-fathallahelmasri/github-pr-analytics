@@ -1,6 +1,8 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-644,feat(MKKN/HODC): update SLA timing to run daily at 09:00 for multiple…,open,2026-02-17 10:51:35+00:00,2026-02-17 16:23:12+00:00,,,aviv-hamzaeljaoui,[],False,0,,False
-643,feat: add new place enum values for CLSA datasets,open,2026-02-17 10:48:09+00:00,2026-02-17 15:39:17+00:00,,,sl-lydiachibane,[],False,2,,False
+646,feat: [TITAN-2110] update AgencyStatus enum,open,2026-02-18 13:55:43+00:00,2026-02-18 15:40:19+00:00,,,aviv-martynarymer,['data-model'],False,0,,False
+645,feat: Split FR and DE contract,open,2026-02-17 16:49:52+00:00,2026-02-18 15:57:48+00:00,,,sl-gregoirejunqua,['data-contract'],False,5,,True
+644,feat(MKKN/HODC): update SLA timing to run daily at 09:00 for multiple…,closed,2026-02-17 10:51:35+00:00,2026-02-17 16:58:51+00:00,2026-02-17 16:58:49+00:00,2026-02-17 16:58:49+00:00,aviv-hamzaeljaoui,[],True,0,6.120555555555556,False
+643,feat: add new place enum values for CLSA datasets,open,2026-02-17 10:48:09+00:00,2026-02-18 09:08:11+00:00,,,sl-lydiachibane,[],False,2,,False
 642,feat: enable recencyField visibility in the avro files,closed,2026-02-13 10:16:21+00:00,2026-02-13 10:41:30+00:00,2026-02-13 10:41:28+00:00,2026-02-13 10:41:28+00:00,aviv-julienjehannet,[],True,0,0.4186111111111111,False
 641,Pause classifieds_management_v1 contract,closed,2026-02-12 15:44:43+00:00,2026-02-12 16:19:14+00:00,2026-02-12 16:19:11+00:00,2026-02-12 16:19:11+00:00,sl-davidbernuau,[],True,0,0.5744444444444444,False
 640,fix: drop irrelevant parameter for Streaming data contracts,closed,2026-02-12 15:18:43+00:00,2026-02-12 17:19:25+00:00,2026-02-12 15:46:16+00:00,,aviv-julienjehannet,['bug'],False,0,,False
@@ -70,7 +72,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 576,feat: go live for quality score v1 to snowflake,closed,2026-01-16 14:55:43+00:00,2026-01-16 14:59:18+00:00,2026-01-16 14:59:16+00:00,2026-01-16 14:59:16+00:00,aviv-marcjonot,[],True,0,0.059166666666666666,False
 575,feat: explore possibility to use direct snowflake data types,closed,2026-01-15 14:02:37+00:00,2026-01-19 15:15:40+00:00,2026-01-19 15:15:40+00:00,,aviv-julienjehannet,"['enhancement', 'governance', 'ingestion', 'snowflake']",False,0,,False
 574,docs: add note to assist editor for missing teams in the referential,closed,2026-01-15 10:28:50+00:00,2026-01-15 10:31:09+00:00,2026-01-15 10:31:06+00:00,2026-01-15 10:31:06+00:00,aviv-julienjehannet,[],True,0,0.03777777777777778,False
-573,build(deps): bump the npm_and_yarn group across 1 directory with 2 updates,open,2026-01-14 22:27:59+00:00,2026-02-13 09:14:38+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
+573,build(deps): bump the npm_and_yarn group across 1 directory with 2 updates,open,2026-01-14 22:27:59+00:00,2026-02-18 13:40:15+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
 572,feat: update dummy_batch_v1.py example,closed,2026-01-14 15:09:07+00:00,2026-01-14 15:11:08+00:00,2026-01-14 15:11:06+00:00,2026-01-14 15:11:06+00:00,aviv-julienjehannet,[],True,0,0.03305555555555555,False
 571,FEAT: add integration tests for batch and streaming processes in C# SDK,open,2026-01-13 14:14:01+00:00,2026-01-28 09:21:08+00:00,,,aviv-bertrandmoundounga,"['SDK', 'csharp']",False,3,,False
 570,feat: [TITAN-1971] change phase to production,closed,2026-01-13 10:56:58+00:00,2026-01-13 11:23:59+00:00,2026-01-13 11:23:54+00:00,2026-01-13 11:23:54+00:00,aviv-michalkawczak,['data-contract'],True,0,0.4488888888888889,True
