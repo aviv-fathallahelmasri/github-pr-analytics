@@ -1,11 +1,13 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-649,feat: [TITAN-2125] add contract for key-account-product-status,open,2026-02-19 15:41:49+00:00,2026-02-19 15:42:01+00:00,,,aviv-martynarymer,[],False,0,,False
-648,feat: support countries annotation,open,2026-02-19 15:32:37+00:00,2026-02-19 15:33:15+00:00,,,aviv-julienjehannet,"['enhancement', 'governance']",False,0,,False
-647,feat(avis): update contrat with additional fields and values,open,2026-02-19 10:21:59+00:00,2026-02-19 13:04:19+00:00,,,nherbin-ma,"['data-contract', 'data-model']",False,0,,True
+651,fix: correct the snowflake_table resource,closed,2026-02-20 14:02:24+00:00,2026-02-20 14:36:41+00:00,2026-02-20 14:36:39+00:00,2026-02-20 14:36:39+00:00,aviv-julienjehannet,['bug'],True,0,0.5708333333333333,False
+650,feat(codelist): support deprecated metadata,closed,2026-02-19 16:49:21+00:00,2026-02-19 17:23:11+00:00,2026-02-19 17:23:08+00:00,2026-02-19 17:23:08+00:00,aviv-julienjehannet,['enhancement'],True,0,0.5630555555555555,False
+649,feat: [TITAN-2125] add contract for key-account-product-status,closed,2026-02-19 15:41:49+00:00,2026-02-20 11:03:42+00:00,2026-02-20 11:03:40+00:00,2026-02-20 11:03:40+00:00,aviv-martynarymer,"['data-contract', 'dpv2-flamingo']",True,0,19.364166666666666,True
+648,feat: support countries annotation,closed,2026-02-19 15:32:37+00:00,2026-02-20 11:54:31+00:00,2026-02-20 11:54:29+00:00,2026-02-20 11:54:29+00:00,aviv-julienjehannet,"['enhancement', 'governance']",True,0,20.364444444444445,False
+647,feat(avis): update contrat with additional fields and values,open,2026-02-19 10:21:59+00:00,2026-02-20 11:27:48+00:00,,,nherbin-ma,"['data-contract', 'data-model']",False,2,,True
 646,feat: [TITAN-2110] update AgencyStatus enum,closed,2026-02-18 13:55:43+00:00,2026-02-19 14:04:09+00:00,2026-02-19 14:04:06+00:00,2026-02-19 14:04:06+00:00,aviv-martynarymer,['data-model'],True,0,24.139722222222222,False
-645,feat: Split FR and DE contract,open,2026-02-17 16:49:52+00:00,2026-02-18 15:57:48+00:00,,,sl-gregoirejunqua,['data-contract'],False,5,,True
+645,feat: Split FR and DE contract,open,2026-02-17 16:49:52+00:00,2026-02-20 14:48:12+00:00,,,sl-gregoirejunqua,['data-contract'],False,5,,True
 644,feat(MKKN/HODC): update SLA timing to run daily at 09:00 for multiple…,closed,2026-02-17 10:51:35+00:00,2026-02-17 16:58:51+00:00,2026-02-17 16:58:49+00:00,2026-02-17 16:58:49+00:00,aviv-hamzaeljaoui,[],True,0,6.120555555555556,False
-643,feat: add new place enum values for CLSA datasets,open,2026-02-17 10:48:09+00:00,2026-02-18 09:08:11+00:00,,,sl-lydiachibane,[],False,2,,False
+643,feat: add new place enum values for CLSA datasets,closed,2026-02-17 10:48:09+00:00,2026-02-20 09:11:51+00:00,2026-02-20 09:11:50+00:00,2026-02-20 09:11:50+00:00,sl-lydiachibane,['data-model'],True,3,70.39472222222223,False
 642,feat: enable recencyField visibility in the avro files,closed,2026-02-13 10:16:21+00:00,2026-02-13 10:41:30+00:00,2026-02-13 10:41:28+00:00,2026-02-13 10:41:28+00:00,aviv-julienjehannet,[],True,0,0.4186111111111111,False
 641,Pause classifieds_management_v1 contract,closed,2026-02-12 15:44:43+00:00,2026-02-12 16:19:14+00:00,2026-02-12 16:19:11+00:00,2026-02-12 16:19:11+00:00,sl-davidbernuau,[],True,0,0.5744444444444444,False
 640,fix: drop irrelevant parameter for Streaming data contracts,closed,2026-02-12 15:18:43+00:00,2026-02-12 17:19:25+00:00,2026-02-12 15:46:16+00:00,,aviv-julienjehannet,['bug'],False,0,,False
