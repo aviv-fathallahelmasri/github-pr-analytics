@@ -1,4 +1,5 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+652,fix: adapt deletion process for country-split policy,open,2026-02-20 17:04:53+00:00,2026-02-21 09:54:40+00:00,,,aviv-julienjehannet,"['governance', 'infrastructure']",False,0,,False
 651,fix: correct the snowflake_table resource,closed,2026-02-20 14:02:24+00:00,2026-02-20 14:36:41+00:00,2026-02-20 14:36:39+00:00,2026-02-20 14:36:39+00:00,aviv-julienjehannet,['bug'],True,0,0.5708333333333333,False
 650,feat(codelist): support deprecated metadata,closed,2026-02-19 16:49:21+00:00,2026-02-19 17:23:11+00:00,2026-02-19 17:23:08+00:00,2026-02-19 17:23:08+00:00,aviv-julienjehannet,['enhancement'],True,0,0.5630555555555555,False
 649,feat: [TITAN-2125] add contract for key-account-product-status,closed,2026-02-19 15:41:49+00:00,2026-02-20 11:03:42+00:00,2026-02-20 11:03:40+00:00,2026-02-20 11:03:40+00:00,aviv-martynarymer,"['data-contract', 'dpv2-flamingo']",True,0,19.364166666666666,True
