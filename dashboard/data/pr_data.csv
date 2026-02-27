@@ -1,4 +1,7 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+666,feat: support for FROZEN stage (dpv2 migration),open,2026-02-27 15:33:53+00:00,2026-02-27 15:34:05+00:00,,,aviv-julienjehannet,"['governance', 'ingestion', 'snowflake']",False,0,,False
+665,fix: allow DPv2 duplicated table for AVIS/agency_visibility/agency_visibility_v1,closed,2026-02-27 11:23:01+00:00,2026-02-27 11:39:21+00:00,2026-02-27 11:39:19+00:00,2026-02-27 11:39:19+00:00,aviv-julienjehannet,"['data-contract', 'governance', 'migration', 'snowflake', 'infrastructure', 'dpv2-flamingo']",True,0,0.27166666666666667,True
+664,ci: deploy documentation on both dev & live account,open,2026-02-26 17:01:20+00:00,2026-02-26 17:03:54+00:00,,,aviv-julienjehannet,['documentation'],False,0,,False
 663,chore(topPositionContracts): update submit interval sla,closed,2026-02-26 15:46:08+00:00,2026-02-26 16:11:15+00:00,2026-02-26 16:11:13+00:00,2026-02-26 16:11:13+00:00,mpavic32,"['data-contract', 'governance', 'snowflake']",True,0,0.41805555555555557,True
 662,fix: revert AVIS/agency_visibility/agency_visibility_v1 to dpv2 version,closed,2026-02-26 15:22:21+00:00,2026-02-26 15:45:04+00:00,2026-02-26 15:45:02+00:00,2026-02-26 15:45:02+00:00,aviv-julienjehannet,"['data-contract', 'snowflake']",True,0,0.37805555555555553,True
 661,docs: add direct links to contract file [skip ci],closed,2026-02-26 15:19:28+00:00,2026-02-26 15:20:22+00:00,2026-02-26 15:20:20+00:00,2026-02-26 15:20:20+00:00,aviv-julienjehannet,[],True,0,0.014444444444444444,False
@@ -17,7 +20,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 648,feat: support countries annotation,closed,2026-02-19 15:32:37+00:00,2026-02-20 11:54:31+00:00,2026-02-20 11:54:29+00:00,2026-02-20 11:54:29+00:00,aviv-julienjehannet,"['enhancement', 'governance']",True,0,20.364444444444445,False
 647,feat(avis): update contrat with additional fields and values,closed,2026-02-19 10:21:59+00:00,2026-02-24 10:29:21+00:00,2026-02-24 10:29:20+00:00,2026-02-24 10:29:20+00:00,nherbin-ma,"['data-contract', 'data-model']",True,3,120.1225,True
 646,feat: [TITAN-2110] update AgencyStatus enum,closed,2026-02-18 13:55:43+00:00,2026-02-19 14:04:09+00:00,2026-02-19 14:04:06+00:00,2026-02-19 14:04:06+00:00,aviv-martynarymer,['data-model'],True,0,24.139722222222222,False
-645,feat: Split FR and DE contract,open,2026-02-17 16:49:52+00:00,2026-02-24 07:26:21+00:00,,,sl-gregoirejunqua,['data-contract'],False,5,,True
+645,feat: Split FR and DE contract,open,2026-02-17 16:49:52+00:00,2026-02-26 17:06:38+00:00,,,sl-gregoirejunqua,['data-contract'],False,5,,True
 644,feat(MKKN/HODC): update SLA timing to run daily at 09:00 for multiple…,closed,2026-02-17 10:51:35+00:00,2026-02-17 16:58:51+00:00,2026-02-17 16:58:49+00:00,2026-02-17 16:58:49+00:00,aviv-hamzaeljaoui,[],True,0,6.120555555555556,False
 643,feat: add new place enum values for CLSA datasets,closed,2026-02-17 10:48:09+00:00,2026-02-20 09:11:51+00:00,2026-02-20 09:11:50+00:00,2026-02-20 09:11:50+00:00,sl-lydiachibane,['data-model'],True,3,70.39472222222223,False
 642,feat: enable recencyField visibility in the avro files,closed,2026-02-13 10:16:21+00:00,2026-02-13 10:41:30+00:00,2026-02-13 10:41:28+00:00,2026-02-13 10:41:28+00:00,aviv-julienjehannet,[],True,0,0.4186111111111111,False
@@ -54,7 +57,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 611,ci: forget REPO_VERSION,closed,2026-01-29 17:18:59+00:00,2026-01-29 17:20:05+00:00,2026-01-29 17:20:03+00:00,2026-01-29 17:20:03+00:00,aviv-julienjehannet,['bug'],True,0,0.017777777777777778,False
 610,fix: shell unset value for main branch,closed,2026-01-29 15:53:58+00:00,2026-01-29 15:54:10+00:00,2026-01-29 15:54:08+00:00,2026-01-29 15:54:08+00:00,aviv-julienjehannet,[],True,0,0.002777777777777778,False
 609,fix: shell undeclared variable,closed,2026-01-29 15:20:41+00:00,2026-01-29 15:22:11+00:00,2026-01-29 15:22:09+00:00,2026-01-29 15:22:09+00:00,aviv-julienjehannet,['bug'],True,0,0.024444444444444446,False
-608,feat: Add Datadog metrics collection,open,2026-01-29 13:03:55+00:00,2026-02-19 10:57:18+00:00,,,aviv-bertrandmoundounga,"['SDK', 'infrastructure']",False,0,,False
+608,feat: Add Datadog metrics collection,open,2026-01-29 13:03:55+00:00,2026-02-27 11:46:58+00:00,,,aviv-bertrandmoundounga,"['SDK', 'infrastructure']",False,0,,False
 607,ci: simplify build workflow,closed,2026-01-28 17:27:33+00:00,2026-01-29 14:46:16+00:00,2026-01-29 14:46:14+00:00,2026-01-29 14:46:14+00:00,aviv-julienjehannet,"['SDK', 'infrastructure']",True,0,21.31138888888889,False
 606,feat: simplify duplicated commands in favor of assistant tooling,closed,2026-01-28 15:55:46+00:00,2026-01-28 16:13:05+00:00,2026-01-28 16:13:04+00:00,2026-01-28 16:13:04+00:00,aviv-julienjehannet,[],True,0,0.28833333333333333,False
 605,Contract/bbcr/new optionnal,closed,2026-01-28 14:35:59+00:00,2026-01-28 14:53:55+00:00,2026-01-28 14:53:52+00:00,2026-01-28 14:53:51+00:00,sl-nicolasmoteley,[],True,0,0.29777777777777775,False
