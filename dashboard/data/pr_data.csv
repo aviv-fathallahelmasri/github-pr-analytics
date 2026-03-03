@@ -1,6 +1,8 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+669,feat: new contract contract/CLTR/TITAN-2159,open,2026-03-03 13:24:32+00:00,2026-03-03 13:56:18+00:00,,,aviv-dawidkrol,['data-contract'],False,0,,True
+668,feat: add new place value for clsa contract,closed,2026-03-03 09:19:18+00:00,2026-03-03 14:02:46+00:00,2026-03-03 14:02:44+00:00,2026-03-03 14:02:44+00:00,sl-lydiachibane,['data-model'],True,0,4.723888888888889,False
 667,feat: update aviv codesets index,closed,2026-02-27 16:49:06+00:00,2026-03-02 09:33:49+00:00,2026-03-02 09:33:47+00:00,2026-03-02 09:33:47+00:00,aviv-julienjehannet,['documentation'],True,0,64.74472222222222,False
-666,feat: support for FROZEN stage (dpv2 migration),open,2026-02-27 15:33:53+00:00,2026-03-02 10:12:33+00:00,,,aviv-julienjehannet,"['governance', 'ingestion', 'snowflake']",False,0,,False
+666,feat: support for FROZEN stage (dpv2 migration),closed,2026-02-27 15:33:53+00:00,2026-03-03 13:25:16+00:00,2026-03-03 13:25:14+00:00,2026-03-03 13:25:14+00:00,aviv-julienjehannet,"['governance', 'ingestion', 'snowflake']",True,0,93.85583333333334,False
 665,fix: allow DPv2 duplicated table for AVIS/agency_visibility/agency_visibility_v1,closed,2026-02-27 11:23:01+00:00,2026-02-27 11:39:21+00:00,2026-02-27 11:39:19+00:00,2026-02-27 11:39:19+00:00,aviv-julienjehannet,"['data-contract', 'governance', 'migration', 'snowflake', 'infrastructure', 'dpv2-flamingo']",True,0,0.27166666666666667,True
 664,ci: deploy documentation on both dev & live account,open,2026-02-26 17:01:20+00:00,2026-02-26 17:03:54+00:00,,,aviv-julienjehannet,['documentation'],False,0,,False
 663,chore(topPositionContracts): update submit interval sla,closed,2026-02-26 15:46:08+00:00,2026-02-26 16:11:15+00:00,2026-02-26 16:11:13+00:00,2026-02-26 16:11:13+00:00,mpavic32,"['data-contract', 'governance', 'snowflake']",True,0,0.41805555555555557,True
