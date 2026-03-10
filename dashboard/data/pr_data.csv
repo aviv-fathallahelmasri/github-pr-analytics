@@ -1,5 +1,5 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-674,feat: propagate documentation in tf-files (codelist),open,2026-03-06 14:28:40+00:00,2026-03-09 16:31:15+00:00,,,aviv-julienjehannet,"['documentation', 'governance', 'snowflake']",False,0,,False
+674,feat: propagate documentation in tf-files (codelist),open,2026-03-06 14:28:40+00:00,2026-03-10 14:54:09+00:00,,,aviv-julienjehannet,"['documentation', 'governance', 'snowflake']",False,2,,False
 673,fix:fix de lambda execution role name,closed,2026-03-06 13:04:08+00:00,2026-03-06 14:02:52+00:00,2026-03-06 14:02:50+00:00,2026-03-06 14:02:50+00:00,li-yilongwang,['data-contract'],True,0,0.9783333333333334,True
 672,docs: update country specific notice in the table description,closed,2026-03-05 11:01:28+00:00,2026-03-05 14:27:22+00:00,2026-03-05 14:27:19+00:00,2026-03-05 14:27:19+00:00,aviv-julienjehannet,['governance'],True,2,3.430833333333333,False
 671,fix: use correct role for autocomplete analytics,closed,2026-03-04 10:23:37+00:00,2026-03-04 16:43:19+00:00,2026-03-04 16:43:16+00:00,2026-03-04 16:43:16+00:00,DimitriKouliche,['data-contract'],True,0,6.3275,True
@@ -129,7 +129,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 547,feat: add arn for quality score,closed,2025-12-19 09:48:49+00:00,2026-01-07 10:14:33+00:00,2026-01-07 10:14:32+00:00,2026-01-07 10:14:32+00:00,aviv-marcjonot,['data-contract'],True,0,456.42861111111114,True
 546,feat: MO-2527 add new external portals for signifi,closed,2025-12-18 14:20:21+00:00,2025-12-18 14:37:25+00:00,2025-12-18 14:37:24+00:00,2025-12-18 14:37:24+00:00,aviv-jonyroy,[],True,0,0.2841666666666667,False
 545,feat: Add dummy batch and stream contracts for testing purposes,closed,2025-12-17 16:37:40+00:00,2025-12-18 10:22:58+00:00,2025-12-18 10:22:56+00:00,2025-12-18 10:22:56+00:00,aviv-bertrandmoundounga,[],True,0,17.754444444444445,False
-544,feat: prepare snowflake_schema.tfvars.json,open,2025-12-17 16:15:02+00:00,2026-01-09 17:39:30+00:00,,,aviv-julienjehannet,"['bug', 'do_not_merge', 'infrastructure']",False,0,,False
+544,feat: prepare snowflake_schema.tfvars.json,closed,2025-12-17 16:15:02+00:00,2026-03-10 14:11:19+00:00,2026-03-10 14:11:19+00:00,,aviv-julienjehannet,"['bug', 'do_not_merge', 'infrastructure']",False,0,,False
 543,chore: updating glue role for glue job that will push data to snowflake,closed,2025-12-17 15:55:25+00:00,2025-12-22 09:57:00+00:00,2025-12-18 09:38:22+00:00,2025-12-18 09:38:22+00:00,florianhyseni-aviv,[],True,0,17.715833333333332,False
 542,fix(HODC): update producers_role_arn for live environment,closed,2025-12-17 15:00:40+00:00,2025-12-17 15:05:50+00:00,2025-12-17 15:05:47+00:00,2025-12-17 15:05:47+00:00,aviv-hamzaeljaoui,[],True,0,0.08527777777777777,False
 541,feat(roster): separate dev/live resources,closed,2025-12-17 10:59:41+00:00,2025-12-17 11:54:31+00:00,2025-12-17 11:54:30+00:00,2025-12-17 11:54:30+00:00,aviv-julienjehannet,[],True,0,0.9136111111111112,False
