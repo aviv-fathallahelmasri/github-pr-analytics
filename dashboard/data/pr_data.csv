@@ -1,10 +1,11 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-674,feat: propagate documentation in tf-files (codelist),open,2026-03-06 14:28:40+00:00,2026-03-10 14:54:09+00:00,,,aviv-julienjehannet,"['documentation', 'governance', 'snowflake']",False,2,,False
+675,chore: use streaming instead of batch for autocomplete,closed,2026-03-11 10:52:05+00:00,2026-03-11 14:51:09+00:00,2026-03-11 14:51:06+00:00,2026-03-11 14:51:06+00:00,DimitriKouliche,[],True,0,3.983611111111111,False
+674,feat: propagate documentation in tf-files (codelist),closed,2026-03-06 14:28:40+00:00,2026-03-10 17:07:54+00:00,2026-03-10 17:07:51+00:00,2026-03-10 17:07:51+00:00,aviv-julienjehannet,"['documentation', 'governance', 'snowflake']",True,2,98.65305555555555,False
 673,fix:fix de lambda execution role name,closed,2026-03-06 13:04:08+00:00,2026-03-06 14:02:52+00:00,2026-03-06 14:02:50+00:00,2026-03-06 14:02:50+00:00,li-yilongwang,['data-contract'],True,0,0.9783333333333334,True
 672,docs: update country specific notice in the table description,closed,2026-03-05 11:01:28+00:00,2026-03-05 14:27:22+00:00,2026-03-05 14:27:19+00:00,2026-03-05 14:27:19+00:00,aviv-julienjehannet,['governance'],True,2,3.430833333333333,False
 671,fix: use correct role for autocomplete analytics,closed,2026-03-04 10:23:37+00:00,2026-03-04 16:43:19+00:00,2026-03-04 16:43:16+00:00,2026-03-04 16:43:16+00:00,DimitriKouliche,['data-contract'],True,0,6.3275,True
 670,feat: adding new fields for HODC,closed,2026-03-04 07:35:26+00:00,2026-03-09 16:33:17+00:00,2026-03-09 16:33:15+00:00,2026-03-09 16:33:14+00:00,florianhyseni-aviv,"['data-contract', 'integration over compliance']",True,0,128.96333333333334,True
-669,feat: new contract contract/CLTR/TITAN-2159,open,2026-03-03 13:24:32+00:00,2026-03-06 14:05:31+00:00,,,aviv-dawidkrol,['data-contract'],False,17,,True
+669,feat: new contract contract/CLTR/TITAN-2159,open,2026-03-03 13:24:32+00:00,2026-03-11 15:49:17+00:00,,,aviv-dawidkrol,['data-contract'],False,17,,True
 668,feat: add new place value for clsa contract,closed,2026-03-03 09:19:18+00:00,2026-03-03 14:02:46+00:00,2026-03-03 14:02:44+00:00,2026-03-03 14:02:44+00:00,sl-lydiachibane,['data-model'],True,0,4.723888888888889,False
 667,feat: update aviv codesets index,closed,2026-02-27 16:49:06+00:00,2026-03-02 09:33:49+00:00,2026-03-02 09:33:47+00:00,2026-03-02 09:33:47+00:00,aviv-julienjehannet,['documentation'],True,0,64.74472222222222,False
 666,feat: support for FROZEN stage (dpv2 migration),closed,2026-02-27 15:33:53+00:00,2026-03-03 13:25:16+00:00,2026-03-03 13:25:14+00:00,2026-03-03 13:25:14+00:00,aviv-julienjehannet,"['governance', 'ingestion', 'snowflake']",True,0,93.85583333333334,False
