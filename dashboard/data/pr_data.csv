@@ -1,6 +1,7 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-680,Remove unnecessary build step from packaging script,open,2026-03-12 15:20:36+00:00,2026-03-12 15:21:12+00:00,,,aviv-bertrandmoundounga,['SDK'],False,0,,False
-679,feat: enable glue registry for snowflake contracts,open,2026-03-12 14:00:09+00:00,2026-03-12 16:30:06+00:00,,,aviv-julienjehannet,['governance'],False,0,,False
+681,chore(deps): bump black from 25.12.0 to 26.3.1 in the uv group across 1 directory,closed,2026-03-12 21:05:38+00:00,2026-03-13 08:48:40+00:00,2026-03-13 08:48:38+00:00,2026-03-13 08:48:38+00:00,dependabot[bot],"['dependencies', 'python:uv']",True,0,11.716666666666667,False
+680,Remove unnecessary build step from packaging script,closed,2026-03-12 15:20:36+00:00,2026-03-13 13:13:08+00:00,2026-03-13 13:13:06+00:00,2026-03-13 13:13:05+00:00,aviv-bertrandmoundounga,['SDK'],True,0,21.87472222222222,False
+679,feat: enable glue registry for snowflake contracts,open,2026-03-12 14:00:09+00:00,2026-03-13 16:18:54+00:00,,,aviv-julienjehannet,['governance'],False,0,,False
 678,feat: add Ziyad as main reviewer,closed,2026-03-12 10:24:53+00:00,2026-03-12 10:45:16+00:00,2026-03-12 10:45:14+00:00,2026-03-12 10:45:14+00:00,aviv-julienjehannet,['governance'],True,0,0.33916666666666667,False
 677,feat: improve codelist command with CSV export facilities,closed,2026-03-12 09:57:23+00:00,2026-03-12 10:19:42+00:00,2026-03-12 10:19:40+00:00,2026-03-12 10:19:40+00:00,aviv-julienjehannet,"['documentation', 'governance']",True,0,0.3713888888888889,False
 676,chore(deps): bump tornado from 6.5.3 to 6.5.5 in the uv group across 1 directory,closed,2026-03-12 00:28:27+00:00,2026-03-12 10:06:03+00:00,2026-03-12 10:06:00+00:00,2026-03-12 10:06:00+00:00,dependabot[bot],"['dependencies', 'python:uv']",True,0,9.625833333333333,False
