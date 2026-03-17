@@ -1,4 +1,9 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+687,feat: add subtype for closed/end CDP views,open,2026-03-17 14:35:51+00:00,2026-03-17 15:56:07+00:00,,,aviv-jonyroy,[],False,0,,False
+686,chore: file renaming to identify dpv2 resources,open,2026-03-17 11:36:49+00:00,2026-03-17 14:45:13+00:00,,,aviv-julienjehannet,['documentation'],False,14,,False
+685,feat: implement normalization for Kinesis stream names in ContractUtils,closed,2026-03-17 09:44:59+00:00,2026-03-17 10:03:22+00:00,2026-03-17 10:03:20+00:00,2026-03-17 10:03:20+00:00,aviv-bertrandmoundounga,['SDK'],True,0,0.30583333333333335,False
+684,Manage long contract name,closed,2026-03-17 09:33:30+00:00,2026-03-17 09:40:09+00:00,2026-03-17 09:39:59+00:00,,aviv-bertrandmoundounga,[],False,0,,False
+683,chore(avis): add missing subtype,open,2026-03-17 09:14:51+00:00,2026-03-17 10:15:07+00:00,,,nherbin-ma,['data-model'],False,0,,False
 682,ci: create dataplatform-snowflake by terraform,closed,2026-03-16 12:11:11+00:00,2026-03-16 12:22:48+00:00,2026-03-16 12:22:40+00:00,2026-03-16 12:22:39+00:00,aviv-julienjehannet,['infrastructure'],True,0,0.19111111111111112,False
 681,chore(deps): bump black from 25.12.0 to 26.3.1 in the uv group across 1 directory,closed,2026-03-12 21:05:38+00:00,2026-03-13 08:48:40+00:00,2026-03-13 08:48:38+00:00,2026-03-13 08:48:38+00:00,dependabot[bot],"['dependencies', 'python:uv']",True,0,11.716666666666667,False
 680,Remove unnecessary build step from packaging script,closed,2026-03-12 15:20:36+00:00,2026-03-13 13:13:08+00:00,2026-03-13 13:13:06+00:00,2026-03-13 13:13:05+00:00,aviv-bertrandmoundounga,['SDK'],True,0,21.87472222222222,False
@@ -73,7 +78,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 611,ci: forget REPO_VERSION,closed,2026-01-29 17:18:59+00:00,2026-01-29 17:20:05+00:00,2026-01-29 17:20:03+00:00,2026-01-29 17:20:03+00:00,aviv-julienjehannet,['bug'],True,0,0.017777777777777778,False
 610,fix: shell unset value for main branch,closed,2026-01-29 15:53:58+00:00,2026-01-29 15:54:10+00:00,2026-01-29 15:54:08+00:00,2026-01-29 15:54:08+00:00,aviv-julienjehannet,[],True,0,0.002777777777777778,False
 609,fix: shell undeclared variable,closed,2026-01-29 15:20:41+00:00,2026-01-29 15:22:11+00:00,2026-01-29 15:22:09+00:00,2026-01-29 15:22:09+00:00,aviv-julienjehannet,['bug'],True,0,0.024444444444444446,False
-608,feat: Add Datadog metrics collection,open,2026-01-29 13:03:55+00:00,2026-03-16 13:23:59+00:00,,,aviv-bertrandmoundounga,"['SDK', 'infrastructure']",False,0,,False
+608,feat: Add Datadog metrics collection,open,2026-01-29 13:03:55+00:00,2026-03-17 14:00:45+00:00,,,aviv-bertrandmoundounga,"['SDK', 'infrastructure']",False,0,,False
 607,ci: simplify build workflow,closed,2026-01-28 17:27:33+00:00,2026-01-29 14:46:16+00:00,2026-01-29 14:46:14+00:00,2026-01-29 14:46:14+00:00,aviv-julienjehannet,"['SDK', 'infrastructure']",True,0,21.31138888888889,False
 606,feat: simplify duplicated commands in favor of assistant tooling,closed,2026-01-28 15:55:46+00:00,2026-01-28 16:13:05+00:00,2026-01-28 16:13:04+00:00,2026-01-28 16:13:04+00:00,aviv-julienjehannet,[],True,0,0.28833333333333333,False
 605,Contract/bbcr/new optionnal,closed,2026-01-28 14:35:59+00:00,2026-01-28 14:53:55+00:00,2026-01-28 14:53:52+00:00,2026-01-28 14:53:51+00:00,sl-nicolasmoteley,[],True,0,0.29777777777777775,False
