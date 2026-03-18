@@ -1,6 +1,9 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-687,feat: add subtype for closed/end CDP views,open,2026-03-17 14:35:51+00:00,2026-03-17 15:56:07+00:00,,,aviv-jonyroy,[],False,0,,False
-686,chore: file renaming to identify dpv2 resources,open,2026-03-17 11:36:49+00:00,2026-03-17 14:45:13+00:00,,,aviv-julienjehannet,['documentation'],False,14,,False
+690,feat(codelist): add source & version metadata in export,open,2026-03-18 10:48:41+00:00,2026-03-18 10:51:30+00:00,,,aviv-julienjehannet,[],False,3,,False
+689,feat: create data_contract_reviewers as new reviewer team,open,2026-03-18 09:56:04+00:00,2026-03-18 10:03:22+00:00,,,aviv-julienjehannet,['governance'],False,0,,False
+688,feat: add Ziyad in CODEOWNERS,closed,2026-03-18 09:23:23+00:00,2026-03-18 09:23:37+00:00,2026-03-18 09:23:35+00:00,2026-03-18 09:23:35+00:00,aviv-julienjehannet,['governance'],True,0,0.0033333333333333335,False
+687,feat: add subtype for closed/end CDP views,open,2026-03-17 14:35:51+00:00,2026-03-18 13:55:54+00:00,,,aviv-jonyroy,['data-model'],False,2,,False
+686,chore: file renaming to identify dpv2 resources,closed,2026-03-17 11:36:49+00:00,2026-03-18 09:31:32+00:00,2026-03-18 09:31:30+00:00,2026-03-18 09:31:30+00:00,aviv-julienjehannet,['documentation'],True,14,21.91138888888889,False
 685,feat: implement normalization for Kinesis stream names in ContractUtils,closed,2026-03-17 09:44:59+00:00,2026-03-17 10:03:22+00:00,2026-03-17 10:03:20+00:00,2026-03-17 10:03:20+00:00,aviv-bertrandmoundounga,['SDK'],True,0,0.30583333333333335,False
 684,Manage long contract name,closed,2026-03-17 09:33:30+00:00,2026-03-17 09:40:09+00:00,2026-03-17 09:39:59+00:00,,aviv-bertrandmoundounga,[],False,0,,False
 683,chore(avis): add missing subtype,open,2026-03-17 09:14:51+00:00,2026-03-17 10:15:07+00:00,,,nherbin-ma,['data-model'],False,0,,False
@@ -78,7 +81,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 611,ci: forget REPO_VERSION,closed,2026-01-29 17:18:59+00:00,2026-01-29 17:20:05+00:00,2026-01-29 17:20:03+00:00,2026-01-29 17:20:03+00:00,aviv-julienjehannet,['bug'],True,0,0.017777777777777778,False
 610,fix: shell unset value for main branch,closed,2026-01-29 15:53:58+00:00,2026-01-29 15:54:10+00:00,2026-01-29 15:54:08+00:00,2026-01-29 15:54:08+00:00,aviv-julienjehannet,[],True,0,0.002777777777777778,False
 609,fix: shell undeclared variable,closed,2026-01-29 15:20:41+00:00,2026-01-29 15:22:11+00:00,2026-01-29 15:22:09+00:00,2026-01-29 15:22:09+00:00,aviv-julienjehannet,['bug'],True,0,0.024444444444444446,False
-608,feat: Add Datadog metrics collection,open,2026-01-29 13:03:55+00:00,2026-03-17 14:00:45+00:00,,,aviv-bertrandmoundounga,"['SDK', 'infrastructure']",False,0,,False
+608,feat: Add Datadog metrics collection,open,2026-01-29 13:03:55+00:00,2026-03-18 16:13:40+00:00,,,aviv-bertrandmoundounga,"['SDK', 'infrastructure']",False,0,,False
 607,ci: simplify build workflow,closed,2026-01-28 17:27:33+00:00,2026-01-29 14:46:16+00:00,2026-01-29 14:46:14+00:00,2026-01-29 14:46:14+00:00,aviv-julienjehannet,"['SDK', 'infrastructure']",True,0,21.31138888888889,False
 606,feat: simplify duplicated commands in favor of assistant tooling,closed,2026-01-28 15:55:46+00:00,2026-01-28 16:13:05+00:00,2026-01-28 16:13:04+00:00,2026-01-28 16:13:04+00:00,aviv-julienjehannet,[],True,0,0.28833333333333333,False
 605,Contract/bbcr/new optionnal,closed,2026-01-28 14:35:59+00:00,2026-01-28 14:53:55+00:00,2026-01-28 14:53:52+00:00,2026-01-28 14:53:51+00:00,sl-nicolasmoteley,[],True,0,0.29777777777777775,False
@@ -113,7 +116,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 576,feat: go live for quality score v1 to snowflake,closed,2026-01-16 14:55:43+00:00,2026-01-16 14:59:18+00:00,2026-01-16 14:59:16+00:00,2026-01-16 14:59:16+00:00,aviv-marcjonot,[],True,0,0.059166666666666666,False
 575,feat: explore possibility to use direct snowflake data types,closed,2026-01-15 14:02:37+00:00,2026-01-19 15:15:40+00:00,2026-01-19 15:15:40+00:00,,aviv-julienjehannet,"['enhancement', 'governance', 'ingestion', 'snowflake']",False,0,,False
 574,docs: add note to assist editor for missing teams in the referential,closed,2026-01-15 10:28:50+00:00,2026-01-15 10:31:09+00:00,2026-01-15 10:31:06+00:00,2026-01-15 10:31:06+00:00,aviv-julienjehannet,[],True,0,0.03777777777777778,False
-573,build(deps): bump the npm_and_yarn group across 1 directory with 2 updates,open,2026-01-14 22:27:59+00:00,2026-03-13 16:28:12+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
+573,build(deps): bump the npm_and_yarn group across 1 directory with 2 updates,open,2026-01-14 22:27:59+00:00,2026-03-18 10:09:04+00:00,,,dependabot[bot],"['dependencies', 'SDK', 'javascript']",False,0,,False
 572,feat: update dummy_batch_v1.py example,closed,2026-01-14 15:09:07+00:00,2026-01-14 15:11:08+00:00,2026-01-14 15:11:06+00:00,2026-01-14 15:11:06+00:00,aviv-julienjehannet,[],True,0,0.03305555555555555,False
 571,FEAT: add integration tests for batch and streaming processes in C# SDK,closed,2026-01-13 14:14:01+00:00,2026-02-24 09:05:01+00:00,2026-02-24 09:04:59+00:00,2026-02-24 09:04:59+00:00,aviv-bertrandmoundounga,"['SDK', 'csharp']",True,3,1002.8494444444444,False
 570,feat: [TITAN-1971] change phase to production,closed,2026-01-13 10:56:58+00:00,2026-01-13 11:23:59+00:00,2026-01-13 11:23:54+00:00,2026-01-13 11:23:54+00:00,aviv-michalkawczak,['data-contract'],True,0,0.4488888888888889,True
