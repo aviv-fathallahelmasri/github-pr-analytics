@@ -1,12 +1,13 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-690,feat(codelist): add source & version metadata in export,open,2026-03-18 10:48:41+00:00,2026-03-18 10:51:30+00:00,,,aviv-julienjehannet,[],False,3,,False
-689,feat: create data_contract_reviewers as new reviewer team,open,2026-03-18 09:56:04+00:00,2026-03-18 10:03:22+00:00,,,aviv-julienjehannet,['governance'],False,0,,False
+691,chore(deps): bump deepdiff from 8.6.1 to 8.6.2 in the uv group across 1 directory,closed,2026-03-18 21:37:20+00:00,2026-03-19 08:56:31+00:00,2026-03-19 08:56:29+00:00,2026-03-19 08:56:29+00:00,dependabot[bot],"['dependencies', 'python:uv']",True,0,11.319166666666666,False
+690,feat(codelist): add source & version metadata in export,closed,2026-03-18 10:48:41+00:00,2026-03-19 11:24:07+00:00,2026-03-19 11:24:05+00:00,2026-03-19 11:24:05+00:00,aviv-julienjehannet,"['documentation', 'governance', 'data-model']",True,5,24.59,False
+689,feat: create data_contract_reviewers as new reviewer team,closed,2026-03-18 09:56:04+00:00,2026-03-19 09:03:51+00:00,2026-03-19 09:03:48+00:00,2026-03-19 09:03:48+00:00,aviv-julienjehannet,['governance'],True,0,23.128888888888888,False
 688,feat: add Ziyad in CODEOWNERS,closed,2026-03-18 09:23:23+00:00,2026-03-18 09:23:37+00:00,2026-03-18 09:23:35+00:00,2026-03-18 09:23:35+00:00,aviv-julienjehannet,['governance'],True,0,0.0033333333333333335,False
-687,feat: add subtype for closed/end CDP views,open,2026-03-17 14:35:51+00:00,2026-03-18 13:55:54+00:00,,,aviv-jonyroy,['data-model'],False,2,,False
+687,feat: add subtype for closed/end CDP views,closed,2026-03-17 14:35:51+00:00,2026-03-19 15:40:17+00:00,2026-03-19 10:14:44+00:00,2026-03-19 10:14:44+00:00,aviv-jonyroy,['data-model'],True,3,43.64805555555556,False
 686,chore: file renaming to identify dpv2 resources,closed,2026-03-17 11:36:49+00:00,2026-03-18 09:31:32+00:00,2026-03-18 09:31:30+00:00,2026-03-18 09:31:30+00:00,aviv-julienjehannet,['documentation'],True,14,21.91138888888889,False
 685,feat: implement normalization for Kinesis stream names in ContractUtils,closed,2026-03-17 09:44:59+00:00,2026-03-17 10:03:22+00:00,2026-03-17 10:03:20+00:00,2026-03-17 10:03:20+00:00,aviv-bertrandmoundounga,['SDK'],True,0,0.30583333333333335,False
 684,Manage long contract name,closed,2026-03-17 09:33:30+00:00,2026-03-17 09:40:09+00:00,2026-03-17 09:39:59+00:00,,aviv-bertrandmoundounga,[],False,0,,False
-683,chore(avis): add missing subtype,open,2026-03-17 09:14:51+00:00,2026-03-17 10:15:07+00:00,,,nherbin-ma,['data-model'],False,0,,False
+683,chore(avis): add missing subtype,open,2026-03-17 09:14:51+00:00,2026-03-19 11:25:24+00:00,,,nherbin-ma,['data-model'],False,0,,False
 682,ci: create dataplatform-snowflake by terraform,closed,2026-03-16 12:11:11+00:00,2026-03-16 12:22:48+00:00,2026-03-16 12:22:40+00:00,2026-03-16 12:22:39+00:00,aviv-julienjehannet,['infrastructure'],True,0,0.19111111111111112,False
 681,chore(deps): bump black from 25.12.0 to 26.3.1 in the uv group across 1 directory,closed,2026-03-12 21:05:38+00:00,2026-03-13 08:48:40+00:00,2026-03-13 08:48:38+00:00,2026-03-13 08:48:38+00:00,dependabot[bot],"['dependencies', 'python:uv']",True,0,11.716666666666667,False
 680,Remove unnecessary build step from packaging script,closed,2026-03-12 15:20:36+00:00,2026-03-13 13:13:08+00:00,2026-03-13 13:13:06+00:00,2026-03-13 13:13:05+00:00,aviv-bertrandmoundounga,['SDK'],True,0,21.87472222222222,False
@@ -81,7 +82,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 611,ci: forget REPO_VERSION,closed,2026-01-29 17:18:59+00:00,2026-01-29 17:20:05+00:00,2026-01-29 17:20:03+00:00,2026-01-29 17:20:03+00:00,aviv-julienjehannet,['bug'],True,0,0.017777777777777778,False
 610,fix: shell unset value for main branch,closed,2026-01-29 15:53:58+00:00,2026-01-29 15:54:10+00:00,2026-01-29 15:54:08+00:00,2026-01-29 15:54:08+00:00,aviv-julienjehannet,[],True,0,0.002777777777777778,False
 609,fix: shell undeclared variable,closed,2026-01-29 15:20:41+00:00,2026-01-29 15:22:11+00:00,2026-01-29 15:22:09+00:00,2026-01-29 15:22:09+00:00,aviv-julienjehannet,['bug'],True,0,0.024444444444444446,False
-608,feat: Add Datadog metrics collection,open,2026-01-29 13:03:55+00:00,2026-03-18 16:13:40+00:00,,,aviv-bertrandmoundounga,"['SDK', 'infrastructure']",False,0,,False
+608,feat: Add Datadog metrics collection,open,2026-01-29 13:03:55+00:00,2026-03-19 14:01:06+00:00,,,aviv-bertrandmoundounga,"['SDK', 'infrastructure']",False,0,,False
 607,ci: simplify build workflow,closed,2026-01-28 17:27:33+00:00,2026-01-29 14:46:16+00:00,2026-01-29 14:46:14+00:00,2026-01-29 14:46:14+00:00,aviv-julienjehannet,"['SDK', 'infrastructure']",True,0,21.31138888888889,False
 606,feat: simplify duplicated commands in favor of assistant tooling,closed,2026-01-28 15:55:46+00:00,2026-01-28 16:13:05+00:00,2026-01-28 16:13:04+00:00,2026-01-28 16:13:04+00:00,aviv-julienjehannet,[],True,0,0.28833333333333333,False
 605,Contract/bbcr/new optionnal,closed,2026-01-28 14:35:59+00:00,2026-01-28 14:53:55+00:00,2026-01-28 14:53:52+00:00,2026-01-28 14:53:51+00:00,sl-nicolasmoteley,[],True,0,0.29777777777777775,False
@@ -387,6 +388,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 305,"feat(product_status_de_v1.py, product_status_fr_v1.py): Contract for call tracking statuses for DE and FR",closed,2025-08-27 12:03:05+00:00,2025-08-29 06:53:18+00:00,2025-08-29 06:53:16+00:00,2025-08-29 06:53:16+00:00,aviv-dawidkrol,['data-contract'],True,4,42.83638888888889,True
 304,Feat/mcm 1871,closed,2025-08-27 09:25:22+00:00,2025-08-27 12:31:47+00:00,2025-08-27 12:31:45+00:00,2025-08-27 12:31:45+00:00,gsl-raniaelbouhssini,[],True,0,3.106388888888889,False
 303,feat: be more robust between s3 and glue registry,closed,2025-08-27 08:00:00+00:00,2025-08-27 08:19:01+00:00,2025-08-27 08:18:59+00:00,2025-08-27 08:18:59+00:00,aviv-julienjehannet,['bug'],True,0,0.3163888888888889,False
+302,feat: create CLSO data contract,closed,2025-08-26 15:41:51+00:00,2025-09-02 08:56:33+00:00,2025-09-02 08:56:31+00:00,2025-09-02 08:56:31+00:00,aviv-kimkocet,['data-contract'],True,16,161.24444444444444,True
 302,feat: create CLSO data contract,closed,2025-08-26 15:41:51+00:00,2025-09-02 08:56:33+00:00,2025-09-02 08:56:31+00:00,2025-09-02 08:56:31+00:00,aviv-kimkocet,['data-contract'],True,16,161.24444444444444,True
 301,feat: capability folder migration for BBCR (Salesforce),closed,2025-08-26 15:00:26+00:00,2025-08-27 08:48:44+00:00,2025-08-27 08:48:42+00:00,2025-08-27 08:48:42+00:00,aviv-julienjehannet,['governance'],True,0,17.804444444444446,False
 300,bump(contribs): synchronize ts sdk version,closed,2025-08-26 13:19:32+00:00,2025-08-26 13:20:51+00:00,2025-08-26 13:20:49+00:00,2025-08-26 13:20:49+00:00,aviv-julienjehannet,[],True,0,0.021388888888888888,False
