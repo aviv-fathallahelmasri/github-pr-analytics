@@ -1,4 +1,7 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+694,feat: make incident channel mandatory since 2026-03-20,open,2026-03-20 15:05:03+00:00,2026-03-20 16:22:01+00:00,,,aviv-julienjehannet,"['enhancement', 'governance']",False,7,,False
+693,Feature/iwb refacto classifieds management contract,open,2026-03-20 08:15:38+00:00,2026-03-20 08:15:55+00:00,,,jlgouwyapizr,[],False,0,,False
+692,feat: create an additional column `is_replay` on all data contracts (…,open,2026-03-19 16:44:47+00:00,2026-03-20 10:37:24+00:00,,,aviv-julienjehannet,"['governance', 'infrastructure']",False,0,,False
 691,chore(deps): bump deepdiff from 8.6.1 to 8.6.2 in the uv group across 1 directory,closed,2026-03-18 21:37:20+00:00,2026-03-19 08:56:31+00:00,2026-03-19 08:56:29+00:00,2026-03-19 08:56:29+00:00,dependabot[bot],"['dependencies', 'python:uv']",True,0,11.319166666666666,False
 690,feat(codelist): add source & version metadata in export,closed,2026-03-18 10:48:41+00:00,2026-03-19 11:24:07+00:00,2026-03-19 11:24:05+00:00,2026-03-19 11:24:05+00:00,aviv-julienjehannet,"['documentation', 'governance', 'data-model']",True,5,24.59,False
 689,feat: create data_contract_reviewers as new reviewer team,closed,2026-03-18 09:56:04+00:00,2026-03-19 09:03:51+00:00,2026-03-19 09:03:48+00:00,2026-03-19 09:03:48+00:00,aviv-julienjehannet,['governance'],True,0,23.128888888888888,False
@@ -388,7 +391,6 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 305,"feat(product_status_de_v1.py, product_status_fr_v1.py): Contract for call tracking statuses for DE and FR",closed,2025-08-27 12:03:05+00:00,2025-08-29 06:53:18+00:00,2025-08-29 06:53:16+00:00,2025-08-29 06:53:16+00:00,aviv-dawidkrol,['data-contract'],True,4,42.83638888888889,True
 304,Feat/mcm 1871,closed,2025-08-27 09:25:22+00:00,2025-08-27 12:31:47+00:00,2025-08-27 12:31:45+00:00,2025-08-27 12:31:45+00:00,gsl-raniaelbouhssini,[],True,0,3.106388888888889,False
 303,feat: be more robust between s3 and glue registry,closed,2025-08-27 08:00:00+00:00,2025-08-27 08:19:01+00:00,2025-08-27 08:18:59+00:00,2025-08-27 08:18:59+00:00,aviv-julienjehannet,['bug'],True,0,0.3163888888888889,False
-302,feat: create CLSO data contract,closed,2025-08-26 15:41:51+00:00,2025-09-02 08:56:33+00:00,2025-09-02 08:56:31+00:00,2025-09-02 08:56:31+00:00,aviv-kimkocet,['data-contract'],True,16,161.24444444444444,True
 302,feat: create CLSO data contract,closed,2025-08-26 15:41:51+00:00,2025-09-02 08:56:33+00:00,2025-09-02 08:56:31+00:00,2025-09-02 08:56:31+00:00,aviv-kimkocet,['data-contract'],True,16,161.24444444444444,True
 301,feat: capability folder migration for BBCR (Salesforce),closed,2025-08-26 15:00:26+00:00,2025-08-27 08:48:44+00:00,2025-08-27 08:48:42+00:00,2025-08-27 08:48:42+00:00,aviv-julienjehannet,['governance'],True,0,17.804444444444446,False
 300,bump(contribs): synchronize ts sdk version,closed,2025-08-26 13:19:32+00:00,2025-08-26 13:20:51+00:00,2025-08-26 13:20:49+00:00,2025-08-26 13:20:49+00:00,aviv-julienjehannet,[],True,0,0.021388888888888888,False
