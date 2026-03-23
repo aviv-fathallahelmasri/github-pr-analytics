@@ -1,7 +1,8 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-694,feat: make incident channel mandatory since 2026-03-20,open,2026-03-20 15:05:03+00:00,2026-03-21 10:13:31+00:00,,,aviv-julienjehannet,"['enhancement', 'governance']",False,7,,False
+695,feat: change incident channel definition to accept names (and/or Http…,open,2026-03-23 15:54:30+00:00,2026-03-23 16:24:39+00:00,,,aviv-julienjehannet,"['governance', 'infrastructure']",False,3,,False
+694,feat: make incident channel mandatory since 2026-03-20,closed,2026-03-20 15:05:03+00:00,2026-03-23 11:53:51+00:00,2026-03-23 11:53:47+00:00,2026-03-23 11:53:47+00:00,aviv-julienjehannet,"['enhancement', 'governance']",True,7,68.81222222222222,False
 693,Feature/iwb refacto classifieds management contract,open,2026-03-20 08:15:38+00:00,2026-03-20 16:26:29+00:00,,,jlgouwyapizr,[],False,1,,False
-692,feat: create an additional column `is_replay` on all data contracts (…,open,2026-03-19 16:44:47+00:00,2026-03-20 10:37:24+00:00,,,aviv-julienjehannet,"['governance', 'infrastructure']",False,0,,False
+692,feat: create an additional column `is_replay` on all data contracts (…,open,2026-03-19 16:44:47+00:00,2026-03-23 12:57:05+00:00,,,aviv-julienjehannet,"['governance', 'infrastructure']",False,0,,False
 691,chore(deps): bump deepdiff from 8.6.1 to 8.6.2 in the uv group across 1 directory,closed,2026-03-18 21:37:20+00:00,2026-03-19 08:56:31+00:00,2026-03-19 08:56:29+00:00,2026-03-19 08:56:29+00:00,dependabot[bot],"['dependencies', 'python:uv']",True,0,11.319166666666666,False
 690,feat(codelist): add source & version metadata in export,closed,2026-03-18 10:48:41+00:00,2026-03-19 11:24:07+00:00,2026-03-19 11:24:05+00:00,2026-03-19 11:24:05+00:00,aviv-julienjehannet,"['documentation', 'governance', 'data-model']",True,5,24.59,False
 689,feat: create data_contract_reviewers as new reviewer team,closed,2026-03-18 09:56:04+00:00,2026-03-19 09:03:51+00:00,2026-03-19 09:03:48+00:00,2026-03-19 09:03:48+00:00,aviv-julienjehannet,['governance'],True,0,23.128888888888888,False
