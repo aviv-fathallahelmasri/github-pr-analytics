@@ -1,7 +1,7 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
 698,chore: move tantalum team into data_contract_reviewers,closed,2026-03-24 14:12:09+00:00,2026-03-24 14:21:21+00:00,2026-03-24 14:21:17+00:00,2026-03-24 14:21:17+00:00,aviv-julienjehannet,[],True,0,0.15222222222222223,False
 697,Replaced url by names for already set incident channels,closed,2026-03-24 09:55:37+00:00,2026-03-24 11:03:57+00:00,2026-03-24 11:03:56+00:00,2026-03-24 11:03:56+00:00,sl-davidbernuau,[],True,0,1.138611111111111,False
-696,feat: rework on miracles columns,open,2026-03-24 09:32:52+00:00,2026-03-24 14:51:20+00:00,,,Komalis,[],False,0,,False
+696,feat: rework on miracles columns,closed,2026-03-24 09:32:52+00:00,2026-03-25 09:58:10+00:00,2026-03-25 09:58:09+00:00,2026-03-25 09:58:09+00:00,Komalis,[],True,0,24.421388888888888,False
 695,feat: change incident channel definition to accept names (and/or Http…,closed,2026-03-23 15:54:30+00:00,2026-03-24 09:03:54+00:00,2026-03-24 09:03:51+00:00,2026-03-24 09:03:51+00:00,aviv-julienjehannet,"['governance', 'infrastructure']",True,3,17.155833333333334,False
 694,feat: make incident channel mandatory since 2026-03-20,closed,2026-03-20 15:05:03+00:00,2026-03-23 11:53:51+00:00,2026-03-23 11:53:47+00:00,2026-03-23 11:53:47+00:00,aviv-julienjehannet,"['enhancement', 'governance']",True,7,68.81222222222222,False
 693,Feature/iwb refacto classifieds management contract,open,2026-03-20 08:15:38+00:00,2026-03-24 15:33:00+00:00,,,jlgouwyapizr,[],False,4,,False
@@ -89,7 +89,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 611,ci: forget REPO_VERSION,closed,2026-01-29 17:18:59+00:00,2026-01-29 17:20:05+00:00,2026-01-29 17:20:03+00:00,2026-01-29 17:20:03+00:00,aviv-julienjehannet,['bug'],True,0,0.017777777777777778,False
 610,fix: shell unset value for main branch,closed,2026-01-29 15:53:58+00:00,2026-01-29 15:54:10+00:00,2026-01-29 15:54:08+00:00,2026-01-29 15:54:08+00:00,aviv-julienjehannet,[],True,0,0.002777777777777778,False
 609,fix: shell undeclared variable,closed,2026-01-29 15:20:41+00:00,2026-01-29 15:22:11+00:00,2026-01-29 15:22:09+00:00,2026-01-29 15:22:09+00:00,aviv-julienjehannet,['bug'],True,0,0.024444444444444446,False
-608,feat: Add Datadog metrics collection,open,2026-01-29 13:03:55+00:00,2026-03-19 14:01:06+00:00,,,aviv-bertrandmoundounga,"['SDK', 'infrastructure']",False,0,,False
+608,feat: Add Datadog metrics collection,open,2026-01-29 13:03:55+00:00,2026-03-25 15:56:17+00:00,,,aviv-bertrandmoundounga,"['SDK', 'infrastructure']",False,0,,False
 607,ci: simplify build workflow,closed,2026-01-28 17:27:33+00:00,2026-01-29 14:46:16+00:00,2026-01-29 14:46:14+00:00,2026-01-29 14:46:14+00:00,aviv-julienjehannet,"['SDK', 'infrastructure']",True,0,21.31138888888889,False
 606,feat: simplify duplicated commands in favor of assistant tooling,closed,2026-01-28 15:55:46+00:00,2026-01-28 16:13:05+00:00,2026-01-28 16:13:04+00:00,2026-01-28 16:13:04+00:00,aviv-julienjehannet,[],True,0,0.28833333333333333,False
 605,Contract/bbcr/new optionnal,closed,2026-01-28 14:35:59+00:00,2026-01-28 14:53:55+00:00,2026-01-28 14:53:52+00:00,2026-01-28 14:53:51+00:00,sl-nicolasmoteley,[],True,0,0.29777777777777775,False
