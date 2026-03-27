@@ -1,10 +1,11 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+699,chore(deps): bump requests from 2.32.5 to 2.33.0 in the uv group across 1 directory,open,2026-03-26 17:46:28+00:00,2026-03-26 17:46:28+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 698,chore: move tantalum team into data_contract_reviewers,closed,2026-03-24 14:12:09+00:00,2026-03-24 14:21:21+00:00,2026-03-24 14:21:17+00:00,2026-03-24 14:21:17+00:00,aviv-julienjehannet,[],True,0,0.15222222222222223,False
 697,Replaced url by names for already set incident channels,closed,2026-03-24 09:55:37+00:00,2026-03-24 11:03:57+00:00,2026-03-24 11:03:56+00:00,2026-03-24 11:03:56+00:00,sl-davidbernuau,[],True,0,1.138611111111111,False
 696,feat: rework on miracles columns,closed,2026-03-24 09:32:52+00:00,2026-03-25 09:58:10+00:00,2026-03-25 09:58:09+00:00,2026-03-25 09:58:09+00:00,Komalis,[],True,0,24.421388888888888,False
 695,feat: change incident channel definition to accept names (and/or Http…,closed,2026-03-23 15:54:30+00:00,2026-03-24 09:03:54+00:00,2026-03-24 09:03:51+00:00,2026-03-24 09:03:51+00:00,aviv-julienjehannet,"['governance', 'infrastructure']",True,3,17.155833333333334,False
 694,feat: make incident channel mandatory since 2026-03-20,closed,2026-03-20 15:05:03+00:00,2026-03-23 11:53:51+00:00,2026-03-23 11:53:47+00:00,2026-03-23 11:53:47+00:00,aviv-julienjehannet,"['enhancement', 'governance']",True,7,68.81222222222222,False
-693,Feature/iwb refacto classifieds management contract,open,2026-03-20 08:15:38+00:00,2026-03-26 10:10:24+00:00,,,jlgouwyapizr,[],False,4,,False
+693,Feature/iwb refacto classifieds management contract,open,2026-03-20 08:15:38+00:00,2026-03-27 09:02:28+00:00,,,jlgouwyapizr,[],False,4,,False
 692,feat: create an additional column `is_replay` on all data contracts (…,open,2026-03-19 16:44:47+00:00,2026-03-24 15:15:11+00:00,,,aviv-julienjehannet,"['governance', 'infrastructure']",False,0,,False
 691,chore(deps): bump deepdiff from 8.6.1 to 8.6.2 in the uv group across 1 directory,closed,2026-03-18 21:37:20+00:00,2026-03-19 08:56:31+00:00,2026-03-19 08:56:29+00:00,2026-03-19 08:56:29+00:00,dependabot[bot],"['dependencies', 'python:uv']",True,0,11.319166666666666,False
 690,feat(codelist): add source & version metadata in export,closed,2026-03-18 10:48:41+00:00,2026-03-19 11:24:07+00:00,2026-03-19 11:24:05+00:00,2026-03-19 11:24:05+00:00,aviv-julienjehannet,"['documentation', 'governance', 'data-model']",True,5,24.59,False
