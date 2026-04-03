@@ -1,7 +1,8 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-701,feat: add missing intermediary spotlight classifieds template redirec…,open,2026-04-02 14:00:03+00:00,2026-04-02 14:09:35+00:00,,,clairePoyo,[],False,0,,False
+702,feat: go to prod,closed,2026-04-02 17:24:43+00:00,2026-04-03 08:07:48+00:00,2026-04-03 08:07:46+00:00,2026-04-03 08:07:46+00:00,Komalis,[],True,0,14.7175,False
+701,feat: add missing intermediary spotlight classifieds template redirec…,open,2026-04-02 14:00:03+00:00,2026-04-03 07:09:35+00:00,,,clairePoyo,[],False,0,,False
 700,feat/rework on miracle,closed,2026-03-31 09:10:10+00:00,2026-03-31 09:31:34+00:00,2026-03-31 09:31:31+00:00,2026-03-31 09:31:31+00:00,Komalis,[],True,0,0.35583333333333333,False
-699,chore(deps): bump requests from 2.32.5 to 2.33.0 in the uv group across 1 directory,open,2026-03-26 17:46:28+00:00,2026-03-31 13:26:42+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+699,chore(deps): bump requests from 2.32.5 to 2.33.0 in the uv group across 1 directory,open,2026-03-26 17:46:28+00:00,2026-04-03 08:41:26+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 698,chore: move tantalum team into data_contract_reviewers,closed,2026-03-24 14:12:09+00:00,2026-03-24 14:21:21+00:00,2026-03-24 14:21:17+00:00,2026-03-24 14:21:17+00:00,aviv-julienjehannet,[],True,0,0.15222222222222223,False
 697,Replaced url by names for already set incident channels,closed,2026-03-24 09:55:37+00:00,2026-03-24 11:03:57+00:00,2026-03-24 11:03:56+00:00,2026-03-24 11:03:56+00:00,sl-davidbernuau,[],True,0,1.138611111111111,False
 696,feat: rework on miracles columns,closed,2026-03-24 09:32:52+00:00,2026-03-25 09:58:10+00:00,2026-03-25 09:58:09+00:00,2026-03-25 09:58:09+00:00,Komalis,[],True,0,24.421388888888888,False
