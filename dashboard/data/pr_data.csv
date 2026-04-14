@@ -1,8 +1,10 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+712,[MOD] Visibility : Create TopPosition contracts v2,open,2026-04-14 16:37:52+00:00,2026-04-14 16:39:40+00:00,,,gsl-laetitiapouletdegrimouard,[],False,0,,False
+711,chore(deps): bump the uv group across 1 directory with 2 updates,open,2026-04-13 23:42:20+00:00,2026-04-13 23:42:21+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 710,chore: update FAQ support channel to #aviv_snowflake_support,closed,2026-04-13 14:30:48+00:00,2026-04-13 15:18:56+00:00,2026-04-13 15:18:53+00:00,2026-04-13 15:18:53+00:00,aviv-fathallahelmasri,[],True,0,0.8013888888888889,False
 709,feat: pii,open,2026-04-13 12:14:00+00:00,2026-04-13 12:14:13+00:00,,,sl-fredericdalessandro,[],False,0,,False
 708,feat: change Opportunity table mode to LATEST_WITH_HISTORY,closed,2026-04-10 13:19:17+00:00,2026-04-10 13:20:33+00:00,2026-04-10 13:20:31+00:00,2026-04-10 13:20:31+00:00,sl-nicolasmoteley,[],True,0,0.020555555555555556,False
-707,feat: FRAUD-2945 add contract for ContentReportDeV1,open,2026-04-09 07:41:11+00:00,2026-04-13 11:59:48+00:00,,,iwt-kschoenrock,[],False,13,,False
+707,feat: FRAUD-2945 add contract for ContentReportDeV1,open,2026-04-09 07:41:11+00:00,2026-04-14 16:01:20+00:00,,,iwt-kschoenrock,[],False,13,,False
 706,feat: add cpqde_additional_conditions field for SF Quote table,closed,2026-04-09 07:23:39+00:00,2026-04-09 07:38:20+00:00,2026-04-09 07:38:18+00:00,2026-04-09 07:38:18+00:00,sl-nicolasmoteley,[],True,0,0.24416666666666667,False
 705,feat:  `@change_tracking` annotation ,open,2026-04-07 13:27:47+00:00,2026-04-07 14:05:22+00:00,,,sl-fredericdalessandro,[],False,0,,False
 704,"Revert ""chore(deps): bump requests from 2.32.5 to 2.33.0 in the uv group across 1 directory""",closed,2026-04-07 12:59:13+00:00,2026-04-07 12:59:25+00:00,2026-04-07 12:59:24+00:00,2026-04-07 12:59:24+00:00,sl-fredericdalessandro,[],True,0,0.0030555555555555557,False
