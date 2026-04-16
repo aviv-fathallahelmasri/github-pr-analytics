@@ -1,4 +1,6 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+714,docs: update README and PR template,open,2026-04-16 13:15:34+00:00,2026-04-16 13:17:25+00:00,,,aviv-fathallahelmasri,[],False,0,,False
+713,New contracts for saved searches,closed,2026-04-16 07:21:47+00:00,2026-04-16 14:05:35+00:00,2026-04-16 14:05:32+00:00,2026-04-16 14:05:32+00:00,iwt-sebastianotto,"['data-contract', 'governance']",True,2,6.729166666666667,True
 712,[MOD] Visibility : Create TopPosition contracts v2,closed,2026-04-14 16:37:52+00:00,2026-04-15 11:21:23+00:00,2026-04-15 11:21:20+00:00,2026-04-15 11:21:20+00:00,gsl-laetitiapouletdegrimouard,"['data-contract', 'governance']",True,5,18.724444444444444,True
 711,chore(deps): bump the uv group across 1 directory with 2 updates,closed,2026-04-13 23:42:20+00:00,2026-04-15 13:36:16+00:00,2026-04-15 13:36:06+00:00,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 710,chore: update FAQ support channel to #aviv_snowflake_support,closed,2026-04-13 14:30:48+00:00,2026-04-13 15:18:56+00:00,2026-04-13 15:18:53+00:00,2026-04-13 15:18:53+00:00,aviv-fathallahelmasri,[],True,0,0.8013888888888889,False
@@ -103,7 +105,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 611,ci: forget REPO_VERSION,closed,2026-01-29 17:18:59+00:00,2026-01-29 17:20:05+00:00,2026-01-29 17:20:03+00:00,2026-01-29 17:20:03+00:00,aviv-julienjehannet,['bug'],True,0,0.017777777777777778,False
 610,fix: shell unset value for main branch,closed,2026-01-29 15:53:58+00:00,2026-01-29 15:54:10+00:00,2026-01-29 15:54:08+00:00,2026-01-29 15:54:08+00:00,aviv-julienjehannet,[],True,0,0.002777777777777778,False
 609,fix: shell undeclared variable,closed,2026-01-29 15:20:41+00:00,2026-01-29 15:22:11+00:00,2026-01-29 15:22:09+00:00,2026-01-29 15:22:09+00:00,aviv-julienjehannet,['bug'],True,0,0.024444444444444446,False
-608,feat: Add Datadog metrics collection,open,2026-01-29 13:03:55+00:00,2026-03-26 14:32:33+00:00,,,aviv-bertrandmoundounga,"['SDK', 'infrastructure']",False,0,,False
+608,feat: Add Datadog metrics collection,open,2026-01-29 13:03:55+00:00,2026-04-16 09:44:12+00:00,,,aviv-bertrandmoundounga,"['SDK', 'infrastructure']",False,0,,False
 607,ci: simplify build workflow,closed,2026-01-28 17:27:33+00:00,2026-04-07 10:03:56+00:00,2026-01-29 14:46:14+00:00,2026-01-29 14:46:14+00:00,aviv-julienjehannet,"['SDK', 'infrastructure']",True,0,21.31138888888889,False
 606,feat: simplify duplicated commands in favor of assistant tooling,closed,2026-01-28 15:55:46+00:00,2026-01-28 16:13:05+00:00,2026-01-28 16:13:04+00:00,2026-01-28 16:13:04+00:00,aviv-julienjehannet,[],True,0,0.28833333333333333,False
 605,Contract/bbcr/new optionnal,closed,2026-01-28 14:35:59+00:00,2026-01-28 14:53:55+00:00,2026-01-28 14:53:52+00:00,2026-01-28 14:53:51+00:00,sl-nicolasmoteley,[],True,0,0.29777777777777775,False
