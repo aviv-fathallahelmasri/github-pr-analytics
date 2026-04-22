@@ -1,17 +1,19 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-719,Visibility : Update the v2 contract with _fr,open,2026-04-21 10:08:53+00:00,2026-04-21 11:42:25+00:00,,,gsl-laetitiapouletdegrimouard,['data-contract'],False,0,,True
+721,test,closed,2026-04-22 16:03:42+00:00,2026-04-22 16:15:16+00:00,2026-04-22 16:15:11+00:00,,sl-fredericdalessandro,[],False,0,,False
+720,[MOD] Visibility : Add FR in contracts names and descriptions.,closed,2026-04-22 10:03:02+00:00,2026-04-22 11:52:19+00:00,2026-04-22 11:52:17+00:00,2026-04-22 11:52:17+00:00,gsl-laetitiapouletdegrimouard,[],True,0,1.8208333333333333,False
+719,Visibility : Update the v2 contract with _fr,closed,2026-04-21 10:08:53+00:00,2026-04-22 11:51:27+00:00,2026-04-22 11:51:19+00:00,,gsl-laetitiapouletdegrimouard,['data-contract'],False,0,,True
 718,docs: add README to examples folder,open,2026-04-20 13:25:36+00:00,2026-04-21 07:33:59+00:00,,,aviv-fathallahelmasri,"['documentation', 'governance']",False,0,,False
 717,Update README.md,closed,2026-04-19 18:35:23+00:00,2026-04-20 09:57:31+00:00,2026-04-20 09:57:29+00:00,2026-04-20 09:57:29+00:00,aviv-ziyadmuhammed,[],True,0,15.368333333333334,False
 716,feat: add cpqde_property fields into SF Quote table,closed,2026-04-17 12:51:06+00:00,2026-04-17 13:06:38+00:00,2026-04-17 13:06:36+00:00,2026-04-17 13:06:36+00:00,sl-nicolasmoteley,[],True,0,0.25833333333333336,False
-715,chore(deps): bump the uv group across 1 directory with 2 updates,open,2026-04-17 10:29:21+00:00,2026-04-20 07:45:33+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+715,chore(deps): bump the uv group across 1 directory with 2 updates,open,2026-04-17 10:29:21+00:00,2026-04-22 12:19:02+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 714,docs: update README and PR template,open,2026-04-16 13:15:34+00:00,2026-04-20 12:50:24+00:00,,,aviv-fathallahelmasri,[],False,0,,False
 713,New contracts for saved searches,closed,2026-04-16 07:21:47+00:00,2026-04-16 14:05:35+00:00,2026-04-16 14:05:32+00:00,2026-04-16 14:05:32+00:00,iwt-sebastianotto,"['data-contract', 'governance']",True,2,6.729166666666667,True
 712,[MOD] Visibility : Create TopPosition contracts v2,closed,2026-04-14 16:37:52+00:00,2026-04-15 11:21:23+00:00,2026-04-15 11:21:20+00:00,2026-04-15 11:21:20+00:00,gsl-laetitiapouletdegrimouard,"['data-contract', 'governance']",True,5,18.724444444444444,True
 711,chore(deps): bump the uv group across 1 directory with 2 updates,closed,2026-04-13 23:42:20+00:00,2026-04-15 13:36:16+00:00,2026-04-15 13:36:06+00:00,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 710,chore: update FAQ support channel to #aviv_snowflake_support,closed,2026-04-13 14:30:48+00:00,2026-04-13 15:18:56+00:00,2026-04-13 15:18:53+00:00,2026-04-13 15:18:53+00:00,aviv-fathallahelmasri,[],True,0,0.8013888888888889,False
-709,feat: pii,open,2026-04-13 12:14:00+00:00,2026-04-21 12:50:05+00:00,,,sl-fredericdalessandro,[],False,0,,False
+709,feat: pii,closed,2026-04-13 12:14:00+00:00,2026-04-22 16:19:49+00:00,2026-04-22 16:19:47+00:00,2026-04-22 16:19:47+00:00,sl-fredericdalessandro,[],True,0,220.0963888888889,False
 708,feat: change Opportunity table mode to LATEST_WITH_HISTORY,closed,2026-04-10 13:19:17+00:00,2026-04-10 13:20:33+00:00,2026-04-10 13:20:31+00:00,2026-04-10 13:20:31+00:00,sl-nicolasmoteley,[],True,0,0.020555555555555556,False
-707,feat: FRAUD-2945 add contract for ContentReportDeV1,open,2026-04-09 07:41:11+00:00,2026-04-21 09:09:43+00:00,,,iwt-kschoenrock,[],False,13,,False
+707,feat: FRAUD-2945 add contract for ContentReportDeV1,open,2026-04-09 07:41:11+00:00,2026-04-22 16:20:32+00:00,,,iwt-kschoenrock,[],False,13,,False
 706,feat: add cpqde_additional_conditions field for SF Quote table,closed,2026-04-09 07:23:39+00:00,2026-04-09 07:38:20+00:00,2026-04-09 07:38:18+00:00,2026-04-09 07:38:18+00:00,sl-nicolasmoteley,[],True,0,0.24416666666666667,False
 705,feat:  `@change_tracking` annotation ,open,2026-04-07 13:27:47+00:00,2026-04-07 14:05:22+00:00,,,sl-fredericdalessandro,[],False,0,,False
 704,"Revert ""chore(deps): bump requests from 2.32.5 to 2.33.0 in the uv group across 1 directory""",closed,2026-04-07 12:59:13+00:00,2026-04-07 12:59:25+00:00,2026-04-07 12:59:24+00:00,2026-04-07 12:59:24+00:00,sl-fredericdalessandro,[],True,0,0.0030555555555555557,False
