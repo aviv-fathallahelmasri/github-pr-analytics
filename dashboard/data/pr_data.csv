@@ -1,4 +1,7 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+724,feat: enable preview,open,2026-04-23 14:37:07+00:00,2026-04-23 14:37:22+00:00,,,sl-fredericdalessandro,[],False,0,,False
+723,fix: tagging typo,closed,2026-04-23 14:15:34+00:00,2026-04-23 14:15:45+00:00,2026-04-23 14:15:43+00:00,2026-04-23 14:15:43+00:00,sl-fredericdalessandro,[],True,0,0.0025,False
+722,fix: tagging issue,closed,2026-04-23 13:27:32+00:00,2026-04-23 13:37:45+00:00,2026-04-23 13:37:43+00:00,2026-04-23 13:37:43+00:00,sl-fredericdalessandro,[],True,0,0.16972222222222222,False
 721,test,closed,2026-04-22 16:03:42+00:00,2026-04-22 16:15:16+00:00,2026-04-22 16:15:11+00:00,,sl-fredericdalessandro,[],False,0,,False
 720,[MOD] Visibility : Add FR in contracts names and descriptions.,closed,2026-04-22 10:03:02+00:00,2026-04-22 11:52:19+00:00,2026-04-22 11:52:17+00:00,2026-04-22 11:52:17+00:00,gsl-laetitiapouletdegrimouard,[],True,0,1.8208333333333333,False
 719,Visibility : Update the v2 contract with _fr,closed,2026-04-21 10:08:53+00:00,2026-04-22 11:51:27+00:00,2026-04-22 11:51:19+00:00,,gsl-laetitiapouletdegrimouard,['data-contract'],False,0,,True
@@ -13,7 +16,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 710,chore: update FAQ support channel to #aviv_snowflake_support,closed,2026-04-13 14:30:48+00:00,2026-04-13 15:18:56+00:00,2026-04-13 15:18:53+00:00,2026-04-13 15:18:53+00:00,aviv-fathallahelmasri,[],True,0,0.8013888888888889,False
 709,feat: pii,closed,2026-04-13 12:14:00+00:00,2026-04-22 16:19:49+00:00,2026-04-22 16:19:47+00:00,2026-04-22 16:19:47+00:00,sl-fredericdalessandro,[],True,0,220.0963888888889,False
 708,feat: change Opportunity table mode to LATEST_WITH_HISTORY,closed,2026-04-10 13:19:17+00:00,2026-04-10 13:20:33+00:00,2026-04-10 13:20:31+00:00,2026-04-10 13:20:31+00:00,sl-nicolasmoteley,[],True,0,0.020555555555555556,False
-707,feat: FRAUD-2945 add contract for ContentReportDeV1,open,2026-04-09 07:41:11+00:00,2026-04-22 16:20:32+00:00,,,iwt-kschoenrock,[],False,13,,False
+707,feat: FRAUD-2945 add contract for ContentReportDeV1,closed,2026-04-09 07:41:11+00:00,2026-04-23 12:37:20+00:00,2026-04-23 12:37:18+00:00,2026-04-23 12:37:18+00:00,iwt-kschoenrock,['data-contract'],True,13,340.9352777777778,True
 706,feat: add cpqde_additional_conditions field for SF Quote table,closed,2026-04-09 07:23:39+00:00,2026-04-09 07:38:20+00:00,2026-04-09 07:38:18+00:00,2026-04-09 07:38:18+00:00,sl-nicolasmoteley,[],True,0,0.24416666666666667,False
 705,feat:  `@change_tracking` annotation ,open,2026-04-07 13:27:47+00:00,2026-04-07 14:05:22+00:00,,,sl-fredericdalessandro,[],False,0,,False
 704,"Revert ""chore(deps): bump requests from 2.32.5 to 2.33.0 in the uv group across 1 directory""",closed,2026-04-07 12:59:13+00:00,2026-04-07 12:59:25+00:00,2026-04-07 12:59:24+00:00,2026-04-07 12:59:24+00:00,sl-fredericdalessandro,[],True,0,0.0030555555555555557,False
