@@ -1,5 +1,5 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-724,feat: enable preview,open,2026-04-23 14:37:07+00:00,2026-04-23 14:37:22+00:00,,,sl-fredericdalessandro,[],False,0,,False
+724,feat: enable preview,open,2026-04-23 14:37:07+00:00,2026-04-24 08:09:51+00:00,,,sl-fredericdalessandro,[],False,0,,False
 723,fix: tagging typo,closed,2026-04-23 14:15:34+00:00,2026-04-23 14:15:45+00:00,2026-04-23 14:15:43+00:00,2026-04-23 14:15:43+00:00,sl-fredericdalessandro,[],True,0,0.0025,False
 722,fix: tagging issue,closed,2026-04-23 13:27:32+00:00,2026-04-23 13:37:45+00:00,2026-04-23 13:37:43+00:00,2026-04-23 13:37:43+00:00,sl-fredericdalessandro,[],True,0,0.16972222222222222,False
 721,test,closed,2026-04-22 16:03:42+00:00,2026-04-22 16:15:16+00:00,2026-04-22 16:15:11+00:00,,sl-fredericdalessandro,[],False,0,,False
