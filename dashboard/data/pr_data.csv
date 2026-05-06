@@ -1,9 +1,14 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-731,fix: locate stream by contract name tag,open,2026-05-05 13:47:01+00:00,2026-05-05 17:01:25+00:00,,,sl-fredericdalessandro,[],False,0,,False
-730,Fix/reposiotry-initialization,open,2026-05-05 13:38:50+00:00,2026-05-05 13:46:59+00:00,,,aviv-laravrbanec,[],False,0,,False
+736,chore: SeekerSavedsearchCriteria contracts to production phase,open,2026-05-06 13:42:41+00:00,2026-05-06 15:42:16+00:00,,,nmaretic-aviv,['data-contract'],False,0,,True
+735,Fix/classifieds management adjustments,open,2026-05-06 12:17:25+00:00,2026-05-06 15:19:41+00:00,,,jlgouwyapizr,['data-contract'],False,0,,True
+734,[SKRFIN-816] Add Schufa Snowflake Scheme,open,2026-05-06 11:44:30+00:00,2026-05-06 15:43:19+00:00,,,aviv-kenanjamakovic,['data-contract'],False,10,,True
+733,feat: add OPTN optin_preference_fr_v1 contract,open,2026-05-06 10:56:27+00:00,2026-05-06 13:05:04+00:00,,,aviv-dimitrijegadzic,['data-contract'],False,7,,True
+732,feat: add price date to the indice and price contract,open,2026-05-06 09:42:39+00:00,2026-05-06 13:23:42+00:00,,,mklimina,['data-contract'],False,0,,True
+731,fix: locate stream by contract name tag,open,2026-05-05 13:47:01+00:00,2026-05-06 09:04:59+00:00,,,sl-fredericdalessandro,"['enhancement', 'SDK']",False,0,,False
+730,Fix/reposiotry-initialization,open,2026-05-05 13:38:50+00:00,2026-05-06 09:07:00+00:00,,,aviv-laravrbanec,['enhancement'],False,0,,False
 729,feat: adding new legal field for Flanders - property_certificates_enf…,closed,2026-05-05 09:19:45+00:00,2026-05-05 10:17:25+00:00,2026-05-05 10:17:22+00:00,2026-05-05 10:17:22+00:00,jlgouwyapizr,[],True,0,0.9602777777777778,False
-728,feat(DSGPML-344): add SERP search engine query contracts for FR and DE markets,open,2026-05-04 15:52:18+00:00,2026-05-05 10:33:46+00:00,,,amarteaux,['data-contract'],False,22,,True
-727,"feat: add new schema HODC/classified/compacted for iwt, gsl",open,2026-05-04 14:19:26+00:00,2026-05-05 14:44:40+00:00,,,aviv-laravrbanec,['data-contract'],False,8,,True
+728,feat(DSGPML-344): add SERP search engine query contracts for FR and DE markets,open,2026-05-04 15:52:18+00:00,2026-05-06 15:42:44+00:00,,,amarteaux,['data-contract'],False,28,,True
+727,"feat: add new schema HODC/classified/compacted for iwt, gsl",open,2026-05-04 14:19:26+00:00,2026-05-06 09:08:02+00:00,,,aviv-laravrbanec,"['data-contract', 'governance']",False,8,,True
 726,feat: adding incident_channels and new producers,closed,2026-05-04 12:30:57+00:00,2026-05-04 14:36:59+00:00,2026-05-04 14:36:57+00:00,2026-05-04 14:36:57+00:00,jlgouwyapizr,"['data-contract', 'governance']",True,0,2.1,True
 725,feat: add OPTN optin_preference_v1 contract,closed,2026-05-04 10:53:12+00:00,2026-05-04 14:31:21+00:00,2026-05-04 14:31:19+00:00,2026-05-04 14:31:19+00:00,aviv-dimitrijegadzic,"['data-contract', 'governance']",True,0,3.6352777777777776,True
 724,feat: enable preview,open,2026-04-23 14:37:07+00:00,2026-04-24 08:09:51+00:00,,,sl-fredericdalessandro,[],False,0,,False
