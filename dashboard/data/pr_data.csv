@@ -1,18 +1,20 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+742,[MOD] Visibility : Fix producers_role_arn for top_position FR v2,open,2026-05-11 17:21:22+00:00,2026-05-11 17:26:51+00:00,,,aviv-dawidkurdyla,['data-contract'],False,0,,True
+741,chore(deps): bump the uv group across 1 directory with 3 updates,open,2026-05-11 16:34:00+00:00,2026-05-11 16:34:02+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 740,fix: disable invalid streaming contracts,open,2026-05-08 15:06:38+00:00,2026-05-08 15:39:18+00:00,,,tiberiu-diaconescu-aviv,[],False,1,,False
-739,fix: FRAUD-2945 add execution role for producer lambda,open,2026-05-08 13:51:59+00:00,2026-05-08 14:06:13+00:00,,,iwt-kschoenrock,[],False,0,,False
+739,fix: FRAUD-2945 add execution role for producer lambda,closed,2026-05-08 13:51:59+00:00,2026-05-11 09:34:35+00:00,2026-05-11 09:34:33+00:00,2026-05-11 09:34:33+00:00,iwt-kschoenrock,[],True,0,67.70944444444444,False
 738,"docs(sdk): clarify input_format only applies to batch, not streaming",closed,2026-05-07 10:05:23+00:00,2026-05-07 10:43:26+00:00,2026-05-07 10:43:23+00:00,2026-05-07 10:43:23+00:00,tudorpopica,[],True,0,0.6333333333333333,False
 737,chore: changing SLA to 4:00AM,closed,2026-05-07 05:48:01+00:00,2026-05-07 08:08:09+00:00,2026-05-07 08:08:06+00:00,2026-05-07 08:08:06+00:00,florianhyseni-aviv,[],True,0,2.334722222222222,False
-736,chore: SeekerSavedsearchCriteria contracts to production phase,open,2026-05-06 13:42:41+00:00,2026-05-08 09:30:04+00:00,,,nmaretic-aviv,['data-contract'],False,0,,True
+736,chore: SeekerSavedsearchCriteria contracts to production phase,closed,2026-05-06 13:42:41+00:00,2026-05-11 08:22:02+00:00,2026-05-11 08:22:01+00:00,2026-05-11 08:22:01+00:00,nmaretic-aviv,['data-contract'],True,0,114.65555555555555,True
 735,Fix/classifieds management adjustments,closed,2026-05-06 12:17:25+00:00,2026-05-07 07:13:39+00:00,2026-05-07 07:13:37+00:00,2026-05-07 07:13:37+00:00,jlgouwyapizr,['data-contract'],True,0,18.936666666666667,True
 734,[SKRFIN-816] Add Schufa Snowflake Scheme,closed,2026-05-06 11:44:30+00:00,2026-05-07 12:19:35+00:00,2026-05-07 12:19:32+00:00,2026-05-07 12:19:32+00:00,aviv-kenanjamakovic,['data-contract'],True,11,24.58388888888889,True
-733,feat: add OPTN optin_preference_fr_v1 contract,open,2026-05-06 10:56:27+00:00,2026-05-08 09:11:21+00:00,,,aviv-dimitrijegadzic,['data-contract'],False,13,,True
-732,feat: add price date to the indice and price contract,open,2026-05-06 09:42:39+00:00,2026-05-07 11:07:44+00:00,,,mklimina,['data-contract'],False,11,,True
+733,feat: add OPTN optin_preference_fr_v1 contract,closed,2026-05-06 10:56:27+00:00,2026-05-11 07:25:33+00:00,2026-05-11 07:25:31+00:00,2026-05-11 07:25:30+00:00,aviv-dimitrijegadzic,['data-contract'],True,13,116.48416666666667,True
+732,feat: add price date to the indice and price contract,closed,2026-05-06 09:42:39+00:00,2026-05-11 15:14:20+00:00,2026-05-11 15:14:18+00:00,2026-05-11 15:14:18+00:00,mklimina,['data-contract'],True,21,125.5275,True
 731,fix: locate stream by contract name tag,open,2026-05-05 13:47:01+00:00,2026-05-06 09:04:59+00:00,,,sl-fredericdalessandro,"['enhancement', 'SDK']",False,0,,False
 730,Fix/reposiotry-initialization,open,2026-05-05 13:38:50+00:00,2026-05-06 09:07:00+00:00,,,aviv-laravrbanec,['enhancement'],False,0,,False
 729,feat: adding new legal field for Flanders - property_certificates_enf…,closed,2026-05-05 09:19:45+00:00,2026-05-05 10:17:25+00:00,2026-05-05 10:17:22+00:00,2026-05-05 10:17:22+00:00,jlgouwyapizr,[],True,0,0.9602777777777778,False
-728,feat(DSGPML-344): add SERP search engine query contracts for FR and DE markets,open,2026-05-04 15:52:18+00:00,2026-05-07 16:31:34+00:00,,,amarteaux,['data-contract'],False,31,,True
-727,"feat: add new schema HODC/classified/compacted for iwt, gsl",open,2026-05-04 14:19:26+00:00,2026-05-07 16:35:19+00:00,,,aviv-laravrbanec,['data-contract'],False,11,,True
+728,feat(DSGPML-344): add SERP search engine query contracts for FR and DE markets,open,2026-05-04 15:52:18+00:00,2026-05-11 09:08:13+00:00,,,amarteaux,['data-contract'],False,31,,True
+727,"feat: add new schema HODC/classified/compacted for iwt, gsl",closed,2026-05-04 14:19:26+00:00,2026-05-11 15:55:45+00:00,2026-05-11 15:55:42+00:00,2026-05-11 15:55:42+00:00,aviv-laravrbanec,['data-contract'],True,11,169.60444444444445,True
 726,feat: adding incident_channels and new producers,closed,2026-05-04 12:30:57+00:00,2026-05-04 14:36:59+00:00,2026-05-04 14:36:57+00:00,2026-05-04 14:36:57+00:00,jlgouwyapizr,"['data-contract', 'governance']",True,0,2.1,True
 725,feat: add OPTN optin_preference_v1 contract,closed,2026-05-04 10:53:12+00:00,2026-05-04 14:31:21+00:00,2026-05-04 14:31:19+00:00,2026-05-04 14:31:19+00:00,aviv-dimitrijegadzic,"['data-contract', 'governance']",True,0,3.6352777777777776,True
 724,feat: enable preview,open,2026-04-23 14:37:07+00:00,2026-04-24 08:09:51+00:00,,,sl-fredericdalessandro,[],False,0,,False
@@ -24,7 +26,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 718,docs: add README to examples folder,closed,2026-04-20 13:25:36+00:00,2026-04-29 09:58:33+00:00,2026-04-29 09:58:31+00:00,2026-04-29 09:58:31+00:00,aviv-fathallahelmasri,"['documentation', 'governance']",True,0,212.54861111111111,False
 717,Update README.md,closed,2026-04-19 18:35:23+00:00,2026-04-20 09:57:31+00:00,2026-04-20 09:57:29+00:00,2026-04-20 09:57:29+00:00,aviv-ziyadmuhammed,[],True,0,15.368333333333334,False
 716,feat: add cpqde_property fields into SF Quote table,closed,2026-04-17 12:51:06+00:00,2026-04-17 13:06:38+00:00,2026-04-17 13:06:36+00:00,2026-04-17 13:06:36+00:00,sl-nicolasmoteley,[],True,0,0.25833333333333336,False
-715,chore(deps): bump the uv group across 1 directory with 2 updates,open,2026-04-17 10:29:21+00:00,2026-05-08 12:46:04+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+715,chore(deps): bump the uv group across 1 directory with 2 updates,closed,2026-04-17 10:29:21+00:00,2026-05-11 16:34:09+00:00,2026-05-11 16:34:05+00:00,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 714,docs: update README and PR template,open,2026-04-16 13:15:34+00:00,2026-04-20 12:50:24+00:00,,,aviv-fathallahelmasri,[],False,0,,False
 713,New contracts for saved searches,closed,2026-04-16 07:21:47+00:00,2026-04-16 14:05:35+00:00,2026-04-16 14:05:32+00:00,2026-04-16 14:05:32+00:00,iwt-sebastianotto,"['data-contract', 'governance']",True,2,6.729166666666667,True
 712,[MOD] Visibility : Create TopPosition contracts v2,closed,2026-04-14 16:37:52+00:00,2026-04-15 11:21:23+00:00,2026-04-15 11:21:20+00:00,2026-04-15 11:21:20+00:00,gsl-laetitiapouletdegrimouard,"['data-contract', 'governance']",True,5,18.724444444444444,True
