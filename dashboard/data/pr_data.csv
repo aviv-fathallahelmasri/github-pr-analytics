@@ -1,5 +1,5 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-743,feat: add slack notification when new package released,open,2026-05-12 16:40:51+00:00,2026-05-12 17:09:03+00:00,,,aviv-jonyroy,[],False,0,,False
+743,feat: add slack notification when new package released,open,2026-05-12 16:40:51+00:00,2026-05-12 18:00:41+00:00,,,aviv-jonyroy,[],False,0,,False
 742,[MOD] Visibility : Fix producers_role_arn for top_position FR v2,open,2026-05-11 17:21:22+00:00,2026-05-12 15:38:42+00:00,,,aviv-dawidkurdyla,['data-contract'],False,1,,True
 741,chore(deps): bump the uv group across 1 directory with 3 updates,open,2026-05-11 16:34:00+00:00,2026-05-12 07:37:33+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 740,fix: disable invalid streaming contracts,closed,2026-05-08 15:06:38+00:00,2026-05-12 06:45:17+00:00,2026-05-12 06:45:16+00:00,2026-05-12 06:45:16+00:00,tiberiu-diaconescu-aviv,[],True,1,87.6438888888889,False
