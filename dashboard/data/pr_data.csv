@@ -1,8 +1,11 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-744,feat: Update csharp sdk README.md ,open,2026-05-15 12:28:10+00:00,2026-05-15 12:28:30+00:00,,,sl-fredericdalessandro,[],False,0,,False
+747,feat: [GSLCQ-86] Add SLSK (Seeker Leads) leadshup v1 contract,open,2026-05-18 14:42:13+00:00,2026-05-18 15:34:29+00:00,,,OpheliaDuret,[],False,0,,False
+746,feat: add table incrementa_raw_parsed to production,open,2026-05-18 13:57:11+00:00,2026-05-18 14:56:34+00:00,,,aviv-laravrbanec,[],False,0,,False
+745,contract/CLTR/TITAN-2436,open,2026-05-18 13:56:21+00:00,2026-05-18 14:11:58+00:00,,,aviv-piotrwojtowicz,[],False,0,,False
+744,feat: Update csharp sdk README.md ,closed,2026-05-15 12:28:10+00:00,2026-05-18 09:10:21+00:00,2026-05-18 09:10:17+00:00,2026-05-18 09:10:17+00:00,sl-fredericdalessandro,[],True,0,68.70194444444445,False
 743,feat: add slack notification when new package released,open,2026-05-12 16:40:51+00:00,2026-05-15 11:00:35+00:00,,,aviv-jonyroy,[],False,0,,False
-742,[MOD] Visibility : Fix producers_role_arn for top_position FR v2,open,2026-05-11 17:21:22+00:00,2026-05-15 11:13:50+00:00,,,aviv-dawidkurdyla,['data-contract'],False,2,,True
-741,chore(deps): bump the uv group across 1 directory with 3 updates,open,2026-05-11 16:34:00+00:00,2026-05-12 07:37:33+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+742,[MOD] Visibility : Fix producers_role_arn for top_position FR v2,open,2026-05-11 17:21:22+00:00,2026-05-18 10:12:52+00:00,,,aviv-dawidkurdyla,['data-contract'],False,2,,True
+741,chore(deps): bump the uv group across 1 directory with 3 updates,open,2026-05-11 16:34:00+00:00,2026-05-18 08:44:55+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 740,fix: disable invalid streaming contracts,closed,2026-05-08 15:06:38+00:00,2026-05-12 06:45:17+00:00,2026-05-12 06:45:16+00:00,2026-05-12 06:45:16+00:00,tiberiu-diaconescu-aviv,[],True,1,87.6438888888889,False
 739,fix: FRAUD-2945 add execution role for producer lambda,closed,2026-05-08 13:51:59+00:00,2026-05-11 09:34:35+00:00,2026-05-11 09:34:33+00:00,2026-05-11 09:34:33+00:00,iwt-kschoenrock,[],True,0,67.70944444444444,False
 738,"docs(sdk): clarify input_format only applies to batch, not streaming",closed,2026-05-07 10:05:23+00:00,2026-05-07 10:43:26+00:00,2026-05-07 10:43:23+00:00,2026-05-07 10:43:23+00:00,tudorpopica,[],True,0,0.6333333333333333,False
