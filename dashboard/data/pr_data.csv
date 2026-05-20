@@ -1,14 +1,16 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+752,[SKRFIN-816] update iam roles,closed,2026-05-20 08:23:17+00:00,2026-05-20 10:44:50+00:00,2026-05-20 10:44:47+00:00,2026-05-20 10:44:47+00:00,aviv-kenanjamakovic,[],True,0,2.3583333333333334,False
+751,chore(deps): bump the uv group across 1 directory with 5 updates,open,2026-05-19 20:49:17+00:00,2026-05-20 14:33:33+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 750,feat: enrich the alerts,closed,2026-05-19 13:12:47+00:00,2026-05-19 13:33:22+00:00,2026-05-19 13:33:20+00:00,2026-05-19 13:33:20+00:00,aviv-jonyroy,[],True,0,0.3425,False
 749,feat/add-conditional-alerts,closed,2026-05-19 11:56:13+00:00,2026-05-19 12:11:29+00:00,2026-05-19 12:11:27+00:00,2026-05-19 12:11:27+00:00,aviv-jonyroy,[],True,0,0.2538888888888889,False
 748,feat: increase classified analytics kinesis shard by 1 to accomodate more traffic,closed,2026-05-19 07:31:44+00:00,2026-05-19 07:37:58+00:00,2026-05-19 07:37:57+00:00,2026-05-19 07:37:57+00:00,aviv-jonyroy,[],True,0,0.10361111111111111,False
-747,feat: [GSLCQ-86] Add SLSK (Seeker Leads) leadshup v1 contract,open,2026-05-18 14:42:13+00:00,2026-05-19 15:33:57+00:00,,,OpheliaDuret,[],False,0,,False
+747,feat: [GSLCQ-86] Add SLSK (Seeker Leads) leadshup v1 contract,open,2026-05-18 14:42:13+00:00,2026-05-20 09:12:15+00:00,,,OpheliaDuret,[],False,0,,False
 746,feat: add table incrementa_raw_parsed to production,closed,2026-05-18 13:57:11+00:00,2026-05-19 14:37:19+00:00,2026-05-19 14:37:16+00:00,2026-05-19 14:37:16+00:00,aviv-laravrbanec,[],True,0,24.668055555555554,False
 745,contract/CLTR/TITAN-2436,open,2026-05-18 13:56:21+00:00,2026-05-18 14:11:58+00:00,,,aviv-piotrwojtowicz,[],False,0,,False
 744,feat: Update csharp sdk README.md ,closed,2026-05-15 12:28:10+00:00,2026-05-18 09:10:21+00:00,2026-05-18 09:10:17+00:00,2026-05-18 09:10:17+00:00,sl-fredericdalessandro,[],True,0,68.70194444444445,False
 743,feat: add slack notification when new package released,closed,2026-05-12 16:40:51+00:00,2026-05-19 06:47:16+00:00,2026-05-19 06:47:14+00:00,2026-05-19 06:47:14+00:00,aviv-jonyroy,[],True,0,158.1063888888889,False
-742,[MOD] Visibility : Fix producers_role_arn for top_position FR v2,open,2026-05-11 17:21:22+00:00,2026-05-18 10:12:52+00:00,,,aviv-dawidkurdyla,['data-contract'],False,2,,True
-741,chore(deps): bump the uv group across 1 directory with 3 updates,open,2026-05-11 16:34:00+00:00,2026-05-19 14:03:21+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+742,[MOD] Visibility : Fix producers_role_arn for top_position FR v2,open,2026-05-11 17:21:22+00:00,2026-05-20 13:30:41+00:00,,,aviv-dawidkurdyla,['data-contract'],False,2,,True
+741,chore(deps): bump the uv group across 1 directory with 3 updates,closed,2026-05-11 16:34:00+00:00,2026-05-19 20:51:34+00:00,2026-05-19 20:49:21+00:00,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 740,fix: disable invalid streaming contracts,closed,2026-05-08 15:06:38+00:00,2026-05-12 06:45:17+00:00,2026-05-12 06:45:16+00:00,2026-05-12 06:45:16+00:00,tiberiu-diaconescu-aviv,[],True,1,87.6438888888889,False
 739,fix: FRAUD-2945 add execution role for producer lambda,closed,2026-05-08 13:51:59+00:00,2026-05-11 09:34:35+00:00,2026-05-11 09:34:33+00:00,2026-05-11 09:34:33+00:00,iwt-kschoenrock,[],True,0,67.70944444444444,False
 738,"docs(sdk): clarify input_format only applies to batch, not streaming",closed,2026-05-07 10:05:23+00:00,2026-05-07 10:43:26+00:00,2026-05-07 10:43:23+00:00,2026-05-07 10:43:23+00:00,tudorpopica,[],True,0,0.6333333333333333,False
@@ -21,11 +23,11 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 731,fix: locate stream by contract name tag,closed,2026-05-05 13:47:01+00:00,2026-05-15 08:55:52+00:00,2026-05-15 08:55:50+00:00,2026-05-15 08:55:50+00:00,sl-fredericdalessandro,"['enhancement', 'SDK']",True,0,235.14694444444444,False
 730,Fix/reposiotry-initialization,open,2026-05-05 13:38:50+00:00,2026-05-06 09:07:00+00:00,,,aviv-laravrbanec,['enhancement'],False,0,,False
 729,feat: adding new legal field for Flanders - property_certificates_enf…,closed,2026-05-05 09:19:45+00:00,2026-05-05 10:17:25+00:00,2026-05-05 10:17:22+00:00,2026-05-05 10:17:22+00:00,jlgouwyapizr,[],True,0,0.9602777777777778,False
-728,feat(DSGPML-344): add SERP search engine query contracts for FR and DE markets,open,2026-05-04 15:52:18+00:00,2026-05-19 07:59:19+00:00,,,amarteaux,"['data-contract', 'outdated']",False,31,,True
+728,feat(DSGPML-344): add SERP search engine query contracts for FR and DE markets,open,2026-05-04 15:52:18+00:00,2026-05-20 13:03:13+00:00,,,amarteaux,['data-contract'],False,40,,True
 727,"feat: add new schema HODC/classified/compacted for iwt, gsl",closed,2026-05-04 14:19:26+00:00,2026-05-11 15:55:45+00:00,2026-05-11 15:55:42+00:00,2026-05-11 15:55:42+00:00,aviv-laravrbanec,['data-contract'],True,11,169.60444444444445,True
 726,feat: adding incident_channels and new producers,closed,2026-05-04 12:30:57+00:00,2026-05-04 14:36:59+00:00,2026-05-04 14:36:57+00:00,2026-05-04 14:36:57+00:00,jlgouwyapizr,"['data-contract', 'governance']",True,0,2.1,True
 725,feat: add OPTN optin_preference_v1 contract,closed,2026-05-04 10:53:12+00:00,2026-05-04 14:31:21+00:00,2026-05-04 14:31:19+00:00,2026-05-04 14:31:19+00:00,aviv-dimitrijegadzic,"['data-contract', 'governance']",True,0,3.6352777777777776,True
-724,feat: enable preview,open,2026-04-23 14:37:07+00:00,2026-04-24 08:09:51+00:00,,,sl-fredericdalessandro,[],False,0,,False
+724,feat: enable preview,open,2026-04-23 14:37:07+00:00,2026-05-20 09:59:15+00:00,,,sl-fredericdalessandro,[],False,0,,False
 723,fix: tagging typo,closed,2026-04-23 14:15:34+00:00,2026-04-23 14:15:45+00:00,2026-04-23 14:15:43+00:00,2026-04-23 14:15:43+00:00,sl-fredericdalessandro,[],True,0,0.0025,False
 722,fix: tagging issue,closed,2026-04-23 13:27:32+00:00,2026-04-23 13:37:45+00:00,2026-04-23 13:37:43+00:00,2026-04-23 13:37:43+00:00,sl-fredericdalessandro,[],True,0,0.16972222222222222,False
 721,test,closed,2026-04-22 16:03:42+00:00,2026-04-22 16:15:16+00:00,2026-04-22 16:15:11+00:00,,sl-fredericdalessandro,[],False,0,,False
@@ -44,7 +46,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 708,feat: change Opportunity table mode to LATEST_WITH_HISTORY,closed,2026-04-10 13:19:17+00:00,2026-04-10 13:20:33+00:00,2026-04-10 13:20:31+00:00,2026-04-10 13:20:31+00:00,sl-nicolasmoteley,[],True,0,0.020555555555555556,False
 707,feat: FRAUD-2945 add contract for ContentReportDeV1,closed,2026-04-09 07:41:11+00:00,2026-04-23 12:37:20+00:00,2026-04-23 12:37:18+00:00,2026-04-23 12:37:18+00:00,iwt-kschoenrock,['data-contract'],True,13,340.9352777777778,True
 706,feat: add cpqde_additional_conditions field for SF Quote table,closed,2026-04-09 07:23:39+00:00,2026-04-09 07:38:20+00:00,2026-04-09 07:38:18+00:00,2026-04-09 07:38:18+00:00,sl-nicolasmoteley,[],True,0,0.24416666666666667,False
-705,feat:  `@change_tracking` annotation ,open,2026-04-07 13:27:47+00:00,2026-04-07 14:05:22+00:00,,,sl-fredericdalessandro,[],False,0,,False
+705,feat:  `@change_tracking` annotation ,closed,2026-04-07 13:27:47+00:00,2026-05-20 09:58:15+00:00,2026-05-20 09:58:15+00:00,,sl-fredericdalessandro,[],False,0,,False
 704,"Revert ""chore(deps): bump requests from 2.32.5 to 2.33.0 in the uv group across 1 directory""",closed,2026-04-07 12:59:13+00:00,2026-04-07 12:59:25+00:00,2026-04-07 12:59:24+00:00,2026-04-07 12:59:24+00:00,sl-fredericdalessandro,[],True,0,0.0030555555555555557,False
 703,feat: add SF Talk Desk Activity table,closed,2026-04-07 07:57:46+00:00,2026-04-07 08:13:21+00:00,2026-04-07 08:13:19+00:00,2026-04-07 08:13:19+00:00,sl-nicolasmoteley,[],True,0,0.25916666666666666,False
 702,feat: go to prod,closed,2026-04-02 17:24:43+00:00,2026-04-03 08:07:48+00:00,2026-04-03 08:07:46+00:00,2026-04-03 08:07:46+00:00,Komalis,[],True,0,14.7175,False
