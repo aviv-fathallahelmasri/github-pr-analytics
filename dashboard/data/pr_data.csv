@@ -1,18 +1,19 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-758,[MOD] Visibility : Create BoostListe contracts v1,open,2026-05-25 08:47:38+00:00,2026-05-25 08:51:18+00:00,,,aviv-lukaszskraba,[],False,0,,False
+759,feat: add additional place_types to the Literal germany,closed,2026-05-26 12:05:26+00:00,2026-05-26 13:00:21+00:00,2026-05-26 13:00:19+00:00,2026-05-26 13:00:19+00:00,mklimina,[],True,0,0.9147222222222222,False
+758,[MOD] Visibility : Create BoostListe contracts v1,open,2026-05-25 08:47:38+00:00,2026-05-26 15:01:54+00:00,,,aviv-lukaszskraba,['data-contract'],False,0,,True
 757,Feat update contract fix place type error v1,closed,2026-05-22 17:25:12+00:00,2026-05-22 17:54:18+00:00,2026-05-22 17:54:15+00:00,2026-05-22 17:54:15+00:00,mklimina,[],True,0,0.4841666666666667,False
 756,Feat update contract fix place type error,closed,2026-05-22 15:41:18+00:00,2026-05-22 16:31:42+00:00,2026-05-22 16:31:39+00:00,2026-05-22 16:31:39+00:00,mklimina,[],True,0,0.8391666666666666,False
 755,feat: change refresh timing of the IncrementalRawParsed fom :30 to :50,closed,2026-05-22 09:14:27+00:00,2026-05-22 13:29:16+00:00,2026-05-22 13:29:12+00:00,2026-05-22 13:29:12+00:00,aviv-laravrbanec,[],True,0,4.245833333333334,False
-754,feat: new v2 - remove hashcode,open,2026-05-22 07:50:52+00:00,2026-05-22 12:38:48+00:00,,,jlgouwyapizr,[],False,0,,False
-753,feat: origin contracts v1 SSAL,open,2026-05-21 13:41:58+00:00,2026-05-22 13:31:59+00:00,,,eparamonov,[],False,21,,False
+754,feat: new v2 - remove hashcode,open,2026-05-22 07:50:52+00:00,2026-05-26 10:05:48+00:00,,,jlgouwyapizr,['data-contract'],False,0,,True
+753,feat: origin contracts v1 SSAL,open,2026-05-21 13:41:58+00:00,2026-05-26 16:11:10+00:00,,,eparamonov,['data-contract'],False,21,,True
 752,[SKRFIN-816] update iam roles,closed,2026-05-20 08:23:17+00:00,2026-05-20 10:44:50+00:00,2026-05-20 10:44:47+00:00,2026-05-20 10:44:47+00:00,aviv-kenanjamakovic,[],True,0,2.3583333333333334,False
-751,chore(deps): bump the uv group across 1 directory with 5 updates,open,2026-05-19 20:49:17+00:00,2026-05-22 18:54:38+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+751,chore(deps): bump the uv group across 1 directory with 5 updates,open,2026-05-19 20:49:17+00:00,2026-05-26 13:39:16+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 750,feat: enrich the alerts,closed,2026-05-19 13:12:47+00:00,2026-05-19 13:33:22+00:00,2026-05-19 13:33:20+00:00,2026-05-19 13:33:20+00:00,aviv-jonyroy,[],True,0,0.3425,False
 749,feat/add-conditional-alerts,closed,2026-05-19 11:56:13+00:00,2026-05-19 12:11:29+00:00,2026-05-19 12:11:27+00:00,2026-05-19 12:11:27+00:00,aviv-jonyroy,[],True,0,0.2538888888888889,False
 748,feat: increase classified analytics kinesis shard by 1 to accomodate more traffic,closed,2026-05-19 07:31:44+00:00,2026-05-19 07:37:58+00:00,2026-05-19 07:37:57+00:00,2026-05-19 07:37:57+00:00,aviv-jonyroy,[],True,0,0.10361111111111111,False
 747,feat: [GSLCQ-86] Add SLSK (Seeker Leads) leadshup v1 contract,open,2026-05-18 14:42:13+00:00,2026-05-21 07:46:02+00:00,,,OpheliaDuret,['data-contract'],False,0,,True
 746,feat: add table incrementa_raw_parsed to production,closed,2026-05-18 13:57:11+00:00,2026-05-19 14:37:19+00:00,2026-05-19 14:37:16+00:00,2026-05-19 14:37:16+00:00,aviv-laravrbanec,[],True,0,24.668055555555554,False
-745,contract/CLTR/TITAN-2436,open,2026-05-18 13:56:21+00:00,2026-05-25 13:34:20+00:00,,,aviv-piotrwojtowicz,['data-contract'],False,15,,True
+745,contract/CLTR/TITAN-2436,open,2026-05-18 13:56:21+00:00,2026-05-26 15:35:04+00:00,,,aviv-piotrwojtowicz,['data-contract'],False,23,,True
 744,feat: Update csharp sdk README.md ,closed,2026-05-15 12:28:10+00:00,2026-05-18 09:10:21+00:00,2026-05-18 09:10:17+00:00,2026-05-18 09:10:17+00:00,sl-fredericdalessandro,[],True,0,68.70194444444445,False
 743,feat: add slack notification when new package released,closed,2026-05-12 16:40:51+00:00,2026-05-19 06:47:16+00:00,2026-05-19 06:47:14+00:00,2026-05-19 06:47:14+00:00,aviv-jonyroy,[],True,0,158.1063888888889,False
 742,[MOD] Visibility : Fix producers_role_arn for top_position FR v2,closed,2026-05-11 17:21:22+00:00,2026-05-21 12:11:22+00:00,2026-05-21 12:11:20+00:00,2026-05-21 12:11:20+00:00,aviv-dawidkurdyla,['data-contract'],True,2,234.83277777777778,True
