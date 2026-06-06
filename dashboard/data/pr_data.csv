@@ -1,4 +1,5 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+794,feat: create a new data contract for accountv2,open,2026-06-06 08:46:51+00:00,2026-06-06 08:47:03+00:00,,,aviv-davidmartinez,[],False,0,,False
 793,revert: lift the C# producer harness out of contribs/ (DATAPLT-460 follow-up),closed,2026-06-04 14:55:05+00:00,2026-06-04 15:56:12+00:00,2026-06-04 15:56:10+00:00,2026-06-04 15:56:10+00:00,tudorpopica,[],True,0,1.0180555555555555,False
 792,feat: configurable TypeScript producer harness for DTFN E2E contract,closed,2026-06-04 14:34:01+00:00,2026-06-04 14:55:20+00:00,2026-06-04 14:55:20+00:00,,tudorpopica,[],False,0,,False
 791,feature: deploy origin contracts to prod,closed,2026-06-04 13:33:53+00:00,2026-06-04 14:58:33+00:00,2026-06-04 14:58:31+00:00,2026-06-04 14:58:31+00:00,eparamonov,[],True,0,1.4105555555555556,False
@@ -8,7 +9,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 787,feat: Fix typo in field name,closed,2026-06-04 07:38:32+00:00,2026-06-04 15:14:22+00:00,2026-06-04 15:14:22+00:00,,aviv-davidmartinez,[],False,0,,False
 786,feat: add rent to contract,open,2026-06-03 15:47:24+00:00,2026-06-05 08:27:15+00:00,,,mklimina,['data-contract'],False,0,,True
 785,feat: adding new columns for date,closed,2026-06-03 14:42:55+00:00,2026-06-05 08:48:01+00:00,2026-06-05 08:47:59+00:00,2026-06-05 08:47:59+00:00,florianhyseni-aviv,[],True,1,42.08444444444444,False
-784,feat: saved search user feedback contracts v1,open,2026-06-03 14:28:35+00:00,2026-06-05 17:26:38+00:00,,,nmaretic-aviv,['data-contract'],False,11,,True
+784,feat: saved search user feedback contracts v1,open,2026-06-03 14:28:35+00:00,2026-06-05 17:35:22+00:00,,,nmaretic-aviv,['data-contract'],False,11,,True
 783,Feat/fix field account,closed,2026-06-03 13:08:11+00:00,2026-06-03 13:27:43+00:00,2026-06-03 13:27:43+00:00,,aviv-davidmartinez,[],False,0,,False
 782,feat(IS-3): add FIRST_TIME_USED and CASCO to CLMG building condition,closed,2026-06-03 12:34:19+00:00,2026-06-04 12:39:51+00:00,2026-06-04 12:39:48+00:00,2026-06-04 12:39:48+00:00,aviv-alikazemi,['data-contract'],True,0,24.09138888888889,True
 781,feat: Change schema evolution to none for account contract,closed,2026-06-03 12:25:47+00:00,2026-06-03 13:03:49+00:00,2026-06-03 13:03:49+00:00,,aviv-davidmartinez,[],False,0,,False
