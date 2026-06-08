@@ -1,5 +1,12 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-794,feat: create a new data contract for accountv2,open,2026-06-06 08:46:51+00:00,2026-06-06 08:47:03+00:00,,,aviv-davidmartinez,[],False,0,,False
+801,test(contracts): close coverage gaps + bump floor 70 -> 83 (DATAPLT-467 part 4),open,2026-06-08 15:15:31+00:00,2026-06-08 15:15:45+00:00,,,tudorpopica,[],False,0,,False
+800,test(csharp-sdk): raise unit-test coverage to 99% (DATAPLT-467 part 3),open,2026-06-08 13:32:05+00:00,2026-06-08 13:32:17+00:00,,,tudorpopica,[],False,0,,False
+799,test(python-sdk): raise unit-test coverage to 99% threshold (DATAPLT-467 part 2),open,2026-06-08 13:00:24+00:00,2026-06-08 13:00:35+00:00,,,tudorpopica,[],False,0,,False
+798,test(ts-sdk): raise unit-test coverage to 99% threshold (DATAPLT-467 part 1),open,2026-06-08 12:45:56+00:00,2026-06-08 12:46:07+00:00,,,tudorpopica,[],False,0,,False
+797,feat(ts-sdk): replicate Terraform long-contract-name hashing (DATAPLT-464),open,2026-06-08 12:10:53+00:00,2026-06-08 15:14:13+00:00,,,tudorpopica,[],False,0,,False
+796,feature: churn contract,open,2026-06-08 11:59:56+00:00,2026-06-08 17:27:08+00:00,,,eparamonov,[],False,0,,False
+795,feat/kinesis-stream-name-tool-for-consumers,closed,2026-06-08 04:23:57+00:00,2026-06-08 07:47:52+00:00,2026-06-08 07:47:49+00:00,2026-06-08 07:47:49+00:00,aviv-jonyroy,[],True,0,3.397777777777778,False
+794,feat: create a new data contract for accountv2,closed,2026-06-06 08:46:51+00:00,2026-06-08 10:18:42+00:00,2026-06-08 10:18:40+00:00,2026-06-08 10:18:40+00:00,aviv-davidmartinez,[],True,0,49.530277777777776,False
 793,revert: lift the C# producer harness out of contribs/ (DATAPLT-460 follow-up),closed,2026-06-04 14:55:05+00:00,2026-06-04 15:56:12+00:00,2026-06-04 15:56:10+00:00,2026-06-04 15:56:10+00:00,tudorpopica,[],True,0,1.0180555555555555,False
 792,feat: configurable TypeScript producer harness for DTFN E2E contract,closed,2026-06-04 14:34:01+00:00,2026-06-04 14:55:20+00:00,2026-06-04 14:55:20+00:00,,tudorpopica,[],False,0,,False
 791,feature: deploy origin contracts to prod,closed,2026-06-04 13:33:53+00:00,2026-06-04 14:58:33+00:00,2026-06-04 14:58:31+00:00,2026-06-04 14:58:31+00:00,eparamonov,[],True,0,1.4105555555555556,False
@@ -9,12 +16,12 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 787,feat: Fix typo in field name,closed,2026-06-04 07:38:32+00:00,2026-06-04 15:14:22+00:00,2026-06-04 15:14:22+00:00,,aviv-davidmartinez,[],False,0,,False
 786,feat: add rent to contract,open,2026-06-03 15:47:24+00:00,2026-06-05 08:27:15+00:00,,,mklimina,['data-contract'],False,0,,True
 785,feat: adding new columns for date,closed,2026-06-03 14:42:55+00:00,2026-06-05 08:48:01+00:00,2026-06-05 08:47:59+00:00,2026-06-05 08:47:59+00:00,florianhyseni-aviv,[],True,1,42.08444444444444,False
-784,feat: saved search user feedback contracts v1,open,2026-06-03 14:28:35+00:00,2026-06-05 17:35:22+00:00,,,nmaretic-aviv,['data-contract'],False,11,,True
+784,feat: saved search user feedback contracts v1,closed,2026-06-03 14:28:35+00:00,2026-06-08 12:01:21+00:00,2026-06-08 12:01:18+00:00,2026-06-08 12:01:18+00:00,nmaretic-aviv,['data-contract'],True,11,117.54527777777778,True
 783,Feat/fix field account,closed,2026-06-03 13:08:11+00:00,2026-06-03 13:27:43+00:00,2026-06-03 13:27:43+00:00,,aviv-davidmartinez,[],False,0,,False
 782,feat(IS-3): add FIRST_TIME_USED and CASCO to CLMG building condition,closed,2026-06-03 12:34:19+00:00,2026-06-04 12:39:51+00:00,2026-06-04 12:39:48+00:00,2026-06-04 12:39:48+00:00,aviv-alikazemi,['data-contract'],True,0,24.09138888888889,True
 781,feat: Change schema evolution to none for account contract,closed,2026-06-03 12:25:47+00:00,2026-06-03 13:03:49+00:00,2026-06-03 13:03:49+00:00,,aviv-davidmartinez,[],False,0,,False
 780,chore: slack group id,closed,2026-06-03 07:52:44+00:00,2026-06-03 09:09:28+00:00,2026-06-03 09:09:25+00:00,2026-06-03 09:09:25+00:00,eparamonov,[],True,0,1.2780555555555555,False
-779,feat: add internal E2E test contracts under DTFN capability,open,2026-06-02 16:25:42+00:00,2026-06-04 19:54:30+00:00,,,tudorpopica,[],False,3,,False
+779,feat: add internal E2E test contracts under DTFN capability,open,2026-06-02 16:25:42+00:00,2026-06-08 14:51:02+00:00,,,tudorpopica,[],False,11,,False
 778,feat: Add field to the account object,closed,2026-06-02 15:52:38+00:00,2026-06-02 15:59:51+00:00,2026-06-02 15:59:49+00:00,2026-06-02 15:59:49+00:00,aviv-davidmartinez,[],True,0,0.11972222222222222,False
 777,feat: fix circle ci for package conflict,closed,2026-06-02 15:29:01+00:00,2026-06-02 15:49:40+00:00,2026-06-02 15:49:37+00:00,2026-06-02 15:49:37+00:00,aviv-jonyroy,[],True,0,0.3433333333333333,False
 776,fix: add dates fields to hdoc schema,open,2026-06-02 14:50:06+00:00,2026-06-02 15:35:00+00:00,,,Laitbelhoussein,['data-contract'],False,0,,True
@@ -24,7 +31,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 772,feat: activate go to production,closed,2026-06-01 13:06:12+00:00,2026-06-02 14:18:09+00:00,2026-06-02 14:18:06+00:00,2026-06-02 14:18:06+00:00,jlgouwyapizr,['data-contract'],True,0,25.198333333333334,True
 771,feat: promote OPTN optin preference FR V1 contract to live,open,2026-06-01 09:53:46+00:00,2026-06-04 10:46:23+00:00,,,aviv-dimitrijegadzic,['data-contract'],False,6,,True
 770,feat: resolve Kinesis stream name via SHA-256 hashing of long contract names,closed,2026-06-01 05:37:03+00:00,2026-06-01 07:42:05+00:00,2026-06-01 07:42:03+00:00,2026-06-01 07:42:03+00:00,aviv-jonyroy,[],True,0,2.0833333333333335,False
-769,refactor: use ConcurrentDictionary for stream ARN caching,open,2026-05-29 13:15:15+00:00,2026-05-29 13:15:27+00:00,,,sl-fredericdalessandro,[],False,0,,False
+769,refactor: use ConcurrentDictionary for stream ARN caching,closed,2026-05-29 13:15:15+00:00,2026-06-08 09:18:44+00:00,2026-06-08 09:18:44+00:00,,sl-fredericdalessandro,[],False,0,,False
 768,feat/docs-for-versions,closed,2026-05-29 09:19:09+00:00,2026-05-29 10:51:29+00:00,2026-05-29 10:51:27+00:00,2026-05-29 10:51:27+00:00,aviv-jonyroy,[],True,0,1.5383333333333333,False
 767,feat: try fixing circleci by bumping the version manually,closed,2026-05-29 05:54:39+00:00,2026-05-29 06:24:37+00:00,2026-05-29 06:24:36+00:00,2026-05-29 06:24:36+00:00,aviv-jonyroy,[],True,0,0.49916666666666665,False
 766,ci: bump version to 0.0.274a1 to unblock publish,closed,2026-05-28 17:25:24+00:00,2026-06-01 06:34:50+00:00,2026-06-01 06:34:50+00:00,,circleci-app[bot],[],False,0,,False
@@ -42,13 +49,13 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 754,feat: new v2 - remove hashcode,closed,2026-05-22 07:50:52+00:00,2026-05-27 12:19:50+00:00,2026-05-27 12:19:46+00:00,2026-05-27 12:19:46+00:00,jlgouwyapizr,['data-contract'],True,0,124.48166666666667,True
 753,feat: origin contracts v1 SSAL,closed,2026-05-21 13:41:58+00:00,2026-06-02 14:01:18+00:00,2026-06-02 14:01:15+00:00,2026-06-02 14:01:15+00:00,eparamonov,['data-contract'],True,29,288.32138888888886,True
 752,[SKRFIN-816] update iam roles,closed,2026-05-20 08:23:17+00:00,2026-05-20 10:44:50+00:00,2026-05-20 10:44:47+00:00,2026-05-20 10:44:47+00:00,aviv-kenanjamakovic,[],True,0,2.3583333333333334,False
-751,chore(deps): bump the uv group across 1 directory with 5 updates,open,2026-05-19 20:49:17+00:00,2026-06-04 15:32:47+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+751,chore(deps): bump the uv group across 1 directory with 5 updates,open,2026-05-19 20:49:17+00:00,2026-06-08 12:12:41+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 750,feat: enrich the alerts,closed,2026-05-19 13:12:47+00:00,2026-05-19 13:33:22+00:00,2026-05-19 13:33:20+00:00,2026-05-19 13:33:20+00:00,aviv-jonyroy,[],True,0,0.3425,False
 749,feat/add-conditional-alerts,closed,2026-05-19 11:56:13+00:00,2026-05-19 12:11:29+00:00,2026-05-19 12:11:27+00:00,2026-05-19 12:11:27+00:00,aviv-jonyroy,[],True,0,0.2538888888888889,False
 748,feat: increase classified analytics kinesis shard by 1 to accomodate more traffic,closed,2026-05-19 07:31:44+00:00,2026-05-19 07:37:58+00:00,2026-05-19 07:37:57+00:00,2026-05-19 07:37:57+00:00,aviv-jonyroy,[],True,0,0.10361111111111111,False
 747,feat: [GSLCQ-86] Add SLSK (Seeker Leads) leadshub v1 contract,closed,2026-05-18 14:42:13+00:00,2026-06-04 09:45:43+00:00,2026-06-04 09:45:40+00:00,2026-06-04 09:45:40+00:00,OpheliaDuret,['data-contract'],True,28,403.0575,True
 746,feat: add table incrementa_raw_parsed to production,closed,2026-05-18 13:57:11+00:00,2026-05-19 14:37:19+00:00,2026-05-19 14:37:16+00:00,2026-05-19 14:37:16+00:00,aviv-laravrbanec,[],True,0,24.668055555555554,False
-745,contract/CLTR/TITAN-2436,open,2026-05-18 13:56:21+00:00,2026-06-03 07:51:20+00:00,,,aviv-piotrwojtowicz,['data-contract'],False,30,,True
+745,contract/CLTR/TITAN-2436,closed,2026-05-18 13:56:21+00:00,2026-06-08 13:36:30+00:00,2026-06-08 13:36:26+00:00,2026-06-08 13:36:26+00:00,aviv-piotrwojtowicz,['data-contract'],True,30,503.66805555555555,True
 744,feat: Update csharp sdk README.md ,closed,2026-05-15 12:28:10+00:00,2026-05-18 09:10:21+00:00,2026-05-18 09:10:17+00:00,2026-05-18 09:10:17+00:00,sl-fredericdalessandro,[],True,0,68.70194444444445,False
 743,feat: add slack notification when new package released,closed,2026-05-12 16:40:51+00:00,2026-05-19 06:47:16+00:00,2026-05-19 06:47:14+00:00,2026-05-19 06:47:14+00:00,aviv-jonyroy,[],True,0,158.1063888888889,False
 742,[MOD] Visibility : Fix producers_role_arn for top_position FR v2,closed,2026-05-11 17:21:22+00:00,2026-05-21 12:11:22+00:00,2026-05-21 12:11:20+00:00,2026-05-21 12:11:20+00:00,aviv-dawidkurdyla,['data-contract'],True,2,234.83277777777778,True
@@ -65,11 +72,11 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 731,fix: locate stream by contract name tag,closed,2026-05-05 13:47:01+00:00,2026-05-15 08:55:52+00:00,2026-05-15 08:55:50+00:00,2026-05-15 08:55:50+00:00,sl-fredericdalessandro,"['enhancement', 'SDK']",True,0,235.14694444444444,False
 730,Fix/reposiotry-initialization,open,2026-05-05 13:38:50+00:00,2026-05-06 09:07:00+00:00,,,aviv-laravrbanec,['enhancement'],False,0,,False
 729,feat: adding new legal field for Flanders - property_certificates_enf…,closed,2026-05-05 09:19:45+00:00,2026-05-05 10:17:25+00:00,2026-05-05 10:17:22+00:00,2026-05-05 10:17:22+00:00,jlgouwyapizr,[],True,0,0.9602777777777778,False
-728,feat(DSGPML-344): add SERP search engine query contracts for FR and DE markets,open,2026-05-04 15:52:18+00:00,2026-05-31 20:32:16+00:00,,,amarteaux,['data-contract'],False,48,,True
+728,feat(DSGPML-344): add SERP search engine query contracts for FR and DE markets,open,2026-05-04 15:52:18+00:00,2026-06-08 08:26:39+00:00,,,amarteaux,"['data-contract', 'outdated']",False,48,,True
 727,"feat: add new schema HODC/classified/compacted for iwt, gsl",closed,2026-05-04 14:19:26+00:00,2026-05-11 15:55:45+00:00,2026-05-11 15:55:42+00:00,2026-05-11 15:55:42+00:00,aviv-laravrbanec,['data-contract'],True,11,169.60444444444445,True
 726,feat: adding incident_channels and new producers,closed,2026-05-04 12:30:57+00:00,2026-05-04 14:36:59+00:00,2026-05-04 14:36:57+00:00,2026-05-04 14:36:57+00:00,jlgouwyapizr,"['data-contract', 'governance']",True,0,2.1,True
 725,feat: add OPTN optin_preference_v1 contract,closed,2026-05-04 10:53:12+00:00,2026-05-04 14:31:21+00:00,2026-05-04 14:31:19+00:00,2026-05-04 14:31:19+00:00,aviv-dimitrijegadzic,"['data-contract', 'governance']",True,0,3.6352777777777776,True
-724,feat: enable preview,open,2026-04-23 14:37:07+00:00,2026-05-20 09:59:15+00:00,,,sl-fredericdalessandro,[],False,0,,False
+724,feat: enable preview,closed,2026-04-23 14:37:07+00:00,2026-06-08 09:18:48+00:00,2026-06-08 09:18:47+00:00,,sl-fredericdalessandro,[],False,0,,False
 723,fix: tagging typo,closed,2026-04-23 14:15:34+00:00,2026-04-23 14:15:45+00:00,2026-04-23 14:15:43+00:00,2026-04-23 14:15:43+00:00,sl-fredericdalessandro,[],True,0,0.0025,False
 722,fix: tagging issue,closed,2026-04-23 13:27:32+00:00,2026-04-23 13:37:45+00:00,2026-04-23 13:37:43+00:00,2026-04-23 13:37:43+00:00,sl-fredericdalessandro,[],True,0,0.16972222222222222,False
 721,test,closed,2026-04-22 16:03:42+00:00,2026-04-22 16:15:16+00:00,2026-04-22 16:15:11+00:00,,sl-fredericdalessandro,[],False,0,,False
