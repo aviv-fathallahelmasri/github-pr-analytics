@@ -1,10 +1,12 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+810,feature: deploy churn contracts to live,closed,2026-06-12 13:47:28+00:00,2026-06-12 14:21:31+00:00,2026-06-12 14:21:29+00:00,2026-06-12 14:21:29+00:00,eparamonov,[],True,0,0.5669444444444445,False
+809,feat: [GSLCQ-144] Update customer_id description for leadshub contracts,closed,2026-06-12 08:34:49+00:00,2026-06-12 12:12:37+00:00,2026-06-12 12:12:35+00:00,2026-06-12 12:12:35+00:00,OpheliaDuret,[],True,0,3.6294444444444443,False
 808,feat: change role in dev for mkkn,closed,2026-06-11 15:47:05+00:00,2026-06-11 16:37:26+00:00,2026-06-11 16:37:24+00:00,2026-06-11 16:37:24+00:00,mklimina,[],True,0,0.8386111111111111,False
 807,Slim PR template and removing of auto-draft,closed,2026-06-11 15:39:31+00:00,2026-06-11 15:48:02+00:00,2026-06-11 15:48:01+00:00,2026-06-11 15:48:01+00:00,andrei-suvac-aviv,[],True,0,0.14166666666666666,False
 806,feature: deploy feedback contracts to prod,closed,2026-06-11 11:32:37+00:00,2026-06-11 11:49:45+00:00,2026-06-11 11:49:43+00:00,2026-06-11 11:49:43+00:00,nmaretic-aviv,[],True,0,0.285,False
 805,fix: update produce roles for User feedback,closed,2026-06-10 17:41:06+00:00,2026-06-11 07:25:22+00:00,2026-06-11 07:25:19+00:00,2026-06-11 07:25:19+00:00,nmaretic-aviv,[],True,0,13.736944444444445,False
-804,Contract/usrm/af 4562,open,2026-06-10 13:34:48+00:00,2026-06-11 18:19:44+00:00,,,goculum,['data-contract'],False,39,,True
-803,feat: [GSLCQ-144] Add Leadhub DE contracts,open,2026-06-09 09:59:12+00:00,2026-06-11 14:34:14+00:00,,,OpheliaDuret,['data-contract'],False,6,,True
+804,Contract/usrm/af 4562,open,2026-06-10 13:34:48+00:00,2026-06-12 12:55:49+00:00,,,goculum,['data-contract'],False,39,,True
+803,feat: [GSLCQ-144] Add Leadhub DE contracts,closed,2026-06-09 09:59:12+00:00,2026-06-12 08:11:17+00:00,2026-06-12 08:11:15+00:00,2026-06-12 08:11:15+00:00,OpheliaDuret,['data-contract'],True,6,70.20083333333334,True
 802,scoping aws&incident_channels to a single env downstream in producers.tfvars.json in ingestion repo,closed,2026-06-09 06:19:33+00:00,2026-06-10 08:53:38+00:00,2026-06-10 08:53:35+00:00,2026-06-10 08:53:35+00:00,andrei-suvac-aviv,[],True,0,26.567222222222224,False
 801,test(contracts): close coverage gaps + bump floor 70 -> 83 (DATAPLT-467 part 4),open,2026-06-08 15:15:31+00:00,2026-06-10 08:50:12+00:00,,,tudorpopica,[],False,0,,False
 800,test(csharp-sdk): raise unit-test coverage to 99% (DATAPLT-467 part 3),open,2026-06-08 13:32:05+00:00,2026-06-10 08:50:10+00:00,,,tudorpopica,[],False,0,,False
