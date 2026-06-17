@@ -1,9 +1,14 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-816,[MO-2747]: Decommission v1001 Snowflake data contracts,open,2026-06-16 16:41:12+00:00,2026-06-16 16:41:16+00:00,,,aviv-karamsingh,[],False,0,,False
-815,Validate producer ARNs before merging so pipeline won't fail downstream,open,2026-06-16 10:19:57+00:00,2026-06-16 11:28:35+00:00,,,andrei-suvac-aviv,[],False,0,,False
-814,chore(deps): bump the uv group across 1 directory with 6 updates,open,2026-06-16 08:08:28+00:00,2026-06-16 08:08:29+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+821,fix: [GSLCQ-144] Apply old feedback,open,2026-06-17 14:57:59+00:00,2026-06-17 14:57:59+00:00,,,OpheliaDuret,[],False,0,,False
+820,feat(HODC): add program & security columns and cases,open,2026-06-17 14:00:34+00:00,2026-06-17 14:05:03+00:00,,,florianhyseni-aviv,[],False,0,,False
+819,Contract/paym/pay 2206,open,2026-06-17 10:58:37+00:00,2026-06-17 14:14:18+00:00,,,aviv-augustinjuricic,[],False,1,,False
+818,chore: adding new columns to ssot model,closed,2026-06-17 10:17:13+00:00,2026-06-17 14:04:48+00:00,2026-06-17 14:04:48+00:00,,florianhyseni-aviv,[],False,0,,False
+817,[DATAPLT-511]: clean up the glue registry manually,open,2026-06-17 04:57:30+00:00,2026-06-17 13:17:46+00:00,,,aviv-jonyroy,[],False,0,,False
+816,[MO-2747]: Decommission v1001 Snowflake data contracts,closed,2026-06-16 16:41:12+00:00,2026-06-17 07:40:38+00:00,2026-06-17 07:40:36+00:00,2026-06-17 07:40:36+00:00,aviv-karamsingh,['data-contract'],True,0,14.99,True
+815,Validate producer ARNs before merging so pipeline won't fail downstream,open,2026-06-16 10:19:57+00:00,2026-06-17 08:21:58+00:00,,,andrei-suvac-aviv,[],False,0,,False
+814,chore(deps): bump the uv group across 1 directory with 6 updates,open,2026-06-16 08:08:28+00:00,2026-06-17 08:16:52+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 813,feat: minor contract fix and add producer role,closed,2026-06-15 19:31:51+00:00,2026-06-16 14:59:01+00:00,2026-06-16 07:35:59+00:00,2026-06-16 07:35:59+00:00,aviv-zhaolongliu,['data-contract'],True,0,12.068888888888889,True
-812,feat: deploy top_position_listings_boosts_fr_v2 to production,open,2026-06-15 17:23:43+00:00,2026-06-16 14:29:55+00:00,,,aviv-dawidkurdyla,['data-contract'],False,0,,True
+812,feat: deploy top_position_listings_boosts_fr_v2 to production,closed,2026-06-15 17:23:43+00:00,2026-06-17 08:01:54+00:00,2026-06-17 08:01:53+00:00,2026-06-17 08:01:53+00:00,aviv-dawidkurdyla,['data-contract'],True,0,38.63611111111111,True
 811,chore(deps): bump the uv group across 1 directory with 6 updates,closed,2026-06-12 22:11:01+00:00,2026-06-16 08:08:34+00:00,2026-06-16 08:08:33+00:00,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 810,feature: deploy churn contracts to live,closed,2026-06-12 13:47:28+00:00,2026-06-12 14:21:31+00:00,2026-06-12 14:21:29+00:00,2026-06-12 14:21:29+00:00,eparamonov,[],True,0,0.5669444444444445,False
 809,feat: [GSLCQ-144] Update customer_id description for leadshub contracts,closed,2026-06-12 08:34:49+00:00,2026-06-12 12:12:37+00:00,2026-06-12 12:12:35+00:00,2026-06-12 12:12:35+00:00,OpheliaDuret,[],True,0,3.6294444444444443,False
@@ -11,7 +16,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 807,Slim PR template and removing of auto-draft,closed,2026-06-11 15:39:31+00:00,2026-06-11 15:48:02+00:00,2026-06-11 15:48:01+00:00,2026-06-11 15:48:01+00:00,andrei-suvac-aviv,[],True,0,0.14166666666666666,False
 806,feature: deploy feedback contracts to prod,closed,2026-06-11 11:32:37+00:00,2026-06-11 11:49:45+00:00,2026-06-11 11:49:43+00:00,2026-06-11 11:49:43+00:00,nmaretic-aviv,[],True,0,0.285,False
 805,fix: update produce roles for User feedback,closed,2026-06-10 17:41:06+00:00,2026-06-11 07:25:22+00:00,2026-06-11 07:25:19+00:00,2026-06-11 07:25:19+00:00,nmaretic-aviv,[],True,0,13.736944444444445,False
-804,Contract/usrm/af 4562,open,2026-06-10 13:34:48+00:00,2026-06-16 15:29:07+00:00,,,goculum,['data-contract'],False,51,,True
+804,Contract/usrm/af 4562,open,2026-06-10 13:34:48+00:00,2026-06-17 14:15:47+00:00,,,goculum,['data-contract'],False,53,,True
 803,feat: [GSLCQ-144] Add Leadhub DE contracts,closed,2026-06-09 09:59:12+00:00,2026-06-12 08:11:17+00:00,2026-06-12 08:11:15+00:00,2026-06-12 08:11:15+00:00,OpheliaDuret,['data-contract'],True,6,70.20083333333334,True
 802,scoping aws&incident_channels to a single env downstream in producers.tfvars.json in ingestion repo,closed,2026-06-09 06:19:33+00:00,2026-06-10 08:53:38+00:00,2026-06-10 08:53:35+00:00,2026-06-10 08:53:35+00:00,andrei-suvac-aviv,[],True,0,26.567222222222224,False
 801,test(contracts): close coverage gaps + bump floor 70 -> 83 (DATAPLT-467 part 4),open,2026-06-08 15:15:31+00:00,2026-06-10 08:50:12+00:00,,,tudorpopica,[],False,0,,False
@@ -39,7 +44,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 779,feat: add internal E2E test contracts under DTFN capability,open,2026-06-02 16:25:42+00:00,2026-06-10 09:00:02+00:00,,,tudorpopica,[],False,11,,False
 778,feat: Add field to the account object,closed,2026-06-02 15:52:38+00:00,2026-06-02 15:59:51+00:00,2026-06-02 15:59:49+00:00,2026-06-02 15:59:49+00:00,aviv-davidmartinez,[],True,0,0.11972222222222222,False
 777,feat: fix circle ci for package conflict,closed,2026-06-02 15:29:01+00:00,2026-06-02 15:49:40+00:00,2026-06-02 15:49:37+00:00,2026-06-02 15:49:37+00:00,aviv-jonyroy,[],True,0,0.3433333333333333,False
-776,fix: add dates fields to hdoc schema,open,2026-06-02 14:50:06+00:00,2026-06-09 09:15:13+00:00,,,Laitbelhoussein,['data-contract'],False,0,,True
+776,fix: add dates fields to hdoc schema,open,2026-06-02 14:50:06+00:00,2026-06-17 08:34:49+00:00,,,Laitbelhoussein,"['data-contract', 'outdated']",False,0,,True
 775,chore(owner): update team information,closed,2026-06-02 12:44:54+00:00,2026-06-09 19:33:08+00:00,2026-06-09 19:33:06+00:00,2026-06-09 19:33:06+00:00,ElenabMA,[],True,0,174.80333333333334,False
 774,feat: apply formating,closed,2026-06-01 18:57:36+00:00,2026-06-05 13:26:13+00:00,2026-06-05 13:26:11+00:00,2026-06-05 13:26:11+00:00,aviv-jonyroy,[],True,0,90.47638888888889,False
 773,feat: fix the kinesis stream retrieval,closed,2026-06-01 13:19:01+00:00,2026-06-01 14:13:41+00:00,2026-06-01 14:13:38+00:00,2026-06-01 14:13:38+00:00,aviv-jonyroy,[],True,0,0.9102777777777777,False
