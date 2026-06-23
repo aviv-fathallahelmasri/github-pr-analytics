@@ -1,14 +1,15 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+828,chore: changing datatypes for new columns,closed,2026-06-23 09:21:53+00:00,2026-06-23 12:27:41+00:00,2026-06-23 12:27:41+00:00,,florianhyseni-aviv,[],False,0,,False
 827,feat: fix two parellel deployment conflicts,closed,2026-06-22 08:31:31+00:00,2026-06-22 08:49:16+00:00,2026-06-22 08:49:14+00:00,2026-06-22 08:49:14+00:00,aviv-jonyroy,[],True,0,0.29527777777777775,False
-826,feat: enlarged saved search criteria contracts,open,2026-06-22 06:33:59+00:00,2026-06-22 14:07:48+00:00,,,nmaretic-aviv,['data-contract'],False,7,,True
+826,feat: enlarged saved search criteria contracts,open,2026-06-22 06:33:59+00:00,2026-06-23 08:52:31+00:00,,,nmaretic-aviv,['data-contract'],False,7,,True
 825,feat: add ingestion role for the fargate cli,closed,2026-06-19 14:51:54+00:00,2026-06-22 09:45:20+00:00,2026-06-22 09:45:19+00:00,2026-06-22 09:45:19+00:00,mklimina,[],True,1,66.89027777777778,False
 824,Avo: generate event models,open,2026-06-19 09:00:16+00:00,2026-06-19 13:00:25+00:00,,,aviv-data-platform,[],False,0,,False
-823,Contract/icvm/gsv 166,open,2026-06-18 11:01:35+00:00,2026-06-22 13:55:44+00:00,,,aviv-lukaszskraba,['data-contract'],False,4,,True
+823,Contract/icvm/gsv 166,closed,2026-06-18 11:01:35+00:00,2026-06-23 10:15:43+00:00,2026-06-23 10:15:41+00:00,2026-06-23 10:15:41+00:00,aviv-lukaszskraba,['data-contract'],True,4,119.235,True
 822,fix/versions-conflict,closed,2026-06-18 07:56:10+00:00,2026-06-18 08:45:50+00:00,2026-06-18 08:45:48+00:00,2026-06-18 08:45:48+00:00,aviv-jonyroy,[],True,0,0.8272222222222222,False
 821,fix: [GSLCQ-107] Correct SKLD schemas,closed,2026-06-17 14:57:59+00:00,2026-06-22 15:38:04+00:00,2026-06-22 15:38:02+00:00,2026-06-22 15:38:02+00:00,OpheliaDuret,['data-contract'],True,0,120.6675,True
 820,feat(HODC): add program & security columns and cases,closed,2026-06-17 14:00:34+00:00,2026-06-22 07:38:09+00:00,2026-06-22 07:38:07+00:00,2026-06-22 07:38:07+00:00,florianhyseni-aviv,['data-contract'],True,6,113.62583333333333,True
 819,Contract/paym/pay 2206,open,2026-06-17 10:58:37+00:00,2026-06-22 15:40:55+00:00,,,aviv-augustinjuricic,['data-contract'],False,55,,True
-818,chore: adding new columns to ssot model,closed,2026-06-17 10:17:13+00:00,2026-06-17 14:04:48+00:00,2026-06-17 14:04:48+00:00,,florianhyseni-aviv,[],False,0,,False
+818,chore: adding new columns to ssot model,closed,2026-06-17 10:17:13+00:00,2026-06-23 09:17:54+00:00,2026-06-17 14:04:48+00:00,,florianhyseni-aviv,[],False,0,,False
 817,[DATAPLT-511]: clean up the glue registry manually,open,2026-06-17 04:57:30+00:00,2026-06-17 13:17:46+00:00,,,aviv-jonyroy,[],False,0,,False
 816,[MO-2747]: Decommission v1001 Snowflake data contracts,closed,2026-06-16 16:41:12+00:00,2026-06-17 07:40:38+00:00,2026-06-17 07:40:36+00:00,2026-06-17 07:40:36+00:00,aviv-karamsingh,['data-contract'],True,0,14.99,True
 815,Validate producer ARNs before merging so pipeline won't fail downstream,open,2026-06-16 10:19:57+00:00,2026-06-17 08:21:58+00:00,,,andrei-suvac-aviv,[],False,0,,False
@@ -50,7 +51,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 779,feat: add internal E2E test contracts under DTFN capability,open,2026-06-02 16:25:42+00:00,2026-06-22 07:05:18+00:00,,,tudorpopica,[],False,12,,False
 778,feat: Add field to the account object,closed,2026-06-02 15:52:38+00:00,2026-06-02 15:59:51+00:00,2026-06-02 15:59:49+00:00,2026-06-02 15:59:49+00:00,aviv-davidmartinez,[],True,0,0.11972222222222222,False
 777,feat: fix circle ci for package conflict,closed,2026-06-02 15:29:01+00:00,2026-06-02 15:49:40+00:00,2026-06-02 15:49:37+00:00,2026-06-02 15:49:37+00:00,aviv-jonyroy,[],True,0,0.3433333333333333,False
-776,fix: add dates fields to hdoc schema,open,2026-06-02 14:50:06+00:00,2026-06-17 08:34:49+00:00,,,Laitbelhoussein,"['data-contract', 'outdated']",False,0,,True
+776,fix: add dates fields to hdoc schema,closed,2026-06-02 14:50:06+00:00,2026-06-23 09:17:45+00:00,2026-06-23 09:17:45+00:00,,Laitbelhoussein,"['data-contract', 'outdated']",False,0,,True
 775,chore(owner): update team information,closed,2026-06-02 12:44:54+00:00,2026-06-09 19:33:08+00:00,2026-06-09 19:33:06+00:00,2026-06-09 19:33:06+00:00,ElenabMA,[],True,0,174.80333333333334,False
 774,feat: apply formating,closed,2026-06-01 18:57:36+00:00,2026-06-05 13:26:13+00:00,2026-06-05 13:26:11+00:00,2026-06-05 13:26:11+00:00,aviv-jonyroy,[],True,0,90.47638888888889,False
 773,feat: fix the kinesis stream retrieval,closed,2026-06-01 13:19:01+00:00,2026-06-01 14:13:41+00:00,2026-06-01 14:13:38+00:00,2026-06-01 14:13:38+00:00,aviv-jonyroy,[],True,0,0.9102777777777777,False
