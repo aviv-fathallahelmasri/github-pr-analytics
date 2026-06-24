@@ -1,19 +1,24 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+833,feat: add new type to the contract,open,2026-06-24 16:15:36+00:00,2026-06-24 16:15:37+00:00,,,mklimina,[],False,0,,False
+832,feat: add nbh3 for the v1 contract price,closed,2026-06-24 13:13:19+00:00,2026-06-24 14:35:20+00:00,2026-06-24 14:35:19+00:00,2026-06-24 14:35:19+00:00,mklimina,[],True,0,1.3666666666666667,False
+831,feat: adding moderation schema,open,2026-06-24 11:44:56+00:00,2026-06-24 11:53:32+00:00,,,jlgouwyapizr,[],False,0,,False
+830,chore(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.20.1 to 2.22.0 in /contribs/aviv_data_platform_java_sdk in the maven group across 1 directory,open,2026-06-24 10:39:40+00:00,2026-06-24 10:39:41+00:00,,,dependabot[bot],"['dependencies', 'java']",False,0,,False
+829,feat: [GSMCQ-188] Unpause & Update ARN for Leadshub FR & DE,closed,2026-06-24 08:51:57+00:00,2026-06-24 10:05:28+00:00,2026-06-24 10:05:27+00:00,2026-06-24 10:05:27+00:00,OpheliaDuret,[],True,0,1.225,False
 828,chore: changing datatypes for new columns,closed,2026-06-23 09:21:53+00:00,2026-06-23 12:27:41+00:00,2026-06-23 12:27:41+00:00,,florianhyseni-aviv,[],False,0,,False
 827,feat: fix two parellel deployment conflicts,closed,2026-06-22 08:31:31+00:00,2026-06-22 08:49:16+00:00,2026-06-22 08:49:14+00:00,2026-06-22 08:49:14+00:00,aviv-jonyroy,[],True,0,0.29527777777777775,False
-826,feat: enlarged saved search criteria contracts,open,2026-06-22 06:33:59+00:00,2026-06-23 08:52:31+00:00,,,nmaretic-aviv,['data-contract'],False,7,,True
+826,feat: enlarged saved search criteria contracts,open,2026-06-22 06:33:59+00:00,2026-06-24 15:38:17+00:00,,,nmaretic-aviv,['data-contract'],False,11,,True
 825,feat: add ingestion role for the fargate cli,closed,2026-06-19 14:51:54+00:00,2026-06-22 09:45:20+00:00,2026-06-22 09:45:19+00:00,2026-06-22 09:45:19+00:00,mklimina,[],True,1,66.89027777777778,False
 824,Avo: generate event models,open,2026-06-19 09:00:16+00:00,2026-06-19 13:00:25+00:00,,,aviv-data-platform,[],False,0,,False
 823,Contract/icvm/gsv 166,closed,2026-06-18 11:01:35+00:00,2026-06-23 10:15:43+00:00,2026-06-23 10:15:41+00:00,2026-06-23 10:15:41+00:00,aviv-lukaszskraba,['data-contract'],True,4,119.235,True
 822,fix/versions-conflict,closed,2026-06-18 07:56:10+00:00,2026-06-18 08:45:50+00:00,2026-06-18 08:45:48+00:00,2026-06-18 08:45:48+00:00,aviv-jonyroy,[],True,0,0.8272222222222222,False
 821,fix: [GSLCQ-107] Correct SKLD schemas,closed,2026-06-17 14:57:59+00:00,2026-06-22 15:38:04+00:00,2026-06-22 15:38:02+00:00,2026-06-22 15:38:02+00:00,OpheliaDuret,['data-contract'],True,0,120.6675,True
 820,feat(HODC): add program & security columns and cases,closed,2026-06-17 14:00:34+00:00,2026-06-22 07:38:09+00:00,2026-06-22 07:38:07+00:00,2026-06-22 07:38:07+00:00,florianhyseni-aviv,['data-contract'],True,6,113.62583333333333,True
-819,Contract/paym/pay 2206,open,2026-06-17 10:58:37+00:00,2026-06-22 15:40:55+00:00,,,aviv-augustinjuricic,['data-contract'],False,55,,True
+819,Contract/paym/pay 2206,open,2026-06-17 10:58:37+00:00,2026-06-24 08:59:04+00:00,,,aviv-augustinjuricic,['data-contract'],False,55,,True
 818,chore: adding new columns to ssot model,closed,2026-06-17 10:17:13+00:00,2026-06-23 09:17:54+00:00,2026-06-17 14:04:48+00:00,,florianhyseni-aviv,[],False,0,,False
 817,[DATAPLT-511]: clean up the glue registry manually,open,2026-06-17 04:57:30+00:00,2026-06-17 13:17:46+00:00,,,aviv-jonyroy,[],False,0,,False
 816,[MO-2747]: Decommission v1001 Snowflake data contracts,closed,2026-06-16 16:41:12+00:00,2026-06-17 07:40:38+00:00,2026-06-17 07:40:36+00:00,2026-06-17 07:40:36+00:00,aviv-karamsingh,['data-contract'],True,0,14.99,True
 815,Validate producer ARNs before merging so pipeline won't fail downstream,open,2026-06-16 10:19:57+00:00,2026-06-17 08:21:58+00:00,,,andrei-suvac-aviv,[],False,0,,False
-814,chore(deps): bump the uv group across 1 directory with 6 updates,open,2026-06-16 08:08:28+00:00,2026-06-22 11:26:25+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+814,build(deps): bump the uv group across 1 directory with 6 updates,open,2026-06-16 08:08:28+00:00,2026-06-24 10:44:32+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 813,feat: minor contract fix and add producer role,closed,2026-06-15 19:31:51+00:00,2026-06-16 14:59:01+00:00,2026-06-16 07:35:59+00:00,2026-06-16 07:35:59+00:00,aviv-zhaolongliu,['data-contract'],True,0,12.068888888888889,True
 812,feat: deploy top_position_listings_boosts_fr_v2 to production,closed,2026-06-15 17:23:43+00:00,2026-06-17 08:01:54+00:00,2026-06-17 08:01:53+00:00,2026-06-17 08:01:53+00:00,aviv-dawidkurdyla,['data-contract'],True,0,38.63611111111111,True
 811,chore(deps): bump the uv group across 1 directory with 6 updates,closed,2026-06-12 22:11:01+00:00,2026-06-16 08:08:34+00:00,2026-06-16 08:08:33+00:00,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
@@ -26,7 +31,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 804,Contract/usrm/af 4562,closed,2026-06-10 13:34:48+00:00,2026-06-18 08:01:16+00:00,2026-06-18 08:01:14+00:00,2026-06-18 08:01:13+00:00,goculum,['data-contract'],True,53,186.44027777777777,True
 803,feat: [GSLCQ-144] Add Leadhub DE contracts,closed,2026-06-09 09:59:12+00:00,2026-06-12 08:11:17+00:00,2026-06-12 08:11:15+00:00,2026-06-12 08:11:15+00:00,OpheliaDuret,['data-contract'],True,6,70.20083333333334,True
 802,scoping aws&incident_channels to a single env downstream in producers.tfvars.json in ingestion repo,closed,2026-06-09 06:19:33+00:00,2026-06-10 08:53:38+00:00,2026-06-10 08:53:35+00:00,2026-06-10 08:53:35+00:00,andrei-suvac-aviv,[],True,0,26.567222222222224,False
-801,test(contracts): close coverage gaps + bump floor 70 -> 83 (DATAPLT-467 part 4),open,2026-06-08 15:15:31+00:00,2026-06-19 10:50:02+00:00,,,tudorpopica,[],False,0,,False
+801,test(contracts): close coverage gaps + bump floor 70 -> 83 (DATAPLT-467 part 4),open,2026-06-08 15:15:31+00:00,2026-06-24 08:05:49+00:00,,,tudorpopica,[],False,0,,False
 800,test(csharp-sdk): raise unit-test coverage to 99% (DATAPLT-467 part 3),closed,2026-06-08 13:32:05+00:00,2026-06-19 16:03:18+00:00,2026-06-19 16:03:16+00:00,2026-06-19 16:03:16+00:00,tudorpopica,[],True,0,266.51972222222224,False
 799,test(python-sdk): raise unit-test coverage to 99% threshold (DATAPLT-467 part 2),closed,2026-06-08 13:00:24+00:00,2026-06-19 10:43:16+00:00,2026-06-19 10:43:15+00:00,2026-06-19 10:43:15+00:00,tudorpopica,[],True,0,261.71416666666664,False
 798,test(ts-sdk): raise unit-test coverage to 99% threshold (DATAPLT-467 part 1),closed,2026-06-08 12:45:56+00:00,2026-06-19 10:18:39+00:00,2026-06-19 10:18:38+00:00,2026-06-19 10:18:38+00:00,tudorpopica,[],True,0,261.545,False
@@ -39,7 +44,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 791,feature: deploy origin contracts to prod,closed,2026-06-04 13:33:53+00:00,2026-06-04 14:58:33+00:00,2026-06-04 14:58:31+00:00,2026-06-04 14:58:31+00:00,eparamonov,[],True,0,1.4105555555555556,False
 790,feat: configurable C# producer harness for DTFN E2E contract,closed,2026-06-04 10:30:32+00:00,2026-06-04 14:11:38+00:00,2026-06-04 14:11:37+00:00,2026-06-04 14:11:37+00:00,tudorpopica,[],True,0,3.6847222222222222,False
 789,feat: [GSLCQ-86] Update SLKS Leadshub CallTracking contract,closed,2026-06-04 10:20:12+00:00,2026-06-04 13:54:10+00:00,2026-06-04 13:54:07+00:00,2026-06-04 13:54:07+00:00,OpheliaDuret,[],True,0,3.5652777777777778,False
-788,feat: surface per-contract structural changes in producers.tfvars.json,open,2026-06-04 09:36:59+00:00,2026-06-19 10:50:08+00:00,,,tudorpopica,[],False,3,,False
+788,feat: surface per-contract structural changes in producers.tfvars.json,open,2026-06-04 09:36:59+00:00,2026-06-24 08:05:52+00:00,,,tudorpopica,[],False,3,,False
 787,feat: Fix typo in field name,closed,2026-06-04 07:38:32+00:00,2026-06-04 15:14:22+00:00,2026-06-04 15:14:22+00:00,,aviv-davidmartinez,[],False,0,,False
 786,feat: add rent to contract and new country to the MKKN,closed,2026-06-03 15:47:24+00:00,2026-06-09 09:31:03+00:00,2026-06-09 09:31:02+00:00,2026-06-09 09:31:02+00:00,mklimina,['data-contract'],True,0,137.72722222222222,True
 785,feat: adding new columns for date,closed,2026-06-03 14:42:55+00:00,2026-06-05 08:48:01+00:00,2026-06-05 08:47:59+00:00,2026-06-05 08:47:59+00:00,florianhyseni-aviv,[],True,1,42.08444444444444,False
@@ -48,7 +53,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 782,feat(IS-3): add FIRST_TIME_USED and CASCO to CLMG building condition,closed,2026-06-03 12:34:19+00:00,2026-06-04 12:39:51+00:00,2026-06-04 12:39:48+00:00,2026-06-04 12:39:48+00:00,aviv-alikazemi,['data-contract'],True,0,24.09138888888889,True
 781,feat: Change schema evolution to none for account contract,closed,2026-06-03 12:25:47+00:00,2026-06-03 13:03:49+00:00,2026-06-03 13:03:49+00:00,,aviv-davidmartinez,[],False,0,,False
 780,chore: slack group id,closed,2026-06-03 07:52:44+00:00,2026-06-03 09:09:28+00:00,2026-06-03 09:09:25+00:00,2026-06-03 09:09:25+00:00,eparamonov,[],True,0,1.2780555555555555,False
-779,feat: add internal E2E test contracts under DTFN capability,open,2026-06-02 16:25:42+00:00,2026-06-22 07:05:18+00:00,,,tudorpopica,[],False,12,,False
+779,feat: add internal E2E test contracts under DTFN capability,open,2026-06-02 16:25:42+00:00,2026-06-24 08:04:40+00:00,,,tudorpopica,[],False,12,,False
 778,feat: Add field to the account object,closed,2026-06-02 15:52:38+00:00,2026-06-02 15:59:51+00:00,2026-06-02 15:59:49+00:00,2026-06-02 15:59:49+00:00,aviv-davidmartinez,[],True,0,0.11972222222222222,False
 777,feat: fix circle ci for package conflict,closed,2026-06-02 15:29:01+00:00,2026-06-02 15:49:40+00:00,2026-06-02 15:49:37+00:00,2026-06-02 15:49:37+00:00,aviv-jonyroy,[],True,0,0.3433333333333333,False
 776,fix: add dates fields to hdoc schema,closed,2026-06-02 14:50:06+00:00,2026-06-23 09:17:45+00:00,2026-06-23 09:17:45+00:00,,Laitbelhoussein,"['data-contract', 'outdated']",False,0,,True
