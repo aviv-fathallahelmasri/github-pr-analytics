@@ -1,24 +1,26 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-833,feat: add new type to the contract,open,2026-06-24 16:15:36+00:00,2026-06-24 16:15:37+00:00,,,mklimina,[],False,0,,False
+835,fix: FRAUD-2945 remove '@countries' from ContentReportRawDe,open,2026-06-25 16:27:49+00:00,2026-06-25 16:29:30+00:00,,,iwt-kschoenrock,[],False,0,,False
+834,feat: add new type to the contract,open,2026-06-25 15:20:33+00:00,2026-06-25 15:23:56+00:00,,,mklimina,[],False,0,,False
+833,feat: add new type to the contract,open,2026-06-24 16:15:36+00:00,2026-06-25 08:52:56+00:00,,,mklimina,[],False,0,,False
 832,feat: add nbh3 for the v1 contract price,closed,2026-06-24 13:13:19+00:00,2026-06-24 14:35:20+00:00,2026-06-24 14:35:19+00:00,2026-06-24 14:35:19+00:00,mklimina,[],True,0,1.3666666666666667,False
-831,feat: adding moderation schema,open,2026-06-24 11:44:56+00:00,2026-06-24 11:53:32+00:00,,,jlgouwyapizr,[],False,0,,False
+831,feat: adding moderation schema,open,2026-06-24 11:44:56+00:00,2026-06-25 12:30:43+00:00,,,jlgouwyapizr,[],False,9,,False
 830,chore(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.20.1 to 2.22.0 in /contribs/aviv_data_platform_java_sdk in the maven group across 1 directory,open,2026-06-24 10:39:40+00:00,2026-06-24 10:39:41+00:00,,,dependabot[bot],"['dependencies', 'java']",False,0,,False
 829,feat: [GSMCQ-188] Unpause & Update ARN for Leadshub FR & DE,closed,2026-06-24 08:51:57+00:00,2026-06-24 10:05:28+00:00,2026-06-24 10:05:27+00:00,2026-06-24 10:05:27+00:00,OpheliaDuret,[],True,0,1.225,False
 828,chore: changing datatypes for new columns,closed,2026-06-23 09:21:53+00:00,2026-06-23 12:27:41+00:00,2026-06-23 12:27:41+00:00,,florianhyseni-aviv,[],False,0,,False
 827,feat: fix two parellel deployment conflicts,closed,2026-06-22 08:31:31+00:00,2026-06-22 08:49:16+00:00,2026-06-22 08:49:14+00:00,2026-06-22 08:49:14+00:00,aviv-jonyroy,[],True,0,0.29527777777777775,False
-826,feat: enlarged saved search criteria contracts,open,2026-06-22 06:33:59+00:00,2026-06-24 15:38:17+00:00,,,nmaretic-aviv,['data-contract'],False,11,,True
+826,feat: enlarged saved search criteria contracts,open,2026-06-22 06:33:59+00:00,2026-06-25 16:09:11+00:00,,,nmaretic-aviv,['data-contract'],False,11,,True
 825,feat: add ingestion role for the fargate cli,closed,2026-06-19 14:51:54+00:00,2026-06-22 09:45:20+00:00,2026-06-22 09:45:19+00:00,2026-06-22 09:45:19+00:00,mklimina,[],True,1,66.89027777777778,False
 824,Avo: generate event models,open,2026-06-19 09:00:16+00:00,2026-06-19 13:00:25+00:00,,,aviv-data-platform,[],False,0,,False
 823,Contract/icvm/gsv 166,closed,2026-06-18 11:01:35+00:00,2026-06-23 10:15:43+00:00,2026-06-23 10:15:41+00:00,2026-06-23 10:15:41+00:00,aviv-lukaszskraba,['data-contract'],True,4,119.235,True
 822,fix/versions-conflict,closed,2026-06-18 07:56:10+00:00,2026-06-18 08:45:50+00:00,2026-06-18 08:45:48+00:00,2026-06-18 08:45:48+00:00,aviv-jonyroy,[],True,0,0.8272222222222222,False
 821,fix: [GSLCQ-107] Correct SKLD schemas,closed,2026-06-17 14:57:59+00:00,2026-06-22 15:38:04+00:00,2026-06-22 15:38:02+00:00,2026-06-22 15:38:02+00:00,OpheliaDuret,['data-contract'],True,0,120.6675,True
 820,feat(HODC): add program & security columns and cases,closed,2026-06-17 14:00:34+00:00,2026-06-22 07:38:09+00:00,2026-06-22 07:38:07+00:00,2026-06-22 07:38:07+00:00,florianhyseni-aviv,['data-contract'],True,6,113.62583333333333,True
-819,Contract/paym/pay 2206,open,2026-06-17 10:58:37+00:00,2026-06-24 08:59:04+00:00,,,aviv-augustinjuricic,['data-contract'],False,55,,True
+819,Contract/paym/pay 2206,open,2026-06-17 10:58:37+00:00,2026-06-25 17:03:09+00:00,,,aviv-augustinjuricic,['data-contract'],False,56,,True
 818,chore: adding new columns to ssot model,closed,2026-06-17 10:17:13+00:00,2026-06-23 09:17:54+00:00,2026-06-17 14:04:48+00:00,,florianhyseni-aviv,[],False,0,,False
 817,[DATAPLT-511]: clean up the glue registry manually,open,2026-06-17 04:57:30+00:00,2026-06-17 13:17:46+00:00,,,aviv-jonyroy,[],False,0,,False
 816,[MO-2747]: Decommission v1001 Snowflake data contracts,closed,2026-06-16 16:41:12+00:00,2026-06-17 07:40:38+00:00,2026-06-17 07:40:36+00:00,2026-06-17 07:40:36+00:00,aviv-karamsingh,['data-contract'],True,0,14.99,True
 815,Validate producer ARNs before merging so pipeline won't fail downstream,open,2026-06-16 10:19:57+00:00,2026-06-17 08:21:58+00:00,,,andrei-suvac-aviv,[],False,0,,False
-814,build(deps): bump the uv group across 1 directory with 6 updates,open,2026-06-16 08:08:28+00:00,2026-06-24 10:44:32+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+814,build(deps): bump the uv group across 1 directory with 6 updates,open,2026-06-16 08:08:28+00:00,2026-06-25 15:45:54+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 813,feat: minor contract fix and add producer role,closed,2026-06-15 19:31:51+00:00,2026-06-16 14:59:01+00:00,2026-06-16 07:35:59+00:00,2026-06-16 07:35:59+00:00,aviv-zhaolongliu,['data-contract'],True,0,12.068888888888889,True
 812,feat: deploy top_position_listings_boosts_fr_v2 to production,closed,2026-06-15 17:23:43+00:00,2026-06-17 08:01:54+00:00,2026-06-17 08:01:53+00:00,2026-06-17 08:01:53+00:00,aviv-dawidkurdyla,['data-contract'],True,0,38.63611111111111,True
 811,chore(deps): bump the uv group across 1 directory with 6 updates,closed,2026-06-12 22:11:01+00:00,2026-06-16 08:08:34+00:00,2026-06-16 08:08:33+00:00,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
