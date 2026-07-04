@@ -3,7 +3,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 854,feat: move SKLD to PRODUCTION phase,closed,2026-07-03 07:56:26+00:00,2026-07-03 08:33:01+00:00,2026-07-03 08:32:59+00:00,2026-07-03 08:32:59+00:00,gsl-marcammeux,[],True,0,0.6091666666666666,False
 853,feat: Enable live - production,closed,2026-07-02 14:03:44+00:00,2026-07-03 14:04:51+00:00,2026-07-03 14:04:49+00:00,2026-07-03 14:04:49+00:00,jlgouwyapizr,[],True,0,24.018055555555556,False
 852,feat: move SKLD to DEVELOPMENT phase,closed,2026-07-02 13:15:16+00:00,2026-07-02 14:54:54+00:00,2026-07-02 14:54:52+00:00,2026-07-02 14:54:52+00:00,gsl-marcammeux,[],True,0,1.66,False
-851,feat: add new search autocomplete contract,open,2026-07-02 12:44:50+00:00,2026-07-03 08:57:31+00:00,,,DimitriKouliche,[],False,8,,False
+851,feat: add new search autocomplete contract,open,2026-07-02 12:44:50+00:00,2026-07-03 20:21:03+00:00,,,DimitriKouliche,[],False,8,,False
 850,Feat/enable anon users clsa ,closed,2026-07-02 09:31:27+00:00,2026-07-02 17:20:15+00:00,2026-07-02 17:20:13+00:00,2026-07-02 17:20:13+00:00,aviv-ejonakodra,[],True,1,7.812777777777778,False
 849,chore: Change contract to snowflakecontract,open,2026-07-02 07:25:40+00:00,2026-07-03 15:13:11+00:00,,,florianhyseni-aviv,[],False,4,,False
 848,Feat/contract iwtic dataplt 000 compact,open,2026-07-01 19:23:51+00:00,2026-07-01 19:24:09+00:00,,,aviv-jonyroy,[],False,0,,False
