@@ -1,7 +1,11 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-864,feat(csharp): batch uploads target per-contract staging bucket,open,2026-07-08 14:18:42+00:00,2026-07-08 14:38:19+00:00,,,tudorpopica,[],False,0,,False
-863,feat(propagation): append CodeList value listings to field descriptions,open,2026-07-08 14:08:03+00:00,2026-07-08 14:08:07+00:00,,,tudorpopica,[],False,0,,False
-862,ci(glue-registry): fail loud when gh pr list returns empty,open,2026-07-08 13:04:59+00:00,2026-07-08 15:13:06+00:00,,,tudorpopica,[],False,0,,False
+868,feat: phase prod,open,2026-07-09 13:48:34+00:00,2026-07-09 14:59:29+00:00,,,eparamonov,['data-contract'],False,0,,True
+867,feat(ts-sdk): batch uploads target per-contract staging bucket,open,2026-07-09 10:33:49+00:00,2026-07-09 13:13:27+00:00,,,tudorpopica,[],False,0,,False
+866,FRAUD-3161 Enable live content report Snowflake contract,closed,2026-07-09 10:24:23+00:00,2026-07-09 13:16:16+00:00,2026-07-09 12:59:50+00:00,2026-07-09 12:59:50+00:00,mahdihosseini-aviv,[],True,2,2.5908333333333333,False
+865,[DATAPLT-576] feat: add dedicated bucket flag for batch,closed,2026-07-09 07:43:28+00:00,2026-07-09 11:09:33+00:00,2026-07-09 11:09:31+00:00,2026-07-09 11:09:31+00:00,aviv-jonyroy,[],True,8,3.4341666666666666,False
+864,feat(csharp): batch uploads target per-contract staging bucket,open,2026-07-08 14:18:42+00:00,2026-07-09 13:14:47+00:00,,,tudorpopica,[],False,0,,False
+863,feat(propagation): append CodeList value listings to field descriptions,closed,2026-07-08 14:08:03+00:00,2026-07-09 07:50:16+00:00,2026-07-09 07:50:15+00:00,2026-07-09 07:50:15+00:00,tudorpopica,[],True,0,17.703333333333333,False
+862,ci(glue-registry): fail loud when gh pr list returns empty,open,2026-07-08 13:04:59+00:00,2026-07-09 08:49:59+00:00,,,tudorpopica,[],False,2,,False
 861,Contract/serp/dsgpml 344,open,2026-07-08 12:39:27+00:00,2026-07-08 15:33:44+00:00,,,amarteaux,['data-contract'],False,0,,True
 860,[DATAPLT-568] feat/add-dedicated-bucket-in-python-sdk,open,2026-07-07 13:28:01+00:00,2026-07-07 14:11:29+00:00,,,aviv-jonyroy,[],False,0,,False
 859,[DATAPLT-567] feat: add autogerated docs for producers,closed,2026-07-07 10:48:48+00:00,2026-07-07 12:25:05+00:00,2026-07-07 12:25:02+00:00,2026-07-07 12:25:02+00:00,aviv-jonyroy,[],True,0,1.603888888888889,False
@@ -12,18 +16,18 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 854,feat: move SKLD to PRODUCTION phase,closed,2026-07-03 07:56:26+00:00,2026-07-03 08:33:01+00:00,2026-07-03 08:32:59+00:00,2026-07-03 08:32:59+00:00,gsl-marcammeux,[],True,0,0.6091666666666666,False
 853,feat: Enable live - production,closed,2026-07-02 14:03:44+00:00,2026-07-03 14:04:51+00:00,2026-07-03 14:04:49+00:00,2026-07-03 14:04:49+00:00,jlgouwyapizr,[],True,0,24.018055555555556,False
 852,feat: move SKLD to DEVELOPMENT phase,closed,2026-07-02 13:15:16+00:00,2026-07-02 14:54:54+00:00,2026-07-02 14:54:52+00:00,2026-07-02 14:54:52+00:00,gsl-marcammeux,[],True,0,1.66,False
-851,feat: add new search autocomplete contract,open,2026-07-02 12:44:50+00:00,2026-07-07 16:45:34+00:00,,,DimitriKouliche,[],False,19,,False
+851,feat: add new search autocomplete contract,open,2026-07-02 12:44:50+00:00,2026-07-09 15:48:40+00:00,,,DimitriKouliche,['data-contract'],False,19,,True
 850,Feat/enable anon users clsa ,closed,2026-07-02 09:31:27+00:00,2026-07-02 17:20:15+00:00,2026-07-02 17:20:13+00:00,2026-07-02 17:20:13+00:00,aviv-ejonakodra,[],True,1,7.812777777777778,False
 849,chore: Change contract to snowflakecontract,closed,2026-07-02 07:25:40+00:00,2026-07-08 13:54:04+00:00,2026-07-08 13:54:02+00:00,2026-07-08 13:54:02+00:00,florianhyseni-aviv,['data-contract'],True,4,150.47277777777776,True
 848,[DATAPLT-565]: Contract IWTIC -  compact,closed,2026-07-01 19:23:51+00:00,2026-07-07 13:48:14+00:00,2026-07-07 13:48:12+00:00,2026-07-07 13:48:12+00:00,aviv-jonyroy,[],True,2,138.40583333333333,False
-847,feat: seeker profile contract,open,2026-07-01 15:23:07+00:00,2026-07-08 14:11:27+00:00,,,nmaretic-aviv,['data-contract'],False,10,,True
+847,feat: seeker profile contract,closed,2026-07-01 15:23:07+00:00,2026-07-08 19:07:29+00:00,2026-07-08 19:07:27+00:00,2026-07-08 19:07:27+00:00,nmaretic-aviv,['data-contract'],True,10,171.73888888888888,True
 846,chore: bump seeker_savedsearch_criteria contracts to production,closed,2026-07-01 13:12:56+00:00,2026-07-01 14:18:17+00:00,2026-07-01 14:18:16+00:00,2026-07-01 14:18:15+00:00,nmaretic-aviv,[],True,0,1.0886111111111112,False
 845,Feat add new producers role mkkn live preview,closed,2026-07-01 13:10:28+00:00,2026-07-01 15:06:28+00:00,2026-07-01 15:06:26+00:00,2026-07-01 15:06:26+00:00,mklimina,[],True,0,1.9327777777777777,False
-844,feat: Adding classified management core contract,open,2026-06-30 13:58:26+00:00,2026-07-08 15:28:00+00:00,,,aviv-dawidkuczma,['data-contract'],False,27,,True
+844,feat: Adding classified management core contract,open,2026-06-30 13:58:26+00:00,2026-07-09 15:47:44+00:00,,,aviv-dawidkuczma,['data-contract'],False,73,,True
 843,feat: Add GSL Supply Listings Management team,closed,2026-06-29 14:53:16+00:00,2026-06-30 08:16:29+00:00,2026-06-30 08:14:55+00:00,2026-06-30 08:14:55+00:00,aviv-dawidkuczma,[],True,0,17.360833333333332,False
-842,contract(IWTIC): flat listing_indexed_v1 analytics contract (listings + projects),open,2026-06-29 12:02:27+00:00,2026-07-07 14:54:50+00:00,,,gevkes96,['data-contract'],False,36,,True
+842,contract(IWTIC): flat listing_indexed_v1 analytics contract (listings + projects),open,2026-06-29 12:02:27+00:00,2026-07-09 13:38:18+00:00,,,gevkes96,['data-contract'],False,47,,True
 841,feat: allow nested optional and enum items in C# codegen,closed,2026-06-29 07:40:37+00:00,2026-06-30 10:37:18+00:00,2026-06-30 10:37:17+00:00,2026-06-30 10:37:17+00:00,nmaretic-aviv,[],True,0,26.944444444444443,False
-840,[DATAPLT-546] [DATAPLT-546] Feat/fix c# sdk enum generation,open,2026-06-27 20:29:16+00:00,2026-07-08 14:41:32+00:00,,,aviv-jonyroy,[],False,16,,False
+840,[DATAPLT-546] [DATAPLT-546] Feat/fix c# sdk enum generation,closed,2026-06-27 20:29:16+00:00,2026-07-09 08:49:35+00:00,2026-07-09 08:49:32+00:00,2026-07-09 08:49:32+00:00,aviv-jonyroy,[],True,16,276.3377777777778,False
 839,feat: Adding new contracts for HODC listings,closed,2026-06-26 12:09:35+00:00,2026-07-01 14:10:29+00:00,2026-07-01 14:10:26+00:00,2026-07-01 14:10:26+00:00,florianhyseni-aviv,['data-contract'],True,0,122.01416666666667,True
 838,[DATAPLT-523] Feat/add dependency on tag association,closed,2026-06-26 08:48:56+00:00,2026-06-26 09:39:40+00:00,2026-06-26 09:39:39+00:00,2026-06-26 09:39:39+00:00,aviv-jonyroy,[],True,0,0.8452777777777778,False
 837,feat: TITAN-2601 add LIN-FRA portal for french contracts,closed,2026-06-26 08:32:15+00:00,2026-06-26 09:13:15+00:00,2026-06-26 09:13:13+00:00,2026-06-26 09:13:13+00:00,aviv-piotrberestka,[],True,0,0.6827777777777778,False
@@ -49,7 +53,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 817,[DATAPLT-511]: clean up the glue registry manually,closed,2026-06-17 04:57:30+00:00,2026-06-25 20:00:34+00:00,2026-06-25 20:00:32+00:00,2026-06-25 20:00:32+00:00,aviv-jonyroy,[],True,0,207.05055555555555,False
 816,[MO-2747]: Decommission v1001 Snowflake data contracts,closed,2026-06-16 16:41:12+00:00,2026-06-17 07:40:38+00:00,2026-06-17 07:40:36+00:00,2026-06-17 07:40:36+00:00,aviv-karamsingh,['data-contract'],True,0,14.99,True
 815,Validate producer ARNs before merging so pipeline won't fail downstream,closed,2026-06-16 10:19:57+00:00,2026-07-02 07:26:17+00:00,2026-07-02 07:26:16+00:00,2026-07-02 07:26:16+00:00,andrei-suvac-aviv,[],True,14,381.10527777777776,False
-814,chore(deps): bump the uv group across 1 directory with 6 updates,open,2026-06-16 08:08:28+00:00,2026-07-08 12:52:25+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+814,chore(deps): bump the uv group across 1 directory with 6 updates,open,2026-06-16 08:08:28+00:00,2026-07-09 13:46:47+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 813,feat: minor contract fix and add producer role,closed,2026-06-15 19:31:51+00:00,2026-06-16 14:59:01+00:00,2026-06-16 07:35:59+00:00,2026-06-16 07:35:59+00:00,aviv-zhaolongliu,['data-contract'],True,0,12.068888888888889,True
 812,feat: deploy top_position_listings_boosts_fr_v2 to production,closed,2026-06-15 17:23:43+00:00,2026-06-17 08:01:54+00:00,2026-06-17 08:01:53+00:00,2026-06-17 08:01:53+00:00,aviv-dawidkurdyla,['data-contract'],True,0,38.63611111111111,True
 811,chore(deps): bump the uv group across 1 directory with 6 updates,closed,2026-06-12 22:11:01+00:00,2026-06-16 08:08:34+00:00,2026-06-16 08:08:33+00:00,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
@@ -84,7 +88,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 782,feat(IS-3): add FIRST_TIME_USED and CASCO to CLMG building condition,closed,2026-06-03 12:34:19+00:00,2026-06-04 12:39:51+00:00,2026-06-04 12:39:48+00:00,2026-06-04 12:39:48+00:00,aviv-alikazemi,['data-contract'],True,0,24.09138888888889,True
 781,feat: Change schema evolution to none for account contract,closed,2026-06-03 12:25:47+00:00,2026-06-03 13:03:49+00:00,2026-06-03 13:03:49+00:00,,aviv-davidmartinez,[],False,0,,False
 780,chore: slack group id,closed,2026-06-03 07:52:44+00:00,2026-06-03 09:09:28+00:00,2026-06-03 09:09:25+00:00,2026-06-03 09:09:25+00:00,eparamonov,[],True,0,1.2780555555555555,False
-779,feat: add internal E2E test contracts under DTFN capability,open,2026-06-02 16:25:42+00:00,2026-07-06 10:56:27+00:00,,,tudorpopica,[],False,17,,False
+779,feat: add internal E2E test contracts under DTFN capability,open,2026-06-02 16:25:42+00:00,2026-07-09 13:15:22+00:00,,,tudorpopica,[],False,17,,False
 778,feat: Add field to the account object,closed,2026-06-02 15:52:38+00:00,2026-06-02 15:59:51+00:00,2026-06-02 15:59:49+00:00,2026-06-02 15:59:49+00:00,aviv-davidmartinez,[],True,0,0.11972222222222222,False
 777,feat: fix circle ci for package conflict,closed,2026-06-02 15:29:01+00:00,2026-06-02 15:49:40+00:00,2026-06-02 15:49:37+00:00,2026-06-02 15:49:37+00:00,aviv-jonyroy,[],True,0,0.3433333333333333,False
 776,fix: add dates fields to hdoc schema,closed,2026-06-02 14:50:06+00:00,2026-06-23 09:17:45+00:00,2026-06-23 09:17:45+00:00,,Laitbelhoussein,"['data-contract', 'outdated']",False,0,,True
