@@ -1,4 +1,6 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+893,feat: adding new schema for our leads management service,open,2026-07-16 13:33:44+00:00,2026-07-16 13:44:46+00:00,,,jlgouwyapizr,[],False,7,,False
+892,AF-4853 go live,open,2026-07-16 12:52:19+00:00,2026-07-16 14:46:40+00:00,,,goculum,[],False,0,,False
 891,feat/update-the-docs,closed,2026-07-16 08:31:50+00:00,2026-07-16 11:47:07+00:00,2026-07-16 11:47:06+00:00,2026-07-16 11:47:05+00:00,aviv-jonyroy,[],True,0,3.254166666666667,False
 890,chore: adding decorator for dedicated bucket,open,2026-07-16 07:13:59+00:00,2026-07-16 09:22:12+00:00,,,florianhyseni-aviv,[],False,0,,False
 889,feat: delete v0 contracts mkkn,closed,2026-07-15 16:14:24+00:00,2026-07-16 11:17:04+00:00,2026-07-16 11:17:03+00:00,2026-07-16 11:17:03+00:00,mklimina,['data-contract'],True,0,19.044166666666666,True
@@ -13,8 +15,8 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 880,chore: Change contract to development,closed,2026-07-14 12:08:39+00:00,2026-07-14 12:26:12+00:00,2026-07-14 12:26:09+00:00,2026-07-14 12:26:09+00:00,florianhyseni-aviv,[],True,0,0.2916666666666667,False
 879,feat/add-new-batch-test-contract,closed,2026-07-14 11:36:56+00:00,2026-07-15 09:03:21+00:00,2026-07-15 09:03:19+00:00,2026-07-15 09:03:19+00:00,aviv-jonyroy,[],True,0,21.439722222222223,False
 878,feat(dtfn): dedicated_bucket=True on DummyBatch test contract,closed,2026-07-14 10:07:23+00:00,2026-07-14 10:32:19+00:00,2026-07-14 10:32:16+00:00,2026-07-14 10:32:16+00:00,tudorpopica,[],True,0,0.4147222222222222,False
-877,[PAY-2240] backend tracking contract for payment service,open,2026-07-14 09:02:39+00:00,2026-07-16 08:23:48+00:00,,,aviv-augustinjuricic,[],False,14,,False
-876,feat: [GSLMC-328] Add contract for private drafts classifieds,open,2026-07-13 14:57:34+00:00,2026-07-16 10:03:02+00:00,,,li-sergekuranda,['data-contract'],False,36,,True
+877,[PAY-2240] backend tracking contract for payment service,open,2026-07-14 09:02:39+00:00,2026-07-16 12:35:28+00:00,,,aviv-augustinjuricic,['data-contract'],False,14,,True
+876,feat: [GSLMC-328] Add contract for private drafts classifieds,open,2026-07-13 14:57:34+00:00,2026-07-16 14:55:40+00:00,,,li-sergekuranda,['data-contract'],False,48,,True
 875,fix: gcp hash,closed,2026-07-13 14:03:23+00:00,2026-07-14 13:00:30+00:00,2026-07-14 11:38:29+00:00,2026-07-14 11:38:29+00:00,florianhyseni-aviv,[],True,2,21.585,False
 874,chore: Chnage phase to Development and change the dedicated bucket,closed,2026-07-13 13:22:17+00:00,2026-07-13 14:11:31+00:00,2026-07-13 14:11:28+00:00,2026-07-13 14:11:28+00:00,florianhyseni-aviv,[],True,0,0.8197222222222222,False
 873,feat: purge the hodc dev tables,closed,2026-07-13 12:05:17+00:00,2026-07-13 13:18:25+00:00,2026-07-13 13:18:22+00:00,2026-07-13 13:18:22+00:00,aviv-jonyroy,[],True,0,1.2180555555555554,False
