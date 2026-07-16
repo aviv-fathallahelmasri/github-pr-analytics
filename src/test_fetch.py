@@ -1,4 +1,4 @@
-﻿"""
+"""
 Test script to verify GitHub connection and data fetching.
 """
 

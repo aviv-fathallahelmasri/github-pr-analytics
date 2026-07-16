@@ -1,4 +1,4 @@
-﻿"""
+"""
 Central configuration module for GitHub PR Analytics Dashboard.
 Handles all environment variables and application settings.
 """

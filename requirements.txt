@@ -1,4 +1,4 @@
-﻿# Core Dependencies
+# Core Dependencies
 PyGithub==2.1.1
 pandas==2.1.4
 python-dotenv==1.0.0

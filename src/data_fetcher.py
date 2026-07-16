@@ -1,4 +1,4 @@
-﻿"""
+"""
 GitHub PR Data Fetcher Module
 Fetches and processes pull request data from GitHub repositories.
 """
