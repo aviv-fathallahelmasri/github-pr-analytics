@@ -1,4 +1,4 @@
-﻿// Dashboard JavaScript with Fixed Filtering and Timestamp
+// Dashboard JavaScript with Fixed Filtering and Timestamp
 let metricsData = {};
 let prData = [];
 let filteredData = [];

@@ -1,4 +1,4 @@
-﻿name: Update PR Analytics Dashboard
+name: Update PR Analytics Dashboard
 
 on:
   schedule:

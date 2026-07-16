@@ -1,4 +1,4 @@
-﻿# Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *.class
@@ -18,6 +18,12 @@ ENV/
 # Environment variables
 .env
 .env.local
+
+# Local-only dev tracking (never commit)
+DEV_LOG.md
+
+# Claude Code local files (not tracked anywhere in the project)
+.claude/
 
 # OS files
 .DS_Store

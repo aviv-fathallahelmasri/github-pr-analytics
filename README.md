@@ -1,4 +1,4 @@
-﻿# GitHub PR Analytics Dashboard
+# GitHub PR Analytics Dashboard
 
 A fully automated PR analytics dashboard that provides insights into your development workflow.
 
