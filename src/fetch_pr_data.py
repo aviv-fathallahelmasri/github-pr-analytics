@@ -4,6 +4,12 @@ from datetime import datetime
 import json
 import pandas as pd
 from github import Github
+from dotenv import load_dotenv
+
+# Load variables from a local .env file so the script runs the same way locally
+# as it does in CI. In CI the token is injected as an environment variable, so
+# this is a harmless no-op there.
+load_dotenv()
 
 # Get GitHub token from environment
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
