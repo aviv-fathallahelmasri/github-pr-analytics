@@ -1,5 +1,6 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-897,AF-4853 extending audience,open,2026-07-17 15:34:21+00:00,2026-07-17 15:57:11+00:00,,,goculum,[],False,0,,False
+898,feat/udpate-the-docs,closed,2026-07-17 16:48:39+00:00,2026-07-17 17:38:26+00:00,2026-07-17 17:38:24+00:00,2026-07-17 17:38:24+00:00,aviv-jonyroy,[],True,0,0.8291666666666667,False
+897,AF-4853 extending audience,closed,2026-07-17 15:34:21+00:00,2026-07-17 16:47:59+00:00,2026-07-17 16:47:56+00:00,2026-07-17 16:47:56+00:00,goculum,[],True,0,1.226388888888889,False
 896,feat: promote test contracts to dev,closed,2026-07-17 13:03:55+00:00,2026-07-17 13:26:53+00:00,2026-07-17 13:26:50+00:00,2026-07-17 13:26:50+00:00,aviv-jonyroy,[],True,0,0.3819444444444444,False
 895,feat: reorg test contracts,closed,2026-07-17 11:14:13+00:00,2026-07-17 12:38:30+00:00,2026-07-17 12:38:27+00:00,2026-07-17 12:38:27+00:00,aviv-jonyroy,[],True,0,1.403888888888889,False
 894,DATAPLT-541 -> Remove orphaned FRDD table config,closed,2026-07-17 09:07:49+00:00,2026-07-17 09:28:14+00:00,2026-07-17 09:28:13+00:00,2026-07-17 09:28:13+00:00,andrei-suvac-aviv,[],True,0,0.34,False
@@ -298,7 +299,6 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 601,Feat/docs,closed,2026-01-27 14:27:21+00:00,2026-01-27 14:30:21+00:00,2026-01-27 14:30:18+00:00,2026-01-27 14:30:18+00:00,aviv-julienjehannet,['documentation'],True,0,0.049166666666666664,False
 600,fix: update ssot iam roles,closed,2026-01-27 11:58:22+00:00,2026-01-27 13:34:21+00:00,2026-01-27 13:34:18+00:00,2026-01-27 13:34:18+00:00,florianhyseni-aviv,[],True,0,1.5988888888888888,False
 599,feat(sla): create new sla annotation,closed,2026-01-27 10:30:47+00:00,2026-01-30 12:37:32+00:00,2026-01-30 12:37:29+00:00,2026-01-30 12:37:29+00:00,aviv-julienjehannet,"['enhancement', 'governance', 'snowflake', 'infrastructure']",True,3,74.11166666666666,False
-598,fix: Update rootDir in tsconfig.json to point to src,closed,2026-01-27 09:07:09+00:00,2026-01-27 09:31:04+00:00,2026-01-27 09:31:03+00:00,2026-01-27 09:31:03+00:00,aviv-bertrandmoundounga,['SDK'],True,0,0.3983333333333333,False
 598,fix: Update rootDir in tsconfig.json to point to src,closed,2026-01-27 09:07:09+00:00,2026-01-27 09:31:04+00:00,2026-01-27 09:31:03+00:00,2026-01-27 09:31:03+00:00,aviv-bertrandmoundounga,['SDK'],True,0,0.3983333333333333,False
 597,fix: (MKNN) Changing iam role for producer,closed,2026-01-26 13:11:28+00:00,2026-01-26 13:49:54+00:00,2026-01-26 13:49:52+00:00,2026-01-26 13:49:52+00:00,florianhyseni-aviv,[],True,0,0.64,False
 596,feat: update DataPlatformClient V2 API with batch and streaming capabilities,closed,2026-01-26 09:41:46+00:00,2026-01-26 18:03:25+00:00,2026-01-26 18:03:24+00:00,2026-01-26 18:03:24+00:00,aviv-bertrandmoundounga,['SDK'],True,0,8.360555555555555,False
