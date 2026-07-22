@@ -1,13 +1,14 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-912,feat: make the SearchAutocomplete contract specific to France,open,2026-07-21 16:39:27+00:00,2026-07-21 16:41:36+00:00,,,lisa-hausheer,[],False,0,,False
+913,[DATAPLT-615] feat(governance): emit CONTRACT_ORIGIN / PRIMARY_KEY / RECENCY_FIELD tag associations,open,2026-07-22 11:40:02+00:00,2026-07-22 13:44:38+00:00,,,tudorpopica,[],False,0,,False
+912,feat: make the SearchAutocomplete contract specific to France,closed,2026-07-21 16:39:27+00:00,2026-07-22 08:22:05+00:00,2026-07-22 08:22:04+00:00,2026-07-22 08:22:04+00:00,lisa-hausheer,[],True,0,15.710277777777778,False
 911,fix: set dedicated bucket,closed,2026-07-21 15:53:42+00:00,2026-07-21 16:10:52+00:00,2026-07-21 16:10:50+00:00,2026-07-21 16:10:49+00:00,aviv-augustinjuricic,[],True,0,0.2852777777777778,False
-910,feat: GSV-283 Add used_sdks and dedicated_bucket properties to top position contracts,open,2026-07-21 14:25:38+00:00,2026-07-21 14:29:11+00:00,,,aviv-martadychala,[],False,0,,False
-909,[GSV-53] Move boostliste contract to production,open,2026-07-21 13:46:38+00:00,2026-07-21 16:31:51+00:00,,,aviv-maciejmucha,[],False,0,,False
+910,feat: GSV-283 Add used_sdks and dedicated_bucket properties to top position contracts,closed,2026-07-21 14:25:38+00:00,2026-07-22 12:59:08+00:00,2026-07-22 12:59:07+00:00,2026-07-22 12:59:07+00:00,aviv-martadychala,[],True,0,22.558055555555555,False
+909,[GSV-53] Move boostliste contract to production,closed,2026-07-21 13:46:38+00:00,2026-07-22 05:46:06+00:00,2026-07-22 05:46:04+00:00,2026-07-22 05:46:04+00:00,aviv-maciejmucha,[],True,0,15.990555555555556,False
 908,[DATAPLT-607] test(csharp-codegen): regression guard for nested `$defs` crash,open,2026-07-21 13:21:39+00:00,2026-07-21 13:21:43+00:00,,,tudorpopica,[],False,0,,False
 907,feat(sdk): ergonomics polish - C# StreamingResult accessors + TS ctor guardrail,open,2026-07-21 10:09:20+00:00,2026-07-21 10:09:24+00:00,,,tudorpopica,[],False,0,,False
 906,feat(sdk): custom endpoint URL for Kinesis + S3 in TS and C# (LocalStack DX),open,2026-07-21 10:04:04+00:00,2026-07-21 10:04:19+00:00,,,tudorpopica,[],False,0,,False
 905,[DATAPLT-603] fix(ts): BatchHelper uploads chunks in parallel (parity with Python + C#),open,2026-07-21 09:58:03+00:00,2026-07-21 09:58:27+00:00,,,tudorpopica,[],False,0,,False
-904,[DATAPLT-602] feat(sdk): cross-SDK partition-key parity (TypeScript + Python),open,2026-07-21 09:28:20+00:00,2026-07-21 16:15:52+00:00,,,tudorpopica,[],False,0,,False
+904,[DATAPLT-602] feat(sdk): cross-SDK partition-key parity (TypeScript + Python),open,2026-07-21 09:28:20+00:00,2026-07-22 16:09:25+00:00,,,tudorpopica,[],False,5,,False
 903,Feature/search-contract - update phase,closed,2026-07-21 07:33:29+00:00,2026-07-21 08:03:53+00:00,2026-07-21 08:03:52+00:00,2026-07-21 08:03:52+00:00,AShymanski,[],True,0,0.5063888888888889,False
 902,feat: turn of pr package purge,closed,2026-07-21 05:57:49+00:00,2026-07-21 06:32:04+00:00,2026-07-21 06:32:02+00:00,2026-07-21 06:32:02+00:00,aviv-jonyroy,[],True,0,0.5702777777777778,False
 901,feat: increase capacity for AgencyVisibility contract,closed,2026-07-20 12:39:50+00:00,2026-07-21 05:54:19+00:00,2026-07-21 05:54:17+00:00,2026-07-21 05:54:17+00:00,aviv-jonyroy,[],True,0,17.240833333333335,False
@@ -67,9 +68,9 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 847,feat: seeker profile contract,closed,2026-07-01 15:23:07+00:00,2026-07-08 19:07:29+00:00,2026-07-08 19:07:27+00:00,2026-07-08 19:07:27+00:00,nmaretic-aviv,['data-contract'],True,10,171.73888888888888,True
 846,chore: bump seeker_savedsearch_criteria contracts to production,closed,2026-07-01 13:12:56+00:00,2026-07-01 14:18:17+00:00,2026-07-01 14:18:16+00:00,2026-07-01 14:18:15+00:00,nmaretic-aviv,[],True,0,1.0886111111111112,False
 845,Feat add new producers role mkkn live preview,closed,2026-07-01 13:10:28+00:00,2026-07-01 15:06:28+00:00,2026-07-01 15:06:26+00:00,2026-07-01 15:06:26+00:00,mklimina,[],True,0,1.9327777777777777,False
-844,feat: Adding classified management core contract,open,2026-06-30 13:58:26+00:00,2026-07-21 11:49:03+00:00,,,aviv-dawidkuczma,['data-contract'],False,109,,True
+844,feat: Adding classified management core contract,closed,2026-06-30 13:58:26+00:00,2026-07-22 14:10:54+00:00,2026-07-22 14:10:51+00:00,2026-07-22 14:10:51+00:00,aviv-dawidkuczma,['data-contract'],True,115,528.2069444444444,True
 843,feat: Add GSL Supply Listings Management team,closed,2026-06-29 14:53:16+00:00,2026-06-30 08:16:29+00:00,2026-06-30 08:14:55+00:00,2026-06-30 08:14:55+00:00,aviv-dawidkuczma,[],True,0,17.360833333333332,False
-842,contract(IWTIC): flat listing_indexed_v1 analytics contract (listings + projects),open,2026-06-29 12:02:27+00:00,2026-07-21 15:27:45+00:00,,,gevkes96,['data-contract'],False,75,,True
+842,contract(IWTIC): flat listing_indexed_v1 analytics contract (listings + projects),closed,2026-06-29 12:02:27+00:00,2026-07-22 10:27:15+00:00,2026-07-22 10:27:14+00:00,2026-07-22 10:27:14+00:00,gevkes96,['data-contract'],True,75,550.4130555555555,True
 841,feat: allow nested optional and enum items in C# codegen,closed,2026-06-29 07:40:37+00:00,2026-06-30 10:37:18+00:00,2026-06-30 10:37:17+00:00,2026-06-30 10:37:17+00:00,nmaretic-aviv,[],True,0,26.944444444444443,False
 840,[DATAPLT-546] [DATAPLT-546] Feat/fix c# sdk enum generation,closed,2026-06-27 20:29:16+00:00,2026-07-09 08:49:35+00:00,2026-07-09 08:49:32+00:00,2026-07-09 08:49:32+00:00,aviv-jonyroy,[],True,16,276.3377777777778,False
 839,feat: Adding new contracts for HODC listings,closed,2026-06-26 12:09:35+00:00,2026-07-01 14:10:29+00:00,2026-07-01 14:10:26+00:00,2026-07-01 14:10:26+00:00,florianhyseni-aviv,['data-contract'],True,0,122.01416666666667,True
