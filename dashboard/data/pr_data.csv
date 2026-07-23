@@ -1,5 +1,9 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-913,[DATAPLT-615] feat(governance): emit CONTRACT_ORIGIN / PRIMARY_KEY / RECENCY_FIELD tag associations,open,2026-07-22 11:40:02+00:00,2026-07-22 13:44:38+00:00,,,tudorpopica,[],False,0,,False
+917,feat: add avo_contract decorator,open,2026-07-23 16:49:34+00:00,2026-07-23 16:51:50+00:00,,,aviv-jonyroy,[],False,0,,False
+916,feature: obsolete unused criteria contracts (de),open,2026-07-23 13:15:37+00:00,2026-07-23 13:20:30+00:00,,,nmaretic-aviv,[],False,0,,False
+915,feat: Adding classified management full contract,open,2026-07-23 11:38:50+00:00,2026-07-23 11:39:07+00:00,,,aviv-dawidkuczma,[],False,0,,False
+914,feat(rulesbook): warn on Snowflake contracts missing PrimaryKey / RecencyField,open,2026-07-23 09:33:50+00:00,2026-07-23 09:50:58+00:00,,,tudorpopica,[],False,0,,False
+913,[DATAPLT-615] feat(governance): emit CONTRACT_ORIGIN / PRIMARY_KEY / RECENCY_FIELD tag associations,open,2026-07-22 11:40:02+00:00,2026-07-23 09:06:20+00:00,,,tudorpopica,[],False,0,,False
 912,feat: make the SearchAutocomplete contract specific to France,closed,2026-07-21 16:39:27+00:00,2026-07-22 08:22:05+00:00,2026-07-22 08:22:04+00:00,2026-07-22 08:22:04+00:00,lisa-hausheer,[],True,0,15.710277777777778,False
 911,fix: set dedicated bucket,closed,2026-07-21 15:53:42+00:00,2026-07-21 16:10:52+00:00,2026-07-21 16:10:50+00:00,2026-07-21 16:10:49+00:00,aviv-augustinjuricic,[],True,0,0.2852777777777778,False
 910,feat: GSV-283 Add used_sdks and dedicated_bucket properties to top position contracts,closed,2026-07-21 14:25:38+00:00,2026-07-22 12:59:08+00:00,2026-07-22 12:59:07+00:00,2026-07-22 12:59:07+00:00,aviv-martadychala,[],True,0,22.558055555555555,False
@@ -7,8 +11,8 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 908,[DATAPLT-607] test(csharp-codegen): regression guard for nested `$defs` crash,open,2026-07-21 13:21:39+00:00,2026-07-21 13:21:43+00:00,,,tudorpopica,[],False,0,,False
 907,feat(sdk): ergonomics polish - C# StreamingResult accessors + TS ctor guardrail,open,2026-07-21 10:09:20+00:00,2026-07-21 10:09:24+00:00,,,tudorpopica,[],False,0,,False
 906,feat(sdk): custom endpoint URL for Kinesis + S3 in TS and C# (LocalStack DX),open,2026-07-21 10:04:04+00:00,2026-07-21 10:04:19+00:00,,,tudorpopica,[],False,0,,False
-905,[DATAPLT-603] fix(ts): BatchHelper uploads chunks in parallel (parity with Python + C#),open,2026-07-21 09:58:03+00:00,2026-07-21 09:58:27+00:00,,,tudorpopica,[],False,0,,False
-904,[DATAPLT-602] feat(sdk): cross-SDK partition-key parity (TypeScript + Python),open,2026-07-21 09:28:20+00:00,2026-07-22 16:09:25+00:00,,,tudorpopica,[],False,5,,False
+905,[DATAPLT-603] fix(ts): BatchHelper uploads chunks in parallel (parity with Python + C#),open,2026-07-21 09:58:03+00:00,2026-07-23 06:25:42+00:00,,,tudorpopica,[],False,0,,False
+904,[DATAPLT-602] feat(sdk): cross-SDK partition-key parity (TypeScript + Python),open,2026-07-21 09:28:20+00:00,2026-07-23 06:53:08+00:00,,,tudorpopica,[],False,5,,False
 903,Feature/search-contract - update phase,closed,2026-07-21 07:33:29+00:00,2026-07-21 08:03:53+00:00,2026-07-21 08:03:52+00:00,2026-07-21 08:03:52+00:00,AShymanski,[],True,0,0.5063888888888889,False
 902,feat: turn of pr package purge,closed,2026-07-21 05:57:49+00:00,2026-07-21 06:32:04+00:00,2026-07-21 06:32:02+00:00,2026-07-21 06:32:02+00:00,aviv-jonyroy,[],True,0,0.5702777777777778,False
 901,feat: increase capacity for AgencyVisibility contract,closed,2026-07-20 12:39:50+00:00,2026-07-21 05:54:19+00:00,2026-07-21 05:54:17+00:00,2026-07-21 05:54:17+00:00,aviv-jonyroy,[],True,0,17.240833333333335,False
@@ -88,7 +92,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 827,feat: fix two parellel deployment conflicts,closed,2026-06-22 08:31:31+00:00,2026-06-22 08:49:16+00:00,2026-06-22 08:49:14+00:00,2026-06-22 08:49:14+00:00,aviv-jonyroy,[],True,0,0.29527777777777775,False
 826,feat: enlarged saved search criteria contracts,closed,2026-06-22 06:33:59+00:00,2026-06-30 10:52:00+00:00,2026-06-30 10:51:58+00:00,2026-06-30 10:51:58+00:00,nmaretic-aviv,['data-contract'],True,18,196.29972222222221,True
 825,feat: add ingestion role for the fargate cli,closed,2026-06-19 14:51:54+00:00,2026-06-22 09:45:20+00:00,2026-06-22 09:45:19+00:00,2026-06-22 09:45:19+00:00,mklimina,[],True,1,66.89027777777778,False
-824,Avo: generate event models,open,2026-06-19 09:00:16+00:00,2026-07-21 08:27:21+00:00,,,aviv-data-platform,[],False,0,,False
+824,Avo: generate event models,open,2026-06-19 09:00:16+00:00,2026-07-23 16:40:47+00:00,,,aviv-data-platform,[],False,0,,False
 823,Contract/icvm/gsv 166,closed,2026-06-18 11:01:35+00:00,2026-06-23 10:15:43+00:00,2026-06-23 10:15:41+00:00,2026-06-23 10:15:41+00:00,aviv-lukaszskraba,['data-contract'],True,4,119.235,True
 822,fix/versions-conflict,closed,2026-06-18 07:56:10+00:00,2026-06-18 08:45:50+00:00,2026-06-18 08:45:48+00:00,2026-06-18 08:45:48+00:00,aviv-jonyroy,[],True,0,0.8272222222222222,False
 821,fix: [GSLCQ-107] Correct SKLD schemas,closed,2026-06-17 14:57:59+00:00,2026-06-22 15:38:04+00:00,2026-06-22 15:38:02+00:00,2026-06-22 15:38:02+00:00,OpheliaDuret,['data-contract'],True,0,120.6675,True
@@ -184,7 +188,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 731,fix: locate stream by contract name tag,closed,2026-05-05 13:47:01+00:00,2026-05-15 08:55:52+00:00,2026-05-15 08:55:50+00:00,2026-05-15 08:55:50+00:00,smallcrew-bak,"['enhancement', 'SDK']",True,0,235.14694444444444,False
 730,Fix/reposiotry-initialization,open,2026-05-05 13:38:50+00:00,2026-07-21 07:40:39+00:00,,,aviv-laravrbanec,['enhancement'],False,0,,False
 729,feat: adding new legal field for Flanders - property_certificates_enf…,closed,2026-05-05 09:19:45+00:00,2026-05-05 10:17:25+00:00,2026-05-05 10:17:22+00:00,2026-05-05 10:17:22+00:00,jlgouwyapizr,[],True,0,0.9602777777777778,False
-728,feat(DSGPML-344): add SERP search engine query contracts for FR and DE markets,open,2026-05-04 15:52:18+00:00,2026-07-16 07:17:26+00:00,,,amarteaux,['data-contract'],False,57,,True
+728,feat(DSGPML-344): add SERP search engine query contracts for FR and DE markets,open,2026-05-04 15:52:18+00:00,2026-07-23 08:06:03+00:00,,,amarteaux,"['data-contract', 'outdated']",False,57,,True
 727,"feat: add new schema HODC/classified/compacted for iwt, gsl",closed,2026-05-04 14:19:26+00:00,2026-05-11 15:55:45+00:00,2026-05-11 15:55:42+00:00,2026-05-11 15:55:42+00:00,aviv-laravrbanec,['data-contract'],True,11,169.60444444444445,True
 726,feat: adding incident_channels and new producers,closed,2026-05-04 12:30:57+00:00,2026-05-04 14:36:59+00:00,2026-05-04 14:36:57+00:00,2026-05-04 14:36:57+00:00,jlgouwyapizr,"['data-contract', 'governance']",True,0,2.1,True
 725,feat: add OPTN optin_preference_v1 contract,closed,2026-05-04 10:53:12+00:00,2026-05-04 14:31:21+00:00,2026-05-04 14:31:19+00:00,2026-05-04 14:31:19+00:00,aviv-dimitrijegadzic,"['data-contract', 'governance']",True,0,3.6352777777777776,True
