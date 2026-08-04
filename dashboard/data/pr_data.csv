@@ -1,6 +1,6 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
 944,chore: [IDCON-0000] change phase to production,closed,2026-08-03 10:39:24+00:00,2026-08-03 15:03:37+00:00,2026-08-03 15:03:34+00:00,2026-08-03 15:03:34+00:00,aviv-michalkawczak,[],True,0,4.402777777777778,False
-943,fix: set invoice_number as optional property,open,2026-07-31 09:20:15+00:00,2026-08-03 15:07:30+00:00,,,aviv-ilijavidovic,['data-contract'],False,2,,True
+943,fix: set invoice_number as optional property,closed,2026-07-31 09:20:15+00:00,2026-08-04 11:24:29+00:00,2026-08-04 11:24:28+00:00,2026-08-04 11:24:28+00:00,aviv-ilijavidovic,['data-contract'],True,2,98.07027777777778,True
 942,feat: increase the shard for backfill contained events,closed,2026-07-30 15:12:45+00:00,2026-07-30 15:14:34+00:00,2026-07-30 15:14:32+00:00,2026-07-30 15:14:32+00:00,aviv-jonyroy,[],True,0,0.029722222222222223,False
 941,fix(FSBO): make current_step_id + current_step_state Optional (unblock live Firehose),closed,2026-07-30 08:35:02+00:00,2026-07-30 10:11:17+00:00,2026-07-30 10:11:15+00:00,2026-07-30 10:11:15+00:00,tudorpopica,[],True,0,1.603611111111111,False
 940,fix(terraform): tf-fmt on versions.tf after 6.57.0 exclude,closed,2026-07-29 15:17:58+00:00,2026-07-29 15:22:26+00:00,2026-07-29 15:22:21+00:00,,tudorpopica,[],False,0,,False
