@@ -1,9 +1,17 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-952,feat:  Classified-management change allowed lambda role to allow it for dev and stage env,open,2026-08-07 14:13:41+00:00,2026-08-07 14:18:49+00:00,,,aviv-dawidkuczma,[],False,0,,False
+960,DATAPLT-677: canonical structured log payload for the C# SDK (phase 3),open,2026-08-07 21:53:36+00:00,2026-08-07 21:53:51+00:00,,,tudorpopica,[],False,0,,False
+959,DATAPLT-676: canonical structured log payload for the TS SDK (phase 2),open,2026-08-07 21:49:53+00:00,2026-08-07 21:50:07+00:00,,,tudorpopica,[],False,0,,False
+958,DATAPLT-675: canonical structured log format for the Python SDK (phase 1),open,2026-08-07 21:45:22+00:00,2026-08-07 21:45:34+00:00,,,tudorpopica,[],False,0,,False
+957,DATAPLT-673: opt-in strict-extras policy on TypeScript SDK push/stream (phase 2),open,2026-08-07 21:36:30+00:00,2026-08-07 21:36:43+00:00,,,tudorpopica,[],False,0,,False
+956,DATAPLT-672: opt-in strict-extras policy on Python SDK push (phase 1),open,2026-08-07 21:25:17+00:00,2026-08-07 21:25:32+00:00,,,tudorpopica,[],False,0,,False
+955,DATAPLT-670: pre-publish canary for the C# SDK (non-blocking phase 3),open,2026-08-07 20:40:01+00:00,2026-08-07 20:40:14+00:00,,,tudorpopica,[],False,0,,False
+954,DATAPLT-669: pre-publish canary for the TypeScript SDK (non-blocking phase 2),open,2026-08-07 20:36:39+00:00,2026-08-07 20:36:54+00:00,,,tudorpopica,[],False,0,,False
+953,DATAPLT-668: pre-publish canary for the Python SDK (non-blocking phase 1),open,2026-08-07 20:26:43+00:00,2026-08-07 20:26:56+00:00,,,tudorpopica,[],False,0,,False
+952,feat:  Classified-management change allowed lambda role to allow it for dev and stage env,open,2026-08-07 14:13:41+00:00,2026-08-07 17:10:03+00:00,,,aviv-dawidkuczma,[],False,0,,False
 951,[PAY-2267] switch PAYM contracts to production,closed,2026-08-07 10:00:14+00:00,2026-08-07 10:27:41+00:00,2026-08-07 10:27:39+00:00,2026-08-07 10:27:39+00:00,aviv-augustinjuricic,[],True,0,0.45694444444444443,False
 950,Restore mandatory contract reviewers,closed,2026-08-07 09:10:16+00:00,2026-08-07 09:19:46+00:00,2026-08-07 09:19:44+00:00,2026-08-07 09:19:44+00:00,andrei-suvac-aviv,[],True,0,0.15777777777777777,False
-949,DATAPLT-608: cross-SDK field-constraint parity regression tests,open,2026-08-07 08:46:17+00:00,2026-08-07 08:46:31+00:00,,,tudorpopica,[],False,0,,False
-948,DATAPLT-616: surface Kinesis AWS exceptions in StreamingResult (C# fix + Python/TS regression tests),open,2026-08-07 08:36:22+00:00,2026-08-07 08:36:37+00:00,,,tudorpopica,[],False,0,,False
+949,DATAPLT-608: cross-SDK field-constraint parity regression tests,open,2026-08-07 08:46:17+00:00,2026-08-07 17:47:07+00:00,,,tudorpopica,[],False,0,,False
+948,DATAPLT-616: surface Kinesis AWS exceptions in StreamingResult (C# fix + Python/TS regression tests),open,2026-08-07 08:36:22+00:00,2026-08-07 17:30:40+00:00,,,tudorpopica,[],False,0,,False
 947,DATAPLT-620: collapse SDK partition key to random UUID per record,open,2026-08-06 12:16:28+00:00,2026-08-06 15:38:23+00:00,,,tudorpopica,[],False,0,,False
 946,ops(top_position): mark listings_boosts_v1 OBSOLETED (v2 is PRODUCTION),closed,2026-08-05 08:50:05+00:00,2026-08-06 10:46:37+00:00,2026-08-06 10:46:36+00:00,2026-08-06 10:46:36+00:00,tudorpopica,[],True,0,25.941944444444445,False
 945,feat: Adding republication enrichment fields to classified management core contract,closed,2026-08-05 06:28:54+00:00,2026-08-06 09:33:09+00:00,2026-08-06 09:33:07+00:00,2026-08-06 09:33:07+00:00,aviv-dawidkuczma,['data-contract'],True,8,27.07027777777778,True
@@ -32,7 +40,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 922,Avo schema export: 5 event model update(s),closed,2026-07-24 09:45:23+00:00,2026-07-24 11:38:50+00:00,2026-07-24 11:38:41+00:00,,aviv-data-platform,[],False,0,,False
 921,chore(deps-dev): bump @tootallnate/once from 2.0.0 to 2.0.1 in /contribs/aviv_data_platform_ts_sdk,open,2026-07-24 09:16:11+00:00,2026-07-24 11:07:24+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
 920,chore(deps): bump @isaacs/brace-expansion from 5.0.0 to 5.0.1 in /contribs/aviv_data_platform_ts_sdk,open,2026-07-24 09:15:47+00:00,2026-07-24 11:07:22+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
-919,chore(deps): bump the npm_and_yarn group across 1 directory with 9 updates,open,2026-07-24 09:15:37+00:00,2026-08-07 10:08:26+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
+919,chore(deps): bump the npm_and_yarn group across 1 directory with 9 updates,open,2026-07-24 09:15:37+00:00,2026-08-07 16:58:00+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
 918,feat: Update fsbo phase,closed,2026-07-24 09:14:26+00:00,2026-07-24 12:06:13+00:00,2026-07-24 12:06:11+00:00,2026-07-24 12:06:11+00:00,li-sergekuranda,[],True,0,2.8625,False
 917,[DATAPLT-625] feat: add avo_contract decorator,closed,2026-07-23 16:49:34+00:00,2026-07-24 09:34:42+00:00,2026-07-24 09:34:40+00:00,2026-07-24 09:34:40+00:00,aviv-jonyroy,[],True,0,16.751666666666665,False
 916,feature: obsolete unused criteria contracts (de),closed,2026-07-23 13:15:37+00:00,2026-07-24 10:25:27+00:00,2026-07-24 10:25:25+00:00,2026-07-24 10:25:24+00:00,nmaretic-aviv,[],True,0,21.163055555555555,False
