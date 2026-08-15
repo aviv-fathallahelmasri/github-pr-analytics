@@ -34,8 +34,8 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 951,[PAY-2267] switch PAYM contracts to production,closed,2026-08-07 10:00:14+00:00,2026-08-07 10:27:41+00:00,2026-08-07 10:27:39+00:00,2026-08-07 10:27:39+00:00,aviv-augustinjuricic,[],True,0,0.45694444444444443,False
 950,Restore mandatory contract reviewers,closed,2026-08-07 09:10:16+00:00,2026-08-07 09:19:46+00:00,2026-08-07 09:19:44+00:00,2026-08-07 09:19:44+00:00,andrei-suvac-aviv,[],True,0,0.15777777777777777,False
 949,DATAPLT-608: cross-SDK field-constraint parity regression tests,open,2026-08-07 08:46:17+00:00,2026-08-12 09:31:44+00:00,,,tudorpopica,[],False,0,,False
-948,DATAPLT-616: surface Kinesis AWS exceptions in StreamingResult (C# fix + Python/TS regression tests),open,2026-08-07 08:36:22+00:00,2026-08-12 09:31:42+00:00,,,tudorpopica,[],False,0,,False
-947,DATAPLT-620: collapse SDK partition key to random UUID per record,open,2026-08-06 12:16:28+00:00,2026-08-14 15:44:48+00:00,,,tudorpopica,[],False,0,,False
+948,DATAPLT-616: surface Kinesis AWS exceptions in StreamingResult (C# fix + Python/TS regression tests),open,2026-08-07 08:36:22+00:00,2026-08-14 16:40:23+00:00,,,tudorpopica,[],False,0,,False
+947,DATAPLT-620: collapse SDK partition key to random UUID per record,open,2026-08-06 12:16:28+00:00,2026-08-14 16:39:44+00:00,,,tudorpopica,[],False,0,,False
 946,ops(top_position): mark listings_boosts_v1 OBSOLETED (v2 is PRODUCTION),closed,2026-08-05 08:50:05+00:00,2026-08-06 10:46:37+00:00,2026-08-06 10:46:36+00:00,2026-08-06 10:46:36+00:00,tudorpopica,[],True,0,25.941944444444445,False
 945,feat: Adding republication enrichment fields to classified management core contract,closed,2026-08-05 06:28:54+00:00,2026-08-06 09:33:09+00:00,2026-08-06 09:33:07+00:00,2026-08-06 09:33:07+00:00,aviv-dawidkuczma,['data-contract'],True,8,27.07027777777778,True
 944,chore: [IDCON-0000] change phase to production,closed,2026-08-03 10:39:24+00:00,2026-08-03 15:03:37+00:00,2026-08-03 15:03:34+00:00,2026-08-03 15:03:34+00:00,aviv-michalkawczak,[],True,0,4.402777777777778,False
