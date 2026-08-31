@@ -1,16 +1,21 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+1042,feat(ts-sdk): expose ContractUtils.getRequiredKeys(schema),open,2026-08-31 16:07:08+00:00,2026-08-31 16:15:21+00:00,,,sl-tomtom,[],False,0,,False
+1041,feat: changing iam role for v1 snapshot tables,closed,2026-08-31 14:44:42+00:00,2026-08-31 15:21:09+00:00,2026-08-31 15:21:06+00:00,2026-08-31 15:21:06+00:00,florianhyseni-aviv,[],True,0,0.6066666666666667,False
+1040,fix: FRAUD-3317 : update ARN roles in republication policies for batch historical data on dev,open,2026-08-31 12:56:32+00:00,2026-08-31 14:42:39+00:00,,,aviv-shivendrapratapkushwaha,[],False,0,,False
+1039,ci: skip Full integration sequence for SDK/docs-only PRs,open,2026-08-31 11:41:44+00:00,2026-08-31 12:42:52+00:00,,,tudorpopica,[],False,0,,False
+1038,Avo schema export: 16 event model update(s),closed,2026-08-31 08:36:44+00:00,2026-08-31 10:48:43+00:00,2026-08-31 10:48:40+00:00,2026-08-31 10:48:40+00:00,aviv-data-platform,[],True,0,2.198888888888889,False
 1037,feat: add contract for DE NLS tracking,closed,2026-08-28 12:05:28+00:00,2026-08-28 12:36:54+00:00,2026-08-28 12:36:52+00:00,2026-08-28 12:36:52+00:00,AShymanski,[],True,2,0.5233333333333333,False
 1036,feat/onboarding-docs,closed,2026-08-28 10:08:01+00:00,2026-08-28 10:43:06+00:00,2026-08-28 10:43:04+00:00,2026-08-28 10:43:04+00:00,aviv-jonyroy,[],True,0,0.5841666666666666,False
-1035,[WIP] Feat/refactor c# code generation,open,2026-08-28 09:42:23+00:00,2026-08-28 16:44:15+00:00,,,aviv-jonyroy,[],False,0,,False
-1034,fix: add cluster fields to SSOT aggregate v1 contracts,closed,2026-08-27 12:53:39+00:00,2026-08-27 13:31:06+00:00,2026-08-27 13:31:06+00:00,,florianhyseni-aviv,[],False,0,,False
-1033,fix(csharp-sdk): derive contract name via [ContractName] attribute (no namespace churn),open,2026-08-27 11:06:17+00:00,2026-08-27 11:16:44+00:00,,,tudorpopica,[],False,0,,False
+1035,[WIP] Feat/refactor c# code generation,open,2026-08-28 09:42:23+00:00,2026-08-31 13:05:28+00:00,,,aviv-jonyroy,[],False,0,,False
+1034,fix: add cluster fields to SSOT aggregate v1 contracts,closed,2026-08-27 12:53:39+00:00,2026-08-31 08:06:15+00:00,2026-08-27 13:31:06+00:00,,florianhyseni-aviv,[],False,0,,False
+1033,fix(csharp-sdk): derive contract name via [ContractName] attribute (no namespace churn),closed,2026-08-27 11:06:17+00:00,2026-08-31 19:44:03+00:00,2026-08-31 19:44:01+00:00,,tudorpopica,[],False,0,,False
 1032,"fix(csharp-codegen): derive namespace from filename prefix, not directory",closed,2026-08-27 09:52:03+00:00,2026-08-27 11:06:11+00:00,2026-08-27 11:06:11+00:00,,tudorpopica,[],False,1,,False
 1031,Avo schema export: 16 event model update(s),closed,2026-08-27 08:50:09+00:00,2026-08-27 10:01:44+00:00,2026-08-27 10:01:41+00:00,2026-08-27 10:01:41+00:00,aviv-data-platform,[],True,0,1.1922222222222223,False
 1030,feat: FRAUD-3316 : Update ARN roles for republication detection and change phase to PRODUCTION,closed,2026-08-27 08:47:52+00:00,2026-08-27 12:49:39+00:00,2026-08-27 12:49:36+00:00,2026-08-27 12:49:36+00:00,aviv-shivendrapratapkushwaha,[],True,0,4.028888888888889,False
 1029,feat: Classified full contract - added missing codesets,closed,2026-08-27 06:56:36+00:00,2026-08-27 11:29:21+00:00,2026-08-27 11:29:19+00:00,2026-08-27 11:29:19+00:00,aviv-dawidkuczma,[],True,0,4.545277777777778,False
-1028,DATAPLT-721: C# SDK preview wiring — enable Environment.PREVIEW push (phase 3 of 4),open,2026-08-26 14:32:20+00:00,2026-08-28 07:28:36+00:00,,,tudorpopica,[],False,8,,False
-1027,DATAPLT-721: TS SDK preview wiring — enable Environment.PREVIEW push (phase 2 of 4),open,2026-08-26 14:29:42+00:00,2026-08-28 07:25:01+00:00,,,tudorpopica,[],False,2,,False
-1026,DATAPLT-721: Python SDK preview wiring — enable Environment.PREVIEW push (phase 1 of 4),open,2026-08-26 14:25:35+00:00,2026-08-28 06:51:31+00:00,,,tudorpopica,[],False,0,,False
+1028,DATAPLT-721: C# SDK preview wiring — enable Environment.PREVIEW push (phase 3 of 4),closed,2026-08-26 14:32:20+00:00,2026-08-31 13:22:46+00:00,2026-08-31 13:22:44+00:00,2026-08-31 13:22:44+00:00,tudorpopica,[],True,8,118.84,False
+1027,DATAPLT-721: TS SDK preview wiring — enable Environment.PREVIEW push (phase 2 of 4),open,2026-08-26 14:29:42+00:00,2026-08-31 13:25:30+00:00,,,tudorpopica,[],False,2,,False
+1026,DATAPLT-721: Python SDK preview wiring — enable Environment.PREVIEW push (phase 1 of 4),closed,2026-08-26 14:25:35+00:00,2026-08-31 08:36:09+00:00,2026-08-31 08:36:05+00:00,2026-08-31 08:36:05+00:00,tudorpopica,[],True,0,114.175,False
 1025,SKFI: recreate schufa_funnel_v1 table in dev,closed,2026-08-26 12:33:49+00:00,2026-08-26 14:50:42+00:00,2026-08-26 14:50:40+00:00,2026-08-26 14:50:40+00:00,aviv-dumitrupostolachi,[],True,3,2.2808333333333333,False
 1024,feat/update-the-docs,closed,2026-08-26 11:59:44+00:00,2026-08-26 13:15:58+00:00,2026-08-26 13:15:56+00:00,2026-08-26 13:15:56+00:00,aviv-jonyroy,[],True,0,1.27,False
 1023,feat: FRAUD-3300 Add historical backfill task arns for the contracts,closed,2026-08-26 11:03:40+00:00,2026-08-28 07:07:23+00:00,2026-08-28 07:07:21+00:00,2026-08-28 07:07:21+00:00,MargoHancharenka,[],True,0,44.06138888888889,False
@@ -20,7 +25,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1019,Avo schema export: 16 event model update(s),closed,2026-08-25 08:57:28+00:00,2026-08-25 14:37:06+00:00,2026-08-25 14:37:04+00:00,2026-08-25 14:37:04+00:00,aviv-data-platform,[],True,0,5.66,False
 1018,feat: FRAUD-2945 : Added unique event_id on content report schema and regenerate v1 version,closed,2026-08-25 07:46:26+00:00,2026-08-25 09:41:14+00:00,2026-08-25 09:41:12+00:00,2026-08-25 09:41:12+00:00,aviv-shivendrapratapkushwaha,[],True,2,1.9127777777777777,False
 1017,feat: add REAN capability and mobile_reviews review_state_v1 contract,open,2026-08-24 21:30:28+00:00,2026-08-27 07:36:47+00:00,,,sl-tomtom,[],False,3,,False
-1016,feat: add automated PR reviewer bot,open,2026-08-24 15:09:26+00:00,2026-08-26 12:56:05+00:00,,,tudorpopica,[],False,0,,False
+1016,feat: add automated PR reviewer bot,closed,2026-08-24 15:09:26+00:00,2026-08-31 19:44:09+00:00,2026-08-31 19:44:07+00:00,,tudorpopica,[],False,0,,False
 1015,Avo schema export: 16 event model update(s),closed,2026-08-24 13:27:51+00:00,2026-08-24 14:40:50+00:00,2026-08-24 14:40:48+00:00,2026-08-24 14:40:48+00:00,aviv-data-platform,[],True,0,1.2158333333333333,False
 1014,feat: FRAUD-2946 flip ImplioWebhookRawDe and ImplioWebhookRawFr to PR…,closed,2026-08-24 10:10:55+00:00,2026-08-26 16:39:29+00:00,2026-08-26 16:39:27+00:00,2026-08-26 16:39:27+00:00,MargoHancharenka,[],True,3,54.47555555555556,False
 1013,feat: add-iwt-demand-referral-team,closed,2026-08-24 09:27:59+00:00,2026-08-24 11:18:03+00:00,2026-08-24 11:18:01+00:00,2026-08-24 11:18:01+00:00,aviv-ivanblazevic,[],True,0,1.833888888888889,False
