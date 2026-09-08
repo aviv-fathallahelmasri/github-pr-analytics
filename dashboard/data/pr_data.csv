@@ -1,4 +1,7 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+1074,Avo: generate event models,closed,2026-09-08 18:38:38+00:00,2026-09-08 18:41:15+00:00,2026-09-08 18:41:02+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
+1073,feat: update CA datadog config,open,2026-09-08 12:58:42+00:00,2026-09-08 12:58:44+00:00,,,gsl-liuyili,[],False,0,,False
+1072,Feature/icc 3929,closed,2026-09-07 20:39:05+00:00,2026-09-08 08:55:04+00:00,2026-09-08 08:55:02+00:00,2026-09-08 08:55:02+00:00,gevkes96,[],True,0,12.265833333333333,False
 1071,fix: add historical backfill ARN to live producers role in implio webhook schemas,closed,2026-09-07 10:13:01+00:00,2026-09-07 11:17:18+00:00,2026-09-07 11:17:15+00:00,2026-09-07 11:17:15+00:00,aviv-sumantdeo,[],True,0,1.0705555555555555,False
 1070,Feat/fraud 3334 add seeker object type,closed,2026-09-07 08:51:00+00:00,2026-09-07 16:05:55+00:00,2026-09-07 16:05:53+00:00,2026-09-07 16:05:53+00:00,MargoHancharenka,[],True,7,7.248055555555555,False
 1069,feat(FRAUD-3334): add SEEKER object type to content report contract,closed,2026-09-04 16:07:52+00:00,2026-09-04 16:10:11+00:00,2026-09-04 16:10:11+00:00,,MargoHancharenka,[],False,0,,False
@@ -11,10 +14,10 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1062,feat: release tracking for NLS to preview and live,closed,2026-09-04 08:48:15+00:00,2026-09-04 10:47:58+00:00,2026-09-04 10:47:57+00:00,2026-09-04 10:47:57+00:00,AShymanski,[],True,0,1.995,False
 1061,feat: GSP-474 add REIS network and intermediary contracts,open,2026-09-04 08:37:44+00:00,2026-09-04 15:49:05+00:00,,,sl-thomasbardy,[],False,8,,False
 1060,feat: Promote French NLS and LTR tracking contracts to production,closed,2026-09-04 06:56:36+00:00,2026-09-04 08:04:38+00:00,2026-09-04 08:04:35+00:00,2026-09-04 08:04:35+00:00,aviv-aboucher,[],True,0,1.1330555555555555,False
-1059,Promote SSOT classified v1 snapshot-to-event contracts to production,open,2026-09-04 06:42:13+00:00,2026-09-07 10:54:17+00:00,,,florianhyseni-aviv,['data-contract'],False,2,,True
+1059,Promote SSOT classified v1 snapshot-to-event contracts to production,open,2026-09-04 06:42:13+00:00,2026-09-08 09:28:47+00:00,,,florianhyseni-aviv,['data-contract'],False,4,,True
 1058,[DATAPLT-748] feat: validate only updated contracts,closed,2026-09-03 19:44:15+00:00,2026-09-04 14:11:41+00:00,2026-09-04 09:54:08+00:00,2026-09-04 09:54:08+00:00,aviv-jonyroy,[],True,2,14.164722222222222,False
 1057,fix: c# version,closed,2026-09-03 14:23:12+00:00,2026-09-03 15:17:42+00:00,2026-09-03 15:17:40+00:00,2026-09-03 15:17:40+00:00,aviv-jonyroy,[],True,0,0.9077777777777778,False
-1056,GRAE-271: Update USRM FR Auth0 data contract after Passwordless OTP release,open,2026-09-03 13:59:36+00:00,2026-09-07 15:23:06+00:00,,,aviv-bartoszszczecinski,[],False,0,,False
+1056,GRAE-271: Update USRM FR Auth0 data contract after Passwordless OTP release,closed,2026-09-03 13:59:36+00:00,2026-09-08 07:09:08+00:00,2026-09-08 07:09:07+00:00,2026-09-08 07:09:07+00:00,aviv-bartoszszczecinski,[],True,0,113.15861111111111,False
 1055,feat(fsrbo): update PII level of some fields in contract,closed,2026-09-03 13:36:48+00:00,2026-09-04 08:33:50+00:00,2026-09-04 08:33:42+00:00,,sl-nigelalmada,[],False,0,,False
 1054,fix: GSLM-560 Added codeset for missing source system,closed,2026-09-03 11:02:38+00:00,2026-09-03 12:10:41+00:00,2026-09-03 12:10:38+00:00,2026-09-03 12:10:38+00:00,aviv-dawidkuczma,[],True,0,1.1333333333333333,False
 1053,Promote SSOT classified v1 snapshot-to-event contracts to production,closed,2026-09-03 09:59:59+00:00,2026-09-04 06:39:50+00:00,2026-09-04 06:39:50+00:00,,florianhyseni-aviv,['data-contract'],False,6,,True
@@ -28,14 +31,14 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1045,DATAPLT-725: allow preview integration-test role to push DummyStream,closed,2026-09-01 09:10:55+00:00,2026-09-01 13:52:27+00:00,2026-09-01 13:52:25+00:00,2026-09-01 13:52:25+00:00,tudorpopica,[],True,0,4.691666666666666,False
 1044,feat: DSGPML-894 add French LTR Snowflake contract,closed,2026-09-01 09:04:02+00:00,2026-09-07 14:06:38+00:00,2026-09-07 14:06:37+00:00,2026-09-07 14:06:37+00:00,aviv-aboucher,[],True,4,149.04305555555555,False
 1043,DATAPLT-725: template SDK harness role ARN per env (SNOWFLAKE_TEST_ENV),closed,2026-09-01 08:57:55+00:00,2026-09-03 13:05:05+00:00,2026-09-03 13:05:02+00:00,2026-09-03 13:05:02+00:00,tudorpopica,[],True,0,52.118611111111115,False
-1042,feat(ts-sdk): expose ContractUtils.getRequiredKeys(schema),open,2026-08-31 16:07:08+00:00,2026-09-07 07:24:57+00:00,,,sl-tomtom,[],False,12,,False
+1042,feat(ts-sdk): expose ContractUtils.getRequiredKeys(schema),open,2026-08-31 16:07:08+00:00,2026-09-08 16:41:52+00:00,,,sl-tomtom,[],False,12,,False
 1041,feat: changing iam role for v1 snapshot tables,closed,2026-08-31 14:44:42+00:00,2026-08-31 15:21:09+00:00,2026-08-31 15:21:06+00:00,2026-08-31 15:21:06+00:00,florianhyseni-aviv,[],True,0,0.6066666666666667,False
 1040,fix: FRAUD-3317 : update ARN roles in republication policies for batch historical data on dev,closed,2026-08-31 12:56:32+00:00,2026-09-01 09:05:31+00:00,2026-09-01 09:05:29+00:00,2026-09-01 09:05:29+00:00,aviv-shivendrapratapkushwaha,[],True,0,20.149166666666666,False
 1039,ci: skip Full integration sequence for SDK/docs-only PRs,closed,2026-08-31 11:41:44+00:00,2026-09-04 10:52:39+00:00,2026-09-04 10:52:37+00:00,,tudorpopica,[],False,0,,False
 1038,Avo schema export: 16 event model update(s),closed,2026-08-31 08:36:44+00:00,2026-08-31 10:48:43+00:00,2026-08-31 10:48:40+00:00,2026-08-31 10:48:40+00:00,aviv-data-platform,[],True,0,2.198888888888889,False
 1037,feat: add contract for DE NLS tracking,closed,2026-08-28 12:05:28+00:00,2026-08-28 12:36:54+00:00,2026-08-28 12:36:52+00:00,2026-08-28 12:36:52+00:00,AShymanski,[],True,2,0.5233333333333333,False
 1036,feat/onboarding-docs,closed,2026-08-28 10:08:01+00:00,2026-08-28 10:43:06+00:00,2026-08-28 10:43:04+00:00,2026-08-28 10:43:04+00:00,aviv-jonyroy,[],True,0,0.5841666666666666,False
-1035,[WIP] Feat/refactor c# code generation,open,2026-08-28 09:42:23+00:00,2026-09-04 16:04:53+00:00,,,aviv-jonyroy,[],False,0,,False
+1035,[WIP] Feat/refactor c# code generation,open,2026-08-28 09:42:23+00:00,2026-09-08 14:07:01+00:00,,,aviv-jonyroy,[],False,0,,False
 1034,fix: add cluster fields to SSOT aggregate v1 contracts,closed,2026-08-27 12:53:39+00:00,2026-08-31 08:06:15+00:00,2026-08-27 13:31:06+00:00,,florianhyseni-aviv,[],False,0,,False
 1033,fix(csharp-sdk): derive contract name via [ContractName] attribute (no namespace churn),closed,2026-08-27 11:06:17+00:00,2026-08-31 19:44:03+00:00,2026-08-31 19:44:01+00:00,,tudorpopica,[],False,0,,False
 1032,"fix(csharp-codegen): derive namespace from filename prefix, not directory",closed,2026-08-27 09:52:03+00:00,2026-08-27 11:06:11+00:00,2026-08-27 11:06:11+00:00,,tudorpopica,[],False,1,,False
@@ -53,7 +56,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1020,feat: FRAUD-2945 : Update phase to PRODUCTION for content report schemas,closed,2026-08-25 10:04:38+00:00,2026-08-25 15:53:51+00:00,2026-08-25 15:53:49+00:00,2026-08-25 15:53:49+00:00,aviv-shivendrapratapkushwaha,[],True,0,5.8197222222222225,False
 1019,Avo schema export: 16 event model update(s),closed,2026-08-25 08:57:28+00:00,2026-08-25 14:37:06+00:00,2026-08-25 14:37:04+00:00,2026-08-25 14:37:04+00:00,aviv-data-platform,[],True,0,5.66,False
 1018,feat: FRAUD-2945 : Added unique event_id on content report schema and regenerate v1 version,closed,2026-08-25 07:46:26+00:00,2026-08-25 09:41:14+00:00,2026-08-25 09:41:12+00:00,2026-08-25 09:41:12+00:00,aviv-shivendrapratapkushwaha,[],True,2,1.9127777777777777,False
-1017,feat: add REAN capability and mobile_reviews review_state_v1 contract,open,2026-08-24 21:30:28+00:00,2026-09-04 17:33:30+00:00,,,sl-tomtom,[],False,3,,False
+1017,feat: add REAN capability and mobile_reviews review_state_v1 contract,closed,2026-08-24 21:30:28+00:00,2026-09-08 12:49:49+00:00,2026-09-08 12:49:48+00:00,2026-09-08 12:49:48+00:00,sl-tomtom,[],True,3,351.3222222222222,False
 1016,feat: add automated PR reviewer bot,closed,2026-08-24 15:09:26+00:00,2026-08-31 19:44:09+00:00,2026-08-31 19:44:07+00:00,,tudorpopica,[],False,0,,False
 1015,Avo schema export: 16 event model update(s),closed,2026-08-24 13:27:51+00:00,2026-08-24 14:40:50+00:00,2026-08-24 14:40:48+00:00,2026-08-24 14:40:48+00:00,aviv-data-platform,[],True,0,1.2158333333333333,False
 1014,feat: FRAUD-2946 flip ImplioWebhookRawDe and ImplioWebhookRawFr to PR…,closed,2026-08-24 10:10:55+00:00,2026-08-26 16:39:29+00:00,2026-08-26 16:39:27+00:00,2026-08-26 16:39:27+00:00,MargoHancharenka,[],True,3,54.47555555555556,False
@@ -83,7 +86,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 990,fix: Recreate classified full contract table,closed,2026-08-18 08:19:35+00:00,2026-08-18 09:42:39+00:00,2026-08-18 09:42:36+00:00,2026-08-18 09:42:36+00:00,aviv-dawidkuczma,[],True,0,1.3836111111111111,False
 989,DATAPLT-708: fix dev↔live tf drift from Literals side-effect ordering,closed,2026-08-18 08:08:54+00:00,2026-08-19 11:08:34+00:00,2026-08-19 11:08:32+00:00,2026-08-19 11:08:32+00:00,tudorpopica,[],True,2,26.99388888888889,False
 988,feat: new contract boost_liste_statistics,closed,2026-08-18 07:23:35+00:00,2026-08-24 07:00:11+00:00,2026-08-24 07:00:08+00:00,2026-08-24 07:00:08+00:00,aviv-mateuszkochelski,[],True,11,143.60916666666665,False
-987,add agent data to CM contract,open,2026-08-18 06:57:36+00:00,2026-08-27 12:56:29+00:00,,,abir-chakroun,[],False,1,,False
+987,add agent data to CM contract,open,2026-08-18 06:57:36+00:00,2026-09-08 13:10:32+00:00,,,abir-chakroun,[],False,3,,False
 986,fix: update dev role for fsbo listener role,closed,2026-08-17 12:34:47+00:00,2026-08-17 13:11:05+00:00,2026-08-17 13:11:02+00:00,2026-08-17 13:11:02+00:00,gsl-hasleytav,[],True,0,0.6041666666666666,False
 985,fix: Clasified full contract fix indexing,closed,2026-08-17 12:26:50+00:00,2026-08-18 07:28:27+00:00,2026-08-18 07:28:26+00:00,2026-08-18 07:28:26+00:00,aviv-dawidkuczma,[],True,2,19.026666666666667,False
 984,feat: adding user role arn for testing batch,closed,2026-08-17 07:57:17+00:00,2026-08-17 08:59:57+00:00,2026-08-17 08:59:55+00:00,2026-08-17 08:59:55+00:00,jlgouwyapizr,[],True,0,1.0438888888888889,False
@@ -112,7 +115,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 961,feat: Classified-management Set dedicated_bucket in core contract,closed,2026-08-10 13:00:48+00:00,2026-08-10 13:13:25+00:00,2026-08-10 13:13:23+00:00,2026-08-10 13:13:23+00:00,aviv-dawidkuczma,[],True,0,0.20972222222222223,False
 960,DATAPLT-677: canonical structured log payload for the C# SDK (phase 3),open,2026-08-07 21:53:36+00:00,2026-09-07 08:10:26+00:00,,,tudorpopica,[],False,0,,False
 959,DATAPLT-676: canonical structured log payload for the TS SDK (phase 2),open,2026-08-07 21:49:53+00:00,2026-09-07 08:05:45+00:00,,,tudorpopica,[],False,0,,False
-958,DATAPLT-675: canonical structured log format for the Python SDK (phase 1),open,2026-08-07 21:45:22+00:00,2026-09-07 14:56:31+00:00,,,tudorpopica,[],False,2,,False
+958,DATAPLT-675: canonical structured log format for the Python SDK (phase 1),open,2026-08-07 21:45:22+00:00,2026-09-08 11:33:45+00:00,,,tudorpopica,[],False,4,,False
 957,DATAPLT-673: opt-in strict-extras policy on TypeScript SDK push/stream (phase 2),open,2026-08-07 21:36:30+00:00,2026-09-07 08:02:28+00:00,,,tudorpopica,[],False,4,,False
 956,DATAPLT-672: opt-in strict-extras policy on Python SDK push (phase 1),open,2026-08-07 21:25:17+00:00,2026-09-07 11:18:17+00:00,,,tudorpopica,[],False,0,,False
 955,DATAPLT-670: pre-publish canary for the C# SDK (non-blocking phase 3),closed,2026-08-07 20:40:01+00:00,2026-08-14 07:48:50+00:00,2026-08-14 07:48:48+00:00,2026-08-14 07:48:48+00:00,tudorpopica,[],True,4,155.14638888888888,False
