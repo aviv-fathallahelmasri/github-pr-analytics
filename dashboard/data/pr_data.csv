@@ -1,16 +1,21 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+1120,[DATAPLT-774] feat/schema-test-cases,open,2026-09-21 13:08:28+00:00,2026-09-21 18:10:39+00:00,,,aviv-jonyroy,[],False,34,,False
+1119,fix: move review state to discovery phase,closed,2026-09-21 12:56:22+00:00,2026-09-21 13:13:49+00:00,2026-09-21 13:13:46+00:00,2026-09-21 13:13:46+00:00,sl-tomtom,[],True,0,0.29,False
+1118,DATAPLT-800: route FRDD incident channels to Xenon's own alerts channel,closed,2026-09-21 12:06:06+00:00,2026-09-21 12:47:06+00:00,2026-09-21 12:47:03+00:00,2026-09-21 12:47:03+00:00,tudorpopica,[],True,0,0.6825,False
+1117,DATAPLT-798: comment out REAN review_state_v1 producer role that does not exist,closed,2026-09-21 10:30:27+00:00,2026-09-21 10:35:51+00:00,2026-09-21 10:35:49+00:00,,tudorpopica,[],False,0,,False
+1116,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-09-21 08:29:11+00:00,2026-09-21 09:42:00+00:00,2026-09-21 09:41:58+00:00,2026-09-21 09:41:58+00:00,aviv-dataops-github-app[bot],[],True,0,1.2130555555555556,False
 1115,[DATAPLT-774] feat/use-four-space-for-test,closed,2026-09-18 13:48:45+00:00,2026-09-18 14:08:01+00:00,2026-09-18 14:07:58+00:00,2026-09-18 14:07:58+00:00,aviv-jonyroy,[],True,0,0.3202777777777778,False
-1114,ISEEK-412: mark ssa_id/user_correlation_id as PIILevel(Regular),open,2026-09-17 20:23:30+00:00,2026-09-17 20:23:31+00:00,,,aviv-alikazemi,[],False,0,,False
+1114,ISEEK-412: mark ssa_id/user_correlation_id as PIILevel(Regular),open,2026-09-17 20:23:30+00:00,2026-09-21 12:20:57+00:00,,,aviv-alikazemi,[],False,0,,False
 1113,feat: promote user_mapping_de_v1 contract from DISCOVERY to DEVELOPMENT,closed,2026-09-17 20:21:43+00:00,2026-09-18 11:53:13+00:00,2026-09-18 11:53:11+00:00,2026-09-18 11:53:11+00:00,aviv-dimitrijegadzic,[],True,0,15.524444444444445,False
 1112,DATAPLT-768: add used_sdks=[TypeScript] to Titan FR CLTR contracts (4),closed,2026-09-17 18:16:35+00:00,2026-09-17 19:17:48+00:00,2026-09-17 19:17:46+00:00,2026-09-17 19:17:46+00:00,tudorpopica,[],True,0,1.0197222222222222,False
 1111,DATAPLT-768: add used_sdks=[C#] to Hyperos SSAL contracts (7),closed,2026-09-17 13:53:35+00:00,2026-09-17 14:13:10+00:00,2026-09-17 14:13:08+00:00,2026-09-17 14:13:08+00:00,tudorpopica,[],True,0,0.3258333333333333,False
-1110,feat: [GRAE-288] Add pla (pre-login risk assessment) event type,open,2026-09-17 10:46:56+00:00,2026-09-17 10:54:50+00:00,,,aviv-wojciechsamborski,[],False,0,,False
+1110,feat: [GRAE-288] Add pla (pre-login risk assessment) event type,open,2026-09-17 10:46:56+00:00,2026-09-21 14:06:59+00:00,,,aviv-wojciechsamborski,[],False,2,,False
 1109,feat: promote user_mapping_de_v1 contract from DISCOVERY to DEVELOPMENT,closed,2026-09-17 10:39:45+00:00,2026-09-17 15:55:00+00:00,2026-09-17 15:54:59+00:00,2026-09-17 15:54:59+00:00,aviv-dimitrijegadzic,[],True,0,5.253888888888889,False
 1108,Feat/review stream live arn,open,2026-09-17 09:53:52+00:00,2026-09-17 09:56:34+00:00,,,sl-tomtom,[],False,0,,False
 1107,AF-4919 support pro-immowelt tenant in user_management_events_de contract,closed,2026-09-17 08:47:49+00:00,2026-09-18 09:49:15+00:00,2026-09-18 09:49:14+00:00,2026-09-18 09:49:14+00:00,aviv-muqadaralijamali,[],True,0,25.023611111111112,False
 1106,DATAPLT-768: add used_sdks=[] to AGENCY_VISIBILITY_V1,closed,2026-09-17 08:44:51+00:00,2026-09-17 14:52:52+00:00,2026-09-17 14:52:49+00:00,2026-09-17 14:52:49+00:00,tudorpopica,[],True,7,6.132777777777778,False
 1105,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-09-17 08:26:16+00:00,2026-09-17 09:30:47+00:00,2026-09-17 09:30:44+00:00,2026-09-17 09:30:44+00:00,aviv-dataops-github-app[bot],[],True,0,1.0744444444444445,False
-1104,feat: table name changed to FR,open,2026-09-17 08:08:23+00:00,2026-09-17 15:03:49+00:00,,,aviv-mateuszkochelski,[],False,0,,False
+1104,feat: table name changed to FR,open,2026-09-17 08:08:23+00:00,2026-09-21 12:24:53+00:00,,,aviv-mateuszkochelski,[],False,0,,False
 1103,[DATAPLT-774] feat/sdk-test-cases-docs,closed,2026-09-17 07:35:02+00:00,2026-09-18 07:06:20+00:00,2026-09-18 07:06:18+00:00,2026-09-18 07:06:18+00:00,aviv-jonyroy,[],True,14,23.52111111111111,False
 1102,DATAPLT-768: add used_sdks=[TypeScript] to Titan DE CLTR contracts (3),closed,2026-09-17 07:24:53+00:00,2026-09-17 10:03:34+00:00,2026-09-17 10:03:31+00:00,2026-09-17 10:03:31+00:00,tudorpopica,[],True,0,2.6438888888888887,False
 1101,DATAPLT-768: add used_sdks=[TypeScript] to Arsene SKLD contracts (14),closed,2026-09-16 13:14:14+00:00,2026-09-16 19:23:23+00:00,2026-09-16 19:23:21+00:00,2026-09-16 19:23:21+00:00,tudorpopica,[],True,0,6.151944444444444,False
@@ -33,8 +38,8 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1084,feat: [GSLMC-467] Add values in DEVICE TYPE,closed,2026-09-14 12:30:39+00:00,2026-09-15 12:06:49+00:00,2026-09-15 12:06:47+00:00,2026-09-15 12:06:47+00:00,li-rachiddiane,[],True,0,23.602222222222224,False
 1083,feat(dsgpac-514): add latest_publication_date to IWT and GSL table raw parsed,closed,2026-09-11 13:58:29+00:00,2026-09-14 12:45:24+00:00,2026-09-14 12:45:22+00:00,2026-09-14 12:45:22+00:00,aviv-laravrbanec,[],True,0,70.78138888888888,False
 1082,feat: de contract for autocomplete,closed,2026-09-11 13:58:18+00:00,2026-09-14 08:18:38+00:00,2026-09-14 08:18:37+00:00,,AShymanski,[],False,2,,False
-1081,feat: new version of immoweb classifieds management,open,2026-09-11 09:27:22+00:00,2026-09-18 12:42:25+00:00,,,jlgouwyapizr,['data-contract'],False,31,,True
-1080,"DATAPLT-761: ts-sdk(codegen) resolve $ref before jsonSchemaToZod so ref-typed fields become Zod enums, not z.any()",open,2026-09-10 13:32:34+00:00,2026-09-14 10:26:52+00:00,,,tudorpopica,[],False,0,,False
+1081,feat: new version of immoweb classifieds management,open,2026-09-11 09:27:22+00:00,2026-09-21 10:21:55+00:00,,,jlgouwyapizr,['data-contract'],False,32,,True
+1080,"DATAPLT-761: ts-sdk(codegen) resolve $ref before jsonSchemaToZod so ref-typed fields become Zod enums, not z.any()",open,2026-09-10 13:32:34+00:00,2026-09-21 10:18:06+00:00,,,tudorpopica,[],False,0,,False
 1079,"DATAPLT-761: CLMG/ssot_classified enrichment_{fraud_check,ml,geo}_status nullable",closed,2026-09-10 11:24:05+00:00,2026-09-10 13:32:31+00:00,2026-09-10 13:32:30+00:00,,tudorpopica,[],False,0,,False
 1078,feat(PAYM): add PRODUCT_ACTIVATION_DE_V1 data contract (PAY-2316),closed,2026-09-10 09:28:18+00:00,2026-09-16 08:23:31+00:00,2026-09-16 08:23:29+00:00,2026-09-16 08:23:29+00:00,aviv-augustinjuricic,[],True,40,142.91972222222222,False
 1077,feat: FRAUD-3334 add CALLSUMMARY object type to content report contract,closed,2026-09-10 08:39:52+00:00,2026-09-10 08:50:04+00:00,2026-09-10 08:50:01+00:00,2026-09-10 08:50:01+00:00,MargoHancharenka,[],True,0,0.16916666666666666,False
@@ -53,7 +58,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1064,DATAPLT-746: run 3 SDK unit tests in parallel inside the build step,closed,2026-09-04 12:04:50+00:00,2026-09-04 12:53:31+00:00,2026-09-04 12:53:29+00:00,2026-09-04 12:53:29+00:00,tudorpopica,[],True,0,0.8108333333333333,False
 1063,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-09-04 11:49:00+00:00,2026-09-07 12:47:01+00:00,2026-09-07 12:46:59+00:00,2026-09-07 12:46:59+00:00,aviv-data-platform,[],True,0,72.96638888888889,False
 1062,feat: release tracking for NLS to preview and live,closed,2026-09-04 08:48:15+00:00,2026-09-04 10:47:58+00:00,2026-09-04 10:47:57+00:00,2026-09-04 10:47:57+00:00,AShymanski,[],True,0,1.995,False
-1061,feat: GSP-474 add REIS network and intermediary contracts,open,2026-09-04 08:37:44+00:00,2026-09-11 07:54:25+00:00,,,sl-thomasbardy,[],False,11,,False
+1061,feat: GSP-474 add REIS network and intermediary contracts,open,2026-09-04 08:37:44+00:00,2026-09-21 12:26:20+00:00,,,sl-thomasbardy,[],False,11,,False
 1060,feat: Promote French NLS and LTR tracking contracts to production,closed,2026-09-04 06:56:36+00:00,2026-09-04 08:04:38+00:00,2026-09-04 08:04:35+00:00,2026-09-04 08:04:35+00:00,aviv-aboucher,[],True,0,1.1330555555555555,False
 1059,Promote SSOT classified v1 snapshot-to-event contracts to production,closed,2026-09-04 06:42:13+00:00,2026-09-10 14:52:21+00:00,2026-09-10 14:52:18+00:00,2026-09-10 14:52:18+00:00,florianhyseni-aviv,['data-contract'],True,4,152.16805555555555,True
 1058,[DATAPLT-748] feat: validate only updated contracts,closed,2026-09-03 19:44:15+00:00,2026-09-04 14:11:41+00:00,2026-09-04 09:54:08+00:00,2026-09-04 09:54:08+00:00,aviv-jonyroy,[],True,2,14.164722222222222,False
@@ -146,7 +151,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 971,Avo schema export: 11 event model update(s),closed,2026-08-12 15:45:16+00:00,2026-08-14 08:00:12+00:00,2026-08-14 08:00:12+00:00,,aviv-data-platform,[],False,0,,False
 970,Avo schema export: 11 event model update(s),closed,2026-08-12 14:15:07+00:00,2026-08-12 15:39:42+00:00,2026-08-12 15:39:20+00:00,,aviv-data-platform,[],False,0,,False
 969,test: reject null / missing required fields at push (DATAPLT-682 regression),closed,2026-08-12 10:09:38+00:00,2026-09-07 06:29:41+00:00,2026-09-07 06:29:39+00:00,2026-09-07 06:29:39+00:00,tudorpopica,[],True,0,620.3336111111112,False
-968,Backend tracking for new booking service (aviv_intermediary_booking_service),open,2026-08-12 09:12:06+00:00,2026-09-15 14:56:34+00:00,,,iwt-mjambrovic,[],False,16,,False
+968,Backend tracking for new booking service (aviv_intermediary_booking_service),open,2026-08-12 09:12:06+00:00,2026-09-21 10:32:01+00:00,,,iwt-mjambrovic,[],False,18,,False
 967,feat: FRAUD-3219 : add abstract content report class and related Snowflake resources for content reporting,closed,2026-08-12 08:20:05+00:00,2026-08-13 15:54:09+00:00,2026-08-13 15:54:05+00:00,2026-08-13 15:54:05+00:00,aviv-shivendrapratapkushwaha,[],True,24,31.566666666666666,False
 966,GRAE-85: Add User Management French data contract,closed,2026-08-11 13:09:32+00:00,2026-08-17 10:58:39+00:00,2026-08-17 10:58:37+00:00,2026-08-17 10:58:37+00:00,aviv-bartoszszczecinski,['data-contract'],True,0,141.81805555555556,True
 965,csharp: reject empty strings on required fields (DATAPLT-682),closed,2026-08-11 13:09:31+00:00,2026-08-11 14:50:33+00:00,2026-08-11 14:50:33+00:00,,tudorpopica,[],False,3,,False
