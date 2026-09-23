@@ -1,5 +1,6 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-1121,feat: update to v3,open,2026-09-22 17:49:04+00:00,2026-09-22 17:49:32+00:00,,,jlgouwyapizr,[],False,0,,False
+1122,[AUTOMATED]: Contracts generated/updated from Avo schema,open,2026-09-23 07:28:54+00:00,2026-09-23 07:33:54+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
+1121,feat: update to v3,open,2026-09-22 17:49:04+00:00,2026-09-23 14:54:32+00:00,,,jlgouwyapizr,['data-contract'],False,22,,True
 1120,[DATAPLT-774] feat/schema-test-cases,closed,2026-09-21 13:08:28+00:00,2026-09-22 09:01:00+00:00,2026-09-22 09:00:57+00:00,2026-09-22 09:00:57+00:00,aviv-jonyroy,[],True,37,19.87472222222222,False
 1119,fix: move review state to discovery phase,closed,2026-09-21 12:56:22+00:00,2026-09-21 13:13:49+00:00,2026-09-21 13:13:46+00:00,2026-09-21 13:13:46+00:00,sl-tomtom,[],True,0,0.29,False
 1118,DATAPLT-800: route FRDD incident channels to Xenon's own alerts channel,closed,2026-09-21 12:06:06+00:00,2026-09-21 12:47:06+00:00,2026-09-21 12:47:03+00:00,2026-09-21 12:47:03+00:00,tudorpopica,[],True,0,0.6825,False
@@ -10,7 +11,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1113,feat: promote user_mapping_de_v1 contract from DISCOVERY to DEVELOPMENT,closed,2026-09-17 20:21:43+00:00,2026-09-18 11:53:13+00:00,2026-09-18 11:53:11+00:00,2026-09-18 11:53:11+00:00,aviv-dimitrijegadzic,[],True,0,15.524444444444445,False
 1112,DATAPLT-768: add used_sdks=[TypeScript] to Titan FR CLTR contracts (4),closed,2026-09-17 18:16:35+00:00,2026-09-17 19:17:48+00:00,2026-09-17 19:17:46+00:00,2026-09-17 19:17:46+00:00,tudorpopica,[],True,0,1.0197222222222222,False
 1111,DATAPLT-768: add used_sdks=[C#] to Hyperos SSAL contracts (7),closed,2026-09-17 13:53:35+00:00,2026-09-17 14:13:10+00:00,2026-09-17 14:13:08+00:00,2026-09-17 14:13:08+00:00,tudorpopica,[],True,0,0.3258333333333333,False
-1110,feat: [GRAE-288] Add pla (pre-login risk assessment) event type,open,2026-09-17 10:46:56+00:00,2026-09-22 07:09:18+00:00,,,aviv-wojciechsamborski,[],False,2,,False
+1110,feat: [GRAE-288] Add pla (pre-login risk assessment) event type,closed,2026-09-17 10:46:56+00:00,2026-09-23 10:00:32+00:00,2026-09-23 10:00:30+00:00,2026-09-23 10:00:30+00:00,aviv-wojciechsamborski,[],True,2,143.22611111111112,False
 1109,feat: promote user_mapping_de_v1 contract from DISCOVERY to DEVELOPMENT,closed,2026-09-17 10:39:45+00:00,2026-09-17 15:55:00+00:00,2026-09-17 15:54:59+00:00,2026-09-17 15:54:59+00:00,aviv-dimitrijegadzic,[],True,0,5.253888888888889,False
 1108,Feat/review stream live arn,closed,2026-09-17 09:53:52+00:00,2026-09-21 21:08:56+00:00,2026-09-21 21:08:56+00:00,,sl-tomtom,[],False,0,,False
 1107,AF-4919 support pro-immowelt tenant in user_management_events_de contract,closed,2026-09-17 08:47:49+00:00,2026-09-18 09:49:15+00:00,2026-09-18 09:49:14+00:00,2026-09-18 09:49:14+00:00,aviv-muqadaralijamali,[],True,0,25.023611111111112,False
@@ -59,7 +60,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1064,DATAPLT-746: run 3 SDK unit tests in parallel inside the build step,closed,2026-09-04 12:04:50+00:00,2026-09-04 12:53:31+00:00,2026-09-04 12:53:29+00:00,2026-09-04 12:53:29+00:00,tudorpopica,[],True,0,0.8108333333333333,False
 1063,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-09-04 11:49:00+00:00,2026-09-07 12:47:01+00:00,2026-09-07 12:46:59+00:00,2026-09-07 12:46:59+00:00,aviv-data-platform,[],True,0,72.96638888888889,False
 1062,feat: release tracking for NLS to preview and live,closed,2026-09-04 08:48:15+00:00,2026-09-04 10:47:58+00:00,2026-09-04 10:47:57+00:00,2026-09-04 10:47:57+00:00,AShymanski,[],True,0,1.995,False
-1061,feat: GSP-474 add REIS network and intermediary contracts,open,2026-09-04 08:37:44+00:00,2026-09-22 14:09:25+00:00,,,sl-thomasbardy,[],False,12,,False
+1061,feat: GSP-474 add REIS network and intermediary contracts,open,2026-09-04 08:37:44+00:00,2026-09-23 07:16:32+00:00,,,sl-thomasbardy,[],False,12,,False
 1060,feat: Promote French NLS and LTR tracking contracts to production,closed,2026-09-04 06:56:36+00:00,2026-09-04 08:04:38+00:00,2026-09-04 08:04:35+00:00,2026-09-04 08:04:35+00:00,aviv-aboucher,[],True,0,1.1330555555555555,False
 1059,Promote SSOT classified v1 snapshot-to-event contracts to production,closed,2026-09-04 06:42:13+00:00,2026-09-10 14:52:21+00:00,2026-09-10 14:52:18+00:00,2026-09-10 14:52:18+00:00,florianhyseni-aviv,['data-contract'],True,4,152.16805555555555,True
 1058,[DATAPLT-748] feat: validate only updated contracts,closed,2026-09-03 19:44:15+00:00,2026-09-04 14:11:41+00:00,2026-09-04 09:54:08+00:00,2026-09-04 09:54:08+00:00,aviv-jonyroy,[],True,2,14.164722222222222,False
@@ -85,7 +86,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1038,Avo schema export: 16 event model update(s),closed,2026-08-31 08:36:44+00:00,2026-08-31 10:48:43+00:00,2026-08-31 10:48:40+00:00,2026-08-31 10:48:40+00:00,aviv-data-platform,[],True,0,2.198888888888889,False
 1037,feat: add contract for DE NLS tracking,closed,2026-08-28 12:05:28+00:00,2026-08-28 12:36:54+00:00,2026-08-28 12:36:52+00:00,2026-08-28 12:36:52+00:00,AShymanski,[],True,2,0.5233333333333333,False
 1036,feat/onboarding-docs,closed,2026-08-28 10:08:01+00:00,2026-08-28 10:43:06+00:00,2026-08-28 10:43:04+00:00,2026-08-28 10:43:04+00:00,aviv-jonyroy,[],True,0,0.5841666666666666,False
-1035,[DATAPLT-774] Feat/refactor c# code generation,open,2026-08-28 09:42:23+00:00,2026-09-22 16:46:29+00:00,,,aviv-jonyroy,[],False,10,,False
+1035,[DATAPLT-774] Feat/refactor c# code generation,open,2026-08-28 09:42:23+00:00,2026-09-23 11:09:18+00:00,,,aviv-jonyroy,[],False,13,,False
 1034,fix: add cluster fields to SSOT aggregate v1 contracts,closed,2026-08-27 12:53:39+00:00,2026-08-31 08:06:15+00:00,2026-08-27 13:31:06+00:00,,florianhyseni-aviv,[],False,0,,False
 1033,fix(csharp-sdk): derive contract name via [ContractName] attribute (no namespace churn),closed,2026-08-27 11:06:17+00:00,2026-08-31 19:44:03+00:00,2026-08-31 19:44:01+00:00,,tudorpopica,[],False,0,,False
 1032,"fix(csharp-codegen): derive namespace from filename prefix, not directory",closed,2026-08-27 09:52:03+00:00,2026-08-27 11:06:11+00:00,2026-08-27 11:06:11+00:00,,tudorpopica,[],False,1,,False
