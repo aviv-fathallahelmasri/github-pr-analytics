@@ -1,12 +1,20 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-1129,infra: add live roles,open,2026-09-24 16:41:04+00:00,2026-09-24 16:41:06+00:00,,,sl-tomtom,[],False,0,,False
+1137,DATAPLT-772: bare channel names for CLTR call_tracking DE contracts,closed,2026-09-25 15:14:10+00:00,2026-09-25 15:18:01+00:00,2026-09-25 15:18:01+00:00,,tudorpopica,[],False,0,,False
+1136,DATAPLT-785: drop orphaned REVIEW_STATE_V1 terraform,closed,2026-09-25 15:04:27+00:00,2026-09-25 15:18:07+00:00,2026-09-25 15:18:07+00:00,,tudorpopica,[],False,0,,False
+1135,DATAPLT-784: drop orphaned BOOST_LISTE_AGENTS_STATISTICS_V1 terraform,closed,2026-09-25 15:04:22+00:00,2026-09-25 15:18:04+00:00,2026-09-25 15:18:04+00:00,,tudorpopica,[],False,0,,False
+1134,"Enforce decorator metadata formats on Snowflake contracts (SFK002, SFK003)",open,2026-09-25 13:27:36+00:00,2026-09-25 15:17:44+00:00,,,tudorpopica,[],False,0,,False
+1133,DATAPLT-771/772: bare channel names in @incident_channels (template + 26 contracts),open,2026-09-25 13:13:52+00:00,2026-09-25 15:17:45+00:00,,,tudorpopica,[],False,0,,False
+1132,Fix template @incident_channels to bare channel name,closed,2026-09-25 13:08:48+00:00,2026-09-25 15:17:58+00:00,2026-09-25 15:17:58+00:00,,tudorpopica,[],False,0,,False
+1131,DATAPLT-826/784/785: drop orphaned Bronze tables after contract renames,open,2026-09-25 12:46:13+00:00,2026-09-25 15:17:46+00:00,,,tudorpopica,[],False,0,,False
+1130,Feature/is 250 new classifieds be contract v3,open,2026-09-25 09:04:35+00:00,2026-09-25 13:37:46+00:00,,,jlgouwyapizr,[],False,4,,False
+1129,infra: add live roles,open,2026-09-24 16:41:04+00:00,2026-09-24 21:05:17+00:00,,,sl-tomtom,[],False,0,,False
 1128,DATAPLT-831: point 3 DASE search-log contracts at real Slack channels,open,2026-09-24 15:59:27+00:00,2026-09-24 19:06:50+00:00,,,tudorpopica,[],False,0,,False
 1127,feat: use 4 space intend instead of 2,open,2026-09-24 15:48:50+00:00,2026-09-24 15:48:50+00:00,,,aviv-jonyroy,[],False,0,,False
 1126,[DATAPLT-829] fix: enum values are sent as the c# member name,closed,2026-09-24 13:55:56+00:00,2026-09-24 14:31:40+00:00,2026-09-24 14:31:38+00:00,2026-09-24 14:31:37+00:00,aviv-jonyroy,[],True,2,0.5947222222222223,False
 1125,"feat: (salesforce) add fields in account, subscription and orderitem",open,2026-09-24 11:26:21+00:00,2026-09-24 15:42:51+00:00,,,aviv-ejonakodra,[],False,1,,False
 1124,feat: add LTR variant to French search tracking contract,open,2026-09-24 08:36:24+00:00,2026-09-24 11:00:49+00:00,,,aviv-aboucher,[],False,2,,False
 1123,feat: whitelist credit report live task role,closed,2026-09-24 07:58:25+00:00,2026-09-24 08:27:13+00:00,2026-09-24 08:27:13+00:00,,iwt-ikovacevic,[],False,0,,False
-1122,[AUTOMATED]: Contracts generated/updated from Avo schema,open,2026-09-23 07:28:54+00:00,2026-09-23 07:33:54+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
+1122,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-09-23 07:28:54+00:00,2026-09-25 12:55:58+00:00,2026-09-25 12:55:55+00:00,2026-09-25 12:55:55+00:00,aviv-dataops-github-app[bot],[],True,0,53.45027777777778,False
 1121,feat: update to v3,closed,2026-09-22 17:49:04+00:00,2026-09-24 10:51:13+00:00,2026-09-24 10:51:12+00:00,2026-09-24 10:51:12+00:00,jlgouwyapizr,['data-contract'],True,23,41.035555555555554,True
 1120,[DATAPLT-774] feat/schema-test-cases,closed,2026-09-21 13:08:28+00:00,2026-09-22 09:01:00+00:00,2026-09-22 09:00:57+00:00,2026-09-22 09:00:57+00:00,aviv-jonyroy,[],True,37,19.87472222222222,False
 1119,fix: move review state to discovery phase,closed,2026-09-21 12:56:22+00:00,2026-09-21 13:13:49+00:00,2026-09-21 13:13:46+00:00,2026-09-21 13:13:46+00:00,sl-tomtom,[],True,0,0.29,False
@@ -48,7 +56,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1083,feat(dsgpac-514): add latest_publication_date to IWT and GSL table raw parsed,closed,2026-09-11 13:58:29+00:00,2026-09-14 12:45:24+00:00,2026-09-14 12:45:22+00:00,2026-09-14 12:45:22+00:00,aviv-laravrbanec,[],True,0,70.78138888888888,False
 1082,feat: de contract for autocomplete,closed,2026-09-11 13:58:18+00:00,2026-09-14 08:18:38+00:00,2026-09-14 08:18:37+00:00,,AShymanski,[],False,2,,False
 1081,feat: new version of immoweb classifieds management,closed,2026-09-11 09:27:22+00:00,2026-09-22 16:20:24+00:00,2026-09-22 16:20:22+00:00,2026-09-22 16:20:22+00:00,jlgouwyapizr,['data-contract'],True,32,270.8833333333333,True
-1080,"DATAPLT-761: ts-sdk(codegen) resolve $ref before jsonSchemaToZod so ref-typed fields become Zod enums, not z.any()",open,2026-09-10 13:32:34+00:00,2026-09-24 14:06:21+00:00,,,tudorpopica,[],False,6,,False
+1080,"DATAPLT-761: ts-sdk(codegen) resolve $ref before jsonSchemaToZod so ref-typed fields become Zod enums, not z.any()",closed,2026-09-10 13:32:34+00:00,2026-09-25 11:53:03+00:00,2026-09-25 11:53:00+00:00,2026-09-25 11:53:00+00:00,tudorpopica,[],True,6,358.34055555555557,False
 1079,"DATAPLT-761: CLMG/ssot_classified enrichment_{fraud_check,ml,geo}_status nullable",closed,2026-09-10 11:24:05+00:00,2026-09-10 13:32:31+00:00,2026-09-10 13:32:30+00:00,,tudorpopica,[],False,0,,False
 1078,feat(PAYM): add PRODUCT_ACTIVATION_DE_V1 data contract (PAY-2316),closed,2026-09-10 09:28:18+00:00,2026-09-16 08:23:31+00:00,2026-09-16 08:23:29+00:00,2026-09-16 08:23:29+00:00,aviv-augustinjuricic,[],True,40,142.91972222222222,False
 1077,feat: FRAUD-3334 add CALLSUMMARY object type to content report contract,closed,2026-09-10 08:39:52+00:00,2026-09-10 08:50:04+00:00,2026-09-10 08:50:01+00:00,2026-09-10 08:50:01+00:00,MargoHancharenka,[],True,0,0.16916666666666666,False
@@ -67,7 +75,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1064,DATAPLT-746: run 3 SDK unit tests in parallel inside the build step,closed,2026-09-04 12:04:50+00:00,2026-09-04 12:53:31+00:00,2026-09-04 12:53:29+00:00,2026-09-04 12:53:29+00:00,tudorpopica,[],True,0,0.8108333333333333,False
 1063,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-09-04 11:49:00+00:00,2026-09-07 12:47:01+00:00,2026-09-07 12:46:59+00:00,2026-09-07 12:46:59+00:00,aviv-data-platform,[],True,0,72.96638888888889,False
 1062,feat: release tracking for NLS to preview and live,closed,2026-09-04 08:48:15+00:00,2026-09-04 10:47:58+00:00,2026-09-04 10:47:57+00:00,2026-09-04 10:47:57+00:00,AShymanski,[],True,0,1.995,False
-1061,feat: GSP-474 add REIS network and intermediary contracts,open,2026-09-04 08:37:44+00:00,2026-09-24 16:09:18+00:00,,,sl-thomasbardy,[],False,13,,False
+1061,feat: GSP-474 add REIS network and intermediary contracts,open,2026-09-04 08:37:44+00:00,2026-09-25 15:10:41+00:00,,,sl-thomasbardy,[],False,13,,False
 1060,feat: Promote French NLS and LTR tracking contracts to production,closed,2026-09-04 06:56:36+00:00,2026-09-04 08:04:38+00:00,2026-09-04 08:04:35+00:00,2026-09-04 08:04:35+00:00,aviv-aboucher,[],True,0,1.1330555555555555,False
 1059,Promote SSOT classified v1 snapshot-to-event contracts to production,closed,2026-09-04 06:42:13+00:00,2026-09-10 14:52:21+00:00,2026-09-10 14:52:18+00:00,2026-09-10 14:52:18+00:00,florianhyseni-aviv,['data-contract'],True,4,152.16805555555555,True
 1058,[DATAPLT-748] feat: validate only updated contracts,closed,2026-09-03 19:44:15+00:00,2026-09-04 14:11:41+00:00,2026-09-04 09:54:08+00:00,2026-09-04 09:54:08+00:00,aviv-jonyroy,[],True,2,14.164722222222222,False
@@ -171,15 +179,15 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 960,DATAPLT-677: canonical structured log payload for the C# SDK (phase 3),closed,2026-08-07 21:53:36+00:00,2026-09-16 17:05:46+00:00,2026-09-16 17:05:43+00:00,2026-09-16 17:05:42+00:00,tudorpopica,[],True,8,955.2016666666667,False
 959,DATAPLT-676: canonical structured log payload for the TS SDK (phase 2),closed,2026-08-07 21:49:53+00:00,2026-09-16 12:10:28+00:00,2026-09-16 12:10:27+00:00,2026-09-16 12:10:27+00:00,tudorpopica,[],True,6,950.3427777777778,False
 958,DATAPLT-675: canonical structured log format for the Python SDK (phase 1),closed,2026-08-07 21:45:22+00:00,2026-09-10 13:20:55+00:00,2026-09-10 13:20:52+00:00,2026-09-10 13:20:52+00:00,tudorpopica,[],True,4,807.5916666666667,False
-957,DATAPLT-673: opt-in strict-extras policy on TypeScript SDK push/stream (phase 2),open,2026-08-07 21:36:30+00:00,2026-09-07 08:02:28+00:00,,,tudorpopica,[],False,4,,False
-956,DATAPLT-672: opt-in strict-extras policy on Python SDK push (phase 1),open,2026-08-07 21:25:17+00:00,2026-09-07 11:18:17+00:00,,,tudorpopica,[],False,0,,False
+957,DATAPLT-673: opt-in strict-extras policy on TypeScript SDK push/stream (phase 2),closed,2026-08-07 21:36:30+00:00,2026-09-25 15:20:09+00:00,2026-09-25 15:20:09+00:00,,tudorpopica,[],False,4,,False
+956,DATAPLT-672: opt-in strict-extras policy on Python SDK push (phase 1),closed,2026-08-07 21:25:17+00:00,2026-09-25 15:20:06+00:00,2026-09-25 15:20:06+00:00,,tudorpopica,[],False,0,,False
 955,DATAPLT-670: pre-publish canary for the C# SDK (non-blocking phase 3),closed,2026-08-07 20:40:01+00:00,2026-08-14 07:48:50+00:00,2026-08-14 07:48:48+00:00,2026-08-14 07:48:48+00:00,tudorpopica,[],True,4,155.14638888888888,False
 954,DATAPLT-669: pre-publish canary for the TypeScript SDK (non-blocking phase 2),closed,2026-08-07 20:36:39+00:00,2026-08-14 11:58:48+00:00,2026-08-14 11:58:46+00:00,2026-08-14 11:58:46+00:00,tudorpopica,[],True,0,159.3686111111111,False
 953,DATAPLT-668: pre-publish canary for the Python SDK (non-blocking phase 1),closed,2026-08-07 20:26:43+00:00,2026-08-14 15:43:10+00:00,2026-08-14 15:43:08+00:00,2026-08-14 15:43:08+00:00,tudorpopica,[],True,2,163.2736111111111,False
 952,feat:  Classified-management change allowed lambda role to allow it for dev and stage env,closed,2026-08-07 14:13:41+00:00,2026-08-10 08:14:36+00:00,2026-08-10 08:14:34+00:00,2026-08-10 08:14:34+00:00,aviv-dawidkuczma,[],True,0,66.01472222222222,False
 951,[PAY-2267] switch PAYM contracts to production,closed,2026-08-07 10:00:14+00:00,2026-08-07 10:27:41+00:00,2026-08-07 10:27:39+00:00,2026-08-07 10:27:39+00:00,aviv-augustinjuricic,[],True,0,0.45694444444444443,False
 950,Restore mandatory contract reviewers,closed,2026-08-07 09:10:16+00:00,2026-08-07 09:19:46+00:00,2026-08-07 09:19:44+00:00,2026-08-07 09:19:44+00:00,andrei-suvac-aviv,[],True,0,0.15777777777777777,False
-949,DATAPLT-608: cross-SDK field-constraint parity regression tests,open,2026-08-07 08:46:17+00:00,2026-09-07 07:40:09+00:00,,,tudorpopica,[],False,2,,False
+949,DATAPLT-608: cross-SDK field-constraint parity regression tests,closed,2026-08-07 08:46:17+00:00,2026-09-25 15:20:03+00:00,2026-09-25 15:20:03+00:00,,tudorpopica,[],False,2,,False
 948,DATAPLT-616: surface Kinesis AWS exceptions in StreamingResult (C# fix + Python/TS regression tests),closed,2026-08-07 08:36:22+00:00,2026-08-25 11:27:01+00:00,2026-08-25 11:27:00+00:00,2026-08-25 11:27:00+00:00,tudorpopica,[],True,34,434.8438888888889,False
 947,DATAPLT-620: collapse SDK partition key to random UUID per record,closed,2026-08-06 12:16:28+00:00,2026-08-17 08:01:02+00:00,2026-08-17 08:01:01+00:00,2026-08-17 08:01:01+00:00,tudorpopica,[],True,0,259.7425,False
 946,ops(top_position): mark listings_boosts_v1 OBSOLETED (v2 is PRODUCTION),closed,2026-08-05 08:50:05+00:00,2026-08-06 10:46:37+00:00,2026-08-06 10:46:36+00:00,2026-08-06 10:46:36+00:00,tudorpopica,[],True,0,25.941944444444445,False
