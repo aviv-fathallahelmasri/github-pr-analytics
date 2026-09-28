@@ -1,18 +1,20 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+1139,chore(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.20.1 to 2.21.6 in /contribs/aviv_data_platform_java_sdk in the maven group across 1 directory,open,2026-09-28 20:39:05+00:00,2026-09-28 20:39:06+00:00,,,dependabot[bot],"['dependencies', 'java']",False,0,,False
+1138,feat: GSLM-677 Classified fr full - Added missing ContactInfo field,open,2026-09-28 14:12:23+00:00,2026-09-28 15:31:02+00:00,,,aviv-dawidkuczma,['data-contract'],False,5,,True
 1137,DATAPLT-772: bare channel names for CLTR call_tracking DE contracts,closed,2026-09-25 15:14:10+00:00,2026-09-25 15:18:01+00:00,2026-09-25 15:18:01+00:00,,tudorpopica,[],False,0,,False
 1136,DATAPLT-785: drop orphaned REVIEW_STATE_V1 terraform,closed,2026-09-25 15:04:27+00:00,2026-09-25 15:18:07+00:00,2026-09-25 15:18:07+00:00,,tudorpopica,[],False,0,,False
 1135,DATAPLT-784: drop orphaned BOOST_LISTE_AGENTS_STATISTICS_V1 terraform,closed,2026-09-25 15:04:22+00:00,2026-09-25 15:18:04+00:00,2026-09-25 15:18:04+00:00,,tudorpopica,[],False,0,,False
-1134,"Enforce decorator metadata formats on Snowflake contracts (SFK002, SFK003)",open,2026-09-25 13:27:36+00:00,2026-09-25 15:17:44+00:00,,,tudorpopica,[],False,0,,False
-1133,DATAPLT-771/772: bare channel names in @incident_channels (template + 26 contracts),open,2026-09-25 13:13:52+00:00,2026-09-25 15:17:45+00:00,,,tudorpopica,[],False,0,,False
+1134,"Enforce decorator metadata formats on Snowflake contracts (SFK002, SFK003)",open,2026-09-25 13:27:36+00:00,2026-09-28 18:42:38+00:00,,,tudorpopica,[],False,3,,False
+1133,DATAPLT-771/772: bare channel names in @incident_channels (template + 26 contracts),open,2026-09-25 13:13:52+00:00,2026-09-28 18:25:55+00:00,,,tudorpopica,[],False,2,,False
 1132,Fix template @incident_channels to bare channel name,closed,2026-09-25 13:08:48+00:00,2026-09-25 15:17:58+00:00,2026-09-25 15:17:58+00:00,,tudorpopica,[],False,0,,False
-1131,DATAPLT-826/784/785: drop orphaned Bronze tables after contract renames,open,2026-09-25 12:46:13+00:00,2026-09-25 15:17:46+00:00,,,tudorpopica,[],False,0,,False
-1130,Feature/is 250 new classifieds be contract v3,open,2026-09-25 09:04:35+00:00,2026-09-25 13:37:46+00:00,,,jlgouwyapizr,[],False,4,,False
-1129,infra: add live roles,open,2026-09-24 16:41:04+00:00,2026-09-24 21:05:17+00:00,,,sl-tomtom,[],False,0,,False
-1128,DATAPLT-831: point 3 DASE search-log contracts at real Slack channels,open,2026-09-24 15:59:27+00:00,2026-09-24 19:06:50+00:00,,,tudorpopica,[],False,0,,False
-1127,feat: use 4 space intend instead of 2,open,2026-09-24 15:48:50+00:00,2026-09-24 15:48:50+00:00,,,aviv-jonyroy,[],False,0,,False
+1131,DATAPLT-826/784/785: drop orphaned Bronze tables after contract renames,open,2026-09-25 12:46:13+00:00,2026-09-28 18:44:55+00:00,,,tudorpopica,[],False,0,,False
+1130,Feature/is 250 new classifieds be contract v3,closed,2026-09-25 09:04:35+00:00,2026-09-28 07:03:45+00:00,2026-09-28 07:03:43+00:00,2026-09-28 07:03:43+00:00,jlgouwyapizr,[],True,4,69.98555555555555,False
+1129,infra: add live roles,open,2026-09-24 16:41:04+00:00,2026-09-28 18:55:32+00:00,,,sl-tomtom,[],False,3,,False
+1128,DATAPLT-831: point 3 DASE search-log contracts at real Slack channels,open,2026-09-24 15:59:27+00:00,2026-09-28 18:45:45+00:00,,,tudorpopica,[],False,0,,False
+1127,feat: use 4 space intend instead of 2,open,2026-09-24 15:48:50+00:00,2026-09-28 18:53:24+00:00,,,aviv-jonyroy,[],False,3,,False
 1126,[DATAPLT-829] fix: enum values are sent as the c# member name,closed,2026-09-24 13:55:56+00:00,2026-09-24 14:31:40+00:00,2026-09-24 14:31:38+00:00,2026-09-24 14:31:37+00:00,aviv-jonyroy,[],True,2,0.5947222222222223,False
 1125,"feat: (salesforce) add fields in account, subscription and orderitem",open,2026-09-24 11:26:21+00:00,2026-09-24 15:42:51+00:00,,,aviv-ejonakodra,[],False,1,,False
-1124,feat: add LTR variant to French search tracking contract,open,2026-09-24 08:36:24+00:00,2026-09-24 11:00:49+00:00,,,aviv-aboucher,[],False,2,,False
+1124,feat: add LTR variant to French search tracking contract,open,2026-09-24 08:36:24+00:00,2026-09-28 18:48:20+00:00,,,aviv-aboucher,[],False,3,,False
 1123,feat: whitelist credit report live task role,closed,2026-09-24 07:58:25+00:00,2026-09-24 08:27:13+00:00,2026-09-24 08:27:13+00:00,,iwt-ikovacevic,[],False,0,,False
 1122,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-09-23 07:28:54+00:00,2026-09-25 12:55:58+00:00,2026-09-25 12:55:55+00:00,2026-09-25 12:55:55+00:00,aviv-dataops-github-app[bot],[],True,0,53.45027777777778,False
 1121,feat: update to v3,closed,2026-09-22 17:49:04+00:00,2026-09-24 10:51:13+00:00,2026-09-24 10:51:12+00:00,2026-09-24 10:51:12+00:00,jlgouwyapizr,['data-contract'],True,23,41.035555555555554,True
@@ -209,7 +211,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 930,feat: revert glue schema doc for dpv2,closed,2026-07-28 09:54:51+00:00,2026-07-28 10:16:03+00:00,2026-07-28 10:16:02+00:00,2026-07-28 10:16:02+00:00,aviv-jonyroy,[],True,0,0.35305555555555557,False
 929,keep griffe-pydantic compatible with griffe 1,closed,2026-07-27 15:35:50+00:00,2026-07-28 06:01:14+00:00,2026-07-28 06:01:13+00:00,2026-07-28 06:01:13+00:00,andrei-suvac-aviv,[],True,0,14.423055555555555,False
 928,Handle empty Kinesis policy during producer ARN validation,closed,2026-07-27 12:06:34+00:00,2026-07-27 12:16:54+00:00,2026-07-27 12:16:53+00:00,2026-07-27 12:16:53+00:00,andrei-suvac-aviv,[],True,0,0.17194444444444446,False
-927,feat: add cdc_flag contract,open,2026-07-27 10:06:40+00:00,2026-08-05 06:56:53+00:00,,,aviv-hamzaeljaoui,[],False,0,,False
+927,feat: add cdc_flag contract,open,2026-07-27 10:06:40+00:00,2026-09-28 18:56:00+00:00,,,aviv-hamzaeljaoui,[],False,0,,False
 926,[DATAPLT-640] feat: set null to avro doc,closed,2026-07-27 08:16:32+00:00,2026-07-27 12:06:35+00:00,2026-07-27 12:06:33+00:00,2026-07-27 12:06:33+00:00,aviv-jonyroy,[],True,4,3.8336111111111113,False
 925,chore: obsolete unused criteria contracts (fr),closed,2026-07-24 13:04:53+00:00,2026-07-24 13:33:18+00:00,2026-07-24 13:33:16+00:00,2026-07-24 13:33:16+00:00,gsl-adamtiamiou,[],True,0,0.47305555555555556,False
 924,Avo schema export: 5 event model update(s),closed,2026-07-24 12:23:34+00:00,2026-07-29 11:19:42+00:00,2026-07-29 11:19:35+00:00,,aviv-data-platform,[],False,0,,False
