@@ -1,19 +1,23 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-1139,chore(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.20.1 to 2.21.6 in /contribs/aviv_data_platform_java_sdk in the maven group across 1 directory,open,2026-09-28 20:39:05+00:00,2026-09-28 20:39:06+00:00,,,dependabot[bot],"['dependencies', 'java']",False,0,,False
-1138,feat: GSLM-677 Classified fr full - Added missing ContactInfo field,open,2026-09-28 14:12:23+00:00,2026-09-28 15:31:02+00:00,,,aviv-dawidkuczma,['data-contract'],False,5,,True
+1143,"feat: adding property_land_has_water_connection, gas,electricity",open,2026-09-29 12:40:53+00:00,2026-09-29 18:50:05+00:00,,,jlgouwyapizr,['data-contract'],False,10,,True
+1142,feat: Enable seeker saved search BE to live,open,2026-09-29 10:33:27+00:00,2026-09-29 10:33:28+00:00,,,aviv-alikazemi,[],False,0,,False
+1141,chore(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.20.1 to 2.21.6 in /contribs/aviv_data_platform_java_sdk in the maven group across 1 directory,open,2026-09-29 10:08:50+00:00,2026-09-29 10:08:51+00:00,,,dependabot[bot],"['dependencies', 'java']",False,0,,False
+1140,[AUTOMATED]: Contracts generated/updated from Avo schema,open,2026-09-29 08:03:12+00:00,2026-09-29 14:24:02+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
+1139,chore(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.20.1 to 2.21.6 in /contribs/aviv_data_platform_java_sdk in the maven group across 1 directory,closed,2026-09-28 20:39:05+00:00,2026-09-29 04:53:58+00:00,2026-09-29 04:53:49+00:00,,dependabot[bot],"['dependencies', 'java']",False,0,,False
+1138,feat: GSLM-677 Classified fr full - Added missing ContactInfo field,closed,2026-09-28 14:12:23+00:00,2026-09-29 09:19:30+00:00,2026-09-29 09:19:27+00:00,2026-09-29 09:19:27+00:00,aviv-dawidkuczma,['data-contract'],True,9,19.11777777777778,True
 1137,DATAPLT-772: bare channel names for CLTR call_tracking DE contracts,closed,2026-09-25 15:14:10+00:00,2026-09-25 15:18:01+00:00,2026-09-25 15:18:01+00:00,,tudorpopica,[],False,0,,False
 1136,DATAPLT-785: drop orphaned REVIEW_STATE_V1 terraform,closed,2026-09-25 15:04:27+00:00,2026-09-25 15:18:07+00:00,2026-09-25 15:18:07+00:00,,tudorpopica,[],False,0,,False
 1135,DATAPLT-784: drop orphaned BOOST_LISTE_AGENTS_STATISTICS_V1 terraform,closed,2026-09-25 15:04:22+00:00,2026-09-25 15:18:04+00:00,2026-09-25 15:18:04+00:00,,tudorpopica,[],False,0,,False
-1134,"Enforce decorator metadata formats on Snowflake contracts (SFK002, SFK003)",open,2026-09-25 13:27:36+00:00,2026-09-28 18:42:38+00:00,,,tudorpopica,[],False,3,,False
-1133,DATAPLT-771/772: bare channel names in @incident_channels (template + 26 contracts),open,2026-09-25 13:13:52+00:00,2026-09-28 18:25:55+00:00,,,tudorpopica,[],False,2,,False
+1134,"DATAPLT-769: enforce decorator metadata formats on Snowflake contracts (SFK002, SFK003)",open,2026-09-25 13:27:36+00:00,2026-09-29 14:10:52+00:00,,,tudorpopica,[],False,10,,False
+1133,DATAPLT-771/772: bare channel names in @incident_channels (template + 26 contracts),open,2026-09-25 13:13:52+00:00,2026-09-29 16:00:33+00:00,,,tudorpopica,[],False,4,,False
 1132,Fix template @incident_channels to bare channel name,closed,2026-09-25 13:08:48+00:00,2026-09-25 15:17:58+00:00,2026-09-25 15:17:58+00:00,,tudorpopica,[],False,0,,False
-1131,DATAPLT-826/784/785: drop orphaned Bronze tables after contract renames,open,2026-09-25 12:46:13+00:00,2026-09-28 18:44:55+00:00,,,tudorpopica,[],False,0,,False
+1131,DATAPLT-826/784/785: drop orphaned Bronze tables after contract renames,closed,2026-09-25 12:46:13+00:00,2026-09-29 15:16:20+00:00,2026-09-29 15:16:18+00:00,2026-09-29 15:16:18+00:00,tudorpopica,[],True,0,98.50138888888888,False
 1130,Feature/is 250 new classifieds be contract v3,closed,2026-09-25 09:04:35+00:00,2026-09-28 07:03:45+00:00,2026-09-28 07:03:43+00:00,2026-09-28 07:03:43+00:00,jlgouwyapizr,[],True,4,69.98555555555555,False
 1129,infra: add live roles,open,2026-09-24 16:41:04+00:00,2026-09-28 18:55:32+00:00,,,sl-tomtom,[],False,3,,False
-1128,DATAPLT-831: point 3 DASE search-log contracts at real Slack channels,open,2026-09-24 15:59:27+00:00,2026-09-28 18:45:45+00:00,,,tudorpopica,[],False,0,,False
+1128,DATAPLT-831: point 3 DASE search-log contracts at real Slack channels,closed,2026-09-24 15:59:27+00:00,2026-09-29 14:02:57+00:00,2026-09-29 14:02:54+00:00,2026-09-29 14:02:54+00:00,tudorpopica,[],True,0,118.0575,False
 1127,feat: use 4 space intend instead of 2,open,2026-09-24 15:48:50+00:00,2026-09-28 18:53:24+00:00,,,aviv-jonyroy,[],False,3,,False
 1126,[DATAPLT-829] fix: enum values are sent as the c# member name,closed,2026-09-24 13:55:56+00:00,2026-09-24 14:31:40+00:00,2026-09-24 14:31:38+00:00,2026-09-24 14:31:37+00:00,aviv-jonyroy,[],True,2,0.5947222222222223,False
-1125,"feat: (salesforce) add fields in account, subscription and orderitem",open,2026-09-24 11:26:21+00:00,2026-09-24 15:42:51+00:00,,,aviv-ejonakodra,[],False,1,,False
+1125,"feat: (salesforce) add fields in account, subscription and orderitem",open,2026-09-24 11:26:21+00:00,2026-09-29 14:36:10+00:00,,,aviv-ejonakodra,[],False,1,,False
 1124,feat: add LTR variant to French search tracking contract,open,2026-09-24 08:36:24+00:00,2026-09-28 18:48:20+00:00,,,aviv-aboucher,[],False,3,,False
 1123,feat: whitelist credit report live task role,closed,2026-09-24 07:58:25+00:00,2026-09-24 08:27:13+00:00,2026-09-24 08:27:13+00:00,,iwt-ikovacevic,[],False,0,,False
 1122,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-09-23 07:28:54+00:00,2026-09-25 12:55:58+00:00,2026-09-25 12:55:55+00:00,2026-09-25 12:55:55+00:00,aviv-dataops-github-app[bot],[],True,0,53.45027777777778,False
@@ -217,9 +221,9 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 924,Avo schema export: 5 event model update(s),closed,2026-07-24 12:23:34+00:00,2026-07-29 11:19:42+00:00,2026-07-29 11:19:35+00:00,,aviv-data-platform,[],False,0,,False
 923,Avo schema export: 5 event model update(s),closed,2026-07-24 11:42:34+00:00,2026-07-24 12:21:38+00:00,2026-07-24 12:21:32+00:00,,aviv-data-platform,[],False,0,,False
 922,Avo schema export: 5 event model update(s),closed,2026-07-24 09:45:23+00:00,2026-07-24 11:38:50+00:00,2026-07-24 11:38:41+00:00,,aviv-data-platform,[],False,0,,False
-921,chore(deps-dev): bump @tootallnate/once from 2.0.0 to 2.0.1 in /contribs/aviv_data_platform_ts_sdk,open,2026-07-24 09:16:11+00:00,2026-07-24 11:07:24+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
-920,chore(deps): bump @isaacs/brace-expansion from 5.0.0 to 5.0.1 in /contribs/aviv_data_platform_ts_sdk,open,2026-07-24 09:15:47+00:00,2026-07-24 11:07:22+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
-919,chore(deps): bump the npm_and_yarn group across 1 directory with 9 updates,open,2026-07-24 09:15:37+00:00,2026-08-24 08:49:44+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
+921,chore(deps-dev): bump @tootallnate/once from 2.0.0 to 2.0.1 in /contribs/aviv_data_platform_ts_sdk,closed,2026-07-24 09:16:11+00:00,2026-09-29 04:56:25+00:00,2026-09-29 04:56:21+00:00,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
+920,chore(deps): bump @isaacs/brace-expansion from 5.0.0 to 5.0.1 in /contribs/aviv_data_platform_ts_sdk,closed,2026-07-24 09:15:47+00:00,2026-09-29 04:56:11+00:00,2026-09-29 04:56:06+00:00,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
+919,chore(deps): bump the npm_and_yarn group across 1 directory with 9 updates,closed,2026-07-24 09:15:37+00:00,2026-09-29 04:55:53+00:00,2026-09-29 04:55:47+00:00,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
 918,feat: Update fsbo phase,closed,2026-07-24 09:14:26+00:00,2026-07-24 12:06:13+00:00,2026-07-24 12:06:11+00:00,2026-07-24 12:06:11+00:00,li-sergekuranda,[],True,0,2.8625,False
 917,[DATAPLT-625] feat: add avo_contract decorator,closed,2026-07-23 16:49:34+00:00,2026-07-24 09:34:42+00:00,2026-07-24 09:34:40+00:00,2026-07-24 09:34:40+00:00,aviv-jonyroy,[],True,0,16.751666666666665,False
 916,feature: obsolete unused criteria contracts (de),closed,2026-07-23 13:15:37+00:00,2026-07-24 10:25:27+00:00,2026-07-24 10:25:25+00:00,2026-07-24 10:25:24+00:00,nmaretic-aviv,[],True,0,21.163055555555555,False
@@ -268,7 +272,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 873,feat: purge the hodc dev tables,closed,2026-07-13 12:05:17+00:00,2026-07-13 13:18:25+00:00,2026-07-13 13:18:22+00:00,2026-07-13 13:18:22+00:00,aviv-jonyroy,[],True,0,1.2180555555555554,False
 872,chore: Adding new columns like day month and year and changing IAM ro…,closed,2026-07-10 09:33:01+00:00,2026-07-13 12:40:10+00:00,2026-07-13 12:40:08+00:00,2026-07-13 12:40:08+00:00,florianhyseni-aviv,['data-contract'],True,7,75.11861111111111,True
 871,feature: team demand-retention-de,closed,2026-07-10 09:03:50+00:00,2026-07-10 11:20:40+00:00,2026-07-10 11:20:38+00:00,2026-07-10 11:20:38+00:00,eparamonov,[],True,1,2.28,False
-870,chore(deps): bump the uv group across 1 directory with 8 updates,open,2026-07-09 19:02:29+00:00,2026-08-10 15:27:54+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+870,chore(deps): bump the uv group across 1 directory with 8 updates,closed,2026-07-09 19:02:29+00:00,2026-09-29 04:55:36+00:00,2026-09-29 04:55:30+00:00,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 869,feat: update the docs,closed,2026-07-09 18:04:53+00:00,2026-07-09 18:21:30+00:00,2026-07-09 18:21:28+00:00,2026-07-09 18:21:28+00:00,aviv-jonyroy,[],True,0,0.2763888888888889,False
 868,feat: phase prod,closed,2026-07-09 13:48:34+00:00,2026-07-10 07:02:39+00:00,2026-07-10 07:02:37+00:00,2026-07-10 07:02:37+00:00,eparamonov,['data-contract'],True,0,17.234166666666667,True
 867,feat(ts-sdk): batch uploads target per-contract staging bucket,closed,2026-07-09 10:33:49+00:00,2026-07-17 12:14:43+00:00,2026-07-17 12:14:42+00:00,2026-07-17 12:14:42+00:00,tudorpopica,[],True,0,193.68138888888888,False
@@ -408,7 +412,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 733,feat: add OPTN optin_preference_fr_v1 contract,closed,2026-05-06 10:56:27+00:00,2026-05-11 07:25:33+00:00,2026-05-11 07:25:31+00:00,2026-05-11 07:25:30+00:00,aviv-dimitrijegadzic,['data-contract'],True,13,116.48416666666667,True
 732,feat: add price date to the indice and price contract,closed,2026-05-06 09:42:39+00:00,2026-05-11 15:14:20+00:00,2026-05-11 15:14:18+00:00,2026-05-11 15:14:18+00:00,mklimina,['data-contract'],True,21,125.5275,True
 731,fix: locate stream by contract name tag,closed,2026-05-05 13:47:01+00:00,2026-05-15 08:55:52+00:00,2026-05-15 08:55:50+00:00,2026-05-15 08:55:50+00:00,smallcrew-bak,"['enhancement', 'SDK']",True,0,235.14694444444444,False
-730,Fix/reposiotry-initialization,open,2026-05-05 13:38:50+00:00,2026-07-21 07:40:39+00:00,,,aviv-laravrbanec,['enhancement'],False,0,,False
+730,Fix/reposiotry-initialization,closed,2026-05-05 13:38:50+00:00,2026-09-29 04:54:51+00:00,2026-09-29 04:54:40+00:00,,aviv-laravrbanec,['enhancement'],False,0,,False
 729,feat: adding new legal field for Flanders - property_certificates_enf…,closed,2026-05-05 09:19:45+00:00,2026-05-05 10:17:25+00:00,2026-05-05 10:17:22+00:00,2026-05-05 10:17:22+00:00,jlgouwyapizr,[],True,0,0.9602777777777778,False
 728,feat(DSGPML-344): add SERP search engine query contracts for FR and DE markets,closed,2026-05-04 15:52:18+00:00,2026-07-31 07:43:16+00:00,2026-07-31 07:43:16+00:00,,amarteaux,"['data-contract', 'outdated']",False,57,,True
 727,"feat: add new schema HODC/classified/compacted for iwt, gsl",closed,2026-05-04 14:19:26+00:00,2026-05-11 15:55:45+00:00,2026-05-11 15:55:42+00:00,2026-05-11 15:55:42+00:00,aviv-laravrbanec,['data-contract'],True,11,169.60444444444445,True
