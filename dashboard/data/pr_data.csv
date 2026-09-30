@@ -1,15 +1,19 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-1143,"feat: adding property_land_has_water_connection, gas,electricity",open,2026-09-29 12:40:53+00:00,2026-09-29 18:50:05+00:00,,,jlgouwyapizr,['data-contract'],False,10,,True
-1142,feat: Enable seeker saved search BE to live,open,2026-09-29 10:33:27+00:00,2026-09-29 10:33:28+00:00,,,aviv-alikazemi,[],False,0,,False
+1147,chore(deps): bump the npm_and_yarn group across 1 directory with 14 updates,open,2026-09-30 19:19:13+00:00,2026-09-30 19:19:15+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
+1146,Update roster to stop mentioning Oussama,open,2026-09-30 19:18:29+00:00,2026-09-30 19:18:48+00:00,,,andrei-suvac-aviv,[],False,0,,False
+1145,chore(deps): bump the uv group across 1 directory with 8 updates,open,2026-09-30 19:16:56+00:00,2026-09-30 19:16:57+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+1144,chore(deps): bump the npm_and_yarn group across 1 directory with 15 updates,closed,2026-09-30 12:47:24+00:00,2026-09-30 19:18:43+00:00,2026-09-30 19:18:40+00:00,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
+1143,"feat: adding property_land_has_water_connection, gas,electricity",closed,2026-09-29 12:40:53+00:00,2026-09-30 12:04:12+00:00,2026-09-30 12:04:10+00:00,2026-09-30 12:04:10+00:00,jlgouwyapizr,['data-contract'],True,19,23.388055555555557,True
+1142,feat: Enable seeker saved search BE to live,closed,2026-09-29 10:33:27+00:00,2026-09-30 14:16:41+00:00,2026-09-30 14:16:39+00:00,2026-09-30 14:16:39+00:00,aviv-alikazemi,[],True,10,27.72,False
 1141,chore(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.20.1 to 2.21.6 in /contribs/aviv_data_platform_java_sdk in the maven group across 1 directory,open,2026-09-29 10:08:50+00:00,2026-09-29 10:08:51+00:00,,,dependabot[bot],"['dependencies', 'java']",False,0,,False
-1140,[AUTOMATED]: Contracts generated/updated from Avo schema,open,2026-09-29 08:03:12+00:00,2026-09-29 14:24:02+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
+1140,[AUTOMATED]: Contracts generated/updated from Avo schema,open,2026-09-29 08:03:12+00:00,2026-09-30 14:44:49+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
 1139,chore(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.20.1 to 2.21.6 in /contribs/aviv_data_platform_java_sdk in the maven group across 1 directory,closed,2026-09-28 20:39:05+00:00,2026-09-29 04:53:58+00:00,2026-09-29 04:53:49+00:00,,dependabot[bot],"['dependencies', 'java']",False,0,,False
 1138,feat: GSLM-677 Classified fr full - Added missing ContactInfo field,closed,2026-09-28 14:12:23+00:00,2026-09-29 09:19:30+00:00,2026-09-29 09:19:27+00:00,2026-09-29 09:19:27+00:00,aviv-dawidkuczma,['data-contract'],True,9,19.11777777777778,True
 1137,DATAPLT-772: bare channel names for CLTR call_tracking DE contracts,closed,2026-09-25 15:14:10+00:00,2026-09-25 15:18:01+00:00,2026-09-25 15:18:01+00:00,,tudorpopica,[],False,0,,False
 1136,DATAPLT-785: drop orphaned REVIEW_STATE_V1 terraform,closed,2026-09-25 15:04:27+00:00,2026-09-25 15:18:07+00:00,2026-09-25 15:18:07+00:00,,tudorpopica,[],False,0,,False
 1135,DATAPLT-784: drop orphaned BOOST_LISTE_AGENTS_STATISTICS_V1 terraform,closed,2026-09-25 15:04:22+00:00,2026-09-25 15:18:04+00:00,2026-09-25 15:18:04+00:00,,tudorpopica,[],False,0,,False
-1134,"DATAPLT-769: enforce decorator metadata formats on Snowflake contracts (SFK002, SFK003)",open,2026-09-25 13:27:36+00:00,2026-09-29 14:10:52+00:00,,,tudorpopica,[],False,10,,False
-1133,DATAPLT-771/772: bare channel names in @incident_channels (template + 26 contracts),open,2026-09-25 13:13:52+00:00,2026-09-29 16:00:33+00:00,,,tudorpopica,[],False,4,,False
+1134,"DATAPLT-769: enforce decorator metadata formats on Snowflake contracts (SFK002, SFK003)",open,2026-09-25 13:27:36+00:00,2026-09-30 10:08:56+00:00,,,tudorpopica,[],False,12,,False
+1133,DATAPLT-771/772: bare channel names in @incident_channels (template + 26 contracts),open,2026-09-25 13:13:52+00:00,2026-09-30 18:53:24+00:00,,,tudorpopica,[],False,9,,False
 1132,Fix template @incident_channels to bare channel name,closed,2026-09-25 13:08:48+00:00,2026-09-25 15:17:58+00:00,2026-09-25 15:17:58+00:00,,tudorpopica,[],False,0,,False
 1131,DATAPLT-826/784/785: drop orphaned Bronze tables after contract renames,closed,2026-09-25 12:46:13+00:00,2026-09-29 15:16:20+00:00,2026-09-29 15:16:18+00:00,2026-09-29 15:16:18+00:00,tudorpopica,[],True,0,98.50138888888888,False
 1130,Feature/is 250 new classifieds be contract v3,closed,2026-09-25 09:04:35+00:00,2026-09-28 07:03:45+00:00,2026-09-28 07:03:43+00:00,2026-09-28 07:03:43+00:00,jlgouwyapizr,[],True,4,69.98555555555555,False
@@ -17,7 +21,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1128,DATAPLT-831: point 3 DASE search-log contracts at real Slack channels,closed,2026-09-24 15:59:27+00:00,2026-09-29 14:02:57+00:00,2026-09-29 14:02:54+00:00,2026-09-29 14:02:54+00:00,tudorpopica,[],True,0,118.0575,False
 1127,feat: use 4 space intend instead of 2,open,2026-09-24 15:48:50+00:00,2026-09-28 18:53:24+00:00,,,aviv-jonyroy,[],False,3,,False
 1126,[DATAPLT-829] fix: enum values are sent as the c# member name,closed,2026-09-24 13:55:56+00:00,2026-09-24 14:31:40+00:00,2026-09-24 14:31:38+00:00,2026-09-24 14:31:37+00:00,aviv-jonyroy,[],True,2,0.5947222222222223,False
-1125,"feat: (salesforce) add fields in account, subscription and orderitem",open,2026-09-24 11:26:21+00:00,2026-09-29 14:36:10+00:00,,,aviv-ejonakodra,[],False,1,,False
+1125,"feat: (salesforce) add fields in account, subscription and orderitem",open,2026-09-24 11:26:21+00:00,2026-09-30 12:23:45+00:00,,,aviv-ejonakodra,[],False,4,,False
 1124,feat: add LTR variant to French search tracking contract,open,2026-09-24 08:36:24+00:00,2026-09-28 18:48:20+00:00,,,aviv-aboucher,[],False,3,,False
 1123,feat: whitelist credit report live task role,closed,2026-09-24 07:58:25+00:00,2026-09-24 08:27:13+00:00,2026-09-24 08:27:13+00:00,,iwt-ikovacevic,[],False,0,,False
 1122,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-09-23 07:28:54+00:00,2026-09-25 12:55:58+00:00,2026-09-25 12:55:55+00:00,2026-09-25 12:55:55+00:00,aviv-dataops-github-app[bot],[],True,0,53.45027777777778,False
