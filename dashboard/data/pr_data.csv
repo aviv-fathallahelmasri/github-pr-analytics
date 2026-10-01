@@ -1,7 +1,10 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-1147,chore(deps): bump the npm_and_yarn group across 1 directory with 14 updates,open,2026-09-30 19:19:13+00:00,2026-09-30 19:19:15+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
-1146,Update roster to stop mentioning Oussama,open,2026-09-30 19:18:29+00:00,2026-09-30 19:18:48+00:00,,,andrei-suvac-aviv,[],False,0,,False
-1145,chore(deps): bump the uv group across 1 directory with 8 updates,open,2026-09-30 19:16:56+00:00,2026-09-30 19:16:57+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+1150,feat: GRAE-388 add BCMFR/SLCFR to OPTN optin_preference_fr_v1 and transfer ownership,open,2026-10-01 11:08:47+00:00,2026-10-01 11:40:28+00:00,,,aviv-bartoszszczecinski,[],False,0,,False
+1149,feat: new contract boost_extend_statistics,open,2026-10-01 10:37:46+00:00,2026-10-01 11:50:35+00:00,,,aviv-mateuszkochelski,[],False,0,,False
+1148,DATAPLT-839: point contracts' @incident_channels at public Slack channels,open,2026-10-01 09:29:50+00:00,2026-10-01 20:12:10+00:00,,,tudorpopica,[],False,0,,False
+1147,chore(deps): bump the npm_and_yarn group across 1 directory with 14 updates,open,2026-09-30 19:19:13+00:00,2026-10-01 15:48:58+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
+1146,Update roster to stop mentioning Oussama,closed,2026-09-30 19:18:29+00:00,2026-10-01 15:10:41+00:00,2026-10-01 15:10:38+00:00,2026-10-01 15:10:38+00:00,andrei-suvac-aviv,[],True,0,19.86916666666667,False
+1145,chore(deps): bump the uv group across 1 directory with 8 updates,open,2026-09-30 19:16:56+00:00,2026-10-01 15:48:43+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 1144,chore(deps): bump the npm_and_yarn group across 1 directory with 15 updates,closed,2026-09-30 12:47:24+00:00,2026-09-30 19:18:43+00:00,2026-09-30 19:18:40+00:00,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
 1143,"feat: adding property_land_has_water_connection, gas,electricity",closed,2026-09-29 12:40:53+00:00,2026-09-30 12:04:12+00:00,2026-09-30 12:04:10+00:00,2026-09-30 12:04:10+00:00,jlgouwyapizr,['data-contract'],True,19,23.388055555555557,True
 1142,feat: Enable seeker saved search BE to live,closed,2026-09-29 10:33:27+00:00,2026-09-30 14:16:41+00:00,2026-09-30 14:16:39+00:00,2026-09-30 14:16:39+00:00,aviv-alikazemi,[],True,10,27.72,False
@@ -21,7 +24,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1128,DATAPLT-831: point 3 DASE search-log contracts at real Slack channels,closed,2026-09-24 15:59:27+00:00,2026-09-29 14:02:57+00:00,2026-09-29 14:02:54+00:00,2026-09-29 14:02:54+00:00,tudorpopica,[],True,0,118.0575,False
 1127,feat: use 4 space intend instead of 2,open,2026-09-24 15:48:50+00:00,2026-09-28 18:53:24+00:00,,,aviv-jonyroy,[],False,3,,False
 1126,[DATAPLT-829] fix: enum values are sent as the c# member name,closed,2026-09-24 13:55:56+00:00,2026-09-24 14:31:40+00:00,2026-09-24 14:31:38+00:00,2026-09-24 14:31:37+00:00,aviv-jonyroy,[],True,2,0.5947222222222223,False
-1125,"feat: (salesforce) add fields in account, subscription and orderitem",open,2026-09-24 11:26:21+00:00,2026-09-30 12:23:45+00:00,,,aviv-ejonakodra,[],False,4,,False
+1125,"feat: (salesforce) add fields in account, subscription and orderitem",open,2026-09-24 11:26:21+00:00,2026-10-01 16:47:14+00:00,,,aviv-ejonakodra,[],False,6,,False
 1124,feat: add LTR variant to French search tracking contract,open,2026-09-24 08:36:24+00:00,2026-09-28 18:48:20+00:00,,,aviv-aboucher,[],False,3,,False
 1123,feat: whitelist credit report live task role,closed,2026-09-24 07:58:25+00:00,2026-09-24 08:27:13+00:00,2026-09-24 08:27:13+00:00,,iwt-ikovacevic,[],False,0,,False
 1122,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-09-23 07:28:54+00:00,2026-09-25 12:55:58+00:00,2026-09-25 12:55:55+00:00,2026-09-25 12:55:55+00:00,aviv-dataops-github-app[bot],[],True,0,53.45027777777778,False
@@ -85,7 +88,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1064,DATAPLT-746: run 3 SDK unit tests in parallel inside the build step,closed,2026-09-04 12:04:50+00:00,2026-09-04 12:53:31+00:00,2026-09-04 12:53:29+00:00,2026-09-04 12:53:29+00:00,tudorpopica,[],True,0,0.8108333333333333,False
 1063,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-09-04 11:49:00+00:00,2026-09-07 12:47:01+00:00,2026-09-07 12:46:59+00:00,2026-09-07 12:46:59+00:00,aviv-data-platform,[],True,0,72.96638888888889,False
 1062,feat: release tracking for NLS to preview and live,closed,2026-09-04 08:48:15+00:00,2026-09-04 10:47:58+00:00,2026-09-04 10:47:57+00:00,2026-09-04 10:47:57+00:00,AShymanski,[],True,0,1.995,False
-1061,feat: GSP-474 add REIS network and intermediary contracts,open,2026-09-04 08:37:44+00:00,2026-09-25 15:10:41+00:00,,,sl-thomasbardy,[],False,13,,False
+1061,feat: GSP-474 add REIS network and intermediary contracts,open,2026-09-04 08:37:44+00:00,2026-10-01 04:44:03+00:00,,,sl-thomasbardy,[],False,13,,False
 1060,feat: Promote French NLS and LTR tracking contracts to production,closed,2026-09-04 06:56:36+00:00,2026-09-04 08:04:38+00:00,2026-09-04 08:04:35+00:00,2026-09-04 08:04:35+00:00,aviv-aboucher,[],True,0,1.1330555555555555,False
 1059,Promote SSOT classified v1 snapshot-to-event contracts to production,closed,2026-09-04 06:42:13+00:00,2026-09-10 14:52:21+00:00,2026-09-10 14:52:18+00:00,2026-09-10 14:52:18+00:00,florianhyseni-aviv,['data-contract'],True,4,152.16805555555555,True
 1058,[DATAPLT-748] feat: validate only updated contracts,closed,2026-09-03 19:44:15+00:00,2026-09-04 14:11:41+00:00,2026-09-04 09:54:08+00:00,2026-09-04 09:54:08+00:00,aviv-jonyroy,[],True,2,14.164722222222222,False
