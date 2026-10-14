@@ -1,9 +1,15 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-1180,feat: add avo filter branch filter,open,2026-10-13 17:14:46+00:00,2026-10-13 17:14:46+00:00,,,aviv-jonyroy,[],False,0,,False
+1186,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch YjgaiCjtHTClneEPAfUfP,open,2026-10-14 14:42:06+00:00,2026-10-14 14:42:06+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
+1185,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch GSvBf6sEeKHq5QIpMyZlL,closed,2026-10-14 10:42:03+00:00,2026-10-14 10:45:03+00:00,2026-10-14 10:44:57+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
+1184,DATAPLT-855: tag AWS calls and batch uploads with the SDK name and version,open,2026-10-14 10:19:22+00:00,2026-10-14 11:36:23+00:00,,,tudorpopica,[],False,0,,False
+1183,DATAPLT-432: keep the deployed column order when regenerating Snowflake table files,open,2026-10-14 10:17:20+00:00,2026-10-14 11:23:12+00:00,,,tudorpopica,[],False,0,,False
+1182,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch YjgaiCjtHTClneEPAfUfP,closed,2026-10-14 07:10:53+00:00,2026-10-14 10:45:31+00:00,2026-10-14 10:45:25+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
+1181,fix: GSLM-742 classified management full fr Update Schools enrichments naming,closed,2026-10-14 07:02:43+00:00,2026-10-14 07:19:31+00:00,2026-10-14 07:19:29+00:00,2026-10-14 07:19:29+00:00,aviv-dawidkuczma,[],True,0,0.27944444444444444,False
+1180,feat: add avo filter branch filter,closed,2026-10-13 17:14:46+00:00,2026-10-14 06:05:54+00:00,2026-10-14 06:05:52+00:00,2026-10-14 06:05:52+00:00,aviv-jonyroy,[],True,0,12.851666666666667,False
 1179,Switch user data alerting channel,closed,2026-10-13 09:23:06+00:00,2026-10-13 10:30:05+00:00,2026-10-13 10:30:02+00:00,2026-10-13 10:30:02+00:00,aviv-soenkemichelsen,[],True,0,1.1155555555555556,False
 1178,feat: distinguish between SL and MA as the source of the estimation,closed,2026-10-12 12:56:24+00:00,2026-10-12 14:34:49+00:00,2026-10-12 14:34:48+00:00,2026-10-12 14:34:48+00:00,li-sergekuranda,[],True,2,1.64,False
 1177,fix: add internal script update as new enum for last_action,closed,2026-10-12 10:58:51+00:00,2026-10-12 11:45:11+00:00,2026-10-12 11:45:08+00:00,2026-10-12 11:45:08+00:00,jlgouwyapizr,[],True,0,0.7713888888888889,False
-1175,"DATAPLT-797 (3/3): check uuid4/uuid5 versions and map keys in the TS SDK, like Pydantic",open,2026-10-12 09:11:31+00:00,2026-10-13 17:21:29+00:00,,,tudorpopica,[],False,19,,False
+1175,"DATAPLT-797 (3/3): check uuid4/uuid5 versions and map keys in the TS SDK, like Pydantic",closed,2026-10-12 09:11:31+00:00,2026-10-14 12:30:49+00:00,2026-10-14 12:30:47+00:00,2026-10-14 12:30:47+00:00,tudorpopica,[],True,20,51.32111111111111,False
 1174,DATAPLT-797 (2/3): fail-closed override rules for uuid and map nodes instead of rewriting generated text,closed,2026-10-12 09:11:24+00:00,2026-10-13 17:19:40+00:00,2026-10-13 17:19:37+00:00,2026-10-13 17:19:37+00:00,tudorpopica,[],True,5,32.136944444444445,False
 1173,DATAPLT-797 (1/3): document the TS codegen flow and add a Pydantic parity fixture with the known gaps,closed,2026-10-12 09:11:18+00:00,2026-10-13 15:55:05+00:00,2026-10-13 15:55:01+00:00,2026-10-13 15:55:01+00:00,tudorpopica,[],True,12,30.72861111111111,False
 1172,Feat/add avo docs,closed,2026-10-12 06:50:20+00:00,2026-10-12 10:34:49+00:00,2026-10-12 10:34:46+00:00,2026-10-12 10:34:46+00:00,aviv-jonyroy,[],True,0,3.7405555555555554,False
@@ -33,11 +39,11 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1148,DATAPLT-839: point contracts' @incident_channels at public Slack channels,closed,2026-10-01 09:29:50+00:00,2026-10-01 21:33:45+00:00,2026-10-01 21:33:42+00:00,,tudorpopica,[],False,0,,False
 1147,chore(deps): bump the npm_and_yarn group across 1 directory with 14 updates,open,2026-09-30 19:19:13+00:00,2026-10-08 15:28:55+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
 1146,Update roster to stop mentioning Oussama,closed,2026-09-30 19:18:29+00:00,2026-10-01 15:10:41+00:00,2026-10-01 15:10:38+00:00,2026-10-01 15:10:38+00:00,andrei-suvac-aviv,[],True,0,19.86916666666667,False
-1145,chore(deps): bump the uv group across 1 directory with 8 updates,open,2026-09-30 19:16:56+00:00,2026-10-13 11:16:49+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+1145,build(deps): bump the uv group across 1 directory with 8 updates,open,2026-09-30 19:16:56+00:00,2026-10-14 16:22:30+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 1144,chore(deps): bump the npm_and_yarn group across 1 directory with 15 updates,closed,2026-09-30 12:47:24+00:00,2026-09-30 19:18:43+00:00,2026-09-30 19:18:40+00:00,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
 1143,"feat: adding property_land_has_water_connection, gas,electricity",closed,2026-09-29 12:40:53+00:00,2026-09-30 12:04:12+00:00,2026-09-30 12:04:10+00:00,2026-09-30 12:04:10+00:00,jlgouwyapizr,['data-contract'],True,19,23.388055555555557,True
 1142,feat: Enable seeker saved search BE to live,closed,2026-09-29 10:33:27+00:00,2026-09-30 14:16:41+00:00,2026-09-30 14:16:39+00:00,2026-09-30 14:16:39+00:00,aviv-alikazemi,[],True,10,27.72,False
-1141,chore(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.20.1 to 2.21.6 in /contribs/aviv_data_platform_java_sdk in the maven group across 1 directory,open,2026-09-29 10:08:50+00:00,2026-09-29 10:08:51+00:00,,,dependabot[bot],"['dependencies', 'java']",False,0,,False
+1141,chore(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.20.1 to 2.21.6 in /contribs/aviv_data_platform_java_sdk in the maven group across 1 directory,open,2026-09-29 10:08:50+00:00,2026-10-14 11:08:14+00:00,,,dependabot[bot],"['dependencies', 'java']",False,0,,False
 1140,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-09-29 08:03:12+00:00,2026-10-02 14:27:51+00:00,2026-10-02 14:27:49+00:00,2026-10-02 14:27:49+00:00,aviv-dataops-github-app[bot],[],True,0,78.41027777777778,False
 1139,chore(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.20.1 to 2.21.6 in /contribs/aviv_data_platform_java_sdk in the maven group across 1 directory,closed,2026-09-28 20:39:05+00:00,2026-09-29 04:53:58+00:00,2026-09-29 04:53:49+00:00,,dependabot[bot],"['dependencies', 'java']",False,0,,False
 1138,feat: GSLM-677 Classified fr full - Added missing ContactInfo field,closed,2026-09-28 14:12:23+00:00,2026-09-29 09:19:30+00:00,2026-09-29 09:19:27+00:00,2026-09-29 09:19:27+00:00,aviv-dawidkuczma,['data-contract'],True,9,19.11777777777778,True
@@ -51,7 +57,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1130,Feature/is 250 new classifieds be contract v3,closed,2026-09-25 09:04:35+00:00,2026-09-28 07:03:45+00:00,2026-09-28 07:03:43+00:00,2026-09-28 07:03:43+00:00,jlgouwyapizr,[],True,4,69.98555555555555,False
 1129,infra: add live roles,open,2026-09-24 16:41:04+00:00,2026-09-28 18:55:32+00:00,,,sl-tomtom,[],False,3,,False
 1128,DATAPLT-831: point 3 DASE search-log contracts at real Slack channels,closed,2026-09-24 15:59:27+00:00,2026-09-29 14:02:57+00:00,2026-09-29 14:02:54+00:00,2026-09-29 14:02:54+00:00,tudorpopica,[],True,0,118.0575,False
-1127,feat: use 4 space intend instead of 2,open,2026-09-24 15:48:50+00:00,2026-09-28 18:53:24+00:00,,,aviv-jonyroy,[],False,3,,False
+1127,feat: use 4 space intend instead of 2,closed,2026-09-24 15:48:50+00:00,2026-10-14 11:31:39+00:00,2026-10-14 11:31:36+00:00,2026-10-14 11:31:36+00:00,aviv-jonyroy,[],True,3,475.7127777777778,False
 1126,[DATAPLT-829] fix: enum values are sent as the c# member name,closed,2026-09-24 13:55:56+00:00,2026-09-24 14:31:40+00:00,2026-09-24 14:31:38+00:00,2026-09-24 14:31:37+00:00,aviv-jonyroy,[],True,2,0.5947222222222223,False
 1125,"feat: (salesforce) add fields in account, subscription and orderitem",closed,2026-09-24 11:26:21+00:00,2026-10-05 09:44:10+00:00,2026-10-05 09:44:08+00:00,2026-10-05 09:44:08+00:00,aviv-ejonakodra,[],True,7,262.2963888888889,False
 1124,feat: add LTR variant to French search tracking contract,closed,2026-09-24 08:36:24+00:00,2026-10-08 06:34:22+00:00,2026-10-08 06:34:20+00:00,2026-10-08 06:34:20+00:00,aviv-aboucher,[],True,3,333.96555555555557,False
@@ -251,7 +257,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 930,feat: revert glue schema doc for dpv2,closed,2026-07-28 09:54:51+00:00,2026-07-28 10:16:03+00:00,2026-07-28 10:16:02+00:00,2026-07-28 10:16:02+00:00,aviv-jonyroy,[],True,0,0.35305555555555557,False
 929,keep griffe-pydantic compatible with griffe 1,closed,2026-07-27 15:35:50+00:00,2026-07-28 06:01:14+00:00,2026-07-28 06:01:13+00:00,2026-07-28 06:01:13+00:00,andrei-suvac-aviv,[],True,0,14.423055555555555,False
 928,Handle empty Kinesis policy during producer ARN validation,closed,2026-07-27 12:06:34+00:00,2026-07-27 12:16:54+00:00,2026-07-27 12:16:53+00:00,2026-07-27 12:16:53+00:00,andrei-suvac-aviv,[],True,0,0.17194444444444446,False
-927,feat: add cdc_flag contract,open,2026-07-27 10:06:40+00:00,2026-09-28 18:56:00+00:00,,,aviv-hamzaeljaoui,[],False,0,,False
+927,feat: add cdc_flag contract,open,2026-07-27 10:06:40+00:00,2026-10-14 11:07:46+00:00,,,aviv-hamzaeljaoui,[],False,0,,False
 926,[DATAPLT-640] feat: set null to avro doc,closed,2026-07-27 08:16:32+00:00,2026-07-27 12:06:35+00:00,2026-07-27 12:06:33+00:00,2026-07-27 12:06:33+00:00,aviv-jonyroy,[],True,4,3.8336111111111113,False
 925,chore: obsolete unused criteria contracts (fr),closed,2026-07-24 13:04:53+00:00,2026-07-24 13:33:18+00:00,2026-07-24 13:33:16+00:00,2026-07-24 13:33:16+00:00,gsl-adamtiamiou,[],True,0,0.47305555555555556,False
 924,Avo schema export: 5 event model update(s),closed,2026-07-24 12:23:34+00:00,2026-07-29 11:19:42+00:00,2026-07-29 11:19:35+00:00,,aviv-data-platform,[],False,0,,False
