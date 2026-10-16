@@ -1,10 +1,12 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-1189,feat(GSLMC-559): add visibility events contract for private listings (discovery),open,2026-10-15 09:21:08+00:00,2026-10-15 15:31:35+00:00,,,li-sergekuranda,[],False,17,,False
+1191,[PAY-2342] add the cancellation initiator and offer selection events to the PAYM contracts,open,2026-10-16 14:26:48+00:00,2026-10-16 14:43:39+00:00,,,aviv-idarnigatu,[],False,0,,False
+1190,Switch authentication alerting channel,closed,2026-10-16 07:21:43+00:00,2026-10-16 08:11:36+00:00,2026-10-16 08:11:33+00:00,2026-10-16 08:11:33+00:00,aviv-soenkemichelsen,[],True,2,0.8305555555555556,False
+1189,feat(GSLMC-559): add visibility events contract for private listings (discovery),open,2026-10-15 09:21:08+00:00,2026-10-16 14:17:48+00:00,,,li-sergekuranda,[],False,19,,False
 1188,Creating Napoleon address history snapshot contract,closed,2026-10-15 08:26:29+00:00,2026-10-15 10:00:03+00:00,2026-10-15 10:00:01+00:00,2026-10-15 10:00:01+00:00,andrei-suvac-aviv,[],True,0,1.558888888888889,False
-1187,feat(ICPF): add immoweb business_performance_be_v1 contract (DISCOVERY),open,2026-10-15 07:50:31+00:00,2026-10-15 14:11:11+00:00,,,iwb-jonathanpyncket,['data-contract'],False,12,,True
-1186,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch YjgaiCjtHTClneEPAfUfP,open,2026-10-14 14:42:06+00:00,2026-10-14 14:42:06+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
+1187,feat(ICPF): add immoweb business_performance_be_v1 contract (DISCOVERY),open,2026-10-15 07:50:31+00:00,2026-10-16 11:42:16+00:00,,,iwb-jonathanpyncket,['data-contract'],False,13,,True
+1186,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch YjgaiCjtHTClneEPAfUfP,closed,2026-10-14 14:42:06+00:00,2026-10-16 07:52:32+00:00,2026-10-16 07:52:26+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
 1185,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch GSvBf6sEeKHq5QIpMyZlL,closed,2026-10-14 10:42:03+00:00,2026-10-14 10:45:03+00:00,2026-10-14 10:44:57+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
-1184,DATAPLT-855: tag AWS calls and batch uploads with the SDK name and version,open,2026-10-14 10:19:22+00:00,2026-10-14 11:36:23+00:00,,,tudorpopica,[],False,0,,False
+1184,DATAPLT-855: tag AWS calls and batch uploads with the SDK name and version,open,2026-10-14 10:19:22+00:00,2026-10-16 11:35:20+00:00,,,tudorpopica,[],False,10,,False
 1183,DATAPLT-432: keep the deployed column order when regenerating Snowflake table files,closed,2026-10-14 10:17:20+00:00,2026-10-15 12:28:57+00:00,2026-10-15 12:28:55+00:00,2026-10-15 12:28:54+00:00,tudorpopica,[],True,4,26.192777777777778,False
 1182,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch YjgaiCjtHTClneEPAfUfP,closed,2026-10-14 07:10:53+00:00,2026-10-14 10:45:31+00:00,2026-10-14 10:45:25+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
 1181,fix: GSLM-742 classified management full fr Update Schools enrichments naming,closed,2026-10-14 07:02:43+00:00,2026-10-14 07:19:31+00:00,2026-10-14 07:19:29+00:00,2026-10-14 07:19:29+00:00,aviv-dawidkuczma,[],True,0,0.27944444444444444,False
