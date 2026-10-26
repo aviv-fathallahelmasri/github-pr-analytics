@@ -1,20 +1,29 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+1228,"DATAPLT-844: TS SDK accepts +0000 and +00 date-time offsets, like Pydantic",open,2026-10-26 17:26:48+00:00,2026-10-26 20:03:35+00:00,,,tudorpopica,[],False,10,,False
+1227,DATAPLT-866: show the SDK versions producers ran in the Snowflake contracts inventory,open,2026-10-26 16:48:06+00:00,2026-10-26 20:20:34+00:00,,,tudorpopica,[],False,1,,False
+1226,feat: [GSLMC-651] create a live env,open,2026-10-26 16:14:43+00:00,2026-10-26 16:17:23+00:00,,,li-rachiddiane,[],False,0,,False
+1225,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch ZTYJC_TVQytecFhGPnpIn,closed,2026-10-26 14:19:56+00:00,2026-10-26 14:23:00+00:00,2026-10-26 14:22:55+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
+1224,chore: move ruff to dev group,open,2026-10-26 14:19:15+00:00,2026-10-26 14:42:01+00:00,,,aviv-richardberichon,[],False,0,,False
+1223,docs: update description for data privacy,closed,2026-10-26 12:33:07+00:00,2026-10-26 13:38:31+00:00,2026-10-26 13:38:28+00:00,2026-10-26 13:38:28+00:00,aviv-fredericorodrigues,[],True,0,1.0891666666666666,False
+1222,feat: add new types to codesets,closed,2026-10-26 10:07:46+00:00,2026-10-26 14:10:47+00:00,2026-10-26 14:10:44+00:00,2026-10-26 14:10:44+00:00,Komalis,[],True,0,4.049444444444444,False
+1221,feat: add new types to codesets,closed,2026-10-26 10:06:00+00:00,2026-10-26 10:07:28+00:00,2026-10-26 10:07:09+00:00,,Komalis,[],False,0,,False
+1220,SKFI: rename schufa_funnel user_id to visitor_id and drop table (cleanup PR 1/2),open,2026-10-26 08:33:34+00:00,2026-10-26 14:12:20+00:00,,,iwt-ikovacevic,[],False,2,,False
 1219,chore(teams): update slack_user_group_name for GSL Supply Private Listings team,closed,2026-10-23 14:19:48+00:00,2026-10-23 17:24:26+00:00,2026-10-23 17:24:24+00:00,2026-10-23 17:24:24+00:00,sl-nigelalmada,[],True,0,3.0766666666666667,False
 1218,Restore USRM foreign_id and Napoleon globaluserid to PII Regular,closed,2026-10-23 10:02:54+00:00,2026-10-23 10:08:58+00:00,2026-10-23 10:08:56+00:00,2026-10-23 10:08:56+00:00,andrei-suvac-aviv,[],True,0,0.10055555555555555,False
-1217,feat: support PRODUCT_ACTIVATION_DE contract in production,open,2026-10-22 14:48:32+00:00,2026-10-23 13:50:57+00:00,,,aviv-ilijavidovic,[],False,0,,False
+1217,feat: support PRODUCT_ACTIVATION_DE contract in production,closed,2026-10-22 14:48:32+00:00,2026-10-26 14:46:58+00:00,2026-10-26 14:46:56+00:00,2026-10-26 14:46:56+00:00,aviv-ilijavidovic,[],True,4,95.97333333333333,False
 1216,"docs: producer guide for late data, replays and full refresh",open,2026-10-22 11:04:47+00:00,2026-10-23 18:18:26+00:00,,,aviv-josebaltasar,[],False,13,,False
 1215,feat(roster): mark Avo-generated contracts with contract_source,closed,2026-10-22 08:38:35+00:00,2026-10-22 09:46:11+00:00,2026-10-22 09:46:07+00:00,2026-10-22 09:46:07+00:00,tudorpopica,[],True,0,1.1255555555555556,False
-1214,SSAL: route Seeker saved-search alerts to dedicated channels,open,2026-10-22 07:36:13+00:00,2026-10-22 14:39:53+00:00,,,aviv-alikazemi,[],False,8,,False
+1214,SSAL: route Seeker saved-search alerts to dedicated channels,open,2026-10-22 07:36:13+00:00,2026-10-26 13:01:10+00:00,,,aviv-alikazemi,[],False,11,,False
 1213,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch GSvBf6sEeKHq5QIpMyZlL,open,2026-10-22 07:24:21+00:00,2026-10-22 07:24:21+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
 1212,SKFI: add user identifiers to schufa_funnel_de_v1,closed,2026-10-22 07:14:14+00:00,2026-10-23 07:55:13+00:00,2026-10-23 07:55:10+00:00,2026-10-23 07:55:09+00:00,iwt-ikovacevic,[],True,11,24.681944444444444,False
 1211,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch GSvBf6sEeKHq5QIpMyZlL,closed,2026-10-22 06:51:52+00:00,2026-10-22 07:23:40+00:00,2026-10-22 07:23:35+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
 1210,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch GSvBf6sEeKHq5QIpMyZlL,closed,2026-10-21 15:36:44+00:00,2026-10-21 17:31:47+00:00,2026-10-21 17:31:42+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
-1209,feat: DSGPML-1236 add German LTR Snowflake contract,open,2026-10-21 15:22:40+00:00,2026-10-23 14:40:03+00:00,,,aviv-richardberichon,[],False,11,,False
+1209,feat: DSGPML-1236 add German LTR Snowflake contract,open,2026-10-21 15:22:40+00:00,2026-10-26 14:40:33+00:00,,,aviv-richardberichon,[],False,14,,False
 1208,[DATAPLT-913] feat/register-dpv2-glue-dev-on-main,closed,2026-10-21 14:14:41+00:00,2026-10-22 15:46:12+00:00,2026-10-22 15:46:10+00:00,2026-10-22 15:46:10+00:00,aviv-jonyroy,[],True,5,25.524722222222223,False
 1207,Update PII classification for 2 fields in USRM contracts,closed,2026-10-21 13:11:21+00:00,2026-10-21 13:23:30+00:00,2026-10-21 13:23:28+00:00,2026-10-21 13:23:28+00:00,andrei-suvac-aviv,[],True,0,0.20194444444444445,False
 1206,"[DATAPLT-909] feat: add the one-time CLSA classifieds_daily batch contracts, one per brand",closed,2026-10-21 12:04:31+00:00,2026-10-22 08:14:19+00:00,2026-10-22 08:14:16+00:00,2026-10-22 08:14:16+00:00,tudorpopica,[],True,10,20.1625,False
 1205,[DATAPLT-908] feat: stop releasing in dev from main branch,closed,2026-10-21 11:12:04+00:00,2026-10-21 12:04:48+00:00,2026-10-21 12:04:10+00:00,2026-10-21 12:04:10+00:00,aviv-jonyroy,[],True,1,0.8683333333333333,False
-1204,feat(ICPF): move immoweb business_performance_be_v1 to PRODUCTION,open,2026-10-21 08:57:40+00:00,2026-10-22 08:45:16+00:00,,,iwb-jonathanpyncket,[],False,0,,False
+1204,feat(ICPF): move immoweb business_performance_be_v1 to PRODUCTION,closed,2026-10-21 08:57:40+00:00,2026-10-26 08:59:46+00:00,2026-10-26 08:59:44+00:00,2026-10-26 08:59:44+00:00,iwb-jonathanpyncket,[],True,0,120.03444444444445,False
 1203,[DATAPLT-906] feat: remove dry-run automatic snowflake table deletion step from ci,closed,2026-10-21 08:26:16+00:00,2026-10-21 08:43:44+00:00,2026-10-21 08:43:42+00:00,2026-10-21 08:43:42+00:00,aviv-jonyroy,[],True,0,0.29055555555555557,False
 1202,DATAPLT-839: route Xenon alerts to their public channel,closed,2026-10-20 19:31:29+00:00,2026-10-21 15:00:34+00:00,2026-10-21 15:00:31+00:00,2026-10-21 15:00:31+00:00,tudorpopica,[],True,0,19.483888888888888,False
 1201,Change phase from DISCOVERY to DEVELOPMENT,closed,2026-10-20 13:25:53+00:00,2026-10-21 06:18:30+00:00,2026-10-21 06:18:27+00:00,2026-10-21 06:18:27+00:00,li-rachiddiane,[],True,0,16.87611111111111,False
@@ -26,7 +35,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1195,feat: adding new roles for historization purpose,closed,2026-10-19 13:09:52+00:00,2026-10-20 08:18:56+00:00,2026-10-20 08:18:53+00:00,2026-10-20 08:18:53+00:00,jlgouwyapizr,[],True,0,19.150277777777777,False
 1194,feat(ICPF): move immoweb business_performance_be_v1 to DEVELOPMENT,closed,2026-10-19 12:32:32+00:00,2026-10-19 13:52:00+00:00,2026-10-19 13:00:03+00:00,2026-10-19 13:00:02+00:00,iwb-jonathanpyncket,[],True,0,0.4583333333333333,False
 1193,"Replacing contract napoleon_adressen_history, adding _de suffix",closed,2026-10-19 11:50:39+00:00,2026-10-19 12:38:38+00:00,2026-10-19 12:38:35+00:00,2026-10-19 12:38:35+00:00,andrei-suvac-aviv,[],True,0,0.7988888888888889,False
-1192,feat(seller-lead): add contract for estimation_created event,open,2026-10-19 09:04:23+00:00,2026-10-23 08:34:58+00:00,,,aviv-zvolok,[],False,12,,False
+1192,feat(seller-lead): add contract for estimation_created event,closed,2026-10-19 09:04:23+00:00,2026-10-26 12:27:33+00:00,2026-10-26 12:27:30+00:00,2026-10-26 12:27:30+00:00,aviv-zvolok,[],True,12,171.3852777777778,False
 1191,[PAY-2342] add the cancellation initiator and offer selection events to the PAYM contracts,closed,2026-10-16 14:26:48+00:00,2026-10-20 14:09:24+00:00,2026-10-20 14:09:21+00:00,2026-10-20 14:09:21+00:00,aviv-idarnigatu,['data-contract'],True,17,95.70916666666666,True
 1190,Switch authentication alerting channel,closed,2026-10-16 07:21:43+00:00,2026-10-16 08:11:36+00:00,2026-10-16 08:11:33+00:00,2026-10-16 08:11:33+00:00,aviv-soenkemichelsen,[],True,2,0.8305555555555556,False
 1189,feat(GSLMC-559): add visibility events contract for private listings (discovery),closed,2026-10-15 09:21:08+00:00,2026-10-20 12:37:05+00:00,2026-10-20 12:37:03+00:00,2026-10-20 12:37:03+00:00,li-sergekuranda,[],True,22,123.26527777777778,False
@@ -66,13 +75,13 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1154,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-10-05 19:16:16+00:00,2026-10-07 11:34:30+00:00,2026-10-07 11:34:27+00:00,2026-10-07 11:34:27+00:00,aviv-dataops-github-app[bot],[],True,0,40.30305555555555,False
 1153,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-10-05 07:58:41+00:00,2026-10-05 08:26:12+00:00,2026-10-05 08:26:10+00:00,2026-10-05 08:26:10+00:00,aviv-dataops-github-app[bot],[],True,0,0.45805555555555555,False
 1152,feat: FRAUD-3477 add Snowflake retry triage lambda role to Implio webhook producers,closed,2026-10-02 14:46:32+00:00,2026-10-12 09:03:04+00:00,2026-10-12 09:03:02+00:00,2026-10-12 09:03:02+00:00,MargoHancharenka,[],True,0,234.275,False
-1151,feat(SOPP): add MA past sale state events contract,open,2026-10-02 13:59:34+00:00,2026-10-23 16:56:05+00:00,,,pascalm33,['data-contract'],False,13,,True
+1151,feat(SOPP): add MA past sale state events contract,open,2026-10-02 13:59:34+00:00,2026-10-26 15:50:02+00:00,,,pascalm33,['data-contract'],False,18,,True
 1150,feat: GRAE-388 add BCMFR/SLCFR and WhatsApp to OPTN optin_preference_fr_v1 and transfer ownership,closed,2026-10-01 11:08:47+00:00,2026-10-07 07:27:20+00:00,2026-10-07 07:27:19+00:00,2026-10-07 07:27:19+00:00,aviv-bartoszszczecinski,[],True,2,140.3088888888889,False
 1149,feat: new contract boost_extend_statistics,closed,2026-10-01 10:37:46+00:00,2026-10-06 06:31:17+00:00,2026-10-06 06:31:14+00:00,2026-10-06 06:31:14+00:00,aviv-mateuszkochelski,[],True,0,115.89111111111112,False
 1148,DATAPLT-839: point contracts' @incident_channels at public Slack channels,closed,2026-10-01 09:29:50+00:00,2026-10-01 21:33:45+00:00,2026-10-01 21:33:42+00:00,,tudorpopica,[],False,0,,False
 1147,chore(deps): bump the npm_and_yarn group across 1 directory with 14 updates,open,2026-09-30 19:19:13+00:00,2026-10-08 15:28:55+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
 1146,Update roster to stop mentioning Oussama,closed,2026-09-30 19:18:29+00:00,2026-10-01 15:10:41+00:00,2026-10-01 15:10:38+00:00,2026-10-01 15:10:38+00:00,andrei-suvac-aviv,[],True,0,19.86916666666667,False
-1145,chore(deps): bump the uv group across 1 directory with 8 updates,open,2026-09-30 19:16:56+00:00,2026-10-23 17:53:29+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+1145,chore(deps): bump the uv group across 1 directory with 8 updates,open,2026-09-30 19:16:56+00:00,2026-10-26 15:16:00+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 1144,chore(deps): bump the npm_and_yarn group across 1 directory with 15 updates,closed,2026-09-30 12:47:24+00:00,2026-09-30 19:18:43+00:00,2026-09-30 19:18:40+00:00,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
 1143,"feat: adding property_land_has_water_connection, gas,electricity",closed,2026-09-29 12:40:53+00:00,2026-09-30 12:04:12+00:00,2026-09-30 12:04:10+00:00,2026-09-30 12:04:10+00:00,jlgouwyapizr,['data-contract'],True,19,23.388055555555557,True
 1142,feat: Enable seeker saved search BE to live,closed,2026-09-29 10:33:27+00:00,2026-09-30 14:16:41+00:00,2026-09-30 14:16:39+00:00,2026-09-30 14:16:39+00:00,aviv-alikazemi,[],True,10,27.72,False
