@@ -1,8 +1,16 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+1272,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-10-30 15:49:33+00:00,2026-10-30 16:09:39+00:00,2026-10-30 16:09:35+00:00,2026-10-30 16:09:35+00:00,aviv-dataops-github-app[bot],[],True,0,0.3338888888888889,False
+1271,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch fPuSFLyd1Lf0yJQuzfGQb,open,2026-10-30 15:48:38+00:00,2026-10-30 15:48:38+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
+1270,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch Pa4oddMFymvpmu_enQ6ML,open,2026-10-30 13:18:25+00:00,2026-10-30 13:18:25+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
+1269,feat(SLDE): move estimation_created_ma_fr_v1 to DEVELOPMENT,open,2026-10-30 12:06:04+00:00,2026-10-30 16:13:49+00:00,,,aviv-zvolok,[],False,0,,False
+1268,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch Pa4oddMFymvpmu_enQ6ML,closed,2026-10-30 11:48:51+00:00,2026-10-30 13:17:02+00:00,2026-10-30 13:16:57+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
+1267,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch Pa4oddMFymvpmu_enQ6ML,closed,2026-10-30 11:18:47+00:00,2026-10-30 11:48:22+00:00,2026-10-30 11:48:18+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
+1266,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch hZk-lAd278iBldIQGaFyQ,open,2026-10-30 09:57:25+00:00,2026-10-30 09:57:25+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
+1265,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch Pa4oddMFymvpmu_enQ6ML,closed,2026-10-30 09:26:05+00:00,2026-10-30 10:26:30+00:00,2026-10-30 10:26:25+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
 1264,feat: dvf_fr_v1 dev,open,2026-10-29 13:34:48+00:00,2026-10-29 13:50:44+00:00,,,DavidLacroix,[],False,0,,False
 1263,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch fPuSFLyd1Lf0yJQuzfGQb,closed,2026-10-29 13:24:49+00:00,2026-10-29 16:43:25+00:00,2026-10-29 16:43:18+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
-1262,feat(HODC): add PIILevel tags to raw_parsed v0 SSOT contracts,open,2026-10-29 09:20:51+00:00,2026-10-29 13:27:36+00:00,,,florianhyseni-aviv,[],False,0,,False
-1261,feat: add geo place relation data contract,open,2026-10-28 14:28:47+00:00,2026-10-28 14:28:47+00:00,,,Komalis,[],False,0,,False
+1262,feat(HODC): add PIILevel tags to raw_parsed v0 SSOT contracts,open,2026-10-29 09:20:51+00:00,2026-10-30 14:08:08+00:00,,,florianhyseni-aviv,[],False,0,,False
+1261,feat: add geo place relation data contract,open,2026-10-28 14:28:47+00:00,2026-10-30 17:10:59+00:00,,,Komalis,['data-contract'],False,9,,True
 1260,DATAPLT-932: add recency field to OPTN optin preference,open,2026-10-28 13:40:23+00:00,2026-10-29 17:57:36+00:00,,,tudorpopica,[],False,7,,False
 1259,feat: Chat Messaging contracts for snowflake IDCON-299,open,2026-10-28 12:24:54+00:00,2026-10-29 15:04:52+00:00,,,aviv-piotrwojtowicz,['data-contract'],False,46,,True
 1258,DATAPLT-933: fail validation when a Snowflake contract has no PrimaryKey or RecencyField,open,2026-10-28 11:55:35+00:00,2026-10-28 11:55:52+00:00,,,tudorpopica,[],False,0,,False
@@ -15,7 +23,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1251,DATAPLT-932: add primary key and recency field to MKKN indice contracts,closed,2026-10-28 11:45:31+00:00,2026-10-29 13:50:41+00:00,2026-10-29 13:50:41+00:00,,tudorpopica,[],False,2,,False
 1250,DATAPLT-932: add primary key and recency field to DASE search autocomplete contracts,open,2026-10-28 11:45:23+00:00,2026-10-29 17:57:02+00:00,,,tudorpopica,[],False,0,,False
 1249,DATAPLT-932: add primary key and recency field to GEOR autocomplete feedback contracts,open,2026-10-28 11:45:15+00:00,2026-10-29 17:56:56+00:00,,,tudorpopica,[],False,0,,False
-1248,DATAPLT-932: add primary key and recency field to CLSO sort order and quality score contracts,open,2026-10-28 11:45:06+00:00,2026-10-29 17:54:16+00:00,,,tudorpopica,[],False,2,,False
+1248,DATAPLT-932: add primary key and recency field to CLSO sort order and quality score contracts,open,2026-10-28 11:45:06+00:00,2026-10-30 10:39:19+00:00,,,tudorpopica,[],False,2,,False
 1247,DATAPLT-932: add primary key and recency field to CLSA classifieds analytics v3 contracts,closed,2026-10-28 11:44:58+00:00,2026-10-29 17:18:03+00:00,2026-10-29 17:17:59+00:00,2026-10-29 17:17:59+00:00,tudorpopica,[],True,0,29.55027777777778,False
 1246,DATAPLT-932: add primary key and recency field to ICVM visibility statistics contracts,open,2026-10-28 11:44:49+00:00,2026-10-29 17:54:12+00:00,,,tudorpopica,[],False,10,,False
 1245,DATAPLT-932: add primary key and recency field to SSAL saved search DE and SKPF seeker profile contracts,open,2026-10-28 11:44:40+00:00,2026-10-29 18:05:45+00:00,,,tudorpopica,[],False,10,,False
@@ -117,7 +125,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1148,DATAPLT-839: point contracts' @incident_channels at public Slack channels,closed,2026-10-01 09:29:50+00:00,2026-10-01 21:33:45+00:00,2026-10-01 21:33:42+00:00,,tudorpopica,[],False,0,,False
 1147,chore(deps): bump the npm_and_yarn group across 1 directory with 14 updates,open,2026-09-30 19:19:13+00:00,2026-10-08 15:28:55+00:00,,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
 1146,Update roster to stop mentioning Oussama,closed,2026-09-30 19:18:29+00:00,2026-10-01 15:10:41+00:00,2026-10-01 15:10:38+00:00,2026-10-01 15:10:38+00:00,andrei-suvac-aviv,[],True,0,19.86916666666667,False
-1145,chore(deps): bump the uv group across 1 directory with 8 updates,open,2026-09-30 19:16:56+00:00,2026-10-29 17:45:54+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
+1145,chore(deps): bump the uv group across 1 directory with 8 updates,open,2026-09-30 19:16:56+00:00,2026-10-30 16:35:14+00:00,,,dependabot[bot],"['dependencies', 'python:uv']",False,0,,False
 1144,chore(deps): bump the npm_and_yarn group across 1 directory with 15 updates,closed,2026-09-30 12:47:24+00:00,2026-09-30 19:18:43+00:00,2026-09-30 19:18:40+00:00,,dependabot[bot],"['dependencies', 'javascript']",False,0,,False
 1143,"feat: adding property_land_has_water_connection, gas,electricity",closed,2026-09-29 12:40:53+00:00,2026-09-30 12:04:12+00:00,2026-09-30 12:04:10+00:00,2026-09-30 12:04:10+00:00,jlgouwyapizr,['data-contract'],True,19,23.388055555555557,True
 1142,feat: Enable seeker saved search BE to live,closed,2026-09-29 10:33:27+00:00,2026-09-30 14:16:41+00:00,2026-09-30 14:16:39+00:00,2026-09-30 14:16:39+00:00,aviv-alikazemi,[],True,10,27.72,False
