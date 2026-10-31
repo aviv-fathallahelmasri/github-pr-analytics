@@ -1,4 +1,5 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
+1273,[DATAPLT-945]: Delete tag files with OBSOLETED tables and require ENV for Terraform make targets,open,2026-10-30 21:43:33+00:00,2026-10-30 21:46:22+00:00,,,tiberiu-diaconescu-aviv,[],False,0,,False
 1272,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-10-30 15:49:33+00:00,2026-10-30 16:09:39+00:00,2026-10-30 16:09:35+00:00,2026-10-30 16:09:35+00:00,aviv-dataops-github-app[bot],[],True,0,0.3338888888888889,False
 1271,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch fPuSFLyd1Lf0yJQuzfGQb,open,2026-10-30 15:48:38+00:00,2026-10-30 15:48:38+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
 1270,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch Pa4oddMFymvpmu_enQ6ML,open,2026-10-30 13:18:25+00:00,2026-10-30 13:18:25+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
