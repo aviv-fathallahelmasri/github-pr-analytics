@@ -1,6 +1,17 @@
 number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_merged,review_comments,merge_time_hours,has_data_contract_label
-1320,[ICC-4265] iwt-ic contract to live,open,2026-11-06 14:29:50+00:00,2026-11-06 17:22:36+00:00,,,gevkes96,[],False,2,,False
-1319,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch ZTYJC_TVQytecFhGPnpIn,open,2026-11-06 14:28:08+00:00,2026-11-06 14:28:08+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
+1331,[DATAPLT-967] feat: add troubleshooting for refreshing the firehose,open,2026-11-09 17:56:36+00:00,2026-11-09 18:01:33+00:00,,,aviv-jonyroy,[],False,0,,False
+1330,feat(GRS-527): data-platform-sdk(ts) - add avo inspector,open,2026-11-09 17:00:58+00:00,2026-11-09 17:00:58+00:00,,,gsl-adamtiamiou,[],False,0,,False
+1329,feat: grp-485 new tracked properties contract,open,2026-11-09 16:20:26+00:00,2026-11-09 17:11:22+00:00,,,cimourdain,[],False,0,,False
+1328,DATAPLT-932: lower postal_code and city to Regular in FSBO draft listings FR,open,2026-11-09 16:01:54+00:00,2026-11-09 16:01:57+00:00,,,tudorpopica,[],False,0,,False
+1327,feat(FSBO): make phone_validated optional on draft_private_listing_fr_v1,closed,2026-11-09 15:18:18+00:00,2026-11-09 15:56:14+00:00,2026-11-09 15:56:13+00:00,2026-11-09 15:56:12+00:00,li-sergekuranda,[],True,0,0.6316666666666667,False
+1326,feat: [GSLM-889] added houseprice and landprice,open,2026-11-09 14:56:51+00:00,2026-11-09 15:23:57+00:00,,,aviv-krzysztofsiekierzynski,[],False,2,,False
+1325,AUTH-5318 impersonation,open,2026-11-09 14:40:29+00:00,2026-11-09 14:49:48+00:00,,,goculum,[],False,0,,False
+1324,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch 09CBVARBzWA_pB-eaj79l,open,2026-11-09 14:03:50+00:00,2026-11-09 17:36:13+00:00,,,aviv-dataops-github-app[bot],[],False,0,,False
+1323,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch axKMqcm6ME-7WotvrsDqR,closed,2026-11-09 13:04:39+00:00,2026-11-09 14:03:57+00:00,2026-11-09 14:03:52+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
+1322,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-11-09 10:16:53+00:00,2026-11-09 10:31:35+00:00,2026-11-09 10:31:32+00:00,2026-11-09 10:31:32+00:00,aviv-dataops-github-app[bot],[],True,0,0.24416666666666667,False
+1321,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch ZTYJC_TVQytecFhGPnpIn,closed,2026-11-09 09:07:43+00:00,2026-11-09 10:32:16+00:00,2026-11-09 10:32:12+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
+1320,[ICC-4265] iwt-ic contract to live,open,2026-11-06 14:29:50+00:00,2026-11-09 19:51:15+00:00,,,gevkes96,[],False,2,,False
+1319,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch ZTYJC_TVQytecFhGPnpIn,closed,2026-11-06 14:28:08+00:00,2026-11-09 09:06:01+00:00,2026-11-09 09:05:53+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
 1318,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch ZTYJC_TVQytecFhGPnpIn,closed,2026-11-06 14:04:07+00:00,2026-11-06 14:27:15+00:00,2026-11-06 14:27:09+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
 1317,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-11-06 13:53:43+00:00,2026-11-06 14:08:41+00:00,2026-11-06 14:08:37+00:00,2026-11-06 14:08:37+00:00,aviv-dataops-github-app[bot],[],True,0,0.24833333333333332,False
 1316,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch x4cmAsYF8BL5Ocm0rz2v3,closed,2026-11-06 13:49:48+00:00,2026-11-06 13:57:14+00:00,2026-11-06 13:57:08+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
@@ -11,7 +22,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1311,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch wVAaq_19pEUfXuYQBLHlf,closed,2026-11-06 11:40:53+00:00,2026-11-06 12:27:51+00:00,2026-11-06 12:27:44+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
 1310,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch ZTYJC_TVQytecFhGPnpIn,closed,2026-11-06 11:20:45+00:00,2026-11-06 12:09:07+00:00,2026-11-06 12:09:02+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
 1309,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch ZTYJC_TVQytecFhGPnpIn,closed,2026-11-06 11:03:30+00:00,2026-11-06 11:20:22+00:00,2026-11-06 11:20:16+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
-1308,DATAPLT-960: make a required field optional on the DTFN test contract,open,2026-11-06 10:37:39+00:00,2026-11-06 13:43:12+00:00,,,tudorpopica,[],False,0,,False
+1308,DATAPLT-960: make a required field optional on the DTFN test contract,closed,2026-11-06 10:37:39+00:00,2026-11-09 12:12:30+00:00,2026-11-09 12:12:28+00:00,2026-11-09 12:12:28+00:00,tudorpopica,[],True,0,73.58027777777778,False
 1307,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch HW7X4gC6RUs-xjeBI7WXp,closed,2026-11-06 09:29:38+00:00,2026-11-06 09:48:56+00:00,2026-11-06 09:48:50+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
 1306,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch wVAaq_19pEUfXuYQBLHlf,closed,2026-11-05 16:23:12+00:00,2026-11-06 09:48:16+00:00,2026-11-06 09:48:05+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
 1305,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch wVAaq_19pEUfXuYQBLHlf,closed,2026-11-05 15:32:00+00:00,2026-11-05 16:22:54+00:00,2026-11-05 16:22:46+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
@@ -23,19 +34,19 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1299,ISEEK-1176: Add the similar-properties opt-in to seeker_savedsearch_lifecycle_be_v1,open,2026-11-05 10:12:48+00:00,2026-11-05 10:44:42+00:00,,,aviv-alikazemi,[],False,0,,False
 1298,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-11-05 08:34:29+00:00,2026-11-05 09:27:59+00:00,2026-11-05 09:27:57+00:00,2026-11-05 09:27:56+00:00,aviv-dataops-github-app[bot],[],True,0,0.8908333333333334,False
 1297,[DATAPLT-957] fix: avoid piping git tag,closed,2026-11-04 18:58:14+00:00,2026-11-05 08:45:42+00:00,2026-11-05 08:45:40+00:00,2026-11-05 08:45:40+00:00,aviv-jonyroy,[],True,1,13.790555555555555,False
-1296,feat(GRS-526): data-platform-sdk(csharp) - add avo inspector,open,2026-11-04 15:41:17+00:00,2026-11-06 16:24:34+00:00,,,gsl-adamtiamiou,[],False,0,,False
-1295,DATAPLT-954: Python SDK drops aioboto3 so projects can move past boto3 1.40,open,2026-11-04 13:10:31+00:00,2026-11-06 10:06:07+00:00,,,tudorpopica,[],False,0,,False
-1294,DATAPLT-956: contract owners keep every stakeholder on every release,open,2026-11-04 12:36:23+00:00,2026-11-04 12:53:25+00:00,,,tudorpopica,[],False,0,,False
-1293,DATAPLT-954: allow pydantic 2.11 in the contracts package,open,2026-11-04 12:32:40+00:00,2026-11-05 14:48:26+00:00,,,tudorpopica,[],False,2,,False
-1292,"DATAPLT-954: Python SDK drops unneeded runtime packages, clears its advisories and checks for new ones",open,2026-11-04 12:23:30+00:00,2026-11-06 09:59:21+00:00,,,tudorpopica,[],False,0,,False
-1291,DATAPLT-951: retry validate-producer-arns on AWS throttling and internal errors,open,2026-11-04 12:18:49+00:00,2026-11-04 12:53:19+00:00,,,tudorpopica,[],False,0,,False
+1296,feat(GRS-526): data-platform-sdk(csharp) - add avo inspector,open,2026-11-04 15:41:17+00:00,2026-11-09 09:44:19+00:00,,,gsl-adamtiamiou,[],False,0,,False
+1295,DATAPLT-954: Python SDK drops aioboto3 so projects can move past boto3 1.40,closed,2026-11-04 13:10:31+00:00,2026-11-09 12:48:26+00:00,2026-11-09 12:48:23+00:00,2026-11-09 12:48:23+00:00,tudorpopica,[],True,0,119.63111111111111,False
+1294,DATAPLT-956: contract owners keep every stakeholder on every release,closed,2026-11-04 12:36:23+00:00,2026-11-09 14:59:31+00:00,2026-11-09 14:59:28+00:00,2026-11-09 14:59:28+00:00,tudorpopica,[],True,0,122.38472222222222,False
+1293,DATAPLT-954: allow pydantic 2.11 in the contracts package,closed,2026-11-04 12:32:40+00:00,2026-11-09 19:00:38+00:00,2026-11-09 19:00:36+00:00,2026-11-09 19:00:36+00:00,tudorpopica,[],True,2,126.46555555555555,False
+1292,"DATAPLT-954: Python SDK drops unneeded runtime packages, clears its advisories and checks for new ones",closed,2026-11-04 12:23:30+00:00,2026-11-09 13:04:34+00:00,2026-11-09 13:04:32+00:00,2026-11-09 13:04:32+00:00,tudorpopica,[],True,0,120.68388888888889,False
+1291,DATAPLT-951: retry validate-producer-arns on AWS throttling and internal errors,closed,2026-11-04 12:18:49+00:00,2026-11-09 11:26:03+00:00,2026-11-09 11:26:01+00:00,2026-11-09 11:26:01+00:00,tudorpopica,[],True,0,119.12,False
 1290,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch w0k2JLrbxIA-L0eNtRgSr,closed,2026-11-04 09:23:21+00:00,2026-11-05 12:23:17+00:00,2026-11-05 12:23:11+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
 1289,[DATAPLT-918] Feat/two commit all changes,closed,2026-11-03 12:58:19+00:00,2026-11-05 10:02:49+00:00,2026-11-05 10:02:47+00:00,2026-11-05 10:02:47+00:00,aviv-jonyroy,[],True,14,45.074444444444445,False
 1288,[Feat][PDAE-2031]: Add new portal ysq-deu-rs and ITP-LU to the portal…,closed,2026-11-03 12:38:05+00:00,2026-11-04 07:17:37+00:00,2026-11-04 07:17:34+00:00,2026-11-04 07:17:34+00:00,ivanhalusek,[],True,0,18.658055555555556,False
 1287,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch ZTYJC_TVQytecFhGPnpIn,closed,2026-11-03 12:06:47+00:00,2026-11-04 09:00:47+00:00,2026-11-04 09:00:42+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
 1286,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch hZk-lAd278iBldIQGaFyQ,closed,2026-11-03 10:29:13+00:00,2026-11-05 12:24:06+00:00,2026-11-05 12:24:01+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
 1285,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-11-03 10:27:53+00:00,2026-11-03 10:49:29+00:00,2026-11-03 10:49:26+00:00,2026-11-03 10:49:26+00:00,aviv-dataops-github-app[bot],[],True,0,0.3591666666666667,False
-1284,USERPRO-3130 feat(IDVF): add verification_status_events_v1 contract,open,2026-11-03 10:01:01+00:00,2026-11-05 10:35:04+00:00,,,iwt-mmamula,['data-contract'],False,11,,True
+1284,USERPRO-3130 feat(IDVF): add verification_status_events_de_v1 contract,open,2026-11-03 10:01:01+00:00,2026-11-09 13:59:00+00:00,,,iwt-mmamula,['data-contract'],False,25,,True
 1283,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch Pa4oddMFymvpmu_enQ6ML,closed,2026-11-03 09:19:30+00:00,2026-11-05 12:23:45+00:00,2026-11-05 12:23:40+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
 1282,DATAPLT-910: sync the docs website to live only and point docs links there,closed,2026-11-03 08:02:43+00:00,2026-11-05 13:16:26+00:00,2026-11-05 13:16:24+00:00,2026-11-05 13:16:24+00:00,tudorpopica,[],True,0,53.22805555555556,False
 1281,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch 0cIU7OfG33yxhqqK56rin,closed,2026-11-02 16:21:41+00:00,2026-11-04 09:01:06+00:00,2026-11-04 09:01:00+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
@@ -43,8 +54,8 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1279,chore(SLDE): drop estimation_created_ma_fr_v1 table before re-ingesting,closed,2026-11-02 15:04:56+00:00,2026-11-03 09:26:16+00:00,2026-11-03 09:26:14+00:00,2026-11-03 09:26:14+00:00,aviv-zvolok,[],True,0,18.355,False
 1278,[ICC-4240] Add retranslator task role to listings_de_v1 producers,closed,2026-11-02 15:00:04+00:00,2026-11-03 11:36:27+00:00,2026-11-03 11:36:25+00:00,2026-11-03 11:36:25+00:00,karina-kolenchuk-aviv,[],True,0,20.605833333333333,False
 1277,[AVO MIRROR - DO NOT MERGE]: Contracts from Avo branch Pa4oddMFymvpmu_enQ6ML,closed,2026-11-02 14:54:40+00:00,2026-11-02 15:20:41+00:00,2026-11-02 15:20:36+00:00,,aviv-dataops-github-app[bot],[],False,0,,False
-1276,Feature/lead management immoweb schema,open,2026-11-02 14:26:59+00:00,2026-11-06 15:33:03+00:00,,,jlgouwyapizr,[],False,6,,False
-1275,feat(SLDE): implement full estimation_created_ma_fr_v1 field spec,open,2026-11-02 11:49:13+00:00,2026-11-06 16:04:30+00:00,,,aviv-zvolok,[],False,15,,False
+1276,Feature/lead management immoweb schema,open,2026-11-02 14:26:59+00:00,2026-11-09 15:33:04+00:00,,,jlgouwyapizr,[],False,6,,False
+1275,feat(SLDE): implement full estimation_created_ma_fr_v1 field spec,closed,2026-11-02 11:49:13+00:00,2026-11-09 09:17:32+00:00,2026-11-09 09:17:29+00:00,2026-11-09 09:17:29+00:00,aviv-zvolok,[],True,15,165.4711111111111,False
 1274,[DATAPLT-945]: Require ENV for Terraform make targets and correct the Terraform README,closed,2026-11-02 10:44:40+00:00,2026-11-02 12:31:21+00:00,2026-11-02 12:31:18+00:00,2026-11-02 12:31:18+00:00,tiberiu-diaconescu-aviv,[],True,0,1.7772222222222223,False
 1273,[DATAPLT-945]: Require ENV for Terraform make targets and correct the Terraform README,closed,2026-10-30 21:43:33+00:00,2026-11-02 10:44:42+00:00,2026-11-02 10:42:22+00:00,,tiberiu-diaconescu-aviv,[],False,0,,False
 1272,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-10-30 15:49:33+00:00,2026-10-30 16:09:39+00:00,2026-10-30 16:09:35+00:00,2026-10-30 16:09:35+00:00,aviv-dataops-github-app[bot],[],True,0,0.3338888888888889,False
@@ -83,7 +94,7 @@ number,title,state,created_at,updated_at,closed_at,merged_at,author,labels,is_me
 1239,feat: add PII tags to quality scores,open,2026-10-27 22:26:17+00:00,2026-11-02 12:24:43+00:00,,,aviv-fredericorodrigues,[],False,2,,False
 1238,feat: add PII tags to CLSA,open,2026-10-27 22:12:19+00:00,2026-10-29 15:40:01+00:00,,,aviv-fredericorodrigues,[],False,8,,False
 1237,chore: update schufa funnel incident channels to growth-streams alerting,closed,2026-10-27 16:26:30+00:00,2026-10-28 08:58:54+00:00,2026-10-28 08:58:53+00:00,2026-10-28 08:58:53+00:00,aviv-dumitrupostolachi,[],True,0,16.539722222222224,False
-1236,feat(CLTR): add call_tracking call_be_v1 and text_message_be_v1 contracts (DISCOVERY),open,2026-10-27 15:09:36+00:00,2026-11-04 06:49:04+00:00,,,iwb-jonathanpyncket,"['data-contract', 'outdated']",False,0,,True
+1236,feat(CLTR): add call_tracking call_be_v1 and text_message_be_v1 contracts (DISCOVERY),open,2026-10-27 15:09:36+00:00,2026-11-09 11:56:02+00:00,,,iwb-jonathanpyncket,['data-contract'],False,0,,True
 1235,DATAPLT-936: route the GEOR autocomplete contract alerts to the geo alerting channels,closed,2026-10-27 13:43:30+00:00,2026-10-27 15:39:32+00:00,2026-10-27 15:39:29+00:00,2026-10-27 15:39:29+00:00,tudorpopica,[],True,0,1.9330555555555555,False
 1234,[AUTOMATED]: Contracts generated/updated from Avo schema,closed,2026-10-27 13:31:09+00:00,2026-10-27 14:26:08+00:00,2026-10-27 14:26:06+00:00,2026-10-27 14:26:06+00:00,aviv-dataops-github-app[bot],[],True,0,0.9158333333333334,False
 1233,"DATAPLT-935: batch contracts for the Flamingo contracts_daily one-time import (FR, DE)",closed,2026-10-27 13:28:02+00:00,2026-10-27 16:43:43+00:00,2026-10-27 16:43:40+00:00,2026-10-27 16:43:40+00:00,tudorpopica,[],True,4,3.2605555555555554,False
